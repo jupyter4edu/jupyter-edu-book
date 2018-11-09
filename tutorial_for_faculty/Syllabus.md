@@ -23,7 +23,8 @@ This workshop will introduce you to Jupyter and the ecosystem of tools that have
 We'll start with a short, active tutorial session on using Jupyter notebooks, then we'll discuss topics like:
 
 * How to write lessons as Jupyter notebooks
-* How to publish those lessons (GitHub)
+* How to publish those lessons (Figshare, Dropbox, GitHub)
+* Converting notebooks to other formats (HTML, PDF, etc.)
 * How to share materials with students
 * Options for cloud access to Jupyter
 * Using notebooks in class: active learning with live coding
