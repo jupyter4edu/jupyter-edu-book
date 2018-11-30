@@ -5,6 +5,8 @@ language:
 delete_merged_file: true
 rmd_files: ["index.Rmd",
            "02-why-jupyter.md",
+           "03-notebooks-in-teaching-and-learning.md",
+           "04-a-catalogue-of-pedagogical-patterns.md",
            "05-jupyter-ecosystem.md",
            "06-getting-your-class-going-with-jupyter.md",
            "07-usage-case-studies.md",
