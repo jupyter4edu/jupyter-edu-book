@@ -1,4 +1,4 @@
-# Why we use Jupyter Notebooks
+# Why we use Jupyter notebooks
 
 
 ## Why do we use Jupyter?
@@ -15,13 +15,13 @@ these things.
 
 In short, we design learning environments and experiences.
 
-We use Jupyter Notebooks to design learning environments to help support these
+We use Jupyter notebooks to design learning environments to help support these
 activities. We believe that incorporating Jupyter Notebooks in our teaching has
 allowed us to improve students' understanding of course content, increase
 student engagement with material and their participation in class, and to make
 concepts more meaningful and relevant to students' diverse interests.  We
 represent a variety of disciplines and have many diverse instructional goals,
-all of which have been supported using Jupyter Notebooks. The goal of this
+all of which have been supported using Jupyter notebooks. The goal of this
 handbook is to provide you with ideas to help you address your own instructional
 and pedagogical goals.
 
