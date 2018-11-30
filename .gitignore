@@ -13,3 +13,5 @@ inst/doc
 vignettes/*.R
 vignettes/*.html
 revdep
+
+packages.bib
