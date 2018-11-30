@@ -12,4 +12,5 @@ rmd_files: ["index.Rmd",
            "07-usage-case-studies.md",
            "08-about-the-authors.md",
            "09-glossary.md",
+           "90-references.Rmd",
            ]

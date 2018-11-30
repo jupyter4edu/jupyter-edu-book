@@ -13,11 +13,8 @@ students to persist with emotional labor (feedback, communication, etc.); and
 trying out teaching and learning practices that improve our ability to do all of
 these things.
 
-In short, we design learning environments and experiences. 
+In short, we design learning environments and experiences.
 
-<<<<<<< HEAD
-We use Jupyter Notebooks to design learning environments to help support these activities. We believe that incorporating Jupyter Notebooks in our teaching has allowed us to improve students' understanding of course content, increase student engagement with material and their participation in class, and to make concepts more meaningful and relevant to students' diverse interests.  We represent a variety of disciplines and have many diverse instructional goals, all of which have been supported using Jupyter Notebooks. The goal of this handbook is to provide you with ideas to help you address your own instructional and pedagogical goals. 
-=======
 We use Jupyter Notebooks to design learning environments to help support these
 activities. We believe that incorporating Jupyter Notebooks in our teaching has
 allowed us to improve students' understanding of course content, increase
@@ -27,7 +24,6 @@ represent a variety of disciplines and have many diverse instructional goals,
 all of which have been supported using Jupyter Notebooks. The goal of this
 handbook is to provide you with ideas to help you address your own instructional
 and pedagogical goals.
->>>>>>> Reflow and lint ch 2
 
 Through a series of anecdotes we will illustrate how you, as an educator, can
 use Jupyter notebooks to increase your students' 1) engagement, 2)
@@ -38,9 +34,6 @@ these examples in new and exciting directions.
 
 ## But first, what is Jupyter Notebook?
 
-<<<<<<< HEAD
-Project Jupyter is three things: a collection of standards, a community, and a set of software tools. Jupyter Notebook is software that creates a notebook, is a document that supports mixing executable code, equations, visualizations, and narrative text. Jupyter notebooks allow a user to bring together data, code, and prose to tell an interactive, computational story. Whether analyzing a corpus of American Literature, creating music and art, or illustrating the engineering concepts behind Digital Signal Processing, a notebook can combine explanations traditionally found in textbooks, but with _the interactivity of an application_.
-=======
 Project Jupyter is actually three things: a collection of standards, a
 community, and a set of software tools. A Jupyter Notebook is one part of
 Jupyter; it is a document that supports mixing executable code, equations,
@@ -50,7 +43,6 @@ interactive, computational story. Whether analyzing a corpus of American
 Literature, creating music and art, or illustrating the engineering concepts
 behind Digital Signal Processing, the notebooks can combine explanations
 traditionally found in textbooks with _the interactivity of an application_.
->>>>>>> Reflow and lint ch 2
 
 
 <table>
@@ -76,15 +68,6 @@ traditionally found in textbooks with _the interactivity of an application_.
 </table>
 
 
-<<<<<<< HEAD
-Jupyter Notebook is a free, open source platform that is an excellent learning environment for students. For teachers, it increases our efficiency and decreases cognitive load so we can spend our time engaging students. Notebooks can be useful for achieving your goals as a teacher in numerous environments from STEM labs or humanities narratives, to podium lectures or flipped classrooms. We use Jupyter Notebook in small classes and for classes that have hundreds of students. Jupyter Notebook can be used for teaching part of one lecture or can be used to teach a whole course.  Jupyter Notebook enables us and our students to have a conversation with a problem and link to resources, like audio, video, images, visualizations--and even allow students to mix and remix these. *And yet students need to install nothing beyond a modern web browser to use this free software.*
-
-Jupyter Notebook can be used to organize classroom materials and objects, store and provide access to reading materials for students, present and share lecture materials, perform live coding, explore and interact with materials, support self-paced learning, grade students' homework, solve homework problems, and make materials reusable to others ( TODO see Chapters 3 and 4).
-
-Read on to find out how we have used Jupyter Notebooks for teaching and learning to benefit both our students and ourselves.** **Jupyter Notebook support a wide range of learning goals, including learning to program, learning domain knowledge, and practicing communication skills like storytelling. The authors of this book have used Jupyter Notebook to teach:
-
-
-=======
 Jupyter is a free, open source platform that is an excellent learning
 environment for students. For teachers, it increases our efficiency and
 decreases cognitive load so we can engage students. Notebooks can be useful for
@@ -108,7 +91,6 @@ to benefit both our students and ourselves. Jupyter Notebooks support a wide
 range of learning goals, including learning to program, learning domain
 knowledge, and practicing communication skills like storytelling. The authors of
 this book have used Jupyter Notebooks to teach:
->>>>>>> Reflow and lint ch 2
 
 *   Sciences
     *   Physics and astronomy
@@ -163,8 +145,17 @@ narratives. Jupyter allows us, as educators, to narrate a "conversation between
 the student and data". Consider this example, using the data of life expectancy
 of many countries over the years:
 
-
-    _I use a short bit of code to make a graph showing the time evolution, in what is called a "spaghetti plot" (see figure). Looking at this messy graphic, I point out how most of the lines show growth over time: life expectancy is improving all over the world. But a couple of lines show a marked dip in a given year. I can ask students: which country had that dip? What happened there? Why? With a bit more coding, we identify that Cambodia had a shocking life expectancy of about 30 years in 1977, and Rwanda had even worse life expectancy in 1992. We then have the opportunity to discuss why these countries experienced a mortality crisis. The data brings to life a meaningful discussion, with many possible paths involving history, politics, economics, and health. -- Lorena Barba_
+> I use a short bit of code to make a graph showing the time evolution, in what
+> is called a "spaghetti plot" (see figure). Looking at this messy graphic, I
+> point out how most of the lines show growth over time: life expectancy is
+> improving all over the world. But a couple of lines show a marked dip in a
+> given year. I can ask students: which country had that dip? What happened
+> there? Why? With a bit more coding, we identify that Cambodia had a shocking
+> life expectancy of about 30 years in 1977, and Rwanda had even worse life
+> expectancy in 1992. We then have the opportunity to discuss why these
+> countries experienced a mortality crisis. The data brings to life a meaningful
+> discussion, with many possible paths involving history, politics, economics,
+> and health. -- Lorena Barba
 
 ![From: [http://go.gwu.edu/engcomp2lesson4](http://go.gwu.edu/engcomp2lesson4)](images/engcomp2lesson4-life-expectancy.png "Life expectancy in the years 1952-2007, across 142 countries")
 
@@ -182,7 +173,7 @@ opportunities.
 ### Participation
 
 Engaging students in your courses requires their participation and interaction
-with you, their peers, and/or the content [Michael Moore, 1989]. How, when, and
+with you, their peers, and/or the content [@moore1989three]. How, when, and
 why you use student participation in yours will, of course, depend on your
 goals, the specific objectives for teaching the content within your course, your
 students, and other factors.  Using notebooks, however, encourages participation
@@ -199,7 +190,20 @@ questions or input from students and used a conversation piece during a lecture
 or presentation.
 
 
-    _Our group uses Jupyter notebooks as "apps" to demonstrate concepts in geophysics. These notebook-apps connect numerical simulations to widgets and relevant plots. In the classroom, we ask students to help define input parameters based on an application or case study that they are interested in. Prior to displaying the results, we ask students to build a mental image of their expectations. If the resultant image matches their expectations, then we have reinforced a concept, and if not, it is an opportunity to learn. We as instructors can interactively engage with students' questions by updating the inputs to the simulation in order to explore concepts with them. Students have access to the same notebooks through free web-platforms like Binder, so simply by following a link, they can take the steering wheel and engage with the concepts on their own. Notebooks bring the concepts to life and serve as a conversation piece for the interaction between learners and educators. -- Lindsey Heagy_
+> Our group uses Jupyter notebooks as "apps" to demonstrate concepts in
+> geophysics. These notebook-apps connect numerical simulations to widgets and
+> relevant plots. In the classroom, we ask students to help define input
+> parameters based on an application or case study that they are interested
+> in. Prior to displaying the results, we ask students to build a mental image
+> of their expectations. If the resultant image matches their expectations, then
+> we have reinforced a concept, and if not, it is an opportunity to learn. We as
+> instructors can interactively engage with students' questions by updating the
+> inputs to the simulation in order to explore concepts with them. Students have
+> access to the same notebooks through free web-platforms like Binder, so simply
+> by following a link, they can take the steering wheel and engage with the
+> concepts on their own. Notebooks bring the concepts to life and serve as a
+> conversation piece for the interaction between learners and educators. --
+> Lindsey Heagy
 
 ![Dr. Douglas Oldenburg (left) engaging with a student during a short course on geophysical electromagnetics (https://geosci.xyz). Photo credit: Seogi Kang](images/oldenburg-geosci.jpg "Photo credit: Seogi Kang")
 
@@ -268,9 +272,24 @@ on each other to incrementally guide the learner to create a program to solve
 the Navier-Stokes equations of fluid mechanics, in 12 steps.
 
 
-    _In 2013, I was invited to teach a 2 day mini-course in the Latin-American School in High-Performance Computing, in Argentina. The Jupyter Notebooks platform allowed me to create a guided narrative to support learners with different background experience and knowledge. For that event, we wrote Notebooks based on the CFD course module, to use as instructional scaffolding in the minicourse. Twenty students worked through the notebooks as self-paced lessons, while I went from desk to desk asking and answering questions. About four of the students completed all 12 steps in the 2 days, a bulk of them achieved up to about Step 8, and a few of them lagged behind in Steps 4 or 5 by the end of the course. For those who completed the full module, they had achieved in 2 days what my regular students in the classroom normally took 5 weeks to do. Seeing that was an eye-opening moment: both the power of worked examples in code, and the ability to allow learners to follow their own pace made a remarkable difference in these learners. -- Lorena Barba_
+> In 2013, I was invited to teach a 2 day mini-course in the Latin-American
+> School in High-Performance Computing, in Argentina. The Jupyter Notebooks
+> platform allowed me to create a guided narrative to support learners with
+> different background experience and knowledge. For that event, we wrote
+> Notebooks based on the CFD course module, to use as instructional scaffolding
+> in the minicourse. Twenty students worked through the notebooks as self-paced
+> lessons, while I went from desk to desk asking and answering questions. About
+> four of the students completed all 12 steps in the 2 days, a bulk of them
+> achieved up to about Step 8, and a few of them lagged behind in Steps 4 or 5
+> by the end of the course. For those who completed the full module, they had
+> achieved in 2 days what my regular students in the classroom normally took 5
+> weeks to do. Seeing that was an eye-opening moment: both the power of worked
+> examples in code, and the ability to allow learners to follow their own pace
+> made a remarkable difference in these learners. -- Lorena Barba
 
-Based on the experience developing the "CFD Python" learning module [_Barba et. Al 2018 _[https://doi.org/10.21105/jose.0002](https://doi.org/10.21105/jose.0002)], this basic design pattern was adopted for creating lessons using computable content:
+Based on the experience developing the "CFD Python" learning module [@barbacfd],
+this basic design pattern was adopted for creating lessons using computable
+content:
 
 
 
@@ -298,11 +317,11 @@ assessment their ability to perform.
 #### Real world experience -- The worked-example effect
 
 The worked-example effect is the best known and most widely studied of the
-cognitive load effects [Sweller, J. (2006)]. It refers to providing full
+cognitive load effects [@sweller2006worked]. It refers to providing full
 guidance on how to solve a problem, resulting in better student performance than
 problem-solving conditions with no guidance. For complex tasks, inexperienced or
 beginner learners benefit the most from the worked-examples procedure. One study
-(Chen et al., 2015) concludes that: "worked example effect occurs for complex,
+[@chen2015worked] concludes that: "worked example effect occurs for complex,
 high-element interactivity materials that impose a heavy working memory load"
 and "when dealing with complex material that learners may have difficulty
 understanding, high levels of guidance are likely to result in enhanced
@@ -364,8 +383,8 @@ core foundations of computational thinking:
 *   _Decomposition_: Breaking down data, processes, or problems into smaller, manageable parts
 *   _Pattern Recognition_: Observing patterns, trends, and regularities in data
 *   _Abstraction_: Identifying the general principles that generate these patterns
-*   _Algorithm Design_: Developing the step by step instructions for solving this and similar problems (see https://usr55.dayforcehcm.com/CandidatePortal/en-US/myeyedr/Posting/View/8612?fbclid=IwAR0BVRfn38L7PMftCSbYY_n7IZDhMba0HA7Mmn78ASu5rRIivvPtcAYqxWs)
-
+*   _Algorithm Design_: Developing the step by step instructions for solving
+    this and similar problems
 
 ### Open-source
 
@@ -395,7 +414,7 @@ and open source.
 
 Thanks to their interactivity, notebooks enable a spectrum of active learning
 methods, which have been shown to increase performance in science, engineering,
-and mathematics [Freeman et al. 2018]. To start, students can consume notebook
+and mathematics [@freeman2014active]. To start, students can consume notebook
 content by reading and running notebooks, then move to editing or completing
 notebooks as assignments. This allows students to focus on the content and
 concepts, rather than just note-taking.
