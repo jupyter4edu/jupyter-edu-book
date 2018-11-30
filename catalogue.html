@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Teaching and Learning with Jupyter</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Teaching and Learning with Jupyter" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="jupyter4edu/jupyter-edu-book" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Teaching and Learning with Jupyter" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+
+
+<meta name="date" content="2018-11-30">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="oh-the-places-your-notebooks-will-go.html">
+<link rel="next" href="jupyter-ecosystem-notebooks.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Teaching and Learning with Jupyter</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html"><i class="fa fa-check"></i><b>2</b> Why we use Jupyter Notebooks</a><ul>
+<li class="chapter" data-level="2.1" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#why-do-we-as-educators-use-jupyter"><i class="fa fa-check"></i><b>2.2</b> Why do we as educators use Jupyter?</a></li>
+<li class="chapter" data-level="2.3" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#but-first-what-is-jupyter-notebook"><i class="fa fa-check"></i><b>2.3</b> But first, what is Jupyter Notebook?</a></li>
+<li class="chapter" data-level="2.4" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#course-benefits-anecdotes"><i class="fa fa-check"></i><b>2.4</b> Course Benefits &amp; Anecdotes</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#engagement"><i class="fa fa-check"></i><b>2.4.1</b> Engagement</a></li>
+<li class="chapter" data-level="2.4.2" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#participation"><i class="fa fa-check"></i><b>2.4.2</b> Participation</a></li>
+<li class="chapter" data-level="2.4.3" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#increasing-understanding"><i class="fa fa-check"></i><b>2.4.3</b> Increasing Understanding</a></li>
+<li class="chapter" data-level="2.4.4" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#increasing-students-performance"><i class="fa fa-check"></i><b>2.4.4</b> Increasing Student’s Performance</a></li>
+<li class="chapter" data-level="2.4.5" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#increasing-students-preparation-for-their-career"><i class="fa fa-check"></i><b>2.4.5</b> Increasing Students’ Preparation for Their Career</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#student-benefits"><i class="fa fa-check"></i><b>2.5</b> Student benefits</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#computational-thinking"><i class="fa fa-check"></i><b>2.5.1</b> Computational Thinking</a></li>
+<li class="chapter" data-level="2.5.2" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#open-source"><i class="fa fa-check"></i><b>2.5.2</b> Open-source</a></li>
+<li class="chapter" data-level="2.5.3" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#active-learning"><i class="fa fa-check"></i><b>2.5.3</b> Active learning</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#instructor-benefits"><i class="fa fa-check"></i><b>2.6</b> Instructor benefits</a></li>
+<li class="chapter" data-level="2.7" data-path="why-we-use-jupyter-notebooks.html"><a href="why-we-use-jupyter-notebooks.html#conclusions"><i class="fa fa-check"></i><b>2.7</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html"><i class="fa fa-check"></i><b>3</b> Notebooks in Teaching and Learning</a><ul>
+<li class="chapter" data-level="3.1" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#before-you-begin-understand-your-teaching-goals-your-students-and-your-teaching-environment"><i class="fa fa-check"></i><b>3.1</b> Before You Begin: Understand Your Teaching Goals, Your Students, and Your Teaching Environment</a></li>
+<li class="chapter" data-level="3.2" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#identify-your-teaching-goals"><i class="fa fa-check"></i><b>3.2</b> Identify Your Teaching Goals</a></li>
+<li class="chapter" data-level="3.3" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#understand-your-students"><i class="fa fa-check"></i><b>3.3</b> Understand Your Students</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#learn-about-your-students"><i class="fa fa-check"></i><b>3.3.1</b> Learn About Your Students</a></li>
+<li class="chapter" data-level="3.3.2" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#cultivate-student-study-skills-and-learning-strategies"><i class="fa fa-check"></i><b>3.3.2</b> Cultivate Student Study Skills and Learning Strategies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#develop-your-content-strategy"><i class="fa fa-check"></i><b>3.4</b> Develop Your Content Strategy</a></li>
+<li class="chapter" data-level="3.5" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#consider-the-context-of-the-learning-environment"><i class="fa fa-check"></i><b>3.5</b> Consider the Context of the Learning Environment</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#instructional-environment"><i class="fa fa-check"></i><b>3.5.1</b> Instructional Environment</a></li>
+<li class="chapter" data-level="3.5.2" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#performance-environment"><i class="fa fa-check"></i><b>3.5.2</b> Performance Environment</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="notebooks-in-teaching-and-learning.html"><a href="notebooks-in-teaching-and-learning.html#crafting-an-experience-choose-the-right-tool-and-approach-for-the-task"><i class="fa fa-check"></i><b>3.6</b> Crafting an experience: choose the right tool and approach for the task</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="transitioning-to-and-from-jupyter.html"><a href="transitioning-to-and-from-jupyter.html"><i class="fa fa-check"></i><b>4</b> Transitioning To and From Jupyter</a></li>
+<li class="chapter" data-level="5" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>5</b> Conclusion</a></li>
+<li class="chapter" data-level="6" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html"><i class="fa fa-check"></i><b>6</b> Oh the places your notebooks will go!</a><ul>
+<li class="chapter" data-level="6.1" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#introduction-1"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#jupyter-notebooks-as-textbooks"><i class="fa fa-check"></i><b>6.2</b> Jupyter Notebooks as textbooks</a></li>
+<li class="chapter" data-level="6.3" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-workbooksprimer"><i class="fa fa-check"></i><b>6.3</b> Notebooks as workbooks/primer</a></li>
+<li class="chapter" data-level="6.4" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-worksheetsdrill-sets"><i class="fa fa-check"></i><b>6.4</b> Notebooks as worksheets/drill sets</a></li>
+<li class="chapter" data-level="6.5" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-notepaper-or-course-packets"><i class="fa fa-check"></i><b>6.5</b> Notebooks as notepaper or course packets</a></li>
+<li class="chapter" data-level="6.6" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-an-app"><i class="fa fa-check"></i><b>6.6</b> Notebooks as an app</a></li>
+<li class="chapter" data-level="6.7" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-lab-reports-or-assignments"><i class="fa fa-check"></i><b>6.7</b> Notebooks as lab reports or assignments</a></li>
+<li class="chapter" data-level="6.8" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-interactive-multimedia-platforms"><i class="fa fa-check"></i><b>6.8</b> Notebooks as interactive multimedia platforms</a></li>
+<li class="chapter" data-level="6.9" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-a-demonstration-platform"><i class="fa fa-check"></i><b>6.9</b> Notebooks as a demonstration platform</a></li>
+<li class="chapter" data-level="6.10" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#notebooks-as-a-live-coding-environment"><i class="fa fa-check"></i><b>6.10</b> Notebooks as a live coding environment</a></li>
+<li class="chapter" data-level="6.11" data-path="oh-the-places-your-notebooks-will-go.html"><a href="oh-the-places-your-notebooks-will-go.html#conclusions-1"><i class="fa fa-check"></i><b>6.11</b> Conclusions</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="catalogue.html"><a href="catalogue.html"><i class="fa fa-check"></i><b>7</b> A catalogue of pedagogical patterns</a><ul>
+<li class="chapter" data-level="7.1" data-path="catalogue.html"><a href="catalogue.html#introduction-2"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="catalogue.html"><a href="catalogue.html#shift-enter-for-the-win"><i class="fa fa-check"></i><b>7.2</b> Shift-Enter for the win</a></li>
+<li class="chapter" data-level="7.3" data-path="catalogue.html"><a href="catalogue.html#notebook-as-an-app"><i class="fa fa-check"></i><b>7.3</b> Notebook as an app</a></li>
+<li class="chapter" data-level="7.4" data-path="catalogue.html"><a href="catalogue.html#win-day-one"><i class="fa fa-check"></i><b>7.4</b> Win-day-one</a></li>
+<li class="chapter" data-level="7.5" data-path="catalogue.html"><a href="catalogue.html#fill-in-the-blanks"><i class="fa fa-check"></i><b>7.5</b> Fill in the blanks</a></li>
+<li class="chapter" data-level="7.6" data-path="catalogue.html"><a href="catalogue.html#top-down-sequence"><i class="fa fa-check"></i><b>7.6</b> Top-down sequence</a></li>
+<li class="chapter" data-level="7.7" data-path="catalogue.html"><a href="catalogue.html#the-api-is-the-lesson"><i class="fa fa-check"></i><b>7.7</b> The API <em>is</em> the lesson</a></li>
+<li class="chapter" data-level="7.8" data-path="catalogue.html"><a href="catalogue.html#the-world-is-your-dataset"><i class="fa fa-check"></i><b>7.8</b> The world is your dataset</a></li>
+<li class="chapter" data-level="7.9" data-path="catalogue.html"><a href="catalogue.html#connect-to-external-audiences"><i class="fa fa-check"></i><b>7.9</b> Connect to External Audiences</a></li>
+<li class="chapter" data-level="7.10" data-path="catalogue.html"><a href="catalogue.html#twiddle-tweak-and-frob"><i class="fa fa-check"></i><b>7.10</b> Twiddle, tweak, and frob</a></li>
+<li class="chapter" data-level="7.11" data-path="catalogue.html"><a href="catalogue.html#coding-as-translation"><i class="fa fa-check"></i><b>7.11</b> Coding as translation</a></li>
+<li class="chapter" data-level="7.12" data-path="catalogue.html"><a href="catalogue.html#symbolic-math-over-pencil-paper"><i class="fa fa-check"></i><b>7.12</b> Symbolic Math Over Pencil + Paper</a></li>
+<li class="chapter" data-level="7.13" data-path="catalogue.html"><a href="catalogue.html#bug-hunt"><i class="fa fa-check"></i><b>7.13</b> Bug Hunt</a></li>
+<li class="chapter" data-level="7.14" data-path="catalogue.html"><a href="catalogue.html#proof-by-example-disproof-by-counterexample"><i class="fa fa-check"></i><b>7.14</b> Proof by Example, Disproof by Counterexample</a><ul>
+<li class="chapter" data-level="7.14.1" data-path="catalogue.html"><a href="catalogue.html#pitfalls"><i class="fa fa-check"></i><b>7.14.1</b> Pitfalls</a></li>
+</ul></li>
+<li class="chapter" data-level="7.15" data-path="catalogue.html"><a href="catalogue.html#hello-world"><i class="fa fa-check"></i><b>7.15</b> Hello, world!</a></li>
+<li class="chapter" data-level="7.16" data-path="catalogue.html"><a href="catalogue.html#test-driven-development"><i class="fa fa-check"></i><b>7.16</b> Test Driven Development</a></li>
+<li class="chapter" data-level="7.17" data-path="catalogue.html"><a href="catalogue.html#now-you-try-with-different-data-or-process"><i class="fa fa-check"></i><b>7.17</b> Now You Try (with different data or process)</a></li>
+<li class="chapter" data-level="7.18" data-path="catalogue.html"><a href="catalogue.html#two-bites-at-every-apple"><i class="fa fa-check"></i><b>7.18</b> Two Bites at Every Apple</a></li>
+<li class="chapter" data-level="7.19" data-path="catalogue.html"><a href="catalogue.html#replace-analysis-with-numerical-methods"><i class="fa fa-check"></i><b>7.19</b> Replace Analysis with Numerical Methods</a></li>
+<li class="chapter" data-level="7.20" data-path="catalogue.html"><a href="catalogue.html#code-reviews"><i class="fa fa-check"></i><b>7.20</b> Code Reviews</a></li>
+<li class="chapter" data-level="7.21" data-path="catalogue.html"><a href="catalogue.html#adversarial-programming"><i class="fa fa-check"></i><b>7.21</b> Adversarial Programming</a></li>
+<li class="chapter" data-level="7.22" data-path="catalogue.html"><a href="catalogue.html#there-can-be-only-one"><i class="fa fa-check"></i><b>7.22</b> There Can Be Only One</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html"><i class="fa fa-check"></i><b>8</b> Jupyter ecosystem: notebooks</a><ul>
+<li class="chapter" data-level="8.1" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#resources-for-authoring-jupyter-notebooks"><i class="fa fa-check"></i><b>8.1</b> Resources for authoring Jupyter notebooks</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#accessing-documentation-in-the-notebook"><i class="fa fa-check"></i><b>8.1.1</b> Accessing documentation in the notebook</a></li>
+<li class="chapter" data-level="8.1.2" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#widgets"><i class="fa fa-check"></i><b>8.1.2</b> Widgets</a></li>
+<li class="chapter" data-level="8.1.3" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#magics"><i class="fa fa-check"></i><b>8.1.3</b> Magics</a></li>
+<li class="chapter" data-level="8.1.4" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#notebooks-under-version-control"><i class="fa fa-check"></i><b>8.1.4</b> Notebooks Under Version Control</a></li>
+<li class="chapter" data-level="8.1.5" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#testing-notebooks"><i class="fa fa-check"></i><b>8.1.5</b> Testing Notebooks</a></li>
+<li class="chapter" data-level="8.1.6" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#essential-python-libraries"><i class="fa fa-check"></i><b>8.1.6</b> Essential Python Libraries</a></li>
+<li class="chapter" data-level="8.1.7" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#advanced-topic-extensions"><i class="fa fa-check"></i><b>8.1.7</b> Advanced topic: extensions</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#tips-and-tricks"><i class="fa fa-check"></i><b>8.2</b> Tips and tricks</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#reminders"><i class="fa fa-check"></i><b>8.2.1</b> Reminders</a></li>
+<li class="chapter" data-level="8.2.2" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#feedback"><i class="fa fa-check"></i><b>8.2.2</b> Feedback</a></li>
+<li class="chapter" data-level="8.2.3" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#explaining-each-cell"><i class="fa fa-check"></i><b>8.2.3</b> Explaining each cell</a></li>
+<li class="chapter" data-level="8.2.4" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#custom-styling"><i class="fa fa-check"></i><b>8.2.4</b> Custom Styling</a></li>
+<li class="chapter" data-level="8.2.5" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#length-of-notebooks"><i class="fa fa-check"></i><b>8.2.5</b> Length of Notebooks</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#gotchas"><i class="fa fa-check"></i><b>8.3</b> Gotchas</a><ul>
+<li class="chapter" data-level="8.3.1" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#programming-language-jupyter"><i class="fa fa-check"></i><b>8.3.1</b> Programming Language ≠ Jupyter</a></li>
+<li class="chapter" data-level="8.3.2" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#restart-restart-restart"><i class="fa fa-check"></i><b>8.3.2</b> Restart, restart, restart…</a></li>
+<li class="chapter" data-level="8.3.3" data-path="jupyter-ecosystem-notebooks.html"><a href="jupyter-ecosystem-notebooks.html#notebook-hygiene"><i class="fa fa-check"></i><b>8.3.3</b> Notebook hygiene</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="getting-going.html"><a href="getting-going.html"><i class="fa fa-check"></i><b>9</b> Getting Your Class Going with Jupyter</a><ul>
+<li class="chapter" data-level="9.1" data-path="getting-going.html"><a href="getting-going.html#local-installation-on-students-or-lab-computers"><i class="fa fa-check"></i><b>9.1</b> Local installation on students’ or lab computers</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="getting-going.html"><a href="getting-going.html#jupyter-on-student-owned-computers"><i class="fa fa-check"></i><b>9.1.1</b> Jupyter on student-owned computers</a></li>
+<li class="chapter" data-level="9.1.2" data-path="getting-going.html"><a href="getting-going.html#jupyter-on-lab-computers"><i class="fa fa-check"></i><b>9.1.2</b> Jupyter on lab computers</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="getting-going.html"><a href="getting-going.html#jupyter-on-remote-servers"><i class="fa fa-check"></i><b>9.2</b> Jupyter on remote servers</a><ul>
+<li class="chapter" data-level="9.2.1" data-path="getting-going.html"><a href="getting-going.html#running-in-a-temporary-environment-in-the-cloud"><i class="fa fa-check"></i><b>9.2.1</b> Running in a temporary environment in the cloud</a></li>
+<li class="chapter" data-level="9.2.2" data-path="getting-going.html"><a href="getting-going.html#running-on-servers-you-control"><i class="fa fa-check"></i><b>9.2.2</b> Running on servers you control</a></li>
+<li class="chapter" data-level="9.2.3" data-path="getting-going.html"><a href="getting-going.html#running-jupyter-in-the-cloud"><i class="fa fa-check"></i><b>9.2.3</b> Running Jupyter in the cloud</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="getting-going.html"><a href="getting-going.html#distribution-and-collection-of-materials"><i class="fa fa-check"></i><b>9.3</b> Distribution and Collection of Materials</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="getting-going.html"><a href="getting-going.html#learning-management-systems"><i class="fa fa-check"></i><b>9.3.1</b> Learning Management Systems</a></li>
+<li class="chapter" data-level="9.3.2" data-path="getting-going.html"><a href="getting-going.html#web-hosting"><i class="fa fa-check"></i><b>9.3.2</b> Web hosting</a></li>
+<li class="chapter" data-level="9.3.3" data-path="getting-going.html"><a href="getting-going.html#git"><i class="fa fa-check"></i><b>9.3.3</b> Git</a></li>
+<li class="chapter" data-level="9.3.4" data-path="getting-going.html"><a href="getting-going.html#jupyterhub"><i class="fa fa-check"></i><b>9.3.4</b> JupyterHub</a></li>
+<li class="chapter" data-level="9.3.5" data-path="getting-going.html"><a href="getting-going.html#using-an-lms-and-nbgrader-together"><i class="fa fa-check"></i><b>9.3.5</b> Using an LMS and nbgrader together:</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="getting-going.html"><a href="getting-going.html#assessing-student-learning-with-jupyter-notebooks"><i class="fa fa-check"></i><b>9.4</b> Assessing student learning with Jupyter Notebooks</a></li>
+<li class="chapter" data-level="9.5" data-path="getting-going.html"><a href="getting-going.html#how-do-you-create-jupyter-notebooks-for-reuse-and-sharing"><i class="fa fa-check"></i><b>9.5</b> How do you create Jupyter Notebooks for reuse and sharing?</a></li>
+<li class="chapter" data-level="9.6" data-path="getting-going.html"><a href="getting-going.html#jupyter-a-21st-century-genre-of-open-educational-resources-and-practices"><i class="fa fa-check"></i><b>9.6</b> Jupyter: a 21st Century Genre of Open Educational Resources and Practices</a></li>
+<li class="chapter" data-level="9.7" data-path="getting-going.html"><a href="getting-going.html#notes"><i class="fa fa-check"></i><b>9.7</b> Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>10</b> Usage Case Studies</a><ul>
+<li class="chapter" data-level="10.1" data-path="case-studies.html"><a href="case-studies.html#jupyter-notebooks-in-support-of-scaling-for-large-enrollments"><i class="fa fa-check"></i><b>10.1</b> Jupyter Notebooks in Support of Scaling for Large Enrollments</a><ul>
+<li class="chapter" data-level="10.1.1" data-path="case-studies.html"><a href="case-studies.html#supporting-large-enrollment-courses-at-uc-berkeley"><i class="fa fa-check"></i><b>10.1.1</b> Supporting large enrollment courses at UC Berkeley</a></li>
+<li class="chapter" data-level="10.1.2" data-path="case-studies.html"><a href="case-studies.html#large-scale-adoption-jupyter-across-canada"><i class="fa fa-check"></i><b>10.1.2</b> Large-scale adoption: Jupyter across Canada</a></li>
+<li class="chapter" data-level="10.1.3" data-path="case-studies.html"><a href="case-studies.html#quick-switch-moving-an-existing-course-to-python-and-jupyter-at-the-last-minute"><i class="fa fa-check"></i><b>10.1.3</b> Quick switch: moving an existing course to Python and Jupyter (at the last minute)</a></li>
+</ul></li>
+<li class="chapter" data-level="10.2" data-path="case-studies.html"><a href="case-studies.html#the-cfd-python-story-guiding-learners-at-their-own-pace"><i class="fa fa-check"></i><b>10.2</b> The “CFD Python” story: Guiding Learners at their Own Pace</a></li>
+<li class="chapter" data-level="10.3" data-path="case-studies.html"><a href="case-studies.html#analyzing-music-with-music21"><i class="fa fa-check"></i><b>10.3</b> Analyzing Music with music21</a></li>
+<li class="chapter" data-level="10.4" data-path="case-studies.html"><a href="case-studies.html#interactivity-in-computer-science-high-school-and-middle-school"><i class="fa fa-check"></i><b>10.4</b> Interactivity in Computer Science (high school and middle school)</a></li>
+<li class="chapter" data-level="10.5" data-path="case-studies.html"><a href="case-studies.html#interactive-geophysics-with-jupyter"><i class="fa fa-check"></i><b>10.5</b> Interactive geophysics with Jupyter</a></li>
+<li class="chapter" data-level="10.6" data-path="case-studies.html"><a href="case-studies.html#investigating-hurricanes"><i class="fa fa-check"></i><b>10.6</b> Investigating Hurricanes</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="authors.html"><a href="authors.html"><i class="fa fa-check"></i><b>11</b> About the Authors</a><ul>
+<li class="chapter" data-level="11.1" data-path="authors.html"><a href="authors.html#project-lead"><i class="fa fa-check"></i><b>11.1</b> Project Lead</a><ul>
+<li class="chapter" data-level="11.1.1" data-path="authors.html"><a href="authors.html#lorena-a.-barba"><i class="fa fa-check"></i><b>11.1.1</b> Lorena A. Barba</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="authors.html"><a href="authors.html#authors-at-the-sprint"><i class="fa fa-check"></i><b>11.2</b> Authors at the sprint</a><ul>
+<li class="chapter" data-level="11.2.1" data-path="authors.html"><a href="authors.html#lecia-j.-barker"><i class="fa fa-check"></i><b>11.2.1</b> Lecia J. Barker</a></li>
+<li class="chapter" data-level="11.2.2" data-path="authors.html"><a href="authors.html#douglas-blank"><i class="fa fa-check"></i><b>11.2.2</b> Douglas Blank</a></li>
+<li class="chapter" data-level="11.2.3" data-path="authors.html"><a href="authors.html#jed-brown"><i class="fa fa-check"></i><b>11.2.3</b> Jed Brown</a></li>
+<li class="chapter" data-level="11.2.4" data-path="authors.html"><a href="authors.html#allen-downey"><i class="fa fa-check"></i><b>11.2.4</b> Allen Downey</a></li>
+<li class="chapter" data-level="11.2.5" data-path="authors.html"><a href="authors.html#tim-george"><i class="fa fa-check"></i><b>11.2.5</b> Tim George</a></li>
+<li class="chapter" data-level="11.2.6" data-path="authors.html"><a href="authors.html#lindsey-heagy"><i class="fa fa-check"></i><b>11.2.6</b> Lindsey Heagy</a></li>
+<li class="chapter" data-level="11.2.7" data-path="authors.html"><a href="authors.html#kyle-mandli"><i class="fa fa-check"></i><b>11.2.7</b> Kyle Mandli</a></li>
+<li class="chapter" data-level="11.2.8" data-path="authors.html"><a href="authors.html#jason-k.-moore"><i class="fa fa-check"></i><b>11.2.8</b> Jason K. Moore</a></li>
+<li class="chapter" data-level="11.2.9" data-path="authors.html"><a href="authors.html#david-lippert"><i class="fa fa-check"></i><b>11.2.9</b> David Lippert</a></li>
+<li class="chapter" data-level="11.2.10" data-path="authors.html"><a href="authors.html#kyle-niemeyer"><i class="fa fa-check"></i><b>11.2.10</b> Kyle Niemeyer</a></li>
+<li class="chapter" data-level="11.2.11" data-path="authors.html"><a href="authors.html#ryan-watkins"><i class="fa fa-check"></i><b>11.2.11</b> Ryan Watkins</a></li>
+<li class="chapter" data-level="11.2.12" data-path="authors.html"><a href="authors.html#richard-west"><i class="fa fa-check"></i><b>11.2.12</b> Richard West</a></li>
+<li class="chapter" data-level="11.2.13" data-path="authors.html"><a href="authors.html#elizabeth-wickes"><i class="fa fa-check"></i><b>11.2.13</b> Elizabeth Wickes</a></li>
+<li class="chapter" data-level="11.2.14" data-path="authors.html"><a href="authors.html#carol-willing"><i class="fa fa-check"></i><b>11.2.14</b> Carol Willing</a></li>
+<li class="chapter" data-level="11.2.15" data-path="authors.html"><a href="authors.html#michael-zingale"><i class="fa fa-check"></i><b>11.2.15</b> Michael Zingale</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>12</b> Glossary</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Teaching and Learning with Jupyter</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="catalogue" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> A catalogue of pedagogical patterns</h1>
+<div id="introduction-2" class="section level2">
+<h2><span class="header-section-number">7.1</span> Introduction</h2>
+<p>In this chapter, we present a collection of patterns that are particularly aligned with teaching and learning with Jupyter. Each pattern is targeted at specific learning goals, audiences, and formats. With those in mind we describe each pattern and its pedagogical features that support the learning goals, present a practical example, and close each with any potential pitfalls you would want to be aware of.</p>
+</div>
+<div id="shift-enter-for-the-win" class="section level2">
+<h2><span class="header-section-number">7.2</span> Shift-Enter for the win</h2>
+<p><strong>Description:</strong></p>
+<p>Instead of reading a static chapter about a topic, the learners read and execute code, as well as potentially interact with widgets to explore concepts. Starting from a complete notebook, the instructor or learner runs through the notebook cell-by-cell using SHIFT + ENTER.</p>
+<p><strong>Example:</strong></p>
+<p>The notebook (or a collection of notebooks) can be used as an alternative to a static textbook on a topic.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This pattern can be used to introduce a topic or promote awareness about a set of tools. Additionally, it can serve as documentation that provides a tour of an application programming interface (API).</p>
+<p><strong>Audience(s):</strong></p>
+<p>Depending on the style of the notebook, this pattern can be used for a spectrum of programming abilities.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This pattern can be used as an alternative to a static textbook. In a tutorial, a complete notebook can be used to provide a tour of an application programming interface (API) of a software package.</p>
+<p><strong>Features:</strong></p>
+<p>One benefit of this approach is that learners have a complete working example which they can adapt or build from. It provides opportunity for richer interaction than a static textbook.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>This style does not prompt much engagement with students. Having a class that interactively works through a notebook can lead to some students finishing much faster than others (e.g., racing through shift+enter). Breaking long notebooks into many smaller ones can help with the pacing in a lecture. Having a master notebook serve as the table of contents can then help students navigate through the class. Notebooks can be linked in a markdown cell as:</p>
+<pre><code>
+[Notebook 1](part1.ipynb)
+</code></pre>
+</div>
+<div id="notebook-as-an-app" class="section level2">
+<h2><span class="header-section-number">7.3</span> Notebook as an app</h2>
+<p><strong>Description:</strong></p>
+<p>Notebooks can be used to rapidly generate user interfaces where students and instructors can interact with code through slidebars, entry boxes and toggle buttons. The code can run numerical simulations or perform simple computations, and the output is often a graph or image.</p>
+<p><strong>Example:</strong></p>
+<p>In geophysics, a direct current resistivity survey involves connecting two electrodes to the ground through which current is injected. Currents flow through the earth and their behavior depends upon the electrical resistivity of the subsurface structures; current flows around resistors and is channeled into conductors. At interfaces between conductors and resistors, charges build up, and these charges generate electric potentials which we measure at the surface of the earth. Each of these steps can be demonstrated through a simulation where students or the instructor builds a model, and views the currents, charges and electric potentials.</p>
+<p><strong>Related Patterns:</strong></p>
+<p>Top-down</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This approach can be effective for focusing on domain-specific knowledge and facilitating the exploration of models or computations.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This style can be effective for students with minimal programming experience as they do not have to read, write, or see the code.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>In lecture, this style of notebook can be used by an instructor to methodically walk through a concept step-by-step. It is also useful for promoting in-class engagement as students can suggest different parameter choices and instructors can adapt the input parameters based on students’ questions.</p>
+<p>In a lab or assignment, the notebook can be used as a “app” around which questions and exercises are built.</p>
+<p><strong>Features:</strong></p>
+<p>Notebooks as apps can be used to promote engagement with students in lecture. In labs, assignments or in-class activities, this approach lowers the barrier-to-entry for students to explore complex models.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>It is important to have well-structured exercises and questions for students to address with the app. As with any app, simply asking students to play with it does not promote productive engagement.</p>
+<p>In structuring an exercise for students, we recommend putting instructions and questions in a separate document rather than in the notebook. If students view the notebook as an app, they often want to interact with it rather than read it. By having instructions and questions that go alongside the notebook, they can have the app in view while reading.</p>
+<p>This approach is not intended to be used for developing students’ programming skills.</p>
+<p><strong>Enabling technologies:</strong></p>
+<p>Widgets, domain-specific libraries such as simulation tools.</p>
+</div>
+<div id="win-day-one" class="section level2">
+<h2><span class="header-section-number">7.4</span> Win-day-one</h2>
+<p><strong>Description:</strong></p>
+<p>A win-day-one exercise brings learners to the answer quickly and concisely, almost like a magic trick, and then breaks down and methodically works through each of the steps, revealing the magician’s tricks. It generally involves multiple notebooks: the first notebook being the “win” which shows the workflow end-to-end, and subsequent notebooks breaking down the details of each component of the workflow.</p>
+<p><strong>Example:</strong></p>
+<p>To solve a numerical simulation using a finite volume approach, a mesh must be designed, differential operators formed, boundary conditions set, a right hand-side generated and then the system solved. Naturally, there are important considerations for each step. For even a moderately sized problem, sparse matrices are necessary in order to keep memory usage contained, the mesh must be appropriately designed in order to satisfy boundary conditions, and the solver needs to be compatible with the structure of the system matrix. These details are critical for assembling a numerical computation, but if introduced upfront, they can overwhelm the conversation.</p>
+<p>In a win-day-one approach, learners are first shown a concise example, in which many of the details are abstracted away in functions or objects. For example, methods such as <code>get_mesh</code>, <code>get_pde</code>, and <code>solve</code> abstract away the details of mesh design, creating differential operators and solving the set of equations. In subsequent notebooks, the workflow is tackled methodically, and the inner workings of each component discussed.</p>
+<p><strong>Related Patterns:</strong></p>
+<p>Top-down, Proof by Example</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This can be an effective approach for introducing complex processes, providing context for how each of the components fits together, and focusing attention.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This style can be effective for a spectrum of student audiences from those with some programming experience to those with significant experience.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This can be effective for tutorials and workshops, and can be used over multiple lectures.</p>
+<p><strong>Features:</strong></p>
+<p><strong>Pitfalls:</strong></p>
+<p>One hazard of the “win-day-one” is that the “win” is overwhelming (too much detail) or too magical (too little detail). An appropriate level of detail needs to be selected so that each of the components of the workflow is demonstrated, but at a high-level.</p>
+</div>
+<div id="fill-in-the-blanks" class="section level2">
+<h2><span class="header-section-number">7.5</span> Fill in the blanks</h2>
+<p><strong>Description:</strong></p>
+<p>In order to focus attention on one aspect of a workflow, the scaffolding and majority of the workflow can be laid out and some elements removed with the intent that students (or the instructor during a demo) fill in those pieces. The exercise might be accompanied by a small test that the code should pass, or a plot, or value which the code should generate if correct.</p>
+<p><strong>Example:</strong></p>
+<p>A fundamental concept in computing is the use of a for loop to accumulate a result. A fill-in-the-blank exercise demonstrating an accumulator could lay out the initialization, provide the skeleton of the for loop and include plotting code, with the aim being that students write the update step inside the for loop.</p>
+<p><strong>Related Patterns:</strong></p>
+<p>This pattern is similar to Target Practice; a difference is that Target Practice often focuses on a bigger step in a multi-step process. Fill in the Blank exercises tend to be smaller and more immediate.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This pattern focuses attention on a component of a task and provides the benefit of demonstrating how that component fits into the bigger picture or a larger workflow. It can be an effective approach for taking students on a tour of an API, requiring that they use the documentation of the software, or for focusing attention on one aspect of an multi-step computational model.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This approach can be used with a range of students, from those who are first being introduced to computing concepts to those who have significant experience.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>Assignments and labs can adopt this approach (nbgrader can be used to help with marking). It can also be used in a lecture or tutorial setting where the instructor demo’s how to fill in the blank.</p>
+<p><strong>Features:</strong></p>
+<p><strong>Pitfalls:</strong></p>
+<p>Some students don’t find this approach engaging. In particular, if the exercise is too simple for the level of programming competency of the students, it can be perceived a “make-work” task.</p>
+</div>
+<div id="top-down-sequence" class="section level2">
+<h2><span class="header-section-number">7.6</span> Top-down sequence</h2>
+<p><strong>Description:</strong></p>
+<p>Particularly in STEM, the default sequence of presentation is bottom-up, meaning that we teach students how things work (and sometimes prove that they work), before students learn how to use them, or what they are for.</p>
+<p>Notebooks afford the opportunity to present topics top-down; that is, students learn what a tool is for and how to use it, before they learn how it works.</p>
+<p><strong>Example:</strong></p>
+<p>In digital signal processing, one of the most important ideas is the discrete Fourier transform, which depends on complex arithmetic; in a bottom-up approach, we would have to start by teaching or reviewing complex numbers, which is not particularly engaging.</p>
+<p>In contrast to writing the mathematics on paper, in a notebook students can use a library that does the discrete Fourier transform for them, so they understand what it is used for, and see the value of learning about it, before we ask them to do the work of understanding it.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This pattern is useful for shifting students’ focus from implementation details to domain content.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This pattern can be effective with students who have limited programming skills, as they can use a library and see the results without writing much, if any, code.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This pattern can be used in a single class session or homework, or spread out over the duration of a course; for example, students could use a tool on the first day and find out how it works on the last.</p>
+<p><strong>Features:</strong></p>
+<p>Shows students value and rewards their attention quickly (see “Win Day One”)</p>
+<p><strong>Pitfalls:</strong></p>
+<p>A potential hazard of this pattern is that students might be less motivated to learn how the tool works if they think they have already understood what it is for and how to use it. This hazard can be mitigated by making obvious the additional benefit of understanding how it works (assuming that there actually is one – it is not enough to assert that knowing how it works is necessarily better).</p>
+</div>
+<div id="the-api-is-the-lesson" class="section level2">
+<h2><span class="header-section-number">7.7</span> The API <em>is</em> the lesson</h2>
+<p><strong>Description:</strong></p>
+<p>When students work with a software library, they are exposed to functions and objects that make up an application programmer interface (API). Learning an API can be cognitive overhead; that is, material students have to learn to get work done computationally, but which does not contribute to their understanding of the subject matter. But the API can also be the lesson; that is, by learning the API, students are implicitly learning the intended content.</p>
+<p><strong>Example:</strong></p>
+<p>In digital signal processing, one of the most important ideas is the relationship between two representations of a signal: as a wave in the time domain and as a spectrum in the frequency domain. Suppose the API provides two objects, called Wave and Spectrum, and two functions, one that takes a Wave and returns a Spectrum, and another that takes a Spectrum and returns a Wave. By using this API, students implicitly learn that a Wave and a Spectrum are equivalent representations of the same information; given either one, you can compute the other.</p>
+<p><strong>Related Patterns:</strong></p>
+<p>Top-down sequence</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This pattern is useful for shifting students’ focus from implementation details to domain content.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This pattern is most effective if students have some experience using libraries and exploring APIs.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This pattern TODO: complete</p>
+<p><strong>Features:</strong></p>
+<p><strong>Pitfalls:</strong></p>
+<p>A hazard of this pattern is that students sometimes perceive the costs of learning the API and do not perceive the benefits. It might be necessary to help them see that learning the API is part of the lesson and not just overhead.</p>
+</div>
+<div id="the-world-is-your-dataset" class="section level2">
+<h2><span class="header-section-number">7.8</span> The world is your dataset</h2>
+<p><strong>Description:</strong></p>
+<p>Notebooks provide several ways to connect students with the world beyond the classroom: one simple way is to collect data from external sources. Data is available in many different formats that require different software tools to collect and parse.</p>
+<p>If a dataset is available in a standard format, like CSV, it can be downloaded from inside the notebook, which demonstrates a good practice for data integrity (going to the source rather than working with a copy) and demystifies the source of the data.</p>
+<p>For data in tabular form on a web page, it is often possible to use Pandas to parse the HTML and generate DataFrames. Also, tools like Scrapy can be used to scrape data from sources that would be hard to collect manually, and to automate cleaning and validation steps.</p>
+<p><strong>Examples:</strong></p>
+<p>Datasets like the National Survey of Family Growth are available in files that can be downloaded directly from their website, but the terms of use forbid redistributing the data. So the best way to share this data is to provide students with code to input into a notebook cell, which, when executed, will download the data set the first time the student runs the notebook.</p>
+<p>Many Wikipedia pages contain data in HTML tables; most of them can be imported easily into a notebook using Pandas.</p>
+<p>Sources of sports-related statistics are often embedded in large networks of linked web pages. Tools like Scrapy can navigate these networks to collect data in forms more amenable to automated analysis.</p>
+<p><strong>Learning Goals:</strong></p>
+<p><strong>Audience(s):</strong></p>
+<p>Students with limited programming experience can work with datasets in standard formats, but scraping data might require more programming experience.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This pattern lends itself to more open-ended project work where students are responsible for identifying data sources, collecting data, cleaning, and validating, but it can be adapted to more scaffolded work (see Target Practice).</p>
+<p><strong>Features:</strong></p>
+<p>Contributes to students’ feelings of autonomy and connectedness.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>A hazard of this pattern is that students can spend too much time looking for data that is not available. They might need coaching about how to make do with the data they can get, even if it is not ideal.</p>
+<p><strong>Enabling technologies:</strong></p>
+<p>Pandas, Scrapy</p>
+</div>
+<div id="connect-to-external-audiences" class="section level2">
+<h2><span class="header-section-number">7.9</span> Connect to External Audiences</h2>
+<p><strong>Description:</strong></p>
+<p>This is in some sense the opposite of “the world is your dataset.” Here the goal is to take a workflow or computational exploration and share it with the world so others can see it, learn from it, reuse and remix it.</p>
+<p><strong>Examples:</strong></p>
+<p>Your students are doing an observational astronomy lab where they take data from a telescope of a transiting exoplanet (a planet around a star other than our Sun) and they examine the lightcurve to learn about the planet. The students present the lab as a Jupyter notebook with a reproducible workflow that starts with reading in their data (images), walks through cleaning and reducing the images, and then performs photometry on the host star to produce a lightcurve. The end product is a plot showing the star’s brightness, dimming just slightly as the unseen planet comes between the star and earth. Elated with their result, the students want to share their data and workflow so anyone else can redo the analysis.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>Reproducibility is an important part of the scientific process. Having completed the primary scientific analysis that was the goal of the lab (obtaining a lightcurve of a transiting exoplanet), the students now can learn reproducible science practices by hosting their notebook on a webserver (e.g., Github) along with the data. An essential part of making the notebook reproducible will be ensuring that the notebook clearly lists the needed dependencies.</p>
+<p><strong>Audience(s):</strong></p>
+<p>All students—everyone should learn about reproducibility.</p>
+<p><strong>Format:</strong></p>
+<p>A self-contained notebook hosted on a webserver.</p>
+<p><strong>Features:</strong></p>
+<p>Teaches students about reproducible science workflows.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>You need to be clear about the library requirements needed to run the notebook. Also, since the data files are likely separate from the notebook, it is possible for copies of the notebook to get shared without the data.</p>
+<p><strong>Enabling technologies:</strong></p>
+</div>
+<div id="twiddle-tweak-and-frob" class="section level2">
+<h2><span class="header-section-number">7.10</span> Twiddle, tweak, and frob</h2>
+<p><strong>Description:</strong></p>
+<p>Students are given a notebook with a working example. They start by reading the text, running the code, and interpreting the results. Then they are asked to make a series of changes and run the code again; the changes can be small (tweaks), medium-sized (twiddles), or more substantial (frobs). For the origin of these terms, see <a href="https://books.google.com/books?id=g80P_4v4QbIC&amp;pg=PA206&amp;lpg=PA206&amp;dq=twiddle+tweak+frob&amp;source=bl&amp;ots=6pcpsqgvM5&amp;sig=FGifP8qpYhhOylnKKLtTuElIjUI&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjP57yulfreAhXFjVkKHRqNBTsQ6AEwBXoECAoQAQ#v=onepage&amp;q=twiddle%20tweak%20frob&amp;f=false">The New Hacker’s Dictionary</a>.</p>
+<p>Offering manipulations on a range of scales allows students to interact with notebooks in ways that suit their background and styles. Students who feel overwhelmed by the technology can get started with small, safe changes, enjoy immediate success, and work their way up. Students with more experience or less patience can make more radical changes and learn by “destructive testing”.</p>
+<p><strong>Examples:</strong></p>
+<p>In machine learning there are many steps to implementing an effective algorithm:</p>
+<ul>
+<li>Understand a problem</li>
+<li>Identify the proper machine learning algorithm to create the desired results</li>
+<li>Identify data and feature sets</li>
+<li>Optimize the configuration of the machine learning algorithms</li>
+</ul>
+<p>We can write machine learning notebooks that allow students to modify parameters and interact at multiple levels of detail:</p>
+<ul>
+<li><strong>twiddle</strong> hyper parameters to quickly see minor improvements in the results.</li>
+<li><strong>tweak</strong> feature sets to create new models for a bigger impact</li>
+<li><strong>frob</strong> by replacing the machine learning algorithm with a new algorithm or a new version</li>
+</ul>
+<p>This pattern is particularly suitable for examples with a lot of parameters.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>This pattern helps students acquire domain knowledge by seeing the relationship between parameters and the effect they have on the results. It can also help students learn new notebook use patterns</p>
+<p>This pattern is similar to “The notebook is an app”; a difference is that in this pattern the code is more visible to the students, which can help orient them if they will make bigger changes in the future.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This pattern can work with students who have no programming experience; they only need to be able to edit the contents of a cell and run a notebook. It can also work with students who have no background with the domain; they can learn about the domain by exploring the effect of parameters.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This pattern lends itself to a workshop format, where students are guided through a notebook with time-boxed opportunities to experiment. It also lends itself to pair programming, where a navigator can suggest changes and a driver can implement them.</p>
+<p><strong>Features:</strong></p>
+<p>Can help students overcome anxiety about breaking code, and build comfort with self-directed exploration.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>One hazard of this pattern is that students might have trouble getting started, so you might suggest a few examples; however, another hazard is that, if you provide examples, students will do what they are told and fail to explore. A third hazard is that the changes a student makes might be too unorganized; in that case the effect of the parameters might be lost in the chaos.</p>
+<p><strong>Enabling technologies:</strong></p>
+<p>Ideally the students should work in some kind of version control system that lets them revert to a previous version if they break something (and don’t know how to fix it). Note that C-z and C-y can be used to traverse deep history within each cell, but not across cells.</p>
+</div>
+<div id="coding-as-translation" class="section level2">
+<h2><span class="header-section-number">7.11</span> Coding as translation</h2>
+<p><strong>Description:</strong></p>
+<p>Converting mathematics to code is a critical skill today that many students, especially those without strong programming backgrounds, struggle to do. Explicitly taking an equation and translating it step-by-step to the code can help these students make the transition to attaining this skill.</p>
+<p><strong>Example:</strong></p>
+<p>Say you wanted to show the translation of matrix-vector multiplication from <em>equation</em> to a numerical computation. This would involve setting up and explaining the mathematics and suggesting replacing the sums with loops and initializing the sum properly.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>Translating mathematics to code (and vice versa)<br />
+Audience(s): Learners who understand the theory but struggle with the programming side of things.</p>
+<p><strong>Format:</strong></p>
+<p>This type of pattern is often best served as a notebook with some explanative text and possibly some scaffolded code so that a student can focus on the critical areas. This can be done as easily as a lab exercise or in lecture with perhaps some time held out for the students to solve it themselves before moving forward. It is critical to this pattern that there is a clear connection between the mathematical symbols (such as the summation) to the code (such as the for loops).</p>
+<p><strong>Features:</strong></p>
+<p>This pattern can work to lower the barrier for students with low programming knowledge to take on more complex tasks.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>If the exercise is not properly scaffolded, namely it is too complex, students can be turned off. This is especially true if the code example is too complex with too many steps. For instance avoiding compound operators in the example above (<code>+=</code>) can help student retention.</p>
+</div>
+<div id="symbolic-math-over-pencil-paper" class="section level2">
+<h2><span class="header-section-number">7.12</span> Symbolic Math Over Pencil + Paper</h2>
+<p><strong>Description:</strong></p>
+<p>Your objective is to convey an understanding of a physical system governed by a complicated mathematical system. Working out the algebra is necessary to uncover the fundamental behavior of the system, but how to do the algebra is not the goal of the lesson. In this case, you want to see the algebraic result and then teach the students the underlying meaning of the system,</p>
+<p><strong>Example:</strong></p>
+<p>The Euler equations for hydrodynamics are a system of partial differential equations governing conservation of mass, momentum, and energy. Their mathematical character admits wave solutions, and the eigenvalues and eigenvectors of the system in matrix form are important to understanding the physical behavior of the density, pressure, velocity, etc. in the system. Working out the eigenvalues with pencil and paper is tedious, and not the objective of the lesson. In this case, we can use a symbolic math library like SymPy to do the mathematical analysis for us, finding the eigenvalues and eigenvectors of the system, and we can then use this result to continue our theoretical discussion of the system.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>Students will see how to do symbolic math that arises in their theoretical analysis.</p>
+<p><strong>Audience(s):</strong></p>
+<p>STEM students that want to focus on understanding a mathematical system without worrying about the algebraic details</p>
+<p><strong>Format:</strong></p>
+<p>This works well as a notebook that acts as a supplement to the main lecture. Since the goal of the lecture is the theory, the notebook can</p>
+<p><strong>Features:</strong></p>
+<p>Abstracts the details of mathematics that is secondary to the discussion at hand into a separate unit that students can explore on their own.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>This only works well in the case that the algebra is not essential to the main learning goals, but rather is simply something that must be done to get to the main goal.</p>
+</div>
+<div id="bug-hunt" class="section level2">
+<h2><span class="header-section-number">7.13</span> Bug Hunt</h2>
+<p><strong>Description:</strong></p>
+<p>The instructor provides a notebook with code that contains deliberate bugs. The students are asked to find and fix the bugs. Automated tests might be provided to help students know whether some bugs remain unfixed.</p>
+<p><strong>Example:</strong></p>
+<p><strong>Learning Goals:</strong></p>
+<p>This pattern helps students develop programming skills, especially debugging (of course); it also gives the practice reading other people’s code, which can be an opportunity to demonstrate good practice, or warn against bad practice. It can also be used to teach students how to use debugging tools.</p>
+<p><strong>Audience(s):</strong></p>
+<p>This pattern requires students to have some programming experience.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>This pattern can be used for in-class activities or homework.</p>
+<p><strong>Features:</strong></p>
+<p>Can be engaging and fun; develops important meta-skills.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>The bugs need to be calibrated to the ability of the students: if they are too easy, they are not engaging; if they are too hard, they are likely to be frustrating.</p>
+</div>
+<div id="proof-by-example-disproof-by-counterexample" class="section level2">
+<h2><span class="header-section-number">7.14</span> Proof by Example, Disproof by Counterexample</h2>
+<p><strong>Description:</strong></p>
+<p>In many classes, students see general results derived or proved, and then use those results in programs. Notebooks can help students understand how these results work in practice, when they apply, and how they fail when they don’t.</p>
+<p><strong>Example</strong></p>
+<p>In statistics, the Central Limit Theorem (CLT) gives the conditions when the sum of random variables converge to a Gaussian distribution. Students can generate random variables from a variety of distributions and test whether the sums converge and how quickly.</p>
+<p>The classical Gram-Schmidt is unstable while the modified method is stable. Students can find matrices for which this instability produces obviously unusable results. They can also find matrices for which modified Gram-Schmidt produces unusable results due to its lack of backward stability, and this can be used to motivate Householder factorization and discussion of backward stability.</p>
+<p>Some numerical methods for PDE converge with an assumption on smoothness of coefficients. Students can show how violating these assumptions leads to erroneous solutions, thus motivating discussion of conservative/compatible methods that can converge in such circumstances.</p>
+<p><strong>Learning Goals</strong></p>
+<p>This pattern is primarily useful for developing mathematical or domain knowledge, but students might also develop programming experience by writing code to run the examples and test the outcomes. This is especially true if the space of (counter-)examples is “small”, such that principled exploration (e.g., by finding an eigenvector, running an optimization algorithm, or searching a dictionary) is beneficial.</p>
+<p><strong>Audience(s)</strong></p>
+<p>This pattern requires students to have some programming experience.</p>
+<p><strong>Format (Lecture / Lab / …)</strong></p>
+<p>This pattern can be used for in-class activities or homework.</p>
+<p><strong>Features</strong></p>
+<p>Helps students translate from theoretical results to practical implications, and to remember the assumptions and limitations of theory.</p>
+<div id="pitfalls" class="section level3">
+<h3><span class="header-section-number">7.14.1</span> Pitfalls</h3>
+<p>This pattern requires additional time and student effort on a topic that might not deserve the additional resources.</p>
+</div>
+</div>
+<div id="hello-world" class="section level2">
+<h2><span class="header-section-number">7.15</span> Hello, world!</h2>
+<p><strong>Description:</strong></p>
+<p>In some situations (such as the first day of class of a very introductory course) you may wish to do no more (and no less) than build confidence in the students’ abilities to be able to write a first computer program. Traditionally, the first program written was a “hello, world” program: a program that did nothing but display the text “hello, world” on the screen. However, these days students can have much more fun, and step fully into the creative world of computing with very little instruction.</p>
+<p><strong>Example:</strong></p>
+<p>Draw a rectangle. Change the numbers, run it again, and see what happens.</p>
+<div class="figure">
+<img src="images/chapter-40.png" title="image_tooltip" alt="Figure: a first sketch using Calysto Processing, a Java-based language designed for creating art." />
+<p class="caption">Figure: a first sketch using Calysto Processing, a Java-based language designed for creating art.</p>
+</div>
+<p><strong>Learning Goals:</strong></p>
+<p>Reduce stress, build confidence, connect onto their personal lives. Requires that they do learn the basics of Jupyter including: log in, open a new notebook, enter the provided code, and execute it. Often leads to a very animated, active learning classroom activity (How can I change the colors? How do I draw a circle?, etc.)</p>
+<p><strong>Audience(s):</strong></p>
+<p>Beginning students.</p>
+<p><strong>Format (Lecture / Lab / …):</strong></p>
+<p>First day of class, in-class exercise. Build on what students already know from typing and reading (e.g., cut and paste, read top-to-bottom).</p>
+<p><strong>Features:</strong></p>
+<p>Open ended, creative, fun.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>Works best when used with a pre-installed Jupyter (see Chapter 5). Rather than telling students that they can do it, just do it. As a first assignment, to cut down on the vast possibilities, we suggest limiting the palette of options. For example, restrict their drawings to use only a single shape, such as rectangle or triangle. We suggest having the students draw something in their life that is important or meaningful to them. We suggest discussing the coordinate grid for the first assignment (see below) and sketching an idea on paper first.</p>
+<div class="figure">
+<img src="images/chapter-41.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p>Figure: actual results from a first homework assignment, using only a series of two different functions.</p>
+</div>
+<div id="test-driven-development" class="section level2">
+<h2><span class="header-section-number">7.16</span> Test Driven Development</h2>
+<p><strong>Description</strong></p>
+<p>The instructor provides tests written in a unit testing framework like unittest or doctest; students write code to make the tests pass.</p>
+<p><strong>Example</strong></p>
+<p>TODO: Necessary?</p>
+<p><strong>Learning Goals</strong></p>
+<p>Helps students learn a good software development process,.</p>
+<p><strong>Audience(s)</strong></p>
+<p>This pattern requires students to have some programming experience.</p>
+<p><strong>Format (Lecture / Lab / …)</strong></p>
+<p>This pattern can be used for in-class activities or homework.</p>
+<p><strong>Features</strong></p>
+<p>Helps students focus on the task at hand and know when they are done (at least to the degree that the tests are complete).</p>
+<p><strong>Pitfalls</strong></p>
+<p>Some Python unit testing frameworks are not designed to work with notebooks, and can be awkward to use. On the other hand, nbgrader [TODO: add cross reference to nbgrader] supports automated testing of the code students write in notebooks; in that environment, the tests are not visible to students, which may or may not be a bug.</p>
+<p>This pattern required the overhead of teaching students about the unit testing framework. Students working to make tests pass can lose their view of the big picture, and feel like they have been robbed of autonomy. This type of exercise is best used sparingly.</p>
+</div>
+<div id="now-you-try-with-different-data-or-process" class="section level2">
+<h2><span class="header-section-number">7.17</span> Now You Try (with different data or process)</h2>
+<p><strong>Description</strong></p>
+<p>Students start with a complete working example provided by an instructor and then they change the dataset or process to apply the notebook to an area of their own choosing. This method can allow more or less fluctuation depending on the skills of the students. For example we can allow students to select new datasets from a list that ensures the cells of the notebook will all still work or we can give them freedom to try new data structures or add new processes to break the notebooks and learn as they go through the process of fixing the broken cells.</p>
+<p><strong>Example:</strong></p>
+<p>An instructor designs a lesson in exploratory data analysis to scrape the critics reviews for a specific movie from a particular movie review website and then provide some simple visualizations. The students have a few options:</p>
+<ol style="list-style-type: decimal">
+<li>Green Circle - replace the movie name and pick any movie they want and then step through the new notebook and see the new results.</li>
+<li>Blue Square - adjust the notebook to scrape user reviews rather than critics reviews and then fix any data parsing problems.</li>
+<li>Black Diamond - add different visualizations tailored to explore the user reviews (as opposed to the initial visualizations that are tailored for the critic reviews).</li>
+</ol>
+<p>There are various ways to test the properties of numerical methods. For example, students can use the method of manufactured solutions to test the order of accuracy for a differential equation solver. They can also measure cost as the resolution is increased and present the results in a way that would help an analyst decide which method to use given external requirements (e.g., using accuracy versus cost tradeoff curves).</p>
+<p><strong>Related Patterns:</strong></p>
+<p>Top-down sequence</p>
+<p><strong>Learning Goals</strong></p>
+<p>This pattern allows students to apply their knowledge</p>
+<p><strong>Audience(s)</strong></p>
+<p>This pattern can be tailored for students with more or less experience even in the same course.</p>
+<p><strong>Format (Lecture / Lab / …)</strong></p>
+<p>This pattern is best in a lab or an interactive tutorial</p>
+<p><strong>Features</strong></p>
+<p><strong>Pitfalls</strong></p>
+<p>A hazard of this pattern is that students may go completely off the rails and chose datasets or new processes that have not been tested and will not work in the timeframe allowed.</p>
+</div>
+<div id="two-bites-at-every-apple" class="section level2">
+<h2><span class="header-section-number">7.18</span> Two Bites at Every Apple</h2>
+<p>This pattern involves writing an activity that can address multiple audiences from different perspectives at the same time. This can be powerful when addressing a mixed audience of students.</p>
+<p><strong>Example</strong></p>
+<p>Say you have a group of students, some of whom are computer science students and some of whom are physics students, and ask them to come up with two expressions for computing the centroid of an area. The computer science students will be tasked with a description that involves adding up discrete pieces of areas with for loops and the physics students tasked with using the integral definition. When the students come up with their expressions they can then pair up with someone from the other background where they can attempt to explain how their approach matches the other and compare their final answers.</p>
+<p><strong>Learning Goals</strong></p>
+<p>Ability to translate from one field/language to another. Explain complex topics to someone from a different field.</p>
+<p><strong>Audience(s)</strong></p>
+<p>Groups which are composed of disparate backgrounds.</p>
+<p><strong>Format</strong></p>
+<p>This format involves both individual and group work but can be used in a lab or lecture setting. The basic notebook would include an overview of the problem and then pose questions whose answer is the same but is worded for the different audiences. There can be a single notebook that contains both questions so that students can fill in their peers solution once they understand it or there can be separate notebooks for each group so they do not get distracted by the other question.</p>
+<p><strong>Features</strong></p>
+<p>Group work and peer teaching has been shown to be effective at not only reinforcing student knowledge but also at introducing students to new concepts.</p>
+<p><strong>Pitfalls</strong></p>
+<p>It can be difficult to construct questions for each audience that require equal amounts of difficulty.<br />
+</p>
+</div>
+<div id="replace-analysis-with-numerical-methods" class="section level2">
+<h2><span class="header-section-number">7.19</span> Replace Analysis with Numerical Methods</h2>
+<p><strong>Description</strong></p>
+<p>Some ideas that are hard to understand with mathematical analysis are easy to understand with computer simulation and numerical methods.</p>
+<p>In the usual presentation, students see and learn to do mathematical analysis on a series of simple examples, and resort to numerical methods only when necessary. In an alternative pattern, students skip the analysis and start with simulation and numerical methods, optionally visiting analysis after gaining practical experience.</p>
+<p><strong>Examples</strong></p>
+<p>In statistics, hypothesis testing is a central idea that is notoriously difficult for students to understand. Students learn methods for computing p-values in a series of special cases, but many of them never understand the framework, or what a p-value means. The alternative is to compute sampling distributions and p-values by simulation; anecdotally, many students report that this approach makes the framework much clearer. Such simulation can also be used to drive home points about misconceptions held by most students and instructors <span class="citation">(<span class="citeproc-not-found" data-reference-id="HallerKrauss2002"><strong>???</strong></span>)</span>.</p>
+<p>Similarly, in queueing theory, there are a few analytic results that apply under narrow conditions; when those conditions don’t apply, there are no analytic solutions. However, queueing systems lend themselves to simulation and visualization, and in simulation it is easy to explore a wide range of conditions.</p>
+<p>And again, with differential equations, there are only a few special cases that have analytic solutions; the large majority of interesting, realistic problems don’t.</p>
+<p><strong>Learning Goals</strong></p>
+<p>This pattern is primarily about helping students see the big ideas of the domain more clearly, but it is also a chance to develop their programming skills. It also provides students with tools that are likely to be needed if they encounter similar problems in the real world, where analytic methods are often inapplicable, fragile, or complicated to use effectively.</p>
+<p>(<strong>Audience(s)</strong>)</p>
+<p>This pattern requires students to have some comfort with programming, although it would be possible for them to get some of the benefit from seeing examples without implementing them. Non-programmers can use this pattern via prepared notebooks; see <a href="catalogue.html#win-day-one">Win Day One</a>.</p>
+<p><strong>Format (Lecture / Lab / …)</strong></p>
+<p>This pattern can be used for in-class activities or homework.</p>
+<p><strong>Features</strong></p>
+<p>Students can understand general ideas without getting bogged down in the details of special cases; and they are able to explore more interesting and realistic examples.</p>
+<p><strong>Pitfalls</strong></p>
+<p>If students are not comfortable programmers, they can get bogged down in implementation details and debugging problems, and miss the domain content entirely. It is important to scope the implementation effort to suit the full range of students in the class. Pair programming can help mitigate these problems, especially if every pair has at least one student with programming skills, and if students are coached to pair program effectively (without letting the more experienced student dominate).</p>
+</div>
+<div id="code-reviews" class="section level2">
+<h2><span class="header-section-number">7.20</span> Code Reviews</h2>
+<p>Code reviews involve a student or instructor providing feedback on someone else’s code. This pattern involves peer work as well as a means for providing feedback to students on topics other than correctness of their code but also on code readability and styling.</p>
+<p><strong>Example</strong></p>
+<p>Present a problem to students that they must write a solution to, say computing the square root of a number without using a built-in function but have them write a test for their function that uses a built-in function to compute the answer. After they are finished have the students pair up and perform peer reviews of each other’s code, commenting not only on the way they solved the problem, such as making up a list of pros and cons of their approaches, but also on the readability of the code.</p>
+<p><strong>Learning Goals</strong></p>
+<p>Learn to read and understand someone else’s code. Learn to write readable code.</p>
+<p><strong>Audience(s)</strong></p>
+<p>Any group of students who are involved in coding.</p>
+<p><strong>Format</strong></p>
+<p>Once a suitable problem is formulated in a notebook (or simply a script) then in-class review, as with the above example, can work for peer reviews. Alternatively students can upload their notebooks/scripts to a platform such as GitHub and the code reviews can be done using the tools available there. Sufficient scaffolding must be provided so that students understand the process, how to make constructive comments and why the process is important. If an instructor wants to review and provide feedback notebooks/scripts can be collected and commented on with a similar explanation to students as to how they are going to be graded (if they are).</p>
+<p><strong>Features</strong></p>
+<p>This pattern leads to not just feedback for the person who wrote the code but also for the reader. Code review is also a critical piece of the software development process used in industry providing students with a view of the process. This can also have the result of making sure that a student’s code is readable via appropriate code styling, commenting and documentation.</p>
+<p><strong>Pitfalls</strong></p>
+<p>Students need to be properly informed as to how the code reviews will impact their grades, especially if peer review is used. Notebooks on GitHub are not as easily reviewed as scripts.</p>
+</div>
+<div id="adversarial-programming" class="section level2">
+<h2><span class="header-section-number">7.21</span> Adversarial Programming</h2>
+<p>This pattern involves participants writing a solution to a problem and tests that attempt to make the written solution fail. This pattern can be done in many ways including having students complete the tasks and pair up and exchange solutions/tests or having the instructor writing the solution and the students then write the tests.</p>
+<p><strong>Example</strong></p>
+<p>Students are tasked to write a function that finds the roots of a polynomial specified via some appropriate input. They are also asked to write a set of tests that their function passes and fails on. When students have completed these tasks they then exchange their notebooks and use the tests they wrote on their peer’s function. Finally they will discuss any differences in their approaches and whether they can come up with ways to not fail each other’s tests or if the tests provided are invalid.</p>
+<p><strong>Learning Goals</strong></p>
+<p>Learn to write unit tests. Think critically on how an adversary might break their solution.</p>
+<p><strong>Audience(s)</strong></p>
+<p>Any group of students who are involved in coding.</p>
+<p><strong>Format</strong></p>
+<p>Decide on a sufficiently complex problem that may have non-trivial tests written for it and write up the question in a notebook. Then as an in-class activity or lab start the discussion regarding the tests. If appropriate the instructor can collect notable tests written by students and also share those.</p>
+<p><strong>Features</strong></p>
+<p>Provides a means for students to think critically about a problem they are solving and how someone might break their solution. Also can provide a learning activity with a form of competition involved, which can then lead to an award system if desired.</p>
+<p><strong>Pitfalls</strong></p>
+<p>With competition come dangers if students are not properly scaffolded so that they can provide constructive feedback. Some problems and/or solution strategies are vulnerable to many corner cases, leading to tedious whack-a-mole or fatalism that may distract from learning objectives.</p>
+</div>
+<div id="there-can-be-only-one" class="section level2">
+<h2><span class="header-section-number">7.22</span> There Can Be Only One</h2>
+<p><strong>Description:</strong></p>
+<p>This pattern involves creating a competition between individual students or teams of students. Clear goals and metrics need to be defined and then students submit notebooks that are scored and evaluated. Competitions can span months or be completed in a single class.</p>
+<p>The Jupyter ecosystem support for reproducibility and data sharing make it a great environment for creating healthy competitions. Kaggle is a site that hosts many machine learning competitions using Jupyter as its underlying infrastructure and is a great place for advanced students to extend their knowledge with a chance of winning cash prizes and solving current world problems.</p>
+<p><strong>Examples:</strong></p>
+<p>Identify a machine learning problem and a labeled dataset your students can use to train their model. Then select an evaluation metric and detail your problem statement and rules. Finally, launch your competition and allow your students to submit their notebooks and post their results on a public leaderboard.</p>
+<p><strong>Learning Goals:</strong></p>
+<p>Creative problem solving is a key aspect of this pattern. In addition, if the competition is team-based then the students will learn how to work in groups and communicate effectively and share responsibilities.</p>
+<p><strong>Audience(s):</strong></p>
+<p>Students can benefit from healthy competition and working in teams, however it is critical that a safe, fun, and engaging environment is created. Advanced students can be pointed toward kaggle or other public competitions that may be in their area of interest and give them a chance to test their skills in the real world.</p>
+<p><strong>Format:</strong></p>
+<p>A competition can be defined with any metrics and rules and can be run in multiple ways. The students can help define the rules or a simple vote can decide the winners. For a more formal competition instructor can host free competitions for their class hosted by Kaggle. <a href="https://www.kaggle.com/about/inclass/overview" class="uri">https://www.kaggle.com/about/inclass/overview</a></p>
+<p><strong>Features:</strong></p>
+<p>Teaches students about creative problem solving and teamwork.</p>
+<p><strong>Pitfalls:</strong></p>
+<p>Creating a fair competition is not trivial and considerations regarding data, metrics, rules, and scoring may be time consuming. Competition is risky business and effort should be made to ensure both winners and losers enjoy the experience.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="oh-the-places-your-notebooks-will-go.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="jupyter-ecosystem-notebooks.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/04-a-catalogue-of-pedagogical-patterns.md",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["jupyter-edu-book.pdf", "jupyter-edu-book.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
