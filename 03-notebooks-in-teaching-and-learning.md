@@ -255,7 +255,7 @@ Perhaps for the section above add a block diagram or word cloud visual of the
 major decision considerations.
 
 
-# Transitioning To and From Jupyter
+## Transitioning To and From Jupyter
 
 Although this book focuses on using Jupyter Notebooks in education, we recognize
 that students have different backgrounds and familiarity with coding. Not all
@@ -274,7 +274,7 @@ as they make decisions about which environments best supports their ambitions at
 the time.
 
 
-# Conclusion
+## Conclusion
 
 In this chapter we have attempted to place the use of Jupyter Notebooks into the
 process of good course design.  Notebooks is a tool that many teachers can use
