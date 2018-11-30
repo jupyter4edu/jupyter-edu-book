@@ -3,4 +3,9 @@ language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
-rmd_files: ["index.Rmd", "01-introduction.md", "08-about-the-authors.md", "09-glossary.md"]
+rmd_files: ["index.Rmd",
+           "01-introduction.md",
+           "02-why-jupyter.md",
+           "08-about-the-authors.md",
+           "09-glossary.md",
+           ]

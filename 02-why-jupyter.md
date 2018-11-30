@@ -99,15 +99,7 @@ The creators of Jupyter describe it as a set of open-source tools for interactiv
 
     _I use a short bit of code to make a graph showing the time evolution, in what is called a "spaghetti plot" (see figure). Looking at this messy graphic, I point out how most of the lines show growth over time: life expectancy is improving all over the world. But a couple of lines show a marked dip in a given year. I can ask students: which country had that dip? What happened there? Why? With a bit more coding, we identify that Cambodia had a shocking life expectancy of about 30 years in 1977, and Rwanda had even worse life expectancy in 1992. We then have the opportunity to discuss why these countries experienced a mortality crisis. The data brings to life a meaningful discussion, with many possible paths involving history, politics, economics, and health. -- Lorena Barba_
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Ch2-Why-we-use-Jupyter-notebooks0.png "image_tooltip")
-
-
-From: [http://go.gwu.edu/engcomp2lesson4](http://go.gwu.edu/engcomp2lesson4)
+![From: [http://go.gwu.edu/engcomp2lesson4](http://go.gwu.edu/engcomp2lesson4)](figures/engcomp2lesson4-life-expectancy.png "Life expectancy in the years 1952-2007, across 142 countries")
 
 Jupyter notebooks are essential tools of connection -- tools that engage learners in transitions in their thinking. The opportunity of intermingling computation into a narrative, creating a conversation with data is a powerful and effective form of communication. With Jupyter, you now have a new form of content to create and share with learners: _computable content_. In a world where every subject matter can have a data-supported treatment, where computational devices are omnipresent and pervasive, the union of natural language and computation creates compelling communication and learning opportunities.
 
@@ -124,16 +116,7 @@ Notebooks are living documents, meaning they can be edited to respond to questio
 
     _Our group uses Jupyter notebooks as "apps" to demonstrate concepts in geophysics. These notebook-apps connect numerical simulations to widgets and relevant plots. In the classroom, we ask students to help define input parameters based on an application or case study that they are interested in. Prior to displaying the results, we ask students to build a mental image of their expectations. If the resultant image matches their expectations, then we have reinforced a concept, and if not, it is an opportunity to learn. We as instructors can interactively engage with students' questions by updating the inputs to the simulation in order to explore concepts with them. Students have access to the same notebooks through free web-platforms like Binder, so simply by following a link, they can take the steering wheel and engage with the concepts on their own. Notebooks bring the concepts to life and serve as a conversation piece for the interaction between learners and educators. -- Lindsey Heagy_
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks1.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Ch2-Why-we-use-Jupyter-notebooks1.jpg "image_tooltip")
-
-
-**_Caption: Dr. Douglas Oldenburg (left) engaging with a student during a short course on geophysical electromagnetics (https://geosci.xyz). Photo credit: Seogi Kang._**
-
+![Dr. Douglas Oldenburg (left) engaging with a student during a short course on geophysical electromagnetics (https://geosci.xyz). Photo credit: Seogi Kang](figures/oldenburg-geosci.jpg "Photo credit: Seogi Kang")
 
 #### Real World Experience -- Ticket to leave
 
@@ -146,27 +129,11 @@ Another example of generating participation in the classroom with Jupyter notebo
 1.  Allow the students to apply their recent knowledge to a novel problem
 1.  An additional instance to learn the materials
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Ch2-Why-we-use-Jupyter-notebooks2.png "image_tooltip")
-
-
-Figure: Example of the Activity magic seen from the students view. A question, with multiple choice answers is shown, with buttons for their input.
+![Example of the Activity magic seen from the students view. A question, with multiple choice answers is shown, with buttons for their input.](figures/activity-magic-student.png "Example of the Activity magic seen from the students view.")
 
 These questions do not typically require much time to answer, but are meant to capture the essence of the conversation of the class.  After a minute or so to contemplate the question, the students select their answer (by clicking one of the buttons), and instructor shows the gestalt results (see figure).
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Ch2-Why-we-use-Jupyter-notebooks3.png "image_tooltip")
-
-
-Figure: The Activity magic, from the the instructor's perspective. The barchart is shown on the project once all of the students have had a chance to respond.
+![The Activity magic, from the the instructor's perspective. The barchart is shown on the project once all of the students have had a chance to respond.](figures/activity-magic-instructor.png "The Activity magic, from the the instructor's perspective.")
 
 Good "exit ticket" questions can be domain specific questions, but can also be metacognitive questions (about one's learning style, for example), or high-level organizational questions (e.g., "what was the goal of today's discussion?"). We recommend leaving enough time at the end of class (perhaps 10 minutes) to have a full and complete wrap-up discussion. After the discussion, you may wish to adjust the following class meeting if you feel that not enough students had the insight you were aiming for. For more information on "tickets to leave" see [https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample](https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample) 
 
