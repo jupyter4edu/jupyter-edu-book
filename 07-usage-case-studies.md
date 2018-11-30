@@ -1,4 +1,4 @@
-# Usage Case Studies {#case-studies}
+# Usage case studies {#case-studies}
 
 Contributors to this chapter: you may increase adoption by new users
 if you integrate information about some of the following into your
@@ -20,7 +20,7 @@ case:
         affordances
 
 
-## Jupyter Notebooks in Support of Scaling for Large Enrollments
+## Jupyter notebooks in support of scaling for large enrollments
 
 
 ### Supporting large enrollment courses at UC Berkeley
@@ -122,7 +122,7 @@ molecular thermodynamics."
 -- Richard West
 
 
-## The "CFD Python" story: Guiding Learners at their Own Pace
+## The "CFD Python" story: guiding learners at their own pace
 
 "CFD Python" is a collection of Jupyter Notebooks based on a practical
 module that I began using in class in my Computational Fluid Dynamics
@@ -167,7 +167,7 @@ computable content:
 -- Lorena A. Barba
 
 
-## Analyzing Music with music21
+## Analyzing music with music21
 
 I became interested in learning more about Python in 2013 after
 reading a tutorial by Luciano Ramalho as he was writing Fluent
@@ -193,7 +193,7 @@ for learners from disciplines beyond computer science and engineering.
 
 -- Carol Willing
 
-**Education Benefits**
+**Education benefits**
 
 *   lessons notebooks can be tailored to age appropriate content within music
 *   multisensory
@@ -238,7 +238,7 @@ _"In the beginner's mind there are many possibilities.  In the
 expert's mind there are few." –Shunryu Suzuki_
 
 
-## Interactivity in Computer Science (high school and middle school)
+## Interactivity in computer science (high school and middle school)
 
 **Who**
 
@@ -317,7 +317,7 @@ opportunity to learn and further explore.
 -- Lindsey Heagy
 
 
-## Investigating Hurricanes
+## Investigating hurricanes
 
 **Who **
 
@@ -346,11 +346,8 @@ available at https://github.com/applied-math/demos.
 
 
 
- TODO ! [alt_text] (images/Chapter-71.png "image_tooltip")
-
-**Fig: **Visualization from the notebook at
+[Visualization from the notebook at
   [https://github.com/applied-math/demos](https://github.com/applied-math/demos)
   demonstrating the paths of Atlantic hurricane tracks from 1950-2012
-  with coloring demonstrating category of storm.
-
-
+  with coloring demonstrating category of storm.](images/hurricanes.png
+  "https://github.com/applied-math/demos")

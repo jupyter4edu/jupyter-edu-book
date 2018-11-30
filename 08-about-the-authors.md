@@ -1,6 +1,6 @@
-# About the Authors {#authors}
+# About the authors {#authors}
 
-## Project Lead
+## Project lead
 
 ### Lorena A. Barba
 
