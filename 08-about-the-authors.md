@@ -59,7 +59,7 @@ Douglas also writes text and code at his website [douglasblank.com](http://dougl
 
 [Jed Brown](https://jedbrown.org/) is an Assistant Professor of Computer Science
 at the University of Colorado Boulder. He has been teaching numerical and scientific
-computing courses using Jupyter Notebook and nbgrader for three years, and leads a
+computing courses using Jupyter Notebook and `nbgrader` for three years, and leads a
 research group that develops computational methods and community software for
 computational science.
 
@@ -109,7 +109,7 @@ Jupyter for making the content come to life.
 * [kyle.mandli@columbia.edu](mailto:kyle.mandli@columbia.edu)
 * [\@KyleMandli](https://twitter.com/KyleMandli)
 
-[Kyle Mandli](https://www.columbia.edu/~ktm2132) is an Assistant Professor in the
+[Kyle Mandli](http://www.columbia.edu/~ktm2132/) is an Assistant Professor in the
 Department of Applied Physics and Applied Mathematics at Columbia University.
 He has developed a set of openly available course notes centered around Jupyter
 notebooks and uses Jupyter for homework in conjunction with nbgrader. His other
