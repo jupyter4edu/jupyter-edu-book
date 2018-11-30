@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="case-studies.html">
-<link rel="next" href="glossary.html">
+<link rel="prev" href="catalogue.html">
+<link rel="next" href="getting-going.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -237,153 +237,130 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="authors" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> About the authors</h1>
-<div id="project-lead" class="section level2">
-<h2><span class="header-section-number">8.1</span> Project lead</h2>
-<div id="lorena-a.-barba" class="section level3 unnumbered">
-<h3>Lorena A. Barba</h3>
-<ul>
-<li>George Washington University</li>
-<li><a href="mailto:labarba@email.gwu.edu">labarba@email.gwu.edu</a></li>
-<li><a href="https://twitter.com/LorenaABarba">@LorenaABarba</a></li>
-</ul>
-<p>Lorena A. Barba is Associate Professor of Mechanical and Aerospace Engineering at the George Washington University. She adopted Jupyter in 2013 and since then used it in every course she teaches. Her open course materials are well known and used by thousands of learners: <a href="http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/">CFD Python</a> and <a href="https://github.com/numerical-mooc/numerical-mooc">Numerical MOOC</a> are the best examples.</p>
+<div id="jupyter" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Jupyter ecosystem: notebooks</h1>
+<p>The Jupyter system supports over 100 programming languages (called “kernels” in the Jupyter ecosystem) including Python, Java, R, Julia, Matlab, Octave, Scheme, Processing, Scala, and many more. Out of the box Jupyter will only run the IPython kernel, but additional kernels may be installed. Additional language support continues to be added by the open source community and <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels" class="uri">https://github.com/jupyter/jupyter/wiki/Jupyter-kernels</a> is the best source for an up-to-date list. Note that these projects are developed and maintained by the open source community and exist in various levels of support. For example, some kernels may be supported by a vast number of active (and even paid) developers, while others may be a single person’s pet project. When trying out a new kernel, we suggest exploring a kernel’s community of users and documentation to see if it has an appropriate level of support for your (and your students’) use.</p>
+<p>Jupyter’s kernel flexibility allows instructors to pick the right language for a particular context. For example instructors may use Python to teach programming, while switching to R to teach statistics, and then perhaps Scala to teach big data processing. Regardless of the language chosen, the Jupyter interface remains the same. Thus, some cognitive load can be lessened when using multiple languages in, or across courses (e.g., the user interface doesn’t change at all between the student’s Digital Humanities and Biology courses). Of course, if you can remain in one language in a course, that is often easier for the student.</p>
+<div id="resources-for-authoring-jupyter-notebooks" class="section level2">
+<h2><span class="header-section-number">5.1</span> Resources for authoring Jupyter notebooks</h2>
+<p>Before embarking on writing notebooks for your course, we recommend that you look around on the internet for related courses. There may be a similar course for which an instructor has already generated notebooks that you can use or adapt for your course. In many cases, instructors are very happy to have collaborate on open source educational resources and have the resources be used by other instructors. The following sections will be oriented towards Python simply because it is currently the language with the largest Jupyter feature support.</p>
+<div id="accessing-documentation-in-the-notebook" class="section level3">
+<h3><span class="header-section-number">5.1.1</span> Accessing documentation in the notebook</h3>
+<p>One of the best features of quality libraries is their documentation, which students and other users will likely consult regularly. From a notebook cell, the TAB key autocompletes (or gives completion tips) and SHIFT-TAB brings up full documentation. Similarly, using a question-mark after a method or function will bring up the documentation after the cell is run, as shown in Figure XX.</p>
+<div class="figure">
+<img src="images/chapter50.png" title="getting help" alt="A question mark can be used after a method or function and the cell run in order to bring up the documentation." />
+<p class="caption">A question mark can be used after a method or function and the cell run in order to bring up the documentation.</p>
+</div>
+<p>Using this feature in class during live coding and modification or while just explaining how code works helps increase student comfort and enable them to work effectively with libraries.</p>
+</div>
+<div id="widgets" class="section level3">
+<h3><span class="header-section-number">5.1.2</span> Widgets</h3>
+<p>Widgets provide the opportunity a for learners and instructors to interact with code outputs, such as charts and tables, interactively. Widgets are simple and quickly generated “mini” Graphical User Interfaces (GUI) that give the notebook user access to slide bars, toggle buttons, and text-boxes. They can be used in conjunction with code, allowing a change of mindset from programming as a primary goal to exploring a model or computation as the primary goal. Alternatively, the code can be hidden and the widgets used to create a notebook “app” that might connect input parameters with a simulation and a plot.</p>
+<p>Currently only a small subset of kernels have widget functionality. For example, the reference implementation of widgets are the Jupyter-Python widgets (<a href="https://ipywidgets.rtfd.io" class="uri">https://ipywidgets.rtfd.io</a>). It includes widget components to generate and display sliders, progress bars, text boxes, check boxes, toggle buttons, etc. Many popular visualization tools, such as matplotlib, Plotly, leaflet.js, three.js, have Jupyter-Python widget implementations. The documentation contains an up-to-date list of all of the widgets and their variations. Additionally, the <code>interact</code> method wraps allows you to wrap a function, which might be a simple computation or a complex simulation that produces a plot, and provides widgets for each of the inputs to the function. Figure XX shows a simple example of a sinusoid plot whose frequency is controlled by a slide-bar. Another kernel that has some widget functionality is C++ (<a href="https://github.com/QUantStack/xwidgets" class="uri">https://github.com/QUantStack/xwidgets</a>).</p>
+<div class="figure">
+<img src="images/notebook-matplotlib-interact.png" title="interactive sliders" alt="Here, a simple slider is used to interactively change the variable k in our function as we plot it." />
+<p class="caption">Here, a simple slider is used to interactively change the variable k in our function as we plot it.</p>
+</div>
+<p>In addition to the IPywidgets library, the ipyleaflet library (<a href="https://ipyleaflet.rtfd.io" class="uri">https://ipyleaflet.rtfd.io</a>) enables an interactive map to be displayed in a notebook.</p>
+<div id="example" class="section level4">
+<h4><span class="header-section-number">5.1.2.1</span> Example</h4>
+<pre><code>from ipyleaflet import Map
+Map(center=[34.6252978589571, -77.34580993652344], zoom=10)</code></pre>
+<div class="figure">
+<img src="images/chapter52.png" title="interactive map" alt="Interactive map widget with ipyleafletalt_text." />
+<p class="caption">Interactive map widget with <code>ipyleafletalt_text</code>.</p>
+</div>
+<p>For the ambitions reader, there are resources available for you to write your your own custom widgets. The widget cookie cutter project (<a href="https://ipywidgets.rtfd.io" class="uri">https://ipywidgets.rtfd.io</a>) is a good place to start.</p>
 </div>
 </div>
-<div id="authors-at-the-sprint" class="section level2">
-<h2><span class="header-section-number">8.2</span> Authors at the sprint</h2>
-<div id="lecia-j.-barker" class="section level3 unnumbered">
-<h3>Lecia J. Barker</h3>
+<div id="magics" class="section level3">
+<h3><span class="header-section-number">5.1.3</span> Magics</h3>
+<p>Magics are meta-commands that only function within Jupyter and allow a user to access features that are language/kernel specific. For instance, the IPython kernel provides a number of magics that can be useful while developing Jupyter notebooks that uses Python as the primary language. These are <a href="https://ipython.readthedocs.io/en/stable/interactive/magics.html">documented</a> and we will only call out a few of these here. There are many other magics available for different kernels but the downfall of these are that they are specific to Jupyter so does not translate to scripts and in a teaching environment we generally recommend to be sparing in their use so as to not obfuscate what is happening. Magics always begin with either a single <code>%</code> for single line commands or double <code>%%</code> for applying a command to an entire cell. Many magics can be used with single or double percents, but some do not.</p>
 <ul>
-<li>University of Colorado Boulder</li>
-<li><a href="mailto:lecia.barker@colorado.edu">lecia.barker@colorado.edu</a></li>
-<li><a href="https://twitter.com/leciab">@leciab</a></li>
+<li><p><code>%run</code> allows for running external scripts, capturing output and displaying it in the notebook, e.g. <code>%run my_script.py</code>.</p></li>
+<li><p>It is common to use matplotlib for visualization. In Jupyter, the magic <code>%matplotlib</code> allows the matplotlibs resulting figures to be displayed in the notebook. <code>%matplotlib inline</code> and causes static images to be embedded in the notebook and <code>%matplotlib  notebook</code> causes interactive images (zooming, panning, etc) images to be embedded.</p></li>
+<li><p><code>%time</code> times the execution of the Python expression following the command, e.g. <code>%time sum(range(1000))</code>.</p></li>
+<li><p><code>%timeit</code> is is similar to <code>%time</code> with the difference that it runs the expression multiple times and reports the average execution time.</p></li>
+<li><p><code>%reset</code> removes all user defined variables along with input and output. Magics often have “flags”, following the Unix command pattern. For example, <code>%reset -s</code> is a soft reset and only removed user defined variables. These commands can be useful to help to overcome out-of-order execution problems.</p></li>
 </ul>
-<p><a href="https://www.colorado.edu/cmci/people/information-science/lecia-barker">Lecia Barker</a> is an Associate Professor and Associate Chair of Undergraduate Studies in the <a href="https://www.colorado.edu/cmci/infoscience">Department of Information Science</a> at the University of Colorado Boulder. She is also a Senior Research Scientist for the <a href="https://www.ncwit.org/">National Center for Women &amp; IT</a>. Her research group is studying the <a href="https://csteachingpractices.wordpress.com/">diffusion and adoption of teaching practices</a> in undergraduate computer science. Lecia holds a Ph.D. in Communication from CU Boulder and an MBA in Marketing from San Diego State University.</p>
+<p>A good example of a magic operating on the entire contents of cell is the <code>%%HTML</code> magic that will force the cell to be interpreted as HTML and render it appropriately. You can also use magics to call other languages while running the IPython kernel. For example, you can run R code from within an IPython notebook by using the <code>%%R</code> magic.</p>
 </div>
-<div id="douglas-blank" class="section level3 unnumbered">
-<h3>Douglas Blank</h3>
-<ul>
-<li>Bryn Mawr College</li>
-<li><a href="mailto:dblank@brynmawr.edu">dblank@brynmawr.edu</a></li>
-<li><a href="https://twitter.com/dougblank">@dougblank</a></li>
-</ul>
-<p><a href="https://cs.brynmawr.edu/~dblank/">Douglas Blank</a> is Associate Professor in the <a href="https://cs.brynmawr.edu/">Department of Computer Science</a> at <a href="http://brynmawr.edu/">Bryn Mawr College</a>, a small, all-women’s college outside of Philadelphia, PA, USA. He has a joint Ph.D. in Cognitive Science and Computer Science from Indiana University, Bloomington. For over 20 years, Douglas has taught all levels of Computer Science. For the last 4 years, he has used Jupyter notebooks exclusively in the classroom. Douglas has published in the areas of Computer Science Education, Robotics, Artificial Intelligence, and Deep Learning. He is on the advisory board of <a href="https://www.engage-csedu.org">Engage-CSEdu.org</a>, a joint project between Google and the National Center for Women and Information Technology (NCWIT). Douglas also writes text and code at his website <a href="http://douglasblank.com">douglasblank.com</a>.</p>
+<div id="notebooks-under-version-control" class="section level3">
+<h3><span class="header-section-number">5.1.4</span> Notebooks under version control</h3>
+<p>Keeping notebooks under version control is a great way to not only keep track of changes to your created content but can also allow for sharable content. In a course where multiple people are contributing to the development of notebooks for the course, using version control in conjunction with a platform like GitHub, allows authorship to be tracked and provides communication tools for reviewing new contributions or outlining requested development for a new assignment, activity, etc. Another advantage of using version control is that there are services that will provide rendered views of your notebooks that are publicly accessible. GitHub for instance will show a rendered version of the notebook rather than the direct text that a notebook is comprised of. There are a few pitfalls with this with LaTeX rendering as platforms do not always render the notebooks the same as they would appear in an active Jupyter interface.</p>
+<p>There are a few caveats to keeping notebooks under version control that should be kept in mind. First of all the output will be stored in the repository, including images, if clear output is not used before committing changes. This can make detecting changes difficult as changes in output will be detected when nothing has actually changed content wise. The tracked notebooks also can become large if output is tracked. Even with clearing the output reading through changes can be difficult due to the format of the notebook, Notebooks are plain-text files and the file format is represented as <a href="https://www.json.org/">JSON</a>. This can be an issue if you are storing notebooks in a version control system, like git, and you wish to see differences between versions. For more information, see: <a href="https://github.com/jupyter/nbdime" class="uri">https://github.com/jupyter/nbdime</a> and <a href="https://github.com/mwouts/jupytext" class="uri">https://github.com/mwouts/jupytext</a>.</p>
 </div>
-<div id="jed-brown" class="section level3 unnumbered">
-<h3>Jed Brown</h3>
-<ul>
-<li>University of Colorado Boulder</li>
-<li><a href="mailto:jed@jedbrown.org">jed@jedbrown.org</a></li>
-<li><a href="https://twitter.com/five9a2">@five9a2</a></li>
-</ul>
-<p><a href="https://jedbrown.org/">Jed Brown</a> is an Assistant Professor of Computer Science at the University of Colorado Boulder. He has been teaching numerical and scientific computing courses using Jupyter Notebook and <code>nbgrader</code> for three years, and leads a research group that develops computational methods and community software for computational science.</p>
+<div id="testing-notebooks" class="section level3">
+<h3><span class="header-section-number">5.1.5</span> Testing notebooks</h3>
+<p>Before distributing notebooks, and in particular if you are working with multiple contributors to the course material, testing the notebooks before they are distributed to students or used in a live demo can help mitigate unexpected bugs. At a minimum, you can test that the notebook executes cleanly from top to bottom by restarting the kernel and running all cells from top to bottom. This can be done from the menu (Restart + Run all).</p>
+<p>Though it requires a bit more setup, tests can be run automatically using a continuous integration service, such as TravisCI (<a href="https://travis-ci.org" class="uri">https://travis-ci.org</a>). This will require executing the entire notebook via the command line, for example <code>jupyter nbconvert --ExecutePreprocessor.enabled=True --to=html my_notebook.ipynb</code> will execute the notebook (same as pressing “Restart + Run All”) and then convert it to HTML. These services can be connected to GitHub so that any time that the notebooks are changed, the tests are run automatically. Simplifying this process is an area that is under development in the open source community. The package <a href="https://github.com/opengeophysics/testipynb" class="uri">https://github.com/opengeophysics/testipynb</a> provides an easy way to test notebooks.</p>
 </div>
-<div id="allen-downey" class="section level3 unnumbered">
-<h3>Allen Downey</h3>
-<ul>
-<li>Olin College</li>
-<li><a href="mailto:downey@allendowney.com">downey@allendowney.com</a></li>
-<li><a href="https://twitter.com/AllenDowney">@AllenDowney</a></li>
-</ul>
-<p><a href="http://www.allendowney.com/wp/">Allen Downey</a> is a professor of Computer Science at Olin College and the author of a series of open-source textbooks related to software and data science, including <em>Think Python</em>, <em>Think Bayes</em>, and <em>Think Complexity</em>, published by O’Reilly Media. These books, and the classes based on them, use Jupyter notebooks extensively. Prof Downey holds a Ph.D. in computer science from U.C. Berkeley, and M.S. and B.S. degrees from MIT.</p>
+<div id="essential-python-libraries" class="section level3">
+<h3><span class="header-section-number">5.1.6</span> Essential Python libraries</h3>
+<p>The purpose of this section is to introduce some of the most widely used packages within the Python ecosystem. Python is not the only language that can be used in the notebook; over 90 different kernels enable different programming languages be used. We discuss the use of other languages in the section: <a href="#using-other-languages">Using other languages</a>. Python has a large open-source community which develops and maintains an ecosystem of over 150,000 software packages, making it a common language of choice in many disciplines.</p>
+<p>The core Python library (<a href="https://docs.python.org/3/">https://docs.python.org</a>) contains data types such as lists and dictionaries, as well as core functionality such as arithmetic operators and simple file parsers. Most tasks can be achieved with core python, however, they are often made easier with higher-level libraries. These libraries are particularly useful for scientific computing with Python.</p>
+<p>Among the vast number of packages in the Python ecosystem, Numpy, Scipy, Matplotlib and Pandas are among the most commonly used. Numpy (<a href="http://www.numpy.org/" class="uri">http://www.numpy.org/</a>) is a fundamental library for numerical and scientific computing with Python. It contains data structures for numerical arrays, tools for linear algebra, and random number capabilities. Scipy (<a href="https://docs.scipy.org/" class="uri">https://docs.scipy.org/</a>) contains a variety of functionality for common scientific computing tasks, such as optimization, interpolation, statistics and signal processing. It also includes fundamental constants from many disciplines such as the speed of light as well as data structures for sparse matrices. Matplotlib (<a href="https://matplotlib.org/" class="uri">https://matplotlib.org/</a>) is the core plotting library for python and can be used inline in the notebook with the <code>%matplotlib notebook</code> or <code>%matplotlib inline</code> cell magic. Pandas (<a href="https://pandas.pydata.org/" class="uri">https://pandas.pydata.org/</a>) provides resources for data analysis and more flexible data structures than core python. A good resource for getting familiar with these libraries is the Scipy Lecture Notes (<a href="https://www.scipy-lectures.org" class="uri">https://www.scipy-lectures.org</a>).</p>
 </div>
-<div id="tim-george" class="section level3 unnumbered">
-<h3>Tim George</h3>
-<ul>
-<li>Project Jupyter</li>
-<li><a href="mailto:tgeorgeux@gmail.com">tgeorgeux@gmail.com</a></li>
-</ul>
-<p><a href="https://www.tgeorgeux.com/">Timothy George</a> is the Lead UI/UX Designer for <a href="https://jupyter.org/">Project Jupyter</a>, focusing primarily on JupyterLab. In addition to his formal duties, Tim is also in working with Jupyter on design strategy, future products, governance, diversity and inclusion. He studied HCI at UC Irvine’s Donald Bren School of Informatics and Computer Science where he received a Master’s Degree.</p>
+<div id="advanced-topic-extensions" class="section level3">
+<h3><span class="header-section-number">5.1.7</span> Advanced topic: extensions</h3>
+<p>There are many community contributed extensions that add functionality to Jupyter notebooks. Extensions vary from displaying an automated table of contents for a notebook, or prettify code, or hiding/showing solution cells. Here is the link for how to install and enable extensions: <a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html" class="uri">https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html</a></p>
+<p>Here is a list of a collection of extensions that are bundled together: <a href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html" class="uri">https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html</a></p>
+<p>Creating custom extensions is a way to extend or customize Jupyter to add a capability that is not currently available with current extensions or out of the box. These extensions may be targeted for a specific kernel. Here are instructions for how to create and install custom extensions: <a href="https://jupyter-notebook.readthedocs.io/en/stable/extending/frontend_extensions.html" class="uri">https://jupyter-notebook.readthedocs.io/en/stable/extending/frontend_extensions.html</a></p>
+<p>Figure X shows shows how Google Collaboratory, one of many tools to interact with Jupyter notebooks, leverages the power of Jupyter extensions for custom interaction and presentation.</p>
+<div class="figure">
+<img src="images/chapter53.png" title="Tensorflow example" alt="Google Collaboratory uses Jupyter extensions to customize Jupyter for their users. The run/play icon to the left of the code cell is created using extensions. This is not present in the standard Jupyter software. TensorFlow is a library for creating Machine Learning experiments in Python." />
+<p class="caption">Google Collaboratory uses Jupyter extensions to customize Jupyter for their users. The run/play icon to the left of the code cell is created using extensions. This is not present in the standard Jupyter software. TensorFlow is a library for creating Machine Learning experiments in Python.</p>
 </div>
-<div id="lindsey-heagy" class="section level3 unnumbered">
-<h3>Lindsey Heagy</h3>
-<ul>
-<li>University of California Berkeley</li>
-<li><a href="mailto:lindseyheagy@gmail.com">lindseyheagy@gmail.com</a></li>
-<li><a href="https://twitter.com/lindsey_jh">@lindsey_jh</a></li>
-</ul>
-<p><a href="https://www.lindseyjh.ca/">Lindsey Heagy</a> is a Postdoctoral Researcher at the University of California Berkeley working on Project Jupyter and Jupyter in the geosciences. She recently completed her PhD at the University of British Columbia in geophysics. She is a project leader of <a href="http://geosci.xyz">GeoSci.xyz</a>, an effort to build collaborative, interactive, web-based textbooks in the geosciences, and a core contributor to <a href="https://www.simpeg.xyz/">SimPEG</a>, an open source framework for geophysical simulation and inversions. The GeoSci.xyz project relies heavily on Jupyter for making the content come to life.</p>
 </div>
-<div id="kyle-mandli" class="section level3 unnumbered">
-<h3>Kyle Mandli</h3>
-<ul>
-<li>Columbia University</li>
-<li><a href="mailto:kyle.mandli@columbia.edu">kyle.mandli@columbia.edu</a></li>
-<li><a href="https://twitter.com/KyleMandli">@KyleMandli</a></li>
-</ul>
-<p><a href="http://www.columbia.edu/~ktm2132/">Kyle Mandli</a> is an Assistant Professor in the Department of Applied Physics and Applied Mathematics at Columbia University. He has developed a set of openly available course notes centered around Jupyter notebooks and uses Jupyter for homework in conjunction with nbgrader. His other research interests include development of computational methods for coastal hazards such as storm surge and tsunamis.</p>
 </div>
-<div id="jason-k.-moore" class="section level3 unnumbered">
-<h3>Jason K. Moore</h3>
-<ul>
-<li>University of California, Davis</li>
-<li><a href="mailto:jkm@ucdavis.edu">jkm@ucdavis.edu</a></li>
-<li><a href="https://twitter.com/moorepants">@moorepants</a></li>
-</ul>
-<p><a href="http://moorepants.info/">Jason K. Moore</a> is an Assistant Teaching Professor of Mechanical and Aerospace Engineering at the University of California, Davis. He currently teaches dynamics and mechanical design related courses. He utilizes Jupyter notebooks to teach modeling and simulation and is working on a <a href="https://moorepants.github.io/resonance">textbook about Mechanical Vibrations</a>. He is responsible for the Jupyter related features in the <a href="http://libretexts.org">LibreTexts project</a> and is also a core developer of the <a href="http://sympy.org/">SymPy</a> and <a href="http://pydy.org/">PyDy</a> projects which utilizes Jupyter for training workshops, e.g. <a href="https://www.sympy.org/scipy-2017-codegen-tutorial/">PyDy Tutorial</a> and <a href="https://github.com/pydy/pydy-tutorial-human-standing">SymPy Code Generation Tutorial</a>. Jason has PhD, MSc, and BSc degrees in mechanical engineering from UC Davis and Old Dominion University.</p>
+<div id="tips-and-tricks" class="section level2">
+<h2><span class="header-section-number">5.2</span> Tips and tricks</h2>
+<div id="reminders" class="section level3">
+<h3><span class="header-section-number">5.2.1</span> Reminders</h3>
+<p>If you are using a single notebook as a standalone exercise in a traditional class (i.e., this is the only computational component of your class), then it is helpful to have a few cells at the top of that notebook that reviews how to navigate through the notebook and how to insert cells, etc.</p>
 </div>
-<div id="david-lippert" class="section level3 unnumbered">
-<h3>David Lippert</h3>
-<ul>
-<li>Leidos</li>
-</ul>
-<p>David Lippert is a software engineer at <a href="https://www.leidos.com">Leidos</a> in Arlington, Virginia. He utilizes Jupyter notebooks primarily for exploratory data analysis and for training and evaluating machine learning algorithms. He has written Jupyter notebooks to create new Dr. Seuss sonnets and to evaluate if the <a href="https://www.rottentomatoes.com/about">Rotten Tomatoes Tomatometer</a> can be trusted. He has a BA in computer science from Middlebury College.</p>
+<div id="feedback" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> Feedback</h3>
+<p>How do we get feedback from students in an interactive session to see if students have completed an exercise?</p>
+<p>A low tech solution is to give students sticky notes of different colors, one meaning “finished” and one meaning “need help”, that they can stick on the back of their computers. The instructor can then quickly look up to take a survey of the state of the class and decide how to proceed.</p>
+<p>Projecting Slack or a similar chat group on a screen and having student copy-paste solutions (provided they are short functions) is a nice way to let everyone in the class see one another’s solutions. A positive aspect of having multiple student solutions projected is that it can show the variety of ways to solve a problem. This gives an opportunity to talk about the readability of solutions and their efficiency. A downside is that in a large class, the shear volume of posts can make it overwhelming. Instead polling can be used to aggregate student answers and provide some form of feedback to the instructor. Nbgrader or travis-CI can also be options here, requiring students to submit completed code where it is assessed automatically. These will however require more setup and can take some time to complete.</p>
 </div>
-<div id="kyle-e.-niemeyer" class="section level3 unnumbered">
-<h3>Kyle E. Niemeyer</h3>
-<ul>
-<li>Oregon State University</li>
-<li><a href="mailto:kyle.niemeyer@oregonstate.edu">kyle.niemeyer@oregonstate.edu</a></li>
-<li><a href="https://twitter.com/kyleniemeyer">@kyleniemeyer</a></li>
-</ul>
-<p><a href="https://niemeyer-research-group.github.io/">Kyle Niemeyer</a> is an Assistant Professor of Mechanical Engineering in the School of Mechanical, Industrial, and Manufacturing Engineering at Oregon State University. He teaches courses in numerical and analytical methods for solving differential equations as well as gas dynamics, and recently developed a <a href="https://softwaredevengresearch.github.io/syllabus/">graduate course on software development for engineering research</a>. His research group develops and applies methods for modeling combustion and chemically reacting fluid flows. He is also on the steering committee of the <a href="https://cantera.org/">Cantera</a> open-source project for chemical kinetics, thermodynamics, and transport processes.</p>
+<div id="explaining-each-cell" class="section level3">
+<h3><span class="header-section-number">5.2.3</span> Explaining each cell</h3>
+<p>A good rule of thumb is to always include a markdown cell above every code cell.</p>
 </div>
-<div id="ryan-watkins" class="section level3 unnumbered">
-<h3>Ryan Watkins</h3>
-<ul>
-<li>George Washington University</li>
-<li><a href="mailto:rwatkins@gwu.edu">rwatkins@gwu.edu</a></li>
-<li><a href="https://twitter.com/parsingscience">@parsingscience</a></li>
-</ul>
-<p><a href="https://gsehd.gwu.edu/directory/ryan-watkins">Ryan Watkins</a> is a Professor of Educational Technology at George Washington University in Washington DC. He leads the <a href="https://go.gwu.edu/phd">Human-Technology Collaboration (HTC)</a> PhD program area, and he teaches courses in needs assessment, instructional design, and research methods. Ryan’s research focuses on how people and organizations define and assess needs. He is co-host of <a href="https://parsingscience.org/">Parsing Science</a>, a podcast where researchers share the stories behind their science. He also developed the <a href="https://wesharescience.org/">We Share Science</a> platform for sharing video abstracts of research.</p>
+<div id="custom-styling" class="section level3">
+<h3><span class="header-section-number">5.2.4</span> Custom styling</h3>
+<p>New notebook creators often try to centrally manage the formatting of headings, equations, and other textual items. For example, rather than using a standard markdown heading, a creator may over-design the headings by using HTML styles. This may create two problems:</p>
+<ol style="list-style-type: decimal">
+<li><p>The rendering of the notebook markdown may change and your formatted HTML header may not maintain the same look over time.</p></li>
+<li><p>Headers created using markdown can be used by notebook tools, such as automatically creating a Table of Contents.</p></li>
+</ol>
+<p>Our recommendation is to resist the desire to customize the styling and simply use the default representations. If you want to do customization (for example if you want to color certain cells) you can use CSS.</p>
 </div>
-<div id="richard-west" class="section level3 unnumbered">
-<h3>Richard West</h3>
-<ul>
-<li>Northeastern University</li>
-<li><a href="mailto:R.West@northeastern.edu">R.West@northeastern.edu</a></li>
-<li><a href="https://twitter.com/richardhwest">@richardhwest</a></li>
-</ul>
-<p><a href="https://web.northeastern.edu/comocheng/">Richard West</a> is Associate Professor of Chemical Engineering at Northeastern University in Boston. He leads a research group in computational modeling for complex reacting systems like combustion or catalysis. He is a core member of the <a href="https://cantera.org/">Cantera</a> open-source project. As well as in an elective on “computational modeling in chemical engineering”, he has integrated Python and Jupyter into core classes on chemical kinetics and reactor design, at both the undergraduate and graduate levels. As part of his NSF CAREER award, he is developing modules to teach students to use Python and SciPy to solve chemical engineering problems.</p>
+<div id="length-of-notebooks" class="section level3">
+<h3><span class="header-section-number">5.2.5</span> Length of notebooks</h3>
+<p>Notebook authors sometimes make the notebooks very long with many topics and sections. Notebook sections and cells are currently not easily reused in a copy/paste sense for mixing intra-notebook content. Until this functionality is available, we recommend that authors make short, self-contained notebooks around short topics. This allows other notebooks authors to mix and match notebooks to create curriculum.</p>
 </div>
-<div id="elizabeth-wickes" class="section level3 unnumbered">
-<h3>Elizabeth Wickes</h3>
-<ul>
-<li>University of Illinois at Urbana-Champaign</li>
-<li><a href="mailto:wickes1@illinois.edu">wickes1@illinois.edu</a></li>
-<li><a href="https://twitter.com/elliewix">@elliewix</a></li>
-</ul>
-<p><a href="https://ischool.illinois.edu/people/elizabeth-wickes">Elizabeth Wickes</a> is a Lecturer at the School of Information Sciences at the University of Illinois at Urbana-Champaign. She teaches foundational programming from an information and data sciences perspective, as well as other coursework on open data and reproducibility. Her programming course lectures are written in Jupyter Notebooks and the class is taught via live coding.</p>
 </div>
-<div id="carol-willing" class="section level3 unnumbered">
-<h3>Carol Willing</h3>
-<ul>
-<li>Cal Poly San Luis Obispo</li>
-<li><a href="mailto:willingc@gmail.com">willingc@gmail.com</a></li>
-<li><a href="https://twitter.com/WillingCarol">@WillingCarol</a></li>
-</ul>
-<p><a href="https://www.willingconsulting.com/about/">Carol Willing</a> is a Research Software Engineer at Cal Poly San Luis Obispo working full-time on <a href="https://jupyter.org/">Project Jupyter</a>. She is a Python Software Foundation Fellow and former Director; a Project Jupyter Steering Council member; and a core developer on CPython and Jupyter. Carol has an M.S. in Management from MIT and a B.S.E. in Electrical Engineering from Duke.</p>
+<div id="gotchas" class="section level2">
+<h2><span class="header-section-number">5.3</span> Gotchas</h2>
+<div id="programming-language-jupyter" class="section level3">
+<h3><span class="header-section-number">5.3.1</span> Programming language ≠ Jupyter</h3>
+<p>Teaching a class entirely with Jupyter can give the sense to students that this is the way all computational exploration is done. In particular, students can be confused into thinking that programming requires the notebook, instead of understanding that a notebook is just one way to interact with a particular language. This point should be made clear periodically. A good way to reinforce this is to show how to take a function that has been developed and debugged in a notebook and cut-paste it into a script (such as a file ending in .py for Python) and then import it into the notebook to regain that functionality. Also, the Integrated Development Environment (IDE), Spyder, has a plugin (<a href="https://github.com/spyder-ide/spyder-notebook" class="uri">https://github.com/spyder-ide/spyder-notebook</a>) that allows notebooks to be displayed alongside Python scripts and a python terminal which can be useful for showing this dichotomy.</p>
+<div class="figure">
+<img src="images/chapter54.png" title="spyder rendering" alt="Jupyter notebook displayed in a window pane inside Spyder." />
+<p class="caption">Jupyter notebook displayed in a window pane inside Spyder.</p>
 </div>
-<div id="michael-zingale" class="section level3 unnumbered">
-<h3>Michael Zingale</h3>
-<ul>
-<li>Stony Brook University</li>
-<li><a href="mailto:Michael.Zingale@stonybrook.edu">Michael.Zingale@stonybrook.edu</a></li>
-<li><a href="https://twitter.com/Michael_Zingale">@Michael_Zingale</a></li>
-</ul>
-<p><a href="http://www.astro.sunysb.edu/mzingale/">Michael Zingale</a> is an Associate Professor and computational astrophysicist at Stony Brook University. He has a PhD from University of Chicago (2000). He frequently teaches <a href="http://bender.astro.sunysb.edu/classes/numerical_methods/">numerical methods</a> and <a href="http://bender.astro.sunysb.edu/classes/python-science/">Python for scientific computing</a> graduate courses, relying on Jupyter notebooks and python for much of the presentation. He is an advocate for open educational resources, as a founder of the <a href="https://github.com/Open-Astrophysics-Bookshelf/">Open Astrophysics Bookshelf project</a> where he hosts his <a href="http://bender.astro.sunysb.edu/hydro_by_example/CompHydroTutorial.pdf"><em>Introduction to Computational Astrophysical Hydrodynamics</em></a> text.</p>
+</div>
+<div id="restart-restart-restart" class="section level3">
+<h3><span class="header-section-number">5.3.2</span> Restart, restart, restart…</h3>
+<p>Often, students may need to stop a computation, and this can be accomplished by pressing the “Interrupt” button in the toolbar. However, students should also be made aware of how to restart the kernel in a notebook, and what this means. There are several instances when students might need to do this. Sometimes students write code that can go into an infinite loop. The visual cues that notebooks give in this case are subtle, and students may not realize this and don’t understand why the notebook is non-responsive. In live-coding situations, it can be useful to demonstrate this to students and show them how to restart the kernel and carry on.</p>
+<p>A second instance of where restarting a kernel might be needed is due to how the notebook stores the state of the computation. We like to think that, since the notebook is laid out in a linear fashion, that the state will always reflect what would happen if the notebook was run from the start up to that point. However, it is common to work in a notebook out of order, for instance if students ask a question about some previous example. If the variable has been changed in subsequent cells, then its value might not reflect what you expect when you rerun a cell earlier in the notebook. Restarting the kernel is sometimes the only solution.</p>
+</div>
+<div id="notebook-hygiene" class="section level3">
+<h3><span class="header-section-number">5.3.3</span> Notebook hygiene</h3>
+<p>Many gotchas can be mitigated by developing notebooks that will be robust to incremental and non-linear execution. The main principle is to minimize side-effects of executing a cell and manifests itself somewhat differently in different languages; our suggestions here will be relevant to Python and may need to be adapted for other languages. Notebooks should generally be able to execute sequentially, such as via “restart kernel and run all cells”. (An exception is when a notebook is intentionally incomplete for the purpose of live coding or student exercises, see nbgrader or the exercise estnations for more elegant ways to handle this.) Variable mutation is the most common way in which a notebook may malfunction when executing cells in a non-linear way (e.g., in response to student questions or when comparing and contrasting different methodologies). Sometimes this mutation is incidental, through dummy variables that were not meant to have significance outside the scope of the cell in which they are used. Their scope can be limited by placing them in a function, even if that function is only called once. Redefinition of functions can often be avoided by parameterizing the desired functionality as would typically be done if designing a library (though this may be a distracting software design for novice programmers). Function definitions should have little or no dependency on variables from their enclosing scope. When modifying cells for demos and formative assessments during class, it is useful to either copy the cell or modify/execute such that a conforming implementation remains present when moving on to other cells where it may be used. Additionally, you can minimize these issues by grouping code in a single cell that should always be executed sequentially, because code within a cell will always be sequential.</p>
 
 </div>
 </div>
@@ -393,8 +370,8 @@
           </div>
         </div>
       </div>
-<a href="case-studies.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="glossary.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="catalogue.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="getting-going.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -424,7 +401,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/08-about-the-authors.md",
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/05-jupyter-ecosystem.md",
 "text": "Edit"
 },
 "history": {
