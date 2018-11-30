@@ -116,20 +116,25 @@ notebooks and uses Jupyter for homework in conjunction with nbgrader. His other
 research interests include development of computational methods for coastal hazards
 such as storm surge and tsunamis.
 
-### Jason Moore
+### Jason K. Moore
 
 * University of California, Davis
-* [jasonmoore@ucdavis.edu](mailto:jasonmoore@ucdavis.edu)
+* [jkm@ucdavis.edu](mailto:jkm@ucdavis.edu)
 * [\@moorepants](https://twitter.com/moorepants)
 
-[Jason Moore](http://moorepants.info/) is an Assistant Teaching Professor of Mechanical
-and Aerospace Engineering at the University of California, Davis. He teaches dynamics
-and mechanical design related courses. He utilizes Jupyter notebooks to teach modeling
-and simulation and is working on a
+[Jason K. Moore](http://moorepants.info/) is an Assistant Teaching Professor of
+Mechanical and Aerospace Engineering at the University of California, Davis. He
+currently teaches dynamics and mechanical design related courses. He utilizes
+Jupyter notebooks to teach modeling and simulation and is working on a
 [textbook about Mechanical Vibrations](https://moorepants.github.io/resonance).
-He is also a core developer of the [SymPy](http://sympy.org/) and [PyDy](http://pydy.org/)
-projects. Jason has PhD, MSc, and BSc degrees in mechanical engineering from UC Davis
-and Old Dominion University.
+He is responsible for the Jupyter related features in the [LibreTexts
+project](http://libretexts.org) and is also a core developer of the
+[SymPy](http://sympy.org/) and [PyDy](http://pydy.org/) projects which utilizes
+Jupyter for training workshops, e.g. [PyDy
+Tutorial](https://www.sympy.org/scipy-2017-codegen-tutorial/) and [SymPy Code
+Generation Tutorial](https://github.com/pydy/pydy-tutorial-human-standing).
+Jason has PhD, MSc, and BSc degrees in mechanical engineering from UC Davis and
+Old Dominion University.
 
 ### David Lippert
 
