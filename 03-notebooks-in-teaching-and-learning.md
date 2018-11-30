@@ -367,7 +367,7 @@ Live coding does take practice to get used to, but can be extremely powerful for
 you to restrain your pace to your learners and to retain engagement with your
 students.  
 
-## Conclusion about places
+### Conclusion about places
 
 As you have just seen, notebooks provide a flexible tool that can be used in
 numerous ways to achieve your course goals.  Notebooks are flexible enough that
