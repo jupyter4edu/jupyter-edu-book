@@ -18,3 +18,5 @@ packages.bib
 
 *~
 \#*
+_book/
+jupyter-edu-book.{Rmd,log,tex}
