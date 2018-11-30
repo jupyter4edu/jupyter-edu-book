@@ -84,6 +84,9 @@ rights to be able to use, and reproduce.
 of a labeled process. For example, "wash, rinse, repeat" is a common pattern for
 cleaning various objects.
 
+**software distribution**: A collection of software that is typically installed
+in bulk and is designed to ensure interoperability.
+
 **service, JupyterHub**: JupyterHub can take advantage of additional separate,
 but integrated, software extensions. These are called "services."
 
