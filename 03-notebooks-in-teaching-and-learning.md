@@ -253,7 +253,6 @@ Information bandwidth in the classroom during a live coding session needs to be 
 
 Live coding does take practice to get used to, but can be extremely powerful for you to restrain your pace to your learners and to retain engagement with your students.  
 
-
 ## Conclusions
 
 As you have just seen, notebooks provide a flexible tool that can be used in numerous ways to achieve your course goals.  Notebooks are flexible enough that you can use them from relatively passive to very active student learning, you can use them in your lecture or in a flipped-classroom environment. There is no single best way to use notebooks in your courses, and you explore the various options you will want to start filling your use of notebooks with a variety of the pedagogical patterns described in next chapter.
