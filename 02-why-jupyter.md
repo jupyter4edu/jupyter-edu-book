@@ -1,20 +1,23 @@
 # Why we use Jupyter Notebooks
 
 
-## Why do we use Jupyter?
+## Introduction
 
-As teachers we are responsible for many activities, including creating lessons, lectures, courses, assignments, and supportive environments; encouraging engagement and performance in the classroom; helping students learn to think critically so they can become lifelong learners and problem solvers; making material relevant and meaningful to students' diverse interests and backgrounds; assessing student learning (including grading and evaluation); encouraging students to persist with emotional labor (feedback, communication, etc.); and trying out teaching and learning practices that improve our ability to do all of these things.
-
-In short, we design learning environments and experiences.
-
-We use Jupyter Notebooks to design learning environments to help support these activities. We believe that incorporating Jupyter Notebooks in our teaching has allowed us to improve students' understanding of course content, increase student engagement with material and their participation in class, and to make concepts more meaningful and relevant to students' diverse interests.  We represent a variety of disciplines and have many diverse instructional goals, all of which have been supported using Jupyter Notebooks. The goal of this handbook is to provide you with ideas to help you address your own instructional and pedagogical goals.
-
-Through a series of anecdotes we will illustrate how you, as an educator, can use Jupyter notebooks to increase your students' 1) engagement, 2) participation, 3) understanding, 4) performance, and 5) preparation for their career.  These are starting places and we are confident that you will also take these examples in new and exciting directions.
+In Chapter 2, you will be introduced to why and how educators are using Jupyter Notebooks.  We will highlight examples illustrating how notebooks are being used to increase student engagement, participation, understanding, and performance. Notebooks can also have benefits for students that extend beyond your course, while also offering substantial benefits to you, the teacher, over other tools.
 
 
-## But first, what is a Jupyter Notebook?
+## Why do we as educators use Jupyter?
 
-Project Jupyter is actually three things: a collection of standards, a community, and a set of software tools. A Jupyter Notebook is one part of Jupyter; it is a document that supports mixing executable code, equations, visualizations, and narrative text. Specifically, Jupyter Notebooks are a tool that allows the user to bring together data, code, and prose, to tell an interactive, computational story. Whether analyzing a corpus of American Literature, creating music and art, or illustrating the engineering concepts behind Digital Signal Processing, the notebooks can combine explanations traditionally found in textbooks with _the interactivity of an application_.
+As teachers we are responsible for a vast array of activities, including creating lessons, lectures, courses, assignments, and supportive environments; encouraging engagement and performance in the classroom; helping students learn to think critically so they can become lifelong learners and problem solvers; making material relevant and meaningful to students' diverse interests and backgrounds; assessing student learning (including grading and evaluation); encouraging students to persist with emotional labor (feedback, communication, etc.); and trying out teaching and learning practices that improve our ability to do all of these things.
+
+In short, teachers design learning environments and experiences. We use Jupyter Notebooks to design learning environments to help support these activities. The goal of this handbook is to provide you with ideas to help you address your own instructional and pedagogical goals. We believe that incorporating Jupyter Notebooks in our teaching has allowed us to help improve students' understanding of course content, help increase student engagement and participation in class, and help make concepts more meaningful and relevant to students' diverse interests.  We have found that this can be achieved in a variety disciplines and across many diverse types of instructional goals.
+
+Through a series of anecdotes we will illustrate how you, as an educator, can help increase your students' 1) engagement, 2) participation, 3) understanding, 4) performance, 5) preparation for their career, using Jupyter notebooks.  These are starting places and we are confident that you will also take these examples in new and exciting directions.
+
+
+## But first, what is Jupyter Notebook?
+
+Project Jupyter is three things: a collection of standards, a community, and a set of software tools. Jupyter Notebook is software that creates a notebook, is a document that supports mixing executable code, equations, visualizations, and narrative text. Jupyter notebooks allow a user to bring together data, code, and prose to tell an interactive, computational story. Whether analyzing a corpus of American Literature, creating music and art, or illustrating the engineering concepts behind Digital Signal Processing, a notebook can combine explanations traditionally found in textbooks, but with _the interactivity of an application_.
 
 
 <table>
@@ -40,11 +43,11 @@ Project Jupyter is actually three things: a collection of standards, a community
 </table>
 
 
-Jupyter is a free, open source platform that is an excellent learning environment for students. For teachers, it increases our efficiency and decreases cognitive load so we can engage students. Notebooks can be useful for achieving your goals as a teacher in numerous environments from STEM labs or humanities narratives, to podium lectures or flipped classrooms. We use Jupyter Notebooks in small classes and for classes that have hundreds of students. Jupyter Notebooks can be used for teaching part of one lecture or can be used to teach a whole course.  Jupyter Notebooks enable us and our students to have a conversation with a problem and link to resources, like audio, video, images, visualizations--and even allow students to mix and remix these. And yet students need to install nothing beyond a modern web browser to use this free software.
+Jupyter Notebook is a free, open source platform that is an excellent learning environment for students. For teachers, it increases our efficiency and decreases cognitive load so we can spend our time engaging students. Notebooks can be useful for achieving your goals as a teacher in numerous environments from STEM labs or humanities narratives, to podium lectures or flipped classrooms. We use Jupyter Notebook in small classes and for classes that have hundreds of students. Jupyter Notebook can be used for teaching part of one lecture or can be used to teach a whole course.  Jupyter Notebook enables us and our students to have a conversation with a problem and link to resources, like audio, video, images, visualizations--and even allow students to mix and remix these. *And yet students need to install nothing beyond a modern web browser to use this free software.*
 
-Jupyter Notebooks can be used to organize classroom materials and objects, store and provide access to reading materials for students, present and share lecture materials, perform live coding, explore and interact with materials, support self-paced learning, grade students' homework, solve homework problems, or make materials reusable to others (see Chapters 3 and 4).
+Jupyter Notebook can be used to organize classroom materials and objects, store and provide access to reading materials for students, present and share lecture materials, perform live coding, explore and interact with materials, support self-paced learning, grade students' homework, solve homework problems, and make materials reusable to others ( TODO see Chapters 3 and 4).
 
-Read on to find out how we have used Jupyter Notebooks for teaching and learning to benefit both our students and ourselves.** **Jupyter Notebooks support a wide range of learning goals, including learning to program, learning domain knowledge, and practicing communication skills like storytelling. The authors of this book have used Jupyter Notebooks to teach:
+Read on to find out how we have used Jupyter Notebooks for teaching and learning to benefit both our students and ourselves.** **Jupyter Notebook support a wide range of learning goals, including learning to program, learning domain knowledge, and practicing communication skills like storytelling. The authors of this book have used Jupyter Notebook to teach:
 
 
 
@@ -70,7 +73,7 @@ Read on to find out how we have used Jupyter Notebooks for teaching and learning
     *   Aerospace engineering
 *   Introduction to Programming
     *   High school
-    *   College and university-level courses (CS0 and CS1)
+    *   College and university-level courses (true introductions through advanced courses)
 
 Our other use of notebooks for education include:
 
@@ -189,7 +192,7 @@ TODO: Add quote from Elizabeth
 Creating opportunities for students to develop as learners stretch beyond the boundaries of any specific course where you may use notebooks.  By enriching their learning experience in your course, you will help them develop valuable skill-sets and mind-sets that they will take with them into other courses and into their career.
 
 
-#### Computational Thinking
+### Computational Thinking
 
 Jupyter Notebooks support a wide range of learning goals. Its interactivity enables building intuitive understanding of domain knowledge, such as the understanding of a mechanical response of a system while varying parameters or understanding how an algorithm behaves. Notebooks can also help teach effective communication skills, combining prose with graphics into a strong narrative. Finally, notebooks can support teaching or strengthening programming skills, by combining code with text descriptions and visualizations. Even if a notebook is designed to be consumed passively, the exposure to code helps show students how to do something—and that they can do it themselves. This also helps demystify coding for students who do not view themselves as traditional "computer science" types.
 
@@ -203,14 +206,14 @@ Using notebooks, you can create rich learning experiences that link together the
 *   _Algorithm Design_: Developing the step by step instructions for solving this and similar problems (see https://usr55.dayforcehcm.com/CandidatePortal/en-US/myeyedr/Posting/View/8612?fbclid=IwAR0BVRfn38L7PMftCSbYY_n7IZDhMba0HA7Mmn78ASu5rRIivvPtcAYqxWs)
 
 
-#### Open-source
+### Open-source
 
 Integrating notebooks into classes also exposes students to a large and growing ecosystem of open-source tools. This supports their education, but also provides experience in the same environment of tools used in industries in high demand for trained employees, such as data science and machine learning. The open-source nature of these tools also ensures that course content remains accessible and affordable to all students—including those outside the traditional university environment.
 
 Unlike proprietary notebook technologies such as Mathematica, or specific programming languages/environments such as Matlab or C++, the barriers to entry for students learning with Jupyter notebooks can be extremely low. At a minimum, during a lecture, students can simply watch/read an interactive demo using a notebook, to replace slides or lecture notes. On their own, using a cloud service such as Binder or JupyterHub, students can open any modern web browser to some address and interact with a notebook (an example of this technology can be found at [https://jupyter.org/try](https://jupyter.org/try)) , without needing any installation or configuration. In the most complicated case, students can install Anaconda and follow simple instructions to install the Jupyter Notebook, which works and looks the same on all platforms—and is free and open source.
 
 
-#### Active learning
+### Active learning
 
 Thanks to their interactivity, notebooks enable a spectrum of active learning methods, which have been shown to increase performance in science, engineering, and mathematics [Freeman et al. 2018]. To start, students can consume notebook content by reading and running notebooks, then move to editing or completing notebooks as assignments. This allows students to focus on the content and concepts, rather than just note-taking.
 
