@@ -168,7 +168,69 @@ install TinyTeX (which includes XeLaTeX):
 
 \chapter{Introduction}\label{intro}
 
-\chapter{Placeholder}\label{placeholder}
+Project Jupyter is a broad collaboration that develops open-source tools
+for interactive and exploratory computing. The tools include: IPython,
+the Jupyter Notebook, Jupyter Hub, and an ecosystem of extensions
+contributed by a large community. Jupyter Notebook exploded in
+popularity since late 2014, fueled by its adoption as the favorite
+environment for doing data science. It has also grown as a platform to
+use in the classroom, to develop teaching materials, to share lessons
+and tutorials, and more. Notebooks are documents containing text
+narratives, combined with executable code (many languages are supported)
+and the output of that code. This marriage of content and code makes for
+a powerful new form of data-based communication. Educators everywhere
+are adopting Jupyter for teaching.
+
+This handbook is for any educator teaching a topic that includes data
+analysis or computation to support the learning---not just courses in
+engineering or science, but also data journalism, business and
+quantitative economics, data-based decision sciences and policy,
+quantitative health sciences, and others. It aims to give an entry
+point, and a broad overview of Jupyter in education. Whether you are
+already using Jupyter to teach, you have found learning materials built
+on Jupyter that piqued your curiosity, or have never heard of Jupyter,
+the material in this open book can help you empower your teaching with
+this new technology.
+
+Educators newly adopting Jupyter can be overwhelmed by having to
+navigate the ecosystem of tools and content. They could study many
+examples, or consume myriad blog posts and talk videos to distill the
+patterns of good practices and technical solutions to best serve their
+students. Several early adopters, having much experience to share,
+decided to begin collecting this know-how, and sharing open
+documentation about using Jupyter for teaching and learning.
+
+The Jupyter Community Workshop in DC (November 2018) began that process,
+with a book sprint aimed at producing the first version of this
+handbook. The collaboratively written book consolidates explanations and
+examples covering key topics, including: what is Jupyter, how to try
+Jupyter, sharing notebooks with students, locally installing Jupyter,
+cloud offerings, finding example notebooks, writing lessons in Jupyter,
+making collections for a course, exporting to other formats with
+nbconvert, writing textbooks with Jupyter, using Binder, JupyterHub,
+making assignments and auto-grading, making online courses, teaching
+with Jupyter in the classroom, active learning and flipped learning
+pedagogies with Jupyter, guiding learners to create their own content in
+Jupyter, and more. This open handbook will grow to encompass all you
+need to know about Jupyter in Teaching and Learning.
+
+If you find these materials helpful or inspiring, give us a shout-out on
+Twitter using \#Jupyter4Edu. We hope you do!
+
+\section{Acknowledgements}\label{acknowledgements}
+
+The book sprint was held at the George Washington University in
+Washington, DC, on 28--30 November 2018, and organized by Lorena A.
+Barba. Funding to support the logistics and travel of all participants
+was possible thanks to a grant from Bloomberg to Project Jupyter, and
+managed by NumFOCUS. The group was fêted at a reception sponsored by
+Leidos. Participants traveled from all over the country and volunteered
+their precious time and hard work to give this work to the Jupyter
+community, with a heartfelt sense of gratitude to all the contributors
+to the software projects we love and depend on. Thank you!
+
+GitHub repository for this book:
+\url{https://github.com/jupyter4edu/jupyter-edu-book}
 
 \chapter{About the Authors}\label{about-the-authors}
 
@@ -349,28 +411,33 @@ homework in conjunction with nbgrader. His other research interests
 include development of computational methods for coastal hazards such as
 storm surge and tsunamis.
 
-\subsection{Jason Moore}\label{jason-moore}
+\subsection{Jason K. Moore}\label{jason-k.-moore}
 
 \begin{itemize}
 \tightlist
 \item
   University of California, Davis
 \item
-  \href{mailto:jasonmoore@ucdavis.edu}{\nolinkurl{jasonmoore@ucdavis.edu}}
+  \href{mailto:jkm@ucdavis.edu}{\nolinkurl{jkm@ucdavis.edu}}
 \item
   \href{https://twitter.com/moorepants}{@moorepants}
 \end{itemize}
 
-\href{http://moorepants.info/}{Jason Moore} is an Assistant Teaching
+\href{http://moorepants.info/}{Jason K. Moore} is an Assistant Teaching
 Professor of Mechanical and Aerospace Engineering at the University of
-California, Davis. He teaches dynamics and mechanical design related
-courses. He utilizes Jupyter notebooks to teach modeling and simulation
-and is working on a
+California, Davis. He currently teaches dynamics and mechanical design
+related courses. He utilizes Jupyter notebooks to teach modeling and
+simulation and is working on a
 \href{https://moorepants.github.io/resonance}{textbook about Mechanical
-Vibrations}. He is also a core developer of the
-\href{http://sympy.org/}{SymPy} and \href{http://pydy.org/}{PyDy}
-projects. Jason has PhD, MSc, and BSc degrees in mechanical engineering
-from UC Davis and Old Dominion University.
+Vibrations}. He is responsible for the Jupyter related features in the
+\href{http://libretexts.org}{LibreTexts project} and is also a core
+developer of the \href{http://sympy.org/}{SymPy} and
+\href{http://pydy.org/}{PyDy} projects which utilizes Jupyter for
+training workshops, e.g.
+\href{https://www.sympy.org/scipy-2017-codegen-tutorial/}{PyDy Tutorial}
+and \href{https://github.com/pydy/pydy-tutorial-human-standing}{SymPy
+Code Generation Tutorial}. Jason has PhD, MSc, and BSc degrees in
+mechanical engineering from UC Davis and Old Dominion University.
 
 \subsection{David Lippert}\label{david-lippert}
 
@@ -527,6 +594,119 @@ educational resources, as a founder of the
 Bookshelf project} where he hosts his
 \href{http://bender.astro.sunysb.edu/hydro_by_example/CompHydroTutorial.pdf}{\emph{Introduction
 to Computational Astrophysical Hydrodynamics}} text.
+
+\chapter{Glossary}\label{glossary}
+
+Anaconda: a free, open-source package manager, environment manager,
+Python distribution, and collection of
+\href{https://docs.anaconda.com/anaconda/packages/pkg-docs/}{over 1,500+
+open source packages} including and also Jupyter.
+\url{https://www.anaconda.com/what-is-anaconda/}
+
+API (Application Programming Interface): the exact details of
+interacting with software, usually used by other software.
+
+Binder: a hosted service that allows anyone to launch their own
+sandboxed notebook environment from a Git repository.
+\url{https://mybinder.org}
+
+cell: the area in a Jupyter Notebook where you can enter markdown, or
+computer code.
+
+cloud, in the: used to describe software or documents hosted on a remote
+computer accessed over the internet.
+
+CSV (Comma Separated Values): referring to a comma-separated value file.
+A plain-text file format such that each line is a list of data separated
+by commas.
+
+execute: technical term for having the computer perform the instructions
+of your program. Alias ``run it.''
+
+extension, Jupyter: in this instance, it is not a request for more time.
+Rather, a Jupyter extension is a bit of code, often developed by a
+third-party, that adds additional functionality to Jupyter. For example,
+a popular extension is a Table of Contents creator.
+
+flipped classroom: a teaching style where students work on their own
+outside of class to learn new material (sometimes by watching recorded
+lectures or reading descriptive / interactive notebooks) and the come
+together in the classroom to practice what they've learned through
+exercises or experiments.
+
+git: a popular version control system (VCS) used for keeping track of
+changes of files over time.
+
+IDE (Integrated Development Environment): software that assists in the
+development of additional software.
+
+Jupyter: The term ``Jupyter'' may refer to one of a couple of different
+things: a community of users and developers focused on the open source
+software; the collection of tools and standards that, together, allow
+projects like the Jupyter Notebook to operate.
+
+JupyterHub: a cloud service that can provide access to Jupyter notebooks
+and environments to multiple users via a modern web browser.
+\url{http://jupyter.org/hub}
+
+kernel: In Jupyter, a kernel is the packaging up of a language, and
+related programs needed to run it. For example, Python2 and Python3 are
+separate kernels.
+
+LMS (Learning Management System): a cloud service that helps instructors
+manage aspects of classrooms.
+
+load: how many students can a computer support?
+
+markdown: a text format that allows for basic formatting (headers, text
+styles, links) mixed inline with the text. Markdown files usually have
+the extension .md and can be rendered natively by github and other
+tools.
+
+magic: a meta-command typically starting with one or two percent signs.
+Changes the meaning of the contents of a line (one percent sign) or the
+cell (two percent signs) from code to a particular meta-instruction. For
+example, \%\%R indicates that the cell contents will be interpreted as
+commands to the R language. Magics are kernel-specific (e.g., vary with
+the kernel in use).
+
+nbgrader: a tool for creating, handling, and automatically grading
+assignments based on Jupyter notebooks.
+\url{https://nbgrader.readthedocs.io}
+
+nbviewer: a web application for rendering Jupyter notebooks as static
+web pages, providing a URL to share and view them with a modern web
+browser. \url{https://nbviewer.jupyter.org}
+
+nbconvert: a tool for converting Jupyter notebooks into other formats
+such as PDF, HTML, LaTeX, Markdown, reStructuredText, and others.
+\url{https://nbconvert.readthedocs.io}
+
+notebook hidden state: a technical term referring to the value of
+variables that may have surprising results due to cells having been
+executed in a non-sequential order.
+
+open source: software and documents that are created in a manner that
+give you rights to be able to use, and reproduce.
+
+pattern: A ``pattern'' is a technical term referring to an abstract
+description of a labeled process. For example, ``wash, rinse, repeat''
+is a common pattern for cleaning various objects.
+
+service, JupyterHub: JupyterHub can take advantage of additional
+separate, but integrated, software extensions. This are called
+``services.''
+
+script: a colloquial term for a computer program.
+
+unit test: a technical term for a ``test'' for checking to see if
+software is operating correctly.
+
+URL (Universal Resource Locator): the address of a resource (e.g.,
+webpage) on the internet.
+
+widget: a user interface (such as buttons, sliders, and checkboxes) that
+allow the easy control of hidden computer code.
 
 \bibliography{book.bib,packages.bib}
 
