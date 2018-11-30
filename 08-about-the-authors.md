@@ -6,7 +6,7 @@
 
 * George Washington University
 * [labarba@email.gwu.edu](mailto:labarba@email.gwu.edu)
-* [@LorenaABarba](https://twitter.com/LorenaABarba)
+* [\@LorenaABarba](https://twitter.com/LorenaABarba)
 
 Lorena A. Barba is Associate Professor of Mechanical and Aerospace Engineering at the
 George Washington University. She adopted Jupyter in 2013 and since then used it in
@@ -21,7 +21,7 @@ thousands of learners:
 
 * University of Colorado Boulder
 * [lecia.barker@colorado.edu](mailto:lecia.barker@colorado.edu)
-* [@leciab](https://twitter.com/leciab)
+* [\@leciab](https://twitter.com/leciab)
 
 [Lecia Barker](https://www.colorado.edu/cmci/people/information-science/lecia-barker)
 is an Associate Professor and Associate Chair of Undergraduate Studies
@@ -37,7 +37,7 @@ and an MBA in Marketing from San Diego State University.
 
 * Bryn Mawr College
 * [dblank@brynmawr.edu](mailto:dblank@brynmawr.edu)
-* [@dougblank](https://twitter.com/dougblank)
+* [\@dougblank](https://twitter.com/dougblank)
 
 [Douglas Blank](https://cs.brynmawr.edu/~dblank/) is Associate Professor in the
 [Department of Computer Science](https://cs.brynmawr.edu/) at
@@ -55,7 +55,7 @@ Douglas also writes text and code at his website [douglasblank.com](http://dougl
 
 * University of Colorado Boulder
 * [jed@jedbrown.org](mailto:jed@jedbrown.org)
-* [@five9a2](https://twitter.com/five9a2)
+* [\@five9a2](https://twitter.com/five9a2)
 
 [Jed Brown](https://jedbrown.org/) is an Assistant Professor of Computer Science
 at the University of Colorado Boulder. He has been teaching numerical and scientific
@@ -67,7 +67,7 @@ computational science.
 
 * Olin College
 * [downey@allendowney.com](mailto:downey@allendowney.com)
-* [@AllenDowney](https://twitter.com/AllenDowney)
+* [\@AllenDowney](https://twitter.com/AllenDowney)
 
 [Allen Downey](http://www.allendowney.com/wp/) is a professor of Computer Science
 at Olin College and the author of a series of open-source textbooks related to software
@@ -92,7 +92,7 @@ where he received a Master's Degree.
 
 * University of California Berkeley
 * [lindseyheagy@gmail.com](mailto:lindseyheagy@gmail.com)
-* [@lindsey_jh](https://twitter.com/lindsey_jh)
+* [\@lindsey_jh](https://twitter.com/lindsey_jh)
 
 [Lindsey Heagy](https://www.lindseyjh.ca/) is a Postdoctoral Researcher at the
 University of California Berkeley working on Project Jupyter and Jupyter in the
@@ -107,7 +107,7 @@ Jupyter for making the content come to life.
 
 * Columbia University
 * [kyle.mandli@columbia.edu](mailto:kyle.mandli@columbia.edu)
-* [@KyleMandli](https://twitter.com/KyleMandli)
+* [\@KyleMandli](https://twitter.com/KyleMandli)
 
 [Kyle Mandli](https://www.columbia.edu/~ktm2132) is an Assistant Professor in the
 Department of Applied Physics and Applied Mathematics at Columbia University.
@@ -120,7 +120,7 @@ such as storm surge and tsunamis.
 
 * University of California, Davis
 * [jasonmoore@ucdavis.edu](mailto:jasonmoore@ucdavis.edu)
-* [@moorepants](https://twitter.com/moorepants)
+* [\@moorepants](https://twitter.com/moorepants)
 
 [Jason Moore](http://moorepants.info/) is an Assistant Teaching Professor of Mechanical
 and Aerospace Engineering at the University of California, Davis. He teaches dynamics
@@ -146,7 +146,7 @@ He has a BA in computer science from Middlebury College.
 
 * Oregon State University
 * [kyle.niemeyer@oregonstate.edu](mailto:kyle.niemeyer@oregonstate.edu)
-* [@kyleniemeyer](https://twitter.com/kyleniemeyer)
+* [\@kyleniemeyer](https://twitter.com/kyleniemeyer)
 
 [Kyle Niemeyer](https://niemeyer-research-group.github.io/) is an Assistant Professor
 of Mechanical Engineering in the School of Mechanical, Industrial, and Manufacturing
@@ -162,7 +162,7 @@ and transport processes.
 
 * George Washington University
 * [rwatkins@gwu.edu](mailto:rwatkins@gwu.edu)
-* [@parsingscience](https://twitter.com/parsingscience)
+* [\@parsingscience](https://twitter.com/parsingscience)
 
 [Ryan Watkins](https://gsehd.gwu.edu/directory/ryan-watkins) is a Professor of Educational
 Technology at George Washington University in Washington DC. He leads the
@@ -178,7 +178,7 @@ of research.
 
 * Northeastern University
 * [R.West@northeastern.edu](mailto:R.West@northeastern.edu)
-* [@richardhwest](https://twitter.com/richardhwest)
+* [\@richardhwest](https://twitter.com/richardhwest)
 
 [Richard West](https://web.northeastern.edu/comocheng/) is Associate Professor of
 Chemical Engineering at Northeastern University in Boston. He leads a research group
@@ -194,7 +194,7 @@ chemical engineering problems.
 
 * University of Illinois at Urbana-Champaign
 * [wickes1@illinois.edu](mailto:wickes1@illinois.edu)
-* [@elliewix](https://twitter.com/elliewix)
+* [\@elliewix](https://twitter.com/elliewix)
 
 [Elizabeth Wickes](https://ischool.illinois.edu/people/elizabeth-wickes) is a Lecturer
 at the School of Information Sciences at the University of Illinois at Urbana-Champaign.
@@ -206,7 +206,7 @@ lectures are written in Jupyter Notebooks and the class is taught via live codin
 
 * Cal Poly San Luis Obispo
 * [willingc@gmail.com](mailto:willingc@gmail.com)
-* [@WillingCarol](https://twitter.com/WillingCarol)
+* [\@WillingCarol](https://twitter.com/WillingCarol)
 
 [Carol Willing](https://www.willingconsulting.com/about/) is a Research Software Engineer
 at Cal Poly San Luis Obispo working full-time on [Project Jupyter](https://jupyter.org/).
@@ -218,7 +218,7 @@ M.S. in Management from MIT and a B.S.E. in Electrical Engineering from Duke.
 
 * Stony Brook University
 * [Michael.Zingale@stonybrook.edu](mailto:Michael.Zingale@stonybrook.edu)
-* [@Michael_Zingale](https://twitter.com/Michael_Zingale)
+* [\@Michael_Zingale](https://twitter.com/Michael_Zingale)
 
 [Michael Zingale](http://www.astro.sunysb.edu/mzingale/) is an Associate Professor
 and computational astrophysicist at Stony Brook University.
