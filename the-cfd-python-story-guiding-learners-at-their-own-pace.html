@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="intro.html">
+<link rel="prev" href="jupyter-notebooks-in-support-of-scaling-for-large-enrollments.html">
+<link rel="next" href="analyzing-music-with-music21.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -221,29 +221,29 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Teaching and Learning with Jupyter</h1>
-<p class="author"><em>Lorena A. Barba et al.</em></p>
-<p class="date"><em>2018-11-30</em></p>
-</div>
-<div id="prerequisites" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Prerequisites</h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)
-<span class="co"># or the development version</span>
-<span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.name/tinytex/" class="uri">https://yihui.name/tinytex/</a>.</p>
-
+<div id="the-cfd-python-story-guiding-learners-at-their-own-pace" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> The “CFD Python” story: Guiding Learners at their Own Pace</h1>
+<p>“CFD Python” is a collection of Jupyter Notebooks based on a practical module that I began using in class in my Computational Fluid Dynamics (CFD) course at Boston University in 2009. The 5-week module develops worked examples that build on each other to incrementally guide the learner to create a program to solve the Navier-Stokes equations of fluid mechanics, in 12 steps. In 2013, I was invited to teach a mini-course in the Latin-American School in High-Performance Computing, in Argentina. The Jupyter Notebooks platform allowed me to create a guided narrative to support learners with different background experience and knowledge. For that event, we wrote IPython Notebooks based on the CFD course module, to use as instructional scaffolding in the 2-full-days of minicourse. Twenty students worked through the notebooks as self-paced lessons, while I went from desk to desk asking and answering questions. About four of the students completed all the lessons in the 2 days, a bulk of them achieved up to about Step 8, and a few of them lagged behind in Steps 4 or 5 by the end of the course. For those who completed the full module, they had achieved in 2 days what my regular students in the classroom normally took 5 weeks to do. Seeing that was an eye-opening moment: both the power of worked examples in code, and the ability to allow learners to follow their own pace made a remarkable difference in these learners.</p>
+<p><em>REF — Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier–Stokes equations. Journal of Open Source Education, 1(9), 21, <a href="https://doi.org/10.21105/jose.0002" class="uri">https://doi.org/10.21105/jose.0002</a> </em></p>
+<p>Based on the experience developing the “CFD Python” learning module, we adopted this basic design pattern for creating lessons using computable content:</p>
+<ol style="list-style-type: decimal">
+<li>Break it down into small steps</li>
+<li>Chunk small steps into bigger steps</li>
+<li>Add narrative and connect</li>
+<li>Link out to documentation</li>
+<li>Interleave easy exercises</li>
+<li>Spice with challenge questions/tasks</li>
+<li>Publish openly online</li>
+</ol>
+<p>– Lorena A. Barba</p>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="jupyter-notebooks-in-support-of-scaling-for-large-enrollments.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="analyzing-music-with-music21.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -273,7 +273,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/index.Rmd",
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/07-usage-case-studies.md",
 "text": "Edit"
 },
 "history": {
