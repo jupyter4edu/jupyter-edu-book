@@ -1,4 +1,4 @@
-# Chapter 6. Getting Your Class Going with Jupyter
+# Getting Your Class Going with Jupyter {#getting-going}
 
 You have several options on how to get Jupyter Notebooks to your students. You can ask students to install Jupyter on their own computers, install Jupyter on lab computers for students to use, or run Jupyter on a remote server that your students access on the internet.   
 
@@ -29,8 +29,6 @@ The benefits of installation on student-owned computers include:
 
 Drawbacks include:
 
-
-
 *   This approach is only possible if every student owns a computer with enough capacity. 
 *   Students with less powerful computers might be at an unfair disadvantage. 
 *   Although installation is generally easy, it still takes time.  The time you spend at the beginning of a class can be worthwhile for a semester-long course that uses Jupyter throughout, but it is a barrier to using Jupyter for a single module or one-off assignment in a course about something else.
@@ -45,8 +43,6 @@ Although Jupyter is cross-platform and ideally behaves the same on Windows, Mac,
 Using lab computers instead of student-owned computers has the benefits of uniformity and improved equity. Each student will have exactly the same setup, and the instructions will work the same for everyone. This reduces the amount of individual tech support required and guarantees that all students have access to enough computational power. 
 
 However, this deployment has some disadvantages:
-
-
 
 *   Depending on how much control you have of the computer lab, you might need institutional permission and support.
 *   Students might be limited to working on assignments only when they are on campus and when computer labs are open, which might be an unfair disadvantage for non-resident students or those with full time jobs.
@@ -65,9 +61,6 @@ However, this deployment has some disadvantages:
     Two other popular open source projects that can run Jupyter notebooks are [nteract](https://nteract.io/) and [Hydrogen](https://nteract.io/atom). nteract is installed by downloading a binary installer from their website and double-clicking the installation file. Once nteract is installed, any Jupyter notebook on a student's local system can be double-clicked and it will open within nteract. nteract's simple user interface make it an excellent choice for students new to computer programming. Hydrogen is a [very popular plugin](https://atom.io/packages/hydrogen) for the open source Atom editor; it's currently used by over 700,000 people. Hydrogen lets a user edit, display, and execute a notebook within the Atom editor.
 
 
-    
-
-
 
 ## Jupyter on remote servers
 
@@ -76,8 +69,6 @@ Even when Jupyter runs locally, it runs as a web application; that is, it runs i
 In that case, students don't have to install anything; they only have to run a browser and load a URL.
 
 There are several ways to run Jupyter on a remote server:
-
-
 
 1.  You can run Jupyter on a server owned by you or your institution.
 1.  You can run Jupyter in a temporary environment running in the cloud.
@@ -107,7 +98,7 @@ However, there are some limitations to these services:
     **— Box**
 
 
-    **Binder** ([https://mybinder.](https://mybinder.org)org) is an open-source service provided by Project Jupyter. It allows the owner of a set of notebooks residing in a git repository to pre-build an image in the Binder service, and get a shareable link that any visitor can click to obtain a working instance of JupyterHub, with the notebooks in the repository. The session is temporary (any changes the user makes will be deleted when closing the tab or window), but it's fully interactive. Binder is currently one of the favorite services for running one-off workshops or tutorials.
+    **Binder** ([mybinder.org](https://mybinder.org)) is an open-source service provided by Project Jupyter. It allows the owner of a set of notebooks residing in a git repository to pre-build an image in the Binder service, and get a shareable link that any visitor can click to obtain a working instance of JupyterHub, with the notebooks in the repository. The session is temporary (any changes the user makes will be deleted when closing the tab or window), but it's fully interactive. Binder is currently one of the favorite services for running one-off workshops or tutorials.
 
 
 
@@ -115,23 +106,19 @@ However, there are some limitations to these services:
 
 If you have access to a server or cluster with enough computing power to support your class—including CPU and especially memory—you can provide a Jupyter as a service using JupyterHub.
 
-JupyterHub is open-source software that provides a cloud-based Jupyter application for each user in a group. Each user has their own account and home directory on the server. The Hub, JupyterHub's central system, allows authenticating users and starting individual Jupyter notebook servers. Programs that start notebook servers can use a variety of technical solutions. For more details, see: [https://github.com/jupyterhub/jupyterhub/wiki/Spawners](https://github.com/jupyterhub/jupyterhub/wiki/Spawners)  
+JupyterHub is open-source software that provides a cloud-based Jupyter application for each user in a group. Each user has their own account and home directory on the server. The Hub, JupyterHub's central system, allows authenticating users and starting individual Jupyter notebook servers. Programs that start notebook servers can use a variety of technical solutions. For more details, see <https://github.com/jupyterhub/jupyterhub/wiki/Spawners> 
 
 Once the Hub starts a user's notebook server, the Jupyter Notebook running in the cloud behaves just like Jupyter does when installed on an individual's computer, but JupyterHub will be running notebooks and storing files on a remote cloud computer. Students can download notebooks stored in the cloud to their local computer if they wish to work with a local installation as well. Additionally, students can upload notebooks (and other files) from their local computer to the cloud.
 
 While anyone can run a JupyterHub server on their own Linux or Mac computer, installing and configuring JupyterHub requires sophisticated knowledge spanning the Linux/Unix operating system, system administration, and networking. For more information, see: 
 
-
-
-*   [https://github.com/jupyterhub/jupyterhub](https://github.com/jupyterhub/jupyterhub) (the basic JupyterHub project, which can be installed on a bare-metal server, a virtual private server (VPS), or a commercial cloud cluster)
-*   [https://github.com/jupyterhub/the-littlest-jupyterhub](https://github.com/jupyterhub/the-littlest-jupyterhub) (a simplified installation of JupyterHub on a remote server or VPS)
-*   [https://github.com/jupyterhub/zero-to-jupyterhub-k8s](https://github.com/jupyterhub/zero-to-jupyterhub-k8s) (a step-by-step guide to install JupyterHub on a Kubernetes cloud system)
+*   <https://github.com/jupyterhub/jupyterhub> (the basic JupyterHub project, which can be installed on a bare-metal server, a virtual private server (VPS), or a commercial cloud cluster)
+*   <https://github.com/jupyterhub/the-littlest-jupyterhub> (a simplified installation of JupyterHub on a remote server or VPS)
+*   <https://github.com/jupyterhub/zero-to-jupyterhub-k8s> (a step-by-step guide to install JupyterHub on a Kubernetes cloud system)
 
 Providing a JupyterHub service offers several benefits. First, students get up and running immediately—they spend no time installing software. They navigate to a web URL, log in to JupyterHub, and begin using Jupyter. This ability to quickly log in and begin computing is a powerful way to get students to engage with the lesson, builds confidence, and  avoids the sometimes-stressful experience of installing software on the student's computer.
 
 However, running JupyterHub on your own server has drawbacks:
-
-
 
 *   Getting started is not easy; most instructors would require (or at least benefit from) institutional support that may not be available.
 *   It can be difficult to scale: if the number of students increases, you might need more computing power.  And the load students generate can be uneven; for example, if everyone runs a computationally-intensive example at the same time, your server might not be able to handle it.
@@ -143,8 +130,6 @@ However, running JupyterHub on your own server has drawbacks:
 If you or your institution don't own computing hardware with the power to support your class, you can run JupyterHub on virtual servers provided by cloud services like AWS and Microsoft Azure.  In those environment, you can install JupyterHub as described in the previous section
 
 Commercial offerings also exist to use Jupyter in the cloud, some of which provide free trials or a "freemium" pricing model. They include:
-
-
 
 *   CoCalc, previously MathSageCloud ([https://cocalc.com](https://cocalc.com)) is a subscription service with a free trial plan. The service also includes the ability to share files with project collaborators. The no-cost version does not allow network access. This has some important limitations (for example, you cannot install additional packages or kernels).
 *   Gryd ([https://gryd.us](https://gryd.us)) is another subscription service with a free tier. It includes course-management features, like a way to create a course, invite students, and deploy auto-graded assignments.
@@ -162,8 +147,6 @@ The biggest drawback of these services is that they can be expensive.  Some char
 
 Other drawbacks include:
 
-
-
 *   It may be difficult or impossible to install packages you, or particular versions of packages.
 *   Some of these services impose limits on what students can do; for example, they might have limited ability to access external services.
 *   Many of these services are relatively new, and they sometimes expose instructors and students to rough edges.
@@ -171,13 +154,9 @@ Other drawbacks include:
 *   There may be privacy concerns with sharing student information on commercial servers.  Some institutions have agreements with one or more of these providers that address privacy.
 
 
-
-
-# Distribution and Collection of Materials
+## Distribution and Collection of Materials
 
 You may want to distribute course materials to and collect them from students. A variety of options are available.  Some important things to consider:
-
-
 
 *   Do you want to share your notebooks publicly, or do they require privacy?
 *   Can the notebooks that the students create or edit be public? Or do they require privacy?
@@ -194,16 +173,15 @@ Jupyter notebooks are plain text computer files, so you can distribute them to s
 
 Many instructors use a Learning Management System (LMS) to communicate with students. These tools offer private file sharing and assignments that connect to the students' institutional computing accounts and they can be used to distribute and collect notebooks as text files. However, most LMS tools are not yet notebook-aware, so they don't render notebooks or make it easy for instructors to comment on or grade them. 
 
-Some tools and workflows are being actively developed to connect the Jupyter ecosystem to the LMS ecosystem using the [Learning Tools Interoperability (LTI) ](https://open.edx.org/learning-tools-interoperability)([https://open.edx.org/learning-tools-interoperability](https://open.edx.org/learning-tools-interoperability)) standard. By the time you read this, you might find that the options have improved. 
+Some tools and workflows are being actively developed to connect the Jupyter ecosystem to the LMS ecosystem using the [Learning Tools Interoperability (LTI)](https://open.edx.org/learning-tools-interoperability) standard. By the time you read this, you might find that the options have improved. 
 
 
 ### Web hosting
 
 Notebooks can be publicly hosted on any website, so students can download the files by clicking on a link. Most web hosting software is not notebook-aware,
+but nbviewer is a web service that renders notebooks (<https://nbviewer.jupyter.org/>). Also, some browser extensions can open notebook files via nbviewer (<https://github.com/jiffyclub/open-in-nbviewer>).
 
-but nbviewer is a web service that renders notebooks ([https://nbviewer.jupyter.org/](https://nbviewer.jupyter.org/)).  Also, some browser extensions can open notebook files via nbviewer ([https://github.com/jiffyclub/open-in-nbviewer](https://github.com/jiffyclub/open-in-nbviewer)).
-
-GitHub Pages (and other similar services) can be used to host rendered notebooks, and continuous integration services can build the web pages from the notebooks and then display content. See Jupyter Book ([https://github.com/choldgraf/jupyter-book](https://github.com/choldgraf/jupyter-book)) and use of [doctr](https://drdoctr.github.io/doctr) to do this.
+GitHub Pages (and other similar services) can be used to host rendered notebooks, and continuous integration services can build the web pages from the notebooks and then display content. See Jupyter Book (<https://github.com/choldgraf/jupyter-book>) and use of [doctr](https://drdoctr.github.io/doctr) to do this.
 
 
 ### Git
@@ -225,35 +203,27 @@ If your students are using JupyterHub, you can place notebooks and any related f
     **— Box**
 
 
-    **What is nbgrader?** `nbgrader` is a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. It works as a Jupyter extension that the course creator installs on their computer. `nbgrader` is a flexible project in the Jupyter ecosystem that allows the distribution and collection of materials. As its name implies, it also can grade assignments; it can be used in a distributed manner where each student is running Jupyter on their own computers, or in a centralized manner, for example, if the students each have an account on a JupyterHub installation. (More details in the Assessment section.)
-
-
-    [https://nbgrader.readthedocs.io](https://nbgrader.readthedocs.io) 
+    **What is nbgrader?** `nbgrader` is a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. It works as a Jupyter extension that the course creator installs on their computer. `nbgrader` is a flexible project in the Jupyter ecosystem that allows the distribution and collection of materials. As its name implies, it also can grade assignments; it can be used in a distributed manner where each student is running Jupyter on their own computers, or in a centralized manner, for example, if the students each have an account on a JupyterHub installation. (More details in the Assessment section.) <https://nbgrader.readthedocs.io>
 
 
 ### Using an LMS and nbgrader together:
 
 Integration of nbgrader with learning management systems is still primitive, but the following is a strategy that works with current tools.
 
-
-
 1.  The instructor creates an assignment notebook using nbgrader, then distributes the assignment to students via an LMS.
-1.  Students complete the assignment and upload the solution to the LMS.
-1.  The instructor downloads the completed assignments as zip file and extracts the students' solutions in a Jupyter environment.
-1.  Instructors and graders use nbgrader to grade the assignment and save the grades to a CSV file.
-1.  The CSV file is then uploaded to the LMS.
+2.  Students complete the assignment and upload the solution to the LMS.
+3.  The instructor downloads the completed assignments as zip file and extracts the students' solutions in a Jupyter environment.
+4.  Instructors and graders use nbgrader to grade the assignment and save the grades to a CSV file.
+5.  The CSV file is then uploaded to the LMS.
 
-There are already some tools that make this workflow easier, including the Extractor plugin to the ZipCollect feature in nbgrader ([https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html](https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html)).  
-
-	
+There are already some tools that make this workflow easier, including the Extractor plugin to the ZipCollect feature in nbgrader (<https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html>).
 
 
-# Assessing student learning with Jupyter Notebooks
+## Assessing student learning with Jupyter Notebooks
 
 Many educators develop course-assessment activities as Jupyter Notebooks. This includes exams, in-class activities, homework assignments, and projects. 
 
 One simple way to handle the assessment of a notebook-based submission is to have students either print them out, email them, submit them as a standard electronic document (say into a Course Management System), or drop them into a shared folder. At that point, the instructor can mark and grade them in a traditional manner, for example by simply writing comments on a printout or adding annotations to a PDF.
-
 
     **_Pro Tip: Printing out a notebook can sometimes result in wasted space on pages, especially for notebooks with many images or figures. Converting to PDF requires large/complex LaTeX installations. Exporting to HTML and then printing often gives a better result._**
 
@@ -261,17 +231,14 @@ nbgrader allows code cells in a notebook to be marked to be auto-graded or manua
 
 _GOTCHA: At the time of this writing, nbgrader has some limitations that require careful use. For example, using it in a multi-class setting (say, on JupyterHub) requires that instructors coordinate the naming of assignments so that they do not collide._
 
-nbgrader is a sophisticated tool that can be set up to allow multiple graders, teaching assistants, and more. For more information on using nbgrader, see [https://github.com/jupyter/nbgrader](https://github.com/jupyter/nbgrader).
+nbgrader is a sophisticated tool that can be set up to allow multiple graders, teaching assistants, and more. For more information on using nbgrader, see <https://github.com/jupyter/nbgrader>.
 
-There are some third-party notebook-based assessment solutions.  For example CoCalc ([www.cocalc.com](www.cocalc.com)) and Vocareum ([www.vocareum.com](www.vocareum.com)) provide a cloud notebook platform that can also perform assessment similar to nbgrader.
+There are some third-party notebook-based assessment solutions.  For example CoCalc (<www.cocalc.com>) and Vocareum (<www.vocareum.com>) provide a cloud notebook platform that can also perform assessment similar to nbgrader.
 
-_For example, cocalc.com offers…  [are there other third-party course management notebook-oriented solutions?] and Berkeley uses DataHub for their large Data8 course.  Vocareum (https://www.vocareum.com)_
-
-
-## 
+_For example, cocalc.com offers…  [are there other third-party course management notebook-oriented solutions?] and Berkeley uses DataHub for their large Data8 course.  Vocareum (https://www.vocareum.com) TODO
 
 
-# How do you create Jupyter Notebooks for reuse and sharing? 
+## How do you create Jupyter Notebooks for reuse and sharing? 
 
 As you create notebooks for your lectures, computational essays, or homework assignments, you may wish to think about how to make it possible that they can be reused by yourself and others.
 
@@ -289,7 +256,7 @@ Because Jupyter notebooks embed the output of cells into the ipynb file itself (
 
 
 
-**Jupyter: a 21st Century Genre of Open Educational Resources and Practices**
+## Jupyter: a 21st Century Genre of Open Educational Resources and Practices
 
 Educators create teaching and learning materials. With the appearance of the internet, a community of educators began producing open access traditional teaching materials. In parallel, a community of software developers began creating open source software. Each community developed their own development patterns. In particular open source software communities gravitated to the bazaar style[^1] of distributed and collaborative work. Jupyter notebooks may be the first time that these communities are merging. Jupyter notebook authors are applying the content creation patterns they use to the creation of open educational resources that teach computation or teach through computation.
 
