@@ -34,11 +34,12 @@ these examples in new and exciting directions.
 
 ## But first, what is Jupyter Notebook?
 
-Project Jupyter is actually three things: a collection of standards, a
-community, and a set of software tools. A Jupyter Notebook is one part of
-Jupyter; it is a document that supports mixing executable code, equations,
-visualizations, and narrative text. Specifically, Jupyter Notebooks are a tool
-that allows the user to bring together data, code, and prose, to tell an
+Project Jupyter is three things: a collection of standards, a
+community, and a set of software tools. Jupyter Notebook, one part of
+Jupyter, is software that creates a Jupyter notebook.
+A Jupyter notebook is a document that supports mixing executable code, equations,
+visualizations, and narrative text. Specifically, Jupyter notebooks allow
+the user to bring together data, code, and prose, to tell an
 interactive, computational story. Whether analyzing a corpus of American
 Literature, creating music and art, or illustrating the engineering concepts
 behind Digital Signal Processing, the notebooks can combine explanations
