@@ -2,7 +2,7 @@
 
 ## Project lead
 
-### Lorena A. Barba
+### Lorena A. Barba {-}
 
 * George Washington University
 * [labarba@email.gwu.edu](mailto:labarba@email.gwu.edu)
@@ -17,7 +17,7 @@ thousands of learners:
 
 ## Authors at the sprint
 
-### Lecia J. Barker
+### Lecia J. Barker {-}
 
 * University of Colorado Boulder
 * [lecia.barker@colorado.edu](mailto:lecia.barker@colorado.edu)
@@ -33,7 +33,7 @@ Her research group is studying the
 in undergraduate computer science. Lecia holds a Ph.D. in Communication from CU Boulder
 and an MBA in Marketing from San Diego State University.
 
-### Douglas Blank
+### Douglas Blank {-}
 
 * Bryn Mawr College
 * [dblank@brynmawr.edu](mailto:dblank@brynmawr.edu)
@@ -51,7 +51,7 @@ board of [Engage-CSEdu.org](https://www.engage-csedu.org), a joint project betwe
 Google and the National Center for Women and Information Technology (NCWIT).
 Douglas also writes text and code at his website [douglasblank.com](http://douglasblank.com).
 
-### Jed Brown
+### Jed Brown {-}
 
 * University of Colorado Boulder
 * [jed@jedbrown.org](mailto:jed@jedbrown.org)
@@ -63,7 +63,7 @@ computing courses using Jupyter Notebook and nbgrader for three years, and leads
 research group that develops computational methods and community software for
 computational science.
 
-### Allen Downey
+### Allen Downey {-}
 
 * Olin College
 * [downey@allendowney.com](mailto:downey@allendowney.com)
@@ -76,7 +76,7 @@ published by O’Reilly Media. These books, and the classes based on them, use
 Jupyter notebooks extensively. Prof Downey holds a Ph.D. in computer science
 from U.C. Berkeley, and M.S. and B.S. degrees from MIT.
 
-### Tim George
+### Tim George {-}
 
 * Project Jupyter
 * [tgeorgeux@gmail.com](mailto:tgeorgeux@gmail.com)
@@ -88,7 +88,7 @@ design strategy, future products, governance, diversity and inclusion.
 He studied HCI at UC Irvine's Donald Bren School of Informatics and Computer Science
 where he received a Master's Degree.
 
-### Lindsey Heagy
+### Lindsey Heagy {-}
 
 * University of California Berkeley
 * [lindseyheagy@gmail.com](mailto:lindseyheagy@gmail.com)
@@ -103,7 +103,7 @@ and a core contributor to [SimPEG](https://www.simpeg.xyz/), an open source fram
 for geophysical simulation and inversions. The GeoSci.xyz project relies heavily on
 Jupyter for making the content come to life.
 
-### Kyle Mandli
+### Kyle Mandli {-}
 
 * Columbia University
 * [kyle.mandli@columbia.edu](mailto:kyle.mandli@columbia.edu)
@@ -116,7 +116,7 @@ notebooks and uses Jupyter for homework in conjunction with nbgrader. His other
 research interests include development of computational methods for coastal hazards
 such as storm surge and tsunamis.
 
-### Jason K. Moore
+### Jason K. Moore {-}
 
 * University of California, Davis
 * [jkm@ucdavis.edu](mailto:jkm@ucdavis.edu)
@@ -136,7 +136,7 @@ Generation Tutorial](https://github.com/pydy/pydy-tutorial-human-standing).
 Jason has PhD, MSc, and BSc degrees in mechanical engineering from UC Davis and
 Old Dominion University.
 
-### David Lippert
+### David Lippert {-}
 
 * Leidos
 
@@ -147,7 +147,7 @@ notebooks to create new Dr. Seuss sonnets and to evaluate if the
 [Rotten Tomatoes Tomatometer](https://www.rottentomatoes.com/about) can be trusted.
 He has a BA in computer science from Middlebury College.
 
-### Kyle Niemeyer
+### Kyle E. Niemeyer {-}
 
 * Oregon State University
 * [kyle.niemeyer@oregonstate.edu](mailto:kyle.niemeyer@oregonstate.edu)
@@ -163,7 +163,7 @@ reacting fluid flows. He is also on the steering committee of the
 [Cantera](https://cantera.org/) open-source project for chemical kinetics, thermodynamics,
 and transport processes.
 
-### Ryan Watkins
+### Ryan Watkins {-}
 
 * George Washington University
 * [rwatkins@gwu.edu](mailto:rwatkins@gwu.edu)
@@ -179,7 +179,7 @@ share the stories behind their science. He also developed the
 [We Share Science](https://wesharescience.org/) platform for sharing video abstracts
 of research.
 
-### Richard West
+### Richard West {-}
 
 * Northeastern University
 * [R.West@northeastern.edu](mailto:R.West@northeastern.edu)
@@ -195,7 +195,7 @@ at both the undergraduate and graduate levels. As part of his NSF CAREER award,
 he is developing modules to teach students to use Python and SciPy to solve
 chemical engineering problems.
 
-### Elizabeth Wickes
+### Elizabeth Wickes {-}
 
 * University of Illinois at Urbana-Champaign
 * [wickes1@illinois.edu](mailto:wickes1@illinois.edu)
@@ -207,7 +207,7 @@ She teaches foundational programming from an information and data sciences persp
 as well as other coursework on open data and reproducibility. Her programming course
 lectures are written in Jupyter Notebooks and the class is taught via live coding.
 
-### Carol Willing
+### Carol Willing {-}
 
 * Cal Poly San Luis Obispo
 * [willingc@gmail.com](mailto:willingc@gmail.com)
@@ -219,7 +219,7 @@ She is a Python Software Foundation Fellow and former Director; a Project Jupyte
 Steering Council member; and a core developer on CPython and Jupyter. Carol has an
 M.S. in Management from MIT and a B.S.E. in Electrical Engineering from Duke.
 
-### Michael Zingale
+### Michael Zingale {-}
 
 * Stony Brook University
 * [Michael.Zingale@stonybrook.edu](mailto:Michael.Zingale@stonybrook.edu)
