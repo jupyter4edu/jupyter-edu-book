@@ -178,10 +178,9 @@ Instead of a lab or lecture a computer lab was reserved for an hour and a Jupyte
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Chapter-71.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Chapter-71.png "image_tooltip")
+ TODO ! [alt_text] (images/Chapter-71.png "image_tooltip")
 
 
 **Fig:  **Visualization from the notebook at [https://github.com/applied-math/demos](https://github.com/applied-math/demos) demonstrating the paths of Atlantic hurricane tracks from 1950-2012 with coloring demonstrating category of storm.
