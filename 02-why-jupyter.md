@@ -1,18 +1,15 @@
 # Why we use Jupyter Notebooks
 
 
-## Introduction
+## Why do we use Jupyter?
 
-In Chapter 2, you will be introduced to why and how educators are using Jupyter Notebooks.  We will highlight examples illustrating how notebooks are being used to increase student engagement, participation, understanding, and performance. Notebooks can also have benefits for students that extend beyond your course, while also offering substantial benefits to you, the teacher, over other tools.
+As teachers we are responsible for many activities, including creating lessons, lectures, courses, assignments, and supportive environments; encouraging engagement and performance in the classroom; helping students learn to think critically so they can become lifelong learners and problem solvers; making material relevant and meaningful to students' diverse interests and backgrounds; assessing student learning (including grading and evaluation); encouraging students to persist with emotional labor (feedback, communication, etc.); and trying out teaching and learning practices that improve our ability to do all of these things.
 
+In short, we design learning environments and experiences. 
 
-## Why do we as educators use Jupyter?
+We use Jupyter Notebooks to design learning environments to help support these activities. We believe that incorporating Jupyter Notebooks in our teaching has allowed us to improve students' understanding of course content, increase student engagement with material and their participation in class, and to make concepts more meaningful and relevant to students' diverse interests.  We represent a variety of disciplines and have many diverse instructional goals, all of which have been supported using Jupyter Notebooks. The goal of this handbook is to provide you with ideas to help you address your own instructional and pedagogical goals. 
 
-As teachers we are responsible for a vast array of activities, including creating lessons, lectures, courses, assignments, and supportive environments; encouraging engagement and performance in the classroom; helping students learn to think critically so they can become lifelong learners and problem solvers; making material relevant and meaningful to students' diverse interests and backgrounds; assessing student learning (including grading and evaluation); encouraging students to persist with emotional labor (feedback, communication, etc.); and trying out teaching and learning practices that improve our ability to do all of these things.
-
-In short, teachers design learning environments and experiences. We use Jupyter Notebooks to design learning environments to help support these activities. The goal of this handbook is to provide you with ideas to help you address your own instructional and pedagogical goals. We believe that incorporating Jupyter Notebooks in our teaching has allowed us to help improve students' understanding of course content, help increase student engagement and participation in class, and help make concepts more meaningful and relevant to students' diverse interests.  We have found that this can be achieved in a variety disciplines and across many diverse types of instructional goals.
-
-Through a series of anecdotes we will illustrate how you, as an educator, can help increase your students' 1) engagement, 2) participation, 3) understanding, 4) performance, 5) preparation for their career, using Jupyter notebooks.  These are starting places and we are confident that you will also take these examples in new and exciting directions.
+Through a series of anecdotes we will illustrate how you, as an educator, can use Jupyter notebooks to increase your students' 1) engagement, 2) participation, 3) understanding, 4) performance, and 5) preparation for their career.  These are starting places and we are confident that you will also take these examples in new and exciting directions.
 
 
 ## But first, what is Jupyter Notebook?
