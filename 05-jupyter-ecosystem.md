@@ -1,4 +1,4 @@
-# Jupyter ecosystem: notebooks
+# Jupyter ecosystem: notebooks {#jupyter}
 
 
 The Jupyter system supports over 100 programming languages (called

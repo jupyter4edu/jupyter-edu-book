@@ -160,7 +160,7 @@ of many countries over the years:
 
 ![From: [http://go.gwu.edu/engcomp2lesson4](http://go.gwu.edu/engcomp2lesson4)](images/engcomp2lesson4-life-expectancy.png "Life expectancy in the years 1952-2007, across 142 countries")
 
-Jupyter notebooks are essential tools of connection -- tools that engage
+Jupyter notebooks are essential tools of connection---tools that engage
 learners in transitions in their thinking. The opportunity of intermingling
 computation into a narrative, creating a conversation with data is a powerful
 and effective form of communication. With Jupyter, you now have a new form of
@@ -218,8 +218,6 @@ just a survey that you give the students (see figure). Often, these surveys are
 given via a Personal Response System (also known as "clickers" or PRS) or cell
 phones. There are a few uses of such surveys:
 
-
-
 1.  Give the instructor some feedback on the students' understanding, as a whole
 1.  Provide time and opportunity for students to review and synthesize today's
     materials
@@ -267,10 +265,10 @@ synthesizing, and evaluating the content in active ways.
 The fundamental theory behind Computational Fluid Dynamics (CFD) used in
 Aerospace Engineering is based on understanding the Navier-Stokes equations.
 "CFD Python" is a collection of Jupyter Notebooks based on a practical module
-that I began using in class in my Computational Fluid Dynamics (CFD) course at
+that Lorena Barba began using in class in her Computational Fluid Dynamics (CFD) course at
 Boston University in 2009. The 5-week module develops worked examples that build
 on each other to incrementally guide the learner to create a program to solve
-the Navier-Stokes equations of fluid mechanics, in 12 steps.
+the Navier–Stokes equations of fluid dynamics, in 12 steps.
 
 
 > In 2013, I was invited to teach a 2 day mini-course in the Latin-American
@@ -291,8 +289,6 @@ the Navier-Stokes equations of fluid mechanics, in 12 steps.
 Based on the experience developing the "CFD Python" learning module [@barbacfd],
 this basic design pattern was adopted for creating lessons using computable
 content:
-
-
 
 1.  Break it down into small steps
 1.  Chunk small steps into bigger steps
@@ -404,7 +400,7 @@ during a lecture, students can simply watch/read an interactive demo using a
 notebook, to replace slides or lecture notes. On their own, using a cloud
 service such as Binder or JupyterHub, students can open any modern web browser
 to some address and interact with a notebook (an example of this technology can
-be found at [https://jupyter.org/try](https://jupyter.org/try)) , without
+be found at <https://jupyter.org/try>), without
 needing any installation or configuration. In the most complicated case,
 students can install Anaconda and follow simple instructions to install the
 Jupyter Notebook, which works and looks the same on all platforms—and is free
@@ -470,7 +466,7 @@ can increase student engagement, participation, understanding, performance, and
 preparation for their careers.  These are substantial accomplished that can be
 achieved in a variety of disciplines and content areas. Using several real world
 examples, we attempted to illustrate the numerous ways teachers are using
-notebooks.   Hopefully these, when combined with the chapters that follow, will
+notebooks. Hopefully these, when combined with the chapters that follow, will
 guide you in 1) supporting your students' learning, 2) giving you confidence
 that you can use notebooks, 3) help you understand the necessary logistics, and
 4) help give you clear expectations of what can be accomplished with Jupyter

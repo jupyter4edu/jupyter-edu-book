@@ -55,7 +55,7 @@ modification and experimentation. Adding prompts with suggestions for
 interrogating the code and examples further extend active learning opportunities
 without rewriting the original content. Interactive sliders, user input sources,
 and manipulable visualizations are examples of how other widgets and plugins can
-open up more possibilities.  
+open up more possibilities.
 
 As you'll see in later chapters, many authors are using Jupyter notebooks as
 their primary authoring and publishing platforms. These materials are published
@@ -82,7 +82,7 @@ context is an ideal environment for showcasing an authentic experience to
 students. Studying a concept in isolation may reduce the complexity of the
 problem to be more accessible, but this removes it from the context for why it
 exists and may make it harder for students to put all the pieces together and
-synthesize it into their larger problem solving repertoire.  
+synthesize it into their larger problem solving repertoire.
 
 Retention of this context adds the complexity of expository text, technical
 reference in disconnected documents, or some boilerplate code. Providing this in
@@ -122,12 +122,12 @@ would be defined at the top and the exercises below are focused on the relevant
 methods and usage syntax.  Each answer would then be completed by the student in
 a single code cell just below that markdown cell. This means that outputs and
 errors stay with the code producing them, so successes or bugs are easily
-traceable to the source.  
+traceable to the source.
 
 Usages of autograding tools or unit tests, as discussed in later chapters, can
 be added to give students instant feedback about their work.  Example or desired
 outputs could also be reproduced in markdown cells with the question for further
-guidance.  
+guidance.
 
 
 ### Notebooks as notepaper or course packets
@@ -183,7 +183,7 @@ completed within the notebook environment with markdown, which is ideal for
 communication content that is driven by data or incorporating code content.  For
 example, a student could write a computational essay within a notebook, and use
 one of the presentation tools to present a report out in class, all using the
-same notebook.  
+same notebook.
 
 Coding assignments can be submitted to a Jupyter supported learning management
 system and be autograded (discussed in later chapters), providing instant
@@ -217,8 +217,8 @@ content.
 
 Other tools are available for more directly connecting the notebook content to a
 video guide. Video lectures or content in your courses can get lengthy in
-running time and associated notebooks are often just as long.  Tools like Oriole
-([https://www.safaribooksonline.com/oriole/](https://www.safaribooksonline.com/oriole/))
+running time and associated notebooks are often just as long.  Tools like
+[Oriole](https://www.safaribooksonline.com/oriole/)
 provide a platform where you can integrate video timestamps into notebooks to
 create interactive video experiences. You can include, for example, Youtube
 videos within notebooks, with text and/or coding opportunities before/after the
@@ -256,7 +256,7 @@ content.
 It is natural for students to read and interact with notebooks in their standard
 form, using either Jupyter Notebook or JupyterLab, and this can also be used for
 presentation. Jupyter Lab offers the convenience and uniformity of being able to
-open and edit source files (.py, etc.) within the same environment and without
+open and edit source files (`.py`, etc.) within the same environment and without
 OS- or browser-specific clutter. Full screening the browser is recommended if
 presenting using this mode. Presentation styles vary widely and span a spectrum
 from full-prepared notebooks to blank-slate live coding.
@@ -300,12 +300,12 @@ mathematical model. No code is written or directly changed in the process.
 Live coding, as the name implies, involves the active writing of code within the
 instruction process. This might be part of a recorded screencast or an in person
 classroom. The process of live coding has several benefits for the student and
-instructor.  
+instructor.
 
 Showing the process of building up code examples showcases the natural
 non-linear process of how code is crafted, but walking through the logic of a
 code example slows instruction down and highlights the reason for inclusion of
-each element within the code.  
+each element within the code.
 
 Introduction of bugs (either purposeful or accidental) to the code has the added
 benefit of giving the presenter an opportunity to work through the debugging
@@ -365,7 +365,7 @@ place to ask (and for you to as for) questions about what has happened.
 
 Live coding does take practice to get used to, but can be extremely powerful for
 you to restrain your pace to your learners and to retain engagement with your
-students.  
+students.
 
 ### Conclusion about places
 
@@ -405,7 +405,7 @@ the process with a clear goal of what you are trying to create and why. The "and
 why" could be the most important decision you make in the whole process and it
 will (or at least it should) guide all the decisions that follow.  The why here
 is not about why to use Jupyter notebooks, but the why is the goal you have for
-your students.  
+your students.
 
 Is the goal to teach them critical thinking skills, or how to execute a specific
 set of functions to solve a problem?  Is the goal that they will be able to
@@ -417,14 +417,14 @@ your decisions.
 ### Understand Your Students
 
 Your students are central to decisions about when and how to use notebooks
-alongside other tools in your instruction.  An obvious illustration of these
+alongside other tools in your instruction. An obvious illustration of these
 decisions would be selections made  if you compare teaching 5th graders in
 relation to teaching graduate students. Yet, there are more subtle differences
-that you will also want to be aware of and monitor.  For example, within a
+that you will also want to be aware of and monitor. For example, within a
 classroom, you will have variation among the backgrounds and skill levels of the
 students. Depending on the domain, some students may have extensive experience
 with coding in multiple languages while others may be doing their first
-computational explorations.  Keeping students of all different experience levels
+computational explorations. Keeping students of all different experience levels
 engaged and excited is challenging.
 
 
@@ -433,7 +433,7 @@ engaged and excited is challenging.
 In many circumstances you will have little background information on your
 students prior to the first day of a class or workshop. You will have to learn
 quickly and be prepared to adjust the instruction to fit the students in
-attendance—not the students you wish you had or anticipated having.  Some key
+attendance—not the students you wish you had or anticipated having. Some key
 considerations to learn about your students:
 
 *   **Motivation:** Why are your students participating?  What are their goals
@@ -470,10 +470,10 @@ open while studying and when they really have to focus) are skills that often
 have to be developed during learning experiences.
 
 For most students learning through hands on tools, such as notebooks, will be
-quite different than their previous learning experiences -- especially coming
+quite different than their previous learning experiences---especially coming
 out of traditional high school or large-lecture undergraduate course.
 Interacting actively with technologies for the express purpose of learning
-(i.e., not just socializing with friends) is valuable -- and yet not common.
+(i.e., not just socializing with friends) is valuable---and yet not common.
 
 Take time to work with your students to help them build the foundations for how
 they can most benefit from the experiences you are creating. Talk with them
@@ -496,7 +496,7 @@ discourse, which is not necessarily synonymous.
 In both cases, the content guides why, when, and how notebooks can be used to
 achieve the goals. Remember that notebooks are solutions we can use to achieve
 our goals; they should not be confused with the goals themselves, even then they
-are closely related.  
+are closely related.
 
 The content of your instruction is not limited to what you want to teach; it
 involves activities, exercises, feedback opportunities, and assessments. Each of
@@ -541,9 +541,7 @@ Today the instructional environment can be quite complex and involve multiple
 aspects. For instance, the instruction may include online videos, short lecture
 in a classroom, and then group activities in a lab. Each of these are unique
 environments and their characteristics may influence how, when, where, and why
-you use notebooks.  
-
-
+you use notebooks.
 
 *   **Classroom:** How will students be engaged with the content? Given the
     layout of the room (e.g., small tables, lecture hall) are there
@@ -568,7 +566,7 @@ After the instruction your students will, hopefully, apply what you have taught
 them, and the environment in which they apply your instruction can vary greatly.
 You will want to consider how any differences between the instructional
 environment and the performance environment might impact on the ability of
-students to apply what they have learned.  
+students to apply what they have learned.
 
 *   **Organizational/Managerial Support:** Will students be supported in their
     use of the instruction and tools that you are using?
@@ -650,7 +648,7 @@ the time.
 
 In this chapter we have attempted to place the use of Jupyter Notebooks into the
 process of good course design.  Notebooks is a tool that many teachers can use
-to increase student engagement, participation, understanding, and performance --
-but that is not to say that every course and every lesson should use notebooks.
+to increase student engagement, participation, understanding, and performance---but
+that is not to say that every course and every lesson should use notebooks.
 Let the goals of your course define when and how to best use notebooks to
 achieve those goals.
