@@ -1,4 +1,4 @@
-# Getting Your Class Going with Jupyter {#getting-going}
+# Getting your class going with Jupyter {#getting-going}
 
 You have several options on how to get Jupyter Notebooks to your
 students. You can ask students to install Jupyter on their own
@@ -383,7 +383,7 @@ Other drawbacks include:
     more of these providers that address privacy.
 
 
-## Distribution and Collection of Materials
+## Distribution and collection of materials
 
 You may want to distribute course materials to and collect them from
 students. A variety of options are available.  Some important things
@@ -411,7 +411,7 @@ them to students and collect them using any system that handles text
 files, including GitHub, Google Drive, and (as a last resort) email.
 
 
-### Learning Management Systems
+### Learning management systems
 
 Many instructors use a Learning Management System (LMS) to communicate
 with students. These tools offer private file sharing and assignments
@@ -588,7 +588,7 @@ management notebook-oriented solutions?] and Berkeley uses DataHub for
 their large Data8 course.  Vocareum (https://www.vocareum.com) TODO
 
 
-## How do you create Jupyter Notebooks for reuse and sharing? 
+## How do you create Jupyter notebooks for reuse and sharing?
 
 As you create notebooks for your lectures, computational essays, or
 homework assignments, you may wish to think about how to make it
@@ -648,7 +648,7 @@ output.
 
 
 
-## Jupyter: a 21st Century Genre of Open Educational Resources and Practices
+## Jupyter: a 21st Century genre of Open Educational Resources and practices
 
 Educators create teaching and learning materials. With the appearance
 of the internet, a community of educators began producing open access
@@ -717,5 +717,3 @@ administration resources.
 [^1]: The bazaar style is a method of collectively creating software
      that isn't top down directed like a traditional company
      hierarchy.
-
-
