@@ -92,7 +92,7 @@ has some widget functionality is C++
 
 
 
-![Here, a simple slider is used to interactively change the variable k in our function as we plot it.](images/chapter51.png "interactive sliders")
+![Here, a simple slider is used to interactively change the variable k in our function as we plot it.](images/notebook-matplotlib-interact.png "interactive sliders")
 
 In addition to the IPywidgets library, the ipyleaflet library
 (https://ipyleaflet.rtfd.io) enables an interactive map to be
@@ -392,9 +392,8 @@ that allows notebooks to be displayed alongside Python scripts and a
 python terminal which can be useful for showing this dichotomy.
 
 
-![alt_text](images/chapter54.png "image_tooltip")
+![Jupyter notebook displayed in a window pane inside Spyder.](images/chapter54.png "spyder rendering")
 
-Caption: Jupyter notebook displayed in a window pane inside Spyder.
 
 ### Restart, restart, restart...
 
