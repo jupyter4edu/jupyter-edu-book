@@ -10,11 +10,14 @@ case:
     1.  prep their for career
     1.  Enjoy learning this way
 1.  describe:
-    1.  how it fits with how their students learn 
+    1.  how it fits with how their students learn
     1.  how it connects to how they teach
     1.  the needed resources (support, hardware, etc.)
-    1.  the necessary logistics (e.g., how much time will it take? Be honest: time is a consideration, and an important reason that people do not adopt new practices, but is not a reason that they stopped using one)
-    1.  what Jupyter does in terms of promoting learning, instructor affordances
+    1.  the necessary logistics (e.g., how much time will it take? Be honest:
+        time is a consideration, and an important reason that people do not
+        adopt new practices, but is not a reason that they stopped using one)
+    1.  what Jupyter does in terms of promoting learning, instructor
+        affordances
 
 
 ## Jupyter Notebooks in Support of Scaling for Large Enrollments
