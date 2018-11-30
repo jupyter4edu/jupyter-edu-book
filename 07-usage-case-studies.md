@@ -152,7 +152,7 @@ The GeoSci.xyz project ([https://geosci.xyz](https://geosci.xyz)) is an effort t
 
 During a lecture, the notebooks as a presentation medium lend to a dynamic presentation style, where we as instructors can select model parameters based on student input. Concepts are reinforced as students then use these same notebooks in labs and assignments. We have found that the notebook apps are most effective when students are first asked to critically think about what they expect to see and then visualize the result. If the resultant image matches their expectation, then they understand the concept, and if not, it is an opportunity to learn and further explore.  
 
-![alt_text](images/Chapter-70.png "image_tooltip")
+ TODO ! [alt_text] (images/Chapter-70.png "image_tooltip")
 
 
 **Caption: Notebook "app" for exploring the direct current resistivity experiment over a two layer earth ([https://em.geosci.xyz/apps.html](https://em.geosci.xyz/apps.html)). **
