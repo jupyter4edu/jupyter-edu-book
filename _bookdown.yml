@@ -1,4 +1,4 @@
-book_filename: "bookdown-demo"
+book_filename: "jupyter-edu-book"
 language:
   ui:
     chapter_name: "Chapter "
