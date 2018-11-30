@@ -23,6 +23,19 @@ be opened by launching Jupyter or by opening them through the Spyder IDE. These
 attributes make it attractive for both personal use and for installation on
 institution controlled computers.
 
+>**What is Anaconda?** You will see the Anaconda distribution recommended by
+>many educators and course authors. Anaconda is a package manager, an
+>environment manager, a Python distribution, a collection of [over 1,500+ open
+>source packages](https://docs.anaconda.com/anaconda/packages/pkg-docs/), and
+>also Jupyter. It is free to download, open source, and easy to install, on any
+>computer system (Windows, Mac OS X or Linux). It also includes the conda
+>packaging utility to update and install new packages of the Python and R
+>ecosystems, and to manage computational environments. According to the
+>company's webpage, Anaconda has more than 6 million users:
+><https://www.anaconda.com/what-is-anaconda/>.  The Software Carpentry project
+>provides installation instructions with videos for anaconda:
+><https://swcarpentry.github.io/python-novice-gapminder/setup/>.
+
 Two other easily installable software packages that can run Jupyter notebooks
 are [nteract](https://nteract.io/) and [Hydrogen](https://nteract.io/atom).
 nteract is installed by downloading a binary installer from their website and
@@ -133,43 +146,6 @@ However, this deployment has some disadvantages:
 * Even in a computer lab, it can be difficult to maintain consistency
     across machines, and to keep all installations functional.
 
-    **— Box**
-
-
-    What is Anaconda? You will see the Anaconda distribution
-    recommended by many educators and course authors. Anaconda is a
-    package manager, an environment manager, a Python distribution, a
-    collection of [over 1,500+ open source
-    packages](https://docs.anaconda.com/anaconda/packages/pkg-docs/),
-    and also Jupyter. It is free to download, open source, and easy to
-    install, on any computer system (Windows, Mac OS X or Linux). It
-    also includes the conda packaging utility to update and install
-    new packages of the Python and R ecosystems, and to manage
-    computational environments. According to the company's webpage,
-    Anaconda has more than 6 million
-    users. [https://www.anaconda.com/what-is-anaconda/](https://www.anaconda.com/what-is-anaconda/)
-    .  The Software Carpentry project provides installation
-    instructions with videos for anaconda:
-    [https://swcarpentry.github.io/python-novice-gapminder/setup/](https://swcarpentry.github.io/python-novice-gapminder/setup/)
-
-
-    **— Box**
-
-
-    Two other popular open source projects that can run Jupyter
-    notebooks are [nteract](https://nteract.io/) and
-    [Hydrogen](https://nteract.io/atom). nteract is installed by
-    downloading a binary installer from their website and
-    double-clicking the installation file. Once nteract is installed,
-    any Jupyter notebook on a student's local system can be
-    double-clicked and it will open within nteract. nteract's simple
-    user interface make it an excellent choice for students new to
-    computer programming. Hydrogen is a [very popular
-    plugin](https://atom.io/packages/hydrogen) for the open source
-    Atom editor; it's currently used by over 700,000 people. Hydrogen
-    lets a user edit, display, and execute a notebook within the Atom
-    editor.
-
 
 
 ## Jupyter on remote servers
@@ -217,8 +193,6 @@ start running with the push of a button.
 
 However, there are some limitations to these services:
 
-
-
 * If your notebooks depend on particular packages, or particular
     versions of packages, it can be difficult to satisfy these
     requirements.
@@ -230,19 +204,16 @@ However, there are some limitations to these services:
 * Some of these services do not guarantee a level of service and may
     not be as reliable as you need for a class or workshop.
 
-    **— Box**
-
-
-    **Binder** ([mybinder.org](https://mybinder.org)) is an
-      open-source service provided by Project Jupyter. It allows the
-      owner of a set of notebooks residing in a git repository to
-      pre-build an image in the Binder service, and get a shareable
-      link that any visitor can click to obtain a working instance of
-      JupyterHub, with the notebooks in the repository. The session is
-      temporary (any changes the user makes will be deleted when
-      closing the tab or window), but it's fully interactive. Binder
-      is currently one of the favorite services for running one-off
-      workshops or tutorials.
+>**Binder** ([mybinder.org](https://mybinder.org)) is an
+>open-source service provided by Project Jupyter. It allows the
+>owner of a set of notebooks residing in a git repository to
+>pre-build an image in the Binder service, and get a shareable
+>link that any visitor can click to obtain a working instance of
+>JupyterHub, with the notebooks in the repository. The session is
+>temporary (any changes the user makes will be deleted when
+>closing the tab or window), but it's fully interactive. Binder
+>is currently one of the favorite services for running one-off
+>workshops or tutorials.
 
 
 
@@ -436,16 +407,16 @@ have improved.
 
 Notebooks can be publicly hosted on any website, so students can
 download the files by clicking on a link. Most web hosting software is
-not notebook-aware, but nbviewer is a web service that renders
+not notebook-aware, but `nbviewer` is a web service that renders
 notebooks (<https://nbviewer.jupyter.org/>). Also, some browser
-extensions can open notebook files via nbviewer
+extensions can open notebook files via `nbviewer`
 (<https://github.com/jiffyclub/open-in-nbviewer>).
 
 GitHub Pages (and other similar services) can be used to host rendered
 notebooks, and continuous integration services can build the web pages
 from the notebooks and then display content. See Jupyter Book
 (<https://github.com/choldgraf/jupyter-book>) and use of
-[doctr](https://drdoctr.github.io/doctr) to do this.
+[`doctr`](https://drdoctr.github.io/doctr) to do this.
 
 
 ### Git
@@ -492,21 +463,17 @@ then publish their notebooks back to you for downloading, viewing, or
 assessing with the `nbgrader` tools (see the next section for details on
 this tool).
 
-
-    **— Box**
-
-
-    **What is nbgrader?** `nbgrader` is a tool for creating, handling,
-      and automatically grading assignments based on Jupyter
-      notebooks. It works as a Jupyter extension that the course
-      creator installs on their computer. `nbgrader` is a flexible
-      project in the Jupyter ecosystem that allows the distribution
-      and collection of materials. As its name implies, it also can
-      grade assignments; it can be used in a distributed manner where
-      each student is running Jupyter on their own computers, or in a
-      centralized manner, for example, if the students each have an
-      account on a JupyterHub installation. (More details in the
-      Assessment section.) <https://nbgrader.readthedocs.io>
+>**What is nbgrader?** `nbgrader` is a tool for creating, handling,
+>and automatically grading assignments based on Jupyter
+>notebooks. It works as a Jupyter extension that the course
+>creator installs on their computer. `nbgrader` is a flexible
+>project in the Jupyter ecosystem that allows the distribution
+>and collection of materials. As its name implies, it also can
+>grade assignments; it can be used in a distributed manner where
+>each student is running Jupyter on their own computers, or in a
+>centralized manner, for example, if the students each have an
+>account on a JupyterHub installation. (More details in the
+>Assessment section.) <https://nbgrader.readthedocs.io>
 
 
 ### Using an LMS and `nbgrader` together:
@@ -606,18 +573,16 @@ you want others to have full access. For example, many teachers do not
 want students to be able to see notebooks that may have solutions, or
 hints of solutions and therefore limit their access.
 
-Callout box: To share your notebook with others you can submit it to
-[https://www.engage-csedu.org/](https://www.engage-csedu.org/) This
-curated collection of open educational computing resources is
-maintained by the National Center for Women in Information Technology
-(NCWIT).
+>To share your notebook with others you can submit it to
+><https://www.engage-csedu.org/>. This curated collection of open educational
+>computing resources is maintained by the
+>[National Center for Women in Information Technology (NCWIT)](https://www.ncwit.org/).
 
 If you decide to make your notebooks reusable by others, make it clear
-under which license the materials can be used. For example, you can
-include a Creative Commons attribution and share-alike statement at
-the bottom of your notebook. Adding a license allows people to reuse
-your materials without asking for permission
-explicitly. [https://creativecommons.org/licenses/by-sa/3.0/us/](https://creativecommons.org/licenses/by-sa/3.0/us/)
+under which license the materials can be used. For example, you can include a
+[Creative Commons attribution and share-alike](https://creativecommons.org/licenses/by-sa/3.0/us/)
+statement at the bottom of your notebook. Adding a license allows people to reuse
+your materials without asking for permission explicitly.
 
 GitHub may be the most common service to host and share notebooks,
 where they can be viewed (including rendering), downloaded, or forked
@@ -637,7 +602,7 @@ version control repository, a zip-file, or a file sharing service.
 Another external dependency issue with sharing notebooks involves
 software libraries.  In this case you share a configuration file that
 a user can use to setup the same environment.  Examples of these files
-include a conda env.yml, a pip requirements.txt, or dockerfile.
+include a conda `env.yml`, a pip `requirements.txt`, or `dockerfile`.
 
 Because Jupyter notebooks embed the output of cells into the ipynb
 file itself (e.g., images, videos, etc.), the files can grow large. To
@@ -675,7 +640,7 @@ followed by efforts to develop metadata standards, content exchanges,
 and so on (addressing the concern of how to find the objects to reuse
 them). In 1998, David Wiley coined the term "open content" and spread
 the idea that principles of Free and Open Source Software (FOSS) could
-be applied to content on the World Wide Web. The Creative Commons
+be applied to content on the World Wide Web [@OC1998]. The Creative Commons
 non-profit organization was founded in 2001 to provide ready-made
 license agreements for sharing content and served a vital
 infrastructure role on the spread of OER. The Creative Commons
@@ -699,23 +664,14 @@ fact, Jupyter is _a new genre of OER_. But in addition to creating
 open content, educators using Jupyter often take active part in the
 Jupyter community and adopt the _culture_ of open-source
 software. This is a culture with strong ethical commitments, related
-to freedom of access, transparency, and governance (Coleman,
-2012). The content they create has the value of giving access (the
+to freedom of access, transparency, and governance [@coleman2012coding].
+The content they create has the value of giving access (the
 very definition of OER), under an open model. But open-source culture
 also promotes a culture of collaboration. In this regard, engaging in
 teaching with Jupyter opens new possibilities for educators to engage
 in _open development_ and collaborate with others in producing
 lessons, tutorials, courses, and even books.
 
-REF—Coleman, E.G., 2012. Coding freedom: The ethics and aesthetics of
-hacking. Princeton University Press.
-
-NOTE from Carol: Installation on a student computer or web-based
-access. Installation on computer lab computers or web-based
-access. Web-based access requires additional decisions and system
-administration resources.
-
-## Notes
 
 [^1]: The bazaar style is a method of collectively creating software
      that isn't top down directed like a traditional company

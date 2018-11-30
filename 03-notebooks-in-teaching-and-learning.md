@@ -378,7 +378,7 @@ options you will want to start filling your use of notebooks with a variety of
 the pedagogical patterns described in next chapter.
 
 
-## Before You Begin: Understand Your Teaching Goals, Your Students, and Your Teaching Environment
+## Before You Begin...
 
 This chapter focuses on course considerations when incorporating notebooks into
 a class. Experienced instructors may choose to skim parts of this chapter and
