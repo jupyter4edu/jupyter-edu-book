@@ -3195,7 +3195,6 @@ computers}\label{jupyter-on-student-owned-computers}
 The benefits of installation on student-owned computers include:
 
 \begin{itemize}
-\tightlist
 \item
   Once students have the software on their computers, they always have
   access to it; they can work anywhere, and they can use it for
@@ -3221,7 +3220,6 @@ The benefits of installation on student-owned computers include:
 Drawbacks include:
 
 \begin{itemize}
-\tightlist
 \item
   This approach is only possible if every student owns a computer with
   enough capacity.
@@ -3426,7 +3424,6 @@ knowledge spanning the Linux/Unix operating system, system
 administration, and networking. For more information, see:
 
 \begin{itemize}
-\tightlist
 \item
   \url{https://github.com/jupyterhub/jupyterhub} (the basic JupyterHub
   project, which can be installed on a bare-metal server, a virtual
@@ -3450,7 +3447,6 @@ software on the student's computer.
 However, running JupyterHub on your own server has drawbacks:
 
 \begin{itemize}
-\tightlist
 \item
   Getting started is not easy; most instructors would require (or at
   least benefit from) institutional support that may not be available.
@@ -3477,7 +3473,6 @@ Commercial offerings also exist to use Jupyter in the cloud, some of
 which provide free trials or a ``freemium'' pricing model. They include:
 
 \begin{itemize}
-\tightlist
 \item
   CoCalc, previously MathSageCloud (\url{https://cocalc.com}) is a
   subscription service with a free trial plan. The service also includes
@@ -3522,7 +3517,6 @@ student activities).
 Other drawbacks include:
 
 \begin{itemize}
-\tightlist
 \item
   It may be difficult or impossible to install packages you, or
   particular versions of packages.
@@ -3549,7 +3543,6 @@ students. A variety of options are available. Some important things to
 consider:
 
 \begin{itemize}
-\tightlist
 \item
   Do you want to share your notebooks publicly, or do they require
   privacy?
@@ -3649,7 +3642,17 @@ nbgrader tools (see the next section for details on this tool).
 **— Box**
 
 
-**What is nbgrader?** `nbgrader` is a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. It works as a Jupyter extension that the course creator installs on their computer. `nbgrader` is a flexible project in the Jupyter ecosystem that allows the distribution and collection of materials. As its name implies, it also can grade assignments; it can be used in a distributed manner where each student is running Jupyter on their own computers, or in a centralized manner, for example, if the students each have an account on a JupyterHub installation. (More details in the Assessment section.) <https://nbgrader.readthedocs.io>
+**What is nbgrader?** `nbgrader` is a tool for creating, handling,
+  and automatically grading assignments based on Jupyter
+  notebooks. It works as a Jupyter extension that the course
+  creator installs on their computer. `nbgrader` is a flexible
+  project in the Jupyter ecosystem that allows the distribution
+  and collection of materials. As its name implies, it also can
+  grade assignments; it can be used in a distributed manner where
+  each student is running Jupyter on their own computers, or in a
+  centralized manner, for example, if the students each have an
+  account on a JupyterHub installation. (More details in the
+  Assessment section.) <https://nbgrader.readthedocs.io>
 \end{verbatim}
 
 \subsection{Using an LMS and nbgrader
@@ -3661,7 +3664,6 @@ tools.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\tightlist
 \item
   The instructor creates an assignment notebook using nbgrader, then
   distributes the assignment to students via an LMS.
@@ -3696,7 +3698,11 @@ and grade them in a traditional manner, for example by simply writing
 comments on a printout or adding annotations to a PDF.
 
 \begin{verbatim}
-**_Pro Tip: Printing out a notebook can sometimes result in wasted space on pages, especially for notebooks with many images or figures. Converting to PDF requires large/complex LaTeX installations. Exporting to HTML and then printing often gives a better result._**
+**_Pro Tip: Printing out a notebook can sometimes result in wasted
+  space on pages, especially for notebooks with many images or
+  figures. Converting to PDF requires large/complex LaTeX
+  installations. Exporting to HTML and then printing often gives a
+  better result._**
 \end{verbatim}
 
 nbgrader allows code cells in a notebook to be marked to be auto-graded
