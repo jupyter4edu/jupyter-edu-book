@@ -747,10 +747,7 @@ limiting the palette of options. For example, restrict their drawings
 to use only a single shape, such as rectangle or triangle. We suggest
 having the students draw something in their life that is important or
 meaningful to them. We suggest discussing the coordinate grid for the
-first assignment (see below) and sketching an idea on paper first.
-
-
-![Actual results from a first homework assignment, using only a series of two different functions.](images/ebrose.png "assignment result")
+first assignment and sketching an idea on paper first.
 
 
 ## Test driven development
