@@ -33,13 +33,13 @@ In many circumstances you will have little background information on your studen
 
 
 
-*   **Motivation**: Why are your students participating?  What are their goals beyond the workshop or class? Will they be applying what they learn soon, or not for months or potentially years?
+*   **Motivation:** Why are your students participating?  What are their goals beyond the workshop or class? Will they be applying what they learn soon, or not for months or potentially years?
 *   **Entry skills:** What skills are students coming to the instruction with, both technical (e.g., basic computer, coding, computational) and psycho-social (collaboration, presenting, asking questions)?
 *   **Prior topic knowledge:**  Specific to the content of the instruction, what do they already know coming in?
 *   **Attitudes toward content:** Are they excited to learn, or nervous about the content? How confident are they about their success in the class?
-*   **Attitudes about the delivery format: **Do they have attitudes, positive or negative, about the delivery format (e.g., lecture, flipped classroom, lab) and/or technologies (e.g., learning management systems)
+*   **Attitudes about the delivery format:** Do they have attitudes, positive or negative, about the delivery format (e.g., lecture, flipped classroom, lab) and/or technologies (e.g., learning management systems)
 *   **Learning preferences:** Are learners comfortable in active learning experiences? (e.g., working with teams, interacting with the instructor, using technology while learning, etc.)
-*   **Group characteristics: **Looking at these considerations, how diverse is the group? Have they been together for instruction before?  Do you have a small class or a very large class?
+*   **Group characteristics:** Looking at these considerations, how diverse is the group? Have they been together for instruction before?  Do you have a small class or a very large class?
 
 A simple online survey ahead of class can be very helpful in gaining an understanding of your audience.
 
@@ -91,8 +91,8 @@ After the instruction your students will, hopefully, apply what you have taught 
 
 
 
-*   **Organizational/Managerial Support: **Will students be supported in their use of the instruction and tools that you are using? 
-*   **Social Support: **If they learn through group projects, will they also be able to apply the instruction when working on their own?
+*   **Organizational/Managerial Support:** Will students be supported in their use of the instruction and tools that you are using? 
+*   **Social Support:** If they learn through group projects, will they also be able to apply the instruction when working on their own?
 *   **Physical Aspects:** Will they have access to the same, or similar, tools and resources they have access to during the instruction? For example, if students only learn in notebooks, will they also be able apply the learning in an IDE that is used by their employer? 
 
 
