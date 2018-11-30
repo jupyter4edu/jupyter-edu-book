@@ -25,52 +25,11 @@
 \usepackage{hyperref}
 \hypersetup{unicode=true,
             pdftitle={Teaching and Learning with Jupyter},
-            pdfauthor={Lorena A. Barba et al.},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -120,7 +79,10 @@
   \title{Teaching and Learning with Jupyter}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-    \author{Lorena A. Barba et al.}
+    \author{Lorena A. Barba, Lecia J. Barker, Douglas Blank, Jed Brown, Allen
+Downey, Tim George, Lindsey Heagy, Kyle Mandli, Jason K. Moore, David
+Lippert, Kyle E. Niemeyer, Ryan Watkins, Richard West, Elizabeth Wickes,
+Carol Willing, and Michael Zingale}
     \preauthor{\centering\large\emph}
   \postauthor{\par}
       \predate{\centering\large\emph}
@@ -143,29 +105,6 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\chapter{Prerequisites}\label{prerequisites}
-
-This is a \emph{sample} book written in \textbf{Markdown}. You can use
-anything that Pandoc's Markdown supports, e.g., a math equation
-\(a^2 + b^2 = c^2\).
-
-The \textbf{bookdown} package can be installed from CRAN or Github:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
-
-Remember each Rmd file contains one and only one chapter, and a chapter
-is defined by the first-level heading \texttt{\#}.
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to
-install TinyTeX (which includes XeLaTeX):
-\url{https://yihui.name/tinytex/}.
-
 \chapter{Introduction}\label{intro}
 
 Project Jupyter is a broad collaboration that develops open-source tools
@@ -217,7 +156,7 @@ need to know about Jupyter in Teaching and Learning.
 If you find these materials helpful or inspiring, give us a shout-out on
 Twitter using \#Jupyter4Edu. We hope you do!
 
-\section{Acknowledgements}\label{acknowledgements}
+\textbf{Acknowledgements}
 
 The book sprint was held at the George Washington University in
 Washington, DC, on 28--30 November 2018, and organized by Lorena A.
@@ -235,52 +174,60 @@ GitHub repository for this book:
 \chapter{Why we use Jupyter
 Notebooks}\label{why-we-use-jupyter-notebooks}
 
-\section{Why do we use Jupyter?}\label{why-do-we-use-jupyter}
+\section{Introduction}\label{introduction}
 
-As teachers we are responsible for many activities, including creating
-lessons, lectures, courses, assignments, and supportive environments;
-encouraging engagement and performance in the classroom; helping
-students learn to think critically so they can become lifelong learners
-and problem solvers; making material relevant and meaningful to
+In Chapter 2, you will be introduced to why and how educators are using
+Jupyter Notebooks. We will highlight examples illustrating how notebooks
+are being used to increase student engagement, participation,
+understanding, and performance. Notebooks can also have benefits for
+students that extend beyond your course, while also offering substantial
+benefits to you, the teacher, over other tools.
+
+\section{Why do we as educators use
+Jupyter?}\label{why-do-we-as-educators-use-jupyter}
+
+As teachers we are responsible for a vast array of activities, including
+creating lessons, lectures, courses, assignments, and supportive
+environments; encouraging engagement and performance in the classroom;
+helping students learn to think critically so they can become lifelong
+learners and problem solvers; making material relevant and meaningful to
 students' diverse interests and backgrounds; assessing student learning
 (including grading and evaluation); encouraging students to persist with
 emotional labor (feedback, communication, etc.); and trying out teaching
 and learning practices that improve our ability to do all of these
 things.
 
-In short, we design learning environments and experiences.
-
-We use Jupyter Notebooks to design learning environments to help support
-these activities. We believe that incorporating Jupyter Notebooks in our
-teaching has allowed us to improve students' understanding of course
-content, increase student engagement with material and their
-participation in class, and to make concepts more meaningful and
-relevant to students' diverse interests. We represent a variety of
-disciplines and have many diverse instructional goals, all of which have
-been supported using Jupyter Notebooks. The goal of this handbook is to
-provide you with ideas to help you address your own instructional and
-pedagogical goals.
+In short, teachers design learning environments and experiences. We use
+Jupyter Notebooks to design learning environments to help support these
+activities. The goal of this handbook is to provide you with ideas to
+help you address your own instructional and pedagogical goals. We
+believe that incorporating Jupyter Notebooks in our teaching has allowed
+us to help improve students' understanding of course content, help
+increase student engagement and participation in class, and help make
+concepts more meaningful and relevant to students' diverse interests. We
+have found that this can be achieved in a variety disciplines and across
+many diverse types of instructional goals.
 
 Through a series of anecdotes we will illustrate how you, as an
-educator, can use Jupyter notebooks to increase your students' 1)
-engagement, 2) participation, 3) understanding, 4) performance, and 5)
-preparation for their career. These are starting places and we are
-confident that you will also take these examples in new and exciting
+educator, can help increase your students' 1) engagement, 2)
+participation, 3) understanding, 4) performance, 5) preparation for
+their career, using Jupyter notebooks. These are starting places and we
+are confident that you will also take these examples in new and exciting
 directions.
 
-\section{But first, what is a Jupyter
-Notebook?}\label{but-first-what-is-a-jupyter-notebook}
+\section{But first, what is Jupyter
+Notebook?}\label{but-first-what-is-jupyter-notebook}
 
-Project Jupyter is actually three things: a collection of standards, a
-community, and a set of software tools. A Jupyter Notebook is one part
-of Jupyter; it is a document that supports mixing executable code,
-equations, visualizations, and narrative text. Specifically, Jupyter
-Notebooks are a tool that allows the user to bring together data, code,
-and prose, to tell an interactive, computational story. Whether
-analyzing a corpus of American Literature, creating music and art, or
-illustrating the engineering concepts behind Digital Signal Processing,
-the notebooks can combine explanations traditionally found in textbooks
-with \emph{the interactivity of an application}.
+Project Jupyter is three things: a collection of standards, a community,
+and a set of software tools. Jupyter Notebook is software that creates a
+notebook, is a document that supports mixing executable code, equations,
+visualizations, and narrative text. Jupyter notebooks allow a user to
+bring together data, code, and prose to tell an interactive,
+computational story. Whether analyzing a corpus of American Literature,
+creating music and art, or illustrating the engineering concepts behind
+Digital Signal Processing, a notebook can combine explanations
+traditionally found in textbooks, but with \emph{the interactivity of an
+application}.
 
 Figure
 
@@ -305,32 +252,32 @@ relatively simple use of JN for say, one learning objective -- or maybe
 one of each of the following: domain knowledge, programming, and other
 use.
 
-Jupyter is a free, open source platform that is an excellent learning
-environment for students. For teachers, it increases our efficiency and
-decreases cognitive load so we can engage students. Notebooks can be
-useful for achieving your goals as a teacher in numerous environments
-from STEM labs or humanities narratives, to podium lectures or flipped
-classrooms. We use Jupyter Notebooks in small classes and for classes
-that have hundreds of students. Jupyter Notebooks can be used for
-teaching part of one lecture or can be used to teach a whole course.
-Jupyter Notebooks enable us and our students to have a conversation with
-a problem and link to resources, like audio, video, images,
-visualizations--and even allow students to mix and remix these. And yet
-students need to install nothing beyond a modern web browser to use this
-free software.
+Jupyter Notebook is a free, open source platform that is an excellent
+learning environment for students. For teachers, it increases our
+efficiency and decreases cognitive load so we can spend our time
+engaging students. Notebooks can be useful for achieving your goals as a
+teacher in numerous environments from STEM labs or humanities
+narratives, to podium lectures or flipped classrooms. We use Jupyter
+Notebook in small classes and for classes that have hundreds of
+students. Jupyter Notebook can be used for teaching part of one lecture
+or can be used to teach a whole course. Jupyter Notebook enables us and
+our students to have a conversation with a problem and link to
+resources, like audio, video, images, visualizations--and even allow
+students to mix and remix these. \emph{And yet students need to install
+nothing beyond a modern web browser to use this free software.}
 
-Jupyter Notebooks can be used to organize classroom materials and
+Jupyter Notebook can be used to organize classroom materials and
 objects, store and provide access to reading materials for students,
 present and share lecture materials, perform live coding, explore and
 interact with materials, support self-paced learning, grade students'
-homework, solve homework problems, or make materials reusable to others
-(see Chapters 3 and 4).
+homework, solve homework problems, and make materials reusable to others
+( TODO see Chapters 3 and 4).
 
 Read on to find out how we have used Jupyter Notebooks for teaching and
 learning to benefit both our students and ourselves.** **Jupyter
-Notebooks support a wide range of learning goals, including learning to
+Notebook support a wide range of learning goals, including learning to
 program, learning domain knowledge, and practicing communication skills
-like storytelling. The authors of this book have used Jupyter Notebooks
+like storytelling. The authors of this book have used Jupyter Notebook
 to teach:
 
 \begin{itemize}
@@ -399,7 +346,8 @@ to teach:
   \item
     High school
   \item
-    College and university-level courses (CS0 and CS1)
+    College and university-level courses (true introductions through
+    advanced courses)
   \end{itemize}
 \end{itemize}
 
@@ -670,7 +618,7 @@ notebooks. By enriching their learning experience in your course, you
 will help them develop valuable skill-sets and mind-sets that they will
 take with them into other courses and into their career.
 
-\subsubsection{Computational Thinking}\label{computational-thinking}
+\subsection{Computational Thinking}\label{computational-thinking}
 
 Jupyter Notebooks support a wide range of learning goals. Its
 interactivity enables building intuitive understanding of domain
@@ -705,7 +653,7 @@ together the core foundations of computational thinking:
   \url{https://usr55.dayforcehcm.com/CandidatePortal/en-US/myeyedr/Posting/View/8612?fbclid=IwAR0BVRfn38L7PMftCSbYY_n7IZDhMba0HA7Mmn78ASu5rRIivvPtcAYqxWs})
 \end{itemize}
 
-\subsubsection{Open-source}\label{open-source}
+\subsection{Open-source}\label{open-source}
 
 Integrating notebooks into classes also exposes students to a large and
 growing ecosystem of open-source tools. This supports their education,
@@ -730,7 +678,7 @@ Anaconda and follow simple instructions to install the Jupyter Notebook,
 which works and looks the same on all platforms---and is free and open
 source.
 
-\subsubsection{Active learning}\label{active-learning}
+\subsection{Active learning}\label{active-learning}
 
 Thanks to their interactivity, notebooks enable a spectrum of active
 learning methods, which have been shown to increase performance in
@@ -2431,7 +2379,7 @@ if software is operating correctly.
 \textbf{widget}: a user interface (such as buttons, sliders, and
 checkboxes) that allow the easy control of hidden computer code.
 
-\bibliography{book.bib,packages.bib}
+\bibliography{book.bib}
 
 
 \end{document}
