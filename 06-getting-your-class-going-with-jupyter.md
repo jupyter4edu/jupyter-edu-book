@@ -1,4 +1,4 @@
-# Getting Your Class Going with Jupyter {#getting-going}
+# Getting your class going with Jupyter {#getting-going}
 
 You have several options on how to get Jupyter Notebooks to your
 students. You can ask students to install Jupyter on their own
@@ -383,7 +383,7 @@ Other drawbacks include:
     more of these providers that address privacy.
 
 
-## Distribution and Collection of Materials
+## Distribution and collection of materials
 
 You may want to distribute course materials to and collect them from
 students. A variety of options are available.  Some important things
@@ -411,7 +411,7 @@ them to students and collect them using any system that handles text
 files, including GitHub, Google Drive, and (as a last resort) email.
 
 
-### Learning Management Systems
+### Learning management systems
 
 Many instructors use a Learning Management System (LMS) to communicate
 with students. These tools offer private file sharing and assignments
@@ -479,14 +479,14 @@ tools to help with these tasks (see Notebooks Under Version Control).
 
 If your students are using JupyterHub, you can place notebooks and any
 related files directly into the students' directories manually or via
-a script.  If nbgrader is available on your JupyterHub instance you
+a script.  If `nbgrader` is available on your JupyterHub instance you
 can use it to collect and distribute notebooks (whether or not you
-choose to use nbgrader's assessment features).  This allows you to
+choose to use `nbgrader`'s assessment features).  This allows you to
 develop the notebooks and incrementally make them visible to the
 students for them to "fetch". They can then edit the notebooks or
 create new ones in the directory created in their storage space, and
 then publish their notebooks back to you for downloading, viewing, or
-assessing with the nbgrader tools (see the next section for details on
+assessing with the `nbgrader` tools (see the next section for details on
 this tool).
 
 
@@ -506,13 +506,13 @@ this tool).
       Assessment section.) <https://nbgrader.readthedocs.io>
 
 
-### Using an LMS and nbgrader together:
+### Using an LMS and `nbgrader` together:
 
-Integration of nbgrader with learning management systems is still
+Integration of `nbgrader` with learning management systems is still
 primitive, but the following is a strategy that works with current
 tools.
 
-1.  The instructor creates an assignment notebook using nbgrader, then
+1.  The instructor creates an assignment notebook using `nbgrader`, then
 distributes the assignment to students via an LMS.
 
 2.  Students complete the assignment and upload the solution to the
@@ -521,13 +521,13 @@ LMS.
 3.  The instructor downloads the completed assignments as zip file and
 extracts the students' solutions in a Jupyter environment.
 
-4.  Instructors and graders use nbgrader to grade the assignment and
+4.  Instructors and graders use `nbgrader` to grade the assignment and
 save the grades to a CSV file.
 
 5.  The CSV file is then uploaded to the LMS.
 
 There are already some tools that make this workflow easier, including
-the Extractor plugin to the ZipCollect feature in nbgrader
+the Extractor plugin to the ZipCollect feature in `nbgrader`
 (<https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html>).
 
 
@@ -550,12 +550,12 @@ writing comments on a printout or adding annotations to a PDF.
       installations. Exporting to HTML and then printing often gives a
       better result._**
 
-nbgrader allows code cells in a notebook to be marked to be
+`nbgrader` allows code cells in a notebook to be marked to be
 auto-graded or manually graded. An instructor can then create an
-assignment that can be completely auo-graded, requiring little work
+assignment that can be completely auto-graded, requiring little work
 after the notebook has been created. This makes grading much easier
 and scales well with large class sizes. However, creating such an
-auto-graded notebook in nbgrader can be quite time-consuming. In
+auto-graded notebook in `nbgrader` can be quite time-consuming. In
 addition, pedagogically a completely auto-graded notebook may have
 serious downsides. For example, studies suggest that students learn
 better when they can actively connect a topic to their own interests
@@ -574,9 +574,9 @@ that require careful use. For example, using it in a multi-class
 setting (say, on JupyterHub) requires that instructors coordinate the
 naming of assignments so that they do not collide._
 
-nbgrader is a sophisticated tool that can be set up to allow multiple
+`nbgrader` is a sophisticated tool that can be set up to allow multiple
 graders, teaching assistants, and more. For more information on using
-nbgrader, see <https://github.com/jupyter/nbgrader>.
+`nbgrader`, see <https://github.com/jupyter/nbgrader>.
 
 There are some third-party notebook-based assessment solutions.  For
 example CoCalc (<www.cocalc.com>) and Vocareum (<www.vocareum.com>)
@@ -588,7 +588,7 @@ management notebook-oriented solutions?] and Berkeley uses DataHub for
 their large Data8 course.  Vocareum (https://www.vocareum.com) TODO
 
 
-## How do you create Jupyter Notebooks for reuse and sharing? 
+## How do you create Jupyter notebooks for reuse and sharing?
 
 As you create notebooks for your lectures, computational essays, or
 homework assignments, you may wish to think about how to make it
@@ -648,7 +648,7 @@ output.
 
 
 
-## Jupyter: a 21st Century Genre of Open Educational Resources and Practices
+## Jupyter: a 21st Century genre of Open Educational Resources and practices
 
 Educators create teaching and learning materials. With the appearance
 of the internet, a community of educators began producing open access
@@ -717,5 +717,3 @@ administration resources.
 [^1]: The bazaar style is a method of collectively creating software
      that isn't top down directed like a traditional company
      hierarchy.
-
-
