@@ -1,11 +1,27 @@
 ---
 title: "Teaching and Learning with Jupyter"
-author: "Lorena A. Barba et al."
+author: >
+    Lorena A. Barba,
+    Lecia J. Barker,
+    Douglas Blank,
+    Jed Brown,
+    Allen Downey,
+    Tim George,
+    Lindsey Heagy,
+    Kyle Mandli,
+    Jason K. Moore,
+    David Lippert,
+    Kyle E. Niemeyer,
+    Ryan Watkins,
+    Richard West,
+    Elizabeth Wickes,
+    Carol Willing, and
+    Michael Zingale
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
 github-repo: jupyter4edu/jupyter-edu-book
