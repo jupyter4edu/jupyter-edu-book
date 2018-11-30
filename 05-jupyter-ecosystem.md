@@ -167,7 +167,7 @@ R code from within an IPython notebook by using the `%%R` magic.
 
 
 
-### Notebooks Under Version Control {#notebooks-under-version-control}
+### Notebooks under version control {#notebooks-under-version-control}
 
 Keeping notebooks under version control is a great way to not only
 keep track of changes to your created content but can also allow for
@@ -201,7 +201,7 @@ and
 [https://github.com/mwouts/jupytext](https://github.com/mwouts/jupytext).
 
 
-### Testing Notebooks {#testing-notebooks}
+### Testing notebooks {#testing-notebooks}
 
 Before distributing notebooks, and in particular if you are working
 with multiple contributors to the course material, testing the
@@ -226,7 +226,7 @@ package
 provides an easy way to test notebooks.
 
 
-### Essential Python Libraries  {#essential-python-libraries}
+### Essential Python libraries  {#essential-python-libraries}
 
 The purpose of this section is to introduce some of the most widely
 used packages within the Python ecosystem. Python is not the only
@@ -339,7 +339,7 @@ time to complete.
 A good rule of thumb is to always include a markdown cell above every code cell.
 
 
-### Custom Styling
+### Custom styling
 
 New notebook creators often try to centrally manage the formatting of
 headings, equations, and other textual items. For example, rather than
@@ -359,7 +359,7 @@ customization (for example if you want to color certain cells) you can
 use CSS.
 
 
-### Length of Notebooks
+### Length of notebooks
 
 Notebook authors sometimes make the notebooks very long with many
 topics and sections. Notebook sections and cells are currently not
@@ -374,7 +374,7 @@ curriculum.
 
 ## Gotchas
 
-### Programming Language ≠ Jupyter
+### Programming language ≠ Jupyter
 
 Teaching a class entirely with Jupyter can give the sense to students
 that this is the way all computational exploration is done. In
@@ -450,5 +450,3 @@ when moving on to other cells where it may be used. Additionally, you
 can minimize these issues by grouping code in a single cell that
 should always be executed sequentially, because code within a cell
 will always be sequential.
-
-
