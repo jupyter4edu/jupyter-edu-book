@@ -29,7 +29,7 @@ The notebook (or a collection of notebooks) can be used as an
 alternative to a static textbook on a topic.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This pattern can be used to introduce a topic or promote awareness
 about a set of tools. Additionally, it can serve as documentation that
@@ -41,7 +41,7 @@ provides a tour of an application programming interface (API).
 Depending on the style of the notebook, this pattern can be used for a spectrum of programming abilities.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This pattern can be used as an alternative to a static textbook. In a
 tutorial, a complete notebook can be used to provide a tour of an
@@ -98,12 +98,12 @@ where students or the instructor builds a model, and views the
 currents, charges and electric potentials.
 
 
-**Related Patterns:**
+**Related patterns:**
 
 Top-down
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This approach can be effective for focusing on domain-specific
 knowledge and facilitating the exploration of models or computations.
@@ -115,7 +115,7 @@ This style can be effective for students with minimal programming
 experience as they do not have to read, write, or see the code.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 In lecture, this style of notebook can be used by an instructor to
 methodically walk through a concept step-by-step. It is also useful
@@ -192,12 +192,12 @@ notebooks, the workflow is tackled methodically, and the inner
 workings of each component discussed.
 
 
-**Related Patterns:**
+**Related patterns:**
 
 Top-down, Proof by Example
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This can be an effective approach for introducing complex processes,
 providing context for how each of the components fits together, and
@@ -211,7 +211,7 @@ those with some programming experience to those with significant
 experience.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This can be effective for tutorials and workshops, and can be used
 over multiple lectures.
@@ -250,7 +250,7 @@ the for loop and include plotting code, with the aim being that
 students write the update step inside the for loop.
 
 
-**Related Patterns:**
+**Related patterns:**
 
 This pattern is similar to Target Practice; a difference is that
 Target Practice often focuses on a bigger step in a multi-step
@@ -258,7 +258,7 @@ process.  Fill in the Blank exercises tend to be smaller and more
 immediate.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This pattern focuses attention on a component of a task and provides
 the benefit of demonstrating how that component fits into the bigger
@@ -275,7 +275,7 @@ first being introduced to computing concepts to those who have
 significant experience.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 Assignments and labs can adopt this approach (nbgrader can be used to
 help with marking). It can also be used in a lecture or tutorial
@@ -321,7 +321,7 @@ learning about it, before we ask them to do the work of understanding
 it.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This pattern is useful for shifting students' focus from implementation details to domain content.
 
@@ -331,7 +331,7 @@ This pattern is useful for shifting students' focus from implementation details 
 This pattern can be effective with students who have limited programming skills, as they can use a library and see the results without writing much, if any, code.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This pattern can be used in a single class session or homework, or spread out over the duration of a course; for example, students could use a tool on the first day and find out how it works on the last.
 
@@ -359,12 +359,12 @@ When students work with a software library, they are exposed to functions and ob
 In digital signal processing, one of the most important ideas is the relationship between two representations of a signal: as a wave in the time domain and as a spectrum in the frequency domain.  Suppose the API provides two objects, called Wave and Spectrum, and two functions, one that takes a Wave and returns a Spectrum, and another that takes a Spectrum and returns a Wave.  By using this API, students implicitly learn that a Wave and a Spectrum are equivalent representations of the same information; given either one, you can compute the other.
 
 
-**Related Patterns:**
+**Related patterns:**
 
 Top-down sequence
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This pattern is useful for shifting students' focus from implementation details to domain content.
 
@@ -374,7 +374,7 @@ This pattern is useful for shifting students' focus from implementation details 
 This pattern is most effective if students have some experience using libraries and exploring APIs.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This pattern
 TODO: complete
@@ -411,7 +411,7 @@ Many Wikipedia pages contain data in HTML tables; most of them can be imported e
 Sources of sports-related statistics are often embedded in large networks of linked web pages.  Tools like Scrapy can navigate these networks to collect data in forms more amenable to automated analysis.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 
 **Audience(s):**
@@ -419,7 +419,7 @@ Sources of sports-related statistics are often embedded in large networks of lin
 Students with limited programming experience can work with datasets in standard formats, but scraping data might require more programming experience.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This pattern lends itself to more open-ended project work where students are responsible for identifying data sources, collecting data, cleaning, and validating, but it can be adapted to more scaffolded work (see Target Practice).
 
@@ -439,7 +439,7 @@ A hazard of this pattern is that students can spend too much time looking for da
 Pandas, Scrapy
 
 
-## Connect to External Audiences
+## Connect to external audiences
 
 
 **Description:**
@@ -452,7 +452,7 @@ This is in some sense the opposite of "the world is your dataset."  Here the goa
 Your students are doing an observational astronomy lab where they take data from a telescope of a transiting exoplanet (a planet around a star other than our Sun) and they examine the lightcurve to learn about the planet.  The students present the lab as a Jupyter notebook with a reproducible workflow that starts with reading in their data (images), walks through cleaning and reducing the images, and then performs photometry on the host star to produce a lightcurve.  The end product is a plot showing the star's brightness, dimming just slightly as the unseen planet comes between the star and earth.  Elated with their result, the students want to share their data and workflow so anyone else can redo the analysis.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 Reproducibility is an important part of the scientific process.  Having completed the primary scientific analysis that was the goal of the lab (obtaining a lightcurve of a transiting exoplanet), the students now can learn reproducible science practices by hosting their notebook on a webserver (e.g., Github) along with the data.  An essential part of making the notebook reproducible will be ensuring that the notebook clearly lists the needed dependencies.
 
@@ -510,7 +510,7 @@ We can write machine learning notebooks that allow students to modify parameters
 This pattern is particularly suitable for examples with a lot of parameters.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This pattern helps students acquire domain knowledge by seeing the relationship between parameters and the effect they have on the results.  It can also help students learn new notebook use patterns
 
@@ -522,7 +522,7 @@ This pattern is similar to "The notebook is an app"; a difference is that in thi
 This pattern can work with students who have no programming experience; they only need to be able to edit the contents of a cell and run a notebook.  It can also work with students who have no background with the domain; they can learn about the domain by exploring the effect of parameters.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This pattern lends itself to a workshop format, where students are guided through a notebook with time-boxed opportunities to experiment.  It also lends itself to pair programming, where a navigator can suggest changes and a driver can implement them.
 
@@ -555,7 +555,7 @@ Converting mathematics to code is a critical skill today that many students, esp
 Say you wanted to show the translation of matrix-vector multiplication from _equation_ to a numerical computation.  This would involve setting up and explaining the mathematics and suggesting replacing the sums with loops and initializing the sum properly.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 Translating mathematics to code (and vice versa) \
 Audience(s): Learners who understand the theory but struggle with the programming side of things.
@@ -579,7 +579,7 @@ For instance avoiding compound operators in the example above (`+=`) can help st
 
 
 
-## Symbolic Math Over Pencil + Paper
+## Symbolic math over pencil + paper
 
 
 **Description:**
@@ -592,7 +592,7 @@ Your objective is to convey an understanding of a physical system governed by a 
 The Euler equations for hydrodynamics are a system of partial differential equations governing conservation of mass, momentum, and energy. Their mathematical character admits wave solutions, and the eigenvalues and eigenvectors of the system in matrix form are important to understanding the physical behavior of the density, pressure, velocity, etc. in the system.  Working out the eigenvalues with pencil and paper is tedious, and not the objective of the lesson.  In this case, we can use a symbolic math library like SymPy to do the mathematical analysis for us, finding the eigenvalues and eigenvectors of the system, and we can then use this result to continue our theoretical discussion of the system.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 Students will see how to do symbolic math that arises in their theoretical analysis.
 
@@ -619,7 +619,7 @@ This only works well in the case that the algebra is not essential to the main l
 
 
 
-## Bug Hunt
+## Bug hunt
 
 
 **Description:**
@@ -630,7 +630,7 @@ The instructor provides a notebook with code that contains deliberate bugs.  The
 **Example:**
 
 
-**Learning Goals:**
+**Learning goals:**
 
 This pattern helps students develop programming skills, especially debugging (of course); it also gives the practice reading other people's code, which can be an opportunity to demonstrate good practice, or warn against bad practice.  It can also be used to teach students how to use debugging tools.
 
@@ -640,7 +640,7 @@ This pattern helps students develop programming skills, especially debugging (of
 This pattern requires students to have some programming experience.
 
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 This pattern can be used for in-class activities or homework.
 
@@ -657,7 +657,7 @@ The bugs need to be calibrated to the ability of the students: if they are too e
 
 
 
-## Proof by Example, Disproof by Counterexample
+## Proof by example, disproof by counterexample
 
 **Description:**
 
@@ -679,7 +679,7 @@ and discussion of backward stability.
 Some numerical methods for PDE converge with an assumption on smoothness of coefficients.
 Students can show how violating these assumptions leads to erroneous solutions, thus motivating discussion of conservative/compatible methods that can converge in such circumstances.
 
-**Learning Goals**
+**Learning goals**
 
 This pattern is primarily useful for developing mathematical or domain knowledge, but students might also develop programming experience by writing code to run the examples and test the outcomes. This is especially true if the space of (counter-)examples is "small", such that principled exploration (e.g., by finding an eigenvector, running an optimization algorithm, or searching a dictionary) is beneficial.
 
@@ -689,7 +689,7 @@ This pattern is primarily useful for developing mathematical or domain knowledge
 This pattern requires students to have some programming experience.
 
 
-**Format (Lecture / Lab / …)**
+**Format (lecture / lab / …)**
 
 This pattern can be used for in-class activities or homework.
 
@@ -722,7 +722,7 @@ Draw a rectangle. Change the numbers, run it again, and see what happens.
 ![Figure: a first sketch using Calysto Processing, a Java-based language designed for creating art.](images/processing.png "Calysto processing")
 
 
-**Learning Goals:**
+**Learning goals:**
 
 Reduce stress, build confidence, connect onto their personal lives. Requires that they do learn the basics of Jupyter including: log in, open a new notebook, enter the provided code, and execute it. Often leads to a very animated, active learning classroom activity (How can I change the colors? How do I draw a circle?, etc.)
 
@@ -730,7 +730,7 @@ Reduce stress, build confidence, connect onto their personal lives. Requires tha
 
 Beginning students.
 
-**Format (Lecture / Lab / …):**
+**Format (lecture / lab / …):**
 
 First day of class, in-class exercise. Build on what students already know from typing and reading (e.g., cut and paste, read top-to-bottom).
 
@@ -753,7 +753,7 @@ first assignment (see below) and sketching an idea on paper first.
 ![Actual results from a first homework assignment, using only a series of two different functions.](images/ebrose.png "assignment result")
 
 
-## Test Driven Development
+## Test driven development
 
 
 **Description**
@@ -766,7 +766,7 @@ The instructor provides tests written in a unit testing framework like unittest 
 TODO: Necessary?
 
 
-**Learning Goals**
+**Learning goals**
 
 Helps students learn a good software development process,.
 
@@ -776,7 +776,7 @@ Helps students learn a good software development process,.
 This pattern requires students to have some programming experience.
 
 
-**Format (Lecture / Lab / …)**
+**Format (lecture / lab / …)**
 
 This pattern can be used for in-class activities or homework.
 
@@ -795,7 +795,7 @@ This pattern required the overhead of teaching students about the unit testing f
 
 
 
-## Now You Try (with different data or process)
+## Now you try (with different data or process)
 
 **Description**
 
@@ -811,11 +811,11 @@ An instructor designs a lesson in exploratory data analysis to scrape the critic
 
 There are various ways to test the properties of numerical methods. For example, students can use the method of manufactured solutions to test the order of accuracy for a differential equation solver.  They can also measure cost as the resolution is increased and present the results in a way that would help an analyst decide which method to use given external requirements (e.g., using accuracy versus cost tradeoff curves).
 
-**Related Patterns:**
+**Related patterns:**
 
 Top-down sequence
 
-**Learning Goals**
+**Learning goals**
 
 This pattern allows students to apply their knowledge
 
@@ -823,7 +823,7 @@ This pattern allows students to apply their knowledge
 
 This pattern can be tailored for students with more or less experience even in the same course.
 
-**Format (Lecture / Lab / …)**
+**Format (lecture / lab / …)**
 
 This pattern is best in a lab or an interactive tutorial
 
@@ -834,7 +834,7 @@ This pattern is best in a lab or an interactive tutorial
 A hazard of this pattern is that students may go completely off the rails and chose datasets or new processes that have not been tested and will not work in the timeframe allowed.
 
 
-## Two Bites at Every Apple
+## Two bites at every apple
 
 This pattern involves writing an activity that can address multiple audiences from different perspectives at the same time.  This can be powerful when addressing a mixed audience of students.
 
@@ -842,7 +842,7 @@ This pattern involves writing an activity that can address multiple audiences fr
 
 Say you have a group of students, some of whom are computer science students and some of whom are physics students, and ask them to come up with two expressions for computing the centroid of an area.  The computer science students will be tasked with a description that involves adding up discrete pieces of areas with for loops and the physics students tasked with using the integral definition.  When the students come up with their expressions they can then pair up with someone from the other background where they can attempt to explain how their approach matches the other and compare their final answers.
 
-**Learning Goals**
+**Learning goals**
 
 Ability to translate from one field/language to another.  Explain complex topics to someone from a different field.
 
@@ -864,7 +864,7 @@ It can be difficult to construct questions for each audience that require equal 
 
 
 
-## Replace Analysis with Numerical Methods
+## Replace analysis with numerical methods
 
 
 **Description**
@@ -883,7 +883,7 @@ Similarly, in queueing theory, there are a few analytic results that apply under
 And again, with differential equations, there are only a few special cases that have analytic solutions; the large majority of interesting, realistic problems don't.
 
 
-**Learning Goals**
+**Learning goals**
 
 This pattern is primarily about helping students see the big ideas of the domain more clearly, but it is also a chance to develop their programming skills. It also provides students with tools that are likely to be needed if they encounter similar problems in the real world, where analytic methods are often inapplicable, fragile, or complicated to use effectively.
 
@@ -893,7 +893,7 @@ This pattern is primarily about helping students see the big ideas of the domain
 This pattern requires students to have some comfort with programming, although it would be possible for them to get some of the benefit from seeing examples without implementing them. Non-programmers can use this pattern via prepared notebooks; see [Win Day One](#win-day-one).
 
 
-**Format (Lecture / Lab / …)**
+**Format (lecture / lab / …)**
 
 This pattern can be used for in-class activities or homework.
 
@@ -908,7 +908,7 @@ Students can understand general ideas without getting bogged down in the details
 If students are not comfortable programmers, they can get bogged down in implementation details and debugging problems, and miss the domain content entirely.  It is important to scope the implementation effort to suit the full range of students in the class.  Pair programming can help mitigate these problems, especially if every pair has at least one student with programming skills, and if students are coached to pair program effectively (without letting the more experienced student dominate).
 
 
-## Code Reviews
+## Code reviews
 
 Code reviews involve a student or instructor providing feedback on someone else's code.  This pattern involves peer work as well as a means for providing feedback to students on topics other than correctness of their code but also on code readability and styling.
 
@@ -916,7 +916,7 @@ Code reviews involve a student or instructor providing feedback on someone else'
 
 Present a problem to students that they must write a solution to, say computing the square root of a number without using a built-in function but have them write a test for their function that uses a built-in function to compute the answer.  After they are finished have the students pair up and perform peer reviews of each other's code, commenting not only on the way they solved the problem, such as making up a list of pros and cons of their approaches, but also on the readability of the code.
 
-**Learning Goals**
+**Learning goals**
 
 Learn to read and understand someone else's code.  Learn to write readable code.
 
@@ -937,7 +937,7 @@ This pattern leads to not just feedback for the person who wrote the code but al
 Students need to be properly informed as to how the code reviews will impact their grades, especially if peer review is used.  Notebooks on GitHub are not as easily reviewed as scripts.
 
 
-## Adversarial Programming
+## Adversarial programming
 
 This pattern involves participants writing a solution to a problem and tests that attempt to make the written solution fail.  This pattern can be done in many ways including having students complete the tasks and pair up and exchange solutions/tests or having the instructor writing the solution and the students then write the tests.
 
@@ -945,7 +945,7 @@ This pattern involves participants writing a solution to a problem and tests tha
 
 Students are tasked to write a function that finds the roots of a polynomial specified via some appropriate input.  They are also asked to write a set of tests that their function passes and fails on.  When students have completed these tasks they then exchange their notebooks and use the tests they wrote on their peer's function.  Finally they will discuss any differences in their approaches and whether they can come up with ways to not fail each other's tests or if the tests provided are invalid.
 
-**Learning Goals**
+**Learning goals**
 
 Learn to write unit tests. Think critically on how an adversary might break their solution.
 
@@ -968,7 +968,7 @@ With competition come dangers if students are not properly scaffolded so that th
 
 
 
-## There Can Be Only One
+## There can be only one
 
 
 **Description:**
@@ -983,7 +983,7 @@ The Jupyter ecosystem support for reproducibility and data sharing make it a gre
 Identify a machine learning problem and a labeled dataset your students can use to train their model.  Then select an evaluation metric and detail your problem statement and rules.  Finally, launch your competition and allow your students to submit their notebooks and post their results on a public leaderboard.
 
 
-**Learning Goals:**
+**Learning goals:**
 
 Creative problem solving is a key aspect of this pattern.  In addition, if the competition is team-based then the students will learn how to work in groups and communicate effectively and share responsibilities.
 

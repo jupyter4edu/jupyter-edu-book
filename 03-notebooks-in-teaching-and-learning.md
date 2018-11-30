@@ -1,4 +1,4 @@
-# Notebooks in Teaching and Learning
+# Notebooks in teaching and learning
 
 Jupyter Notebooks are a valuable tool for teachers, but their value can only be
 leveraged if you apply them correctly within the context of your course. In
@@ -6,7 +6,7 @@ chapter 3, you will learn how teachers can initially structure the design of
 their course and then determine when and how notebooks can be used to achieve
 their goals.
 
-## Before You Begin: Understand Your Teaching Goals, Your Students, and Your Teaching Environment
+## Before you begin: Understand your teaching goals, your students, and your teaching environment
 
 This chapter focuses on course considerations when incorporating notebooks into
 a class. Experienced instructors may choose to skim parts of this chapter and
@@ -26,7 +26,7 @@ your goals, your students, the content,  the learning environment context, and
 you.
 
 
-## Identify Your Teaching Goals
+## Identify your teaching goals
 
 As with the creation of a building or robot or book, it is important to begin
 the process with a clear goal of what you are trying to create and why. The "and
@@ -56,7 +56,7 @@ computational explorations.  Keeping students of all different experience levels
 engaged and excited is challenging.
 
 
-### Learn About Your Students
+### Learn about your students
 
 In many circumstances you will have little background information on your
 students prior to the first day of a class or workshop. You will have to learn
@@ -88,7 +88,7 @@ A simple online survey ahead of class can be very helpful in gaining an
 understanding of your audience.
 
 
-### Cultivate Student Study Skills and Learning Strategies
+### Cultivate student study skills and learning strategies
 
 Do not assume that your students will have acquired the necessary study skills
 to effectively and efficiently learn from your course. From note-taking skills
@@ -110,7 +110,7 @@ to adapt their study strategies (where, when, and how they study) to best learn
 the content and achieve the goals of the instruction.
 
 
-## Develop Your Content Strategy
+## Develop your content strategy
 
 The content of the instruction should support the instructional goal(s) you have
 identified for the course. Sometimes the goal(s) and the content are synonymous,
@@ -142,7 +142,7 @@ instruction is key to making good decisions about how, when, where, and why to
 use notebooks in your instruction.
 
 
-## Consider the Context of the Learning Environment
+## Consider the context of the learning environment
 
 Instruction happens in many interesting contexts—but learning is not restricted
 to the instructional texts that we construct. Students learn before, during, and
@@ -163,7 +163,7 @@ notebooks including both those of the instructional environment and then the
 later performance environment of the learners.
 
 
-### Instructional Environment
+### Instructional environment
 
 Today the instructional environment can be quite complex and involve multiple
 aspects. For instance, the instruction may include online videos, short lecture
@@ -190,7 +190,7 @@ you use notebooks.
     strategies for learning independently in the online classroom?
 
 
-### Performance Environment
+### Performance environment
 
 After the instruction your students will, hopefully, apply what you have taught
 them, and the environment in which they apply your instruction can vary greatly.
@@ -198,11 +198,11 @@ You will want to consider how any differences between the instructional
 environment and the performance environment might impact on the ability of
 students to apply what they have learned.  
 
-*   **Organizational/Managerial Support:** Will students be supported in their
+*   **Organizational/managerial support:** Will students be supported in their
     use of the instruction and tools that you are using?
-*   **Social Support:** If they learn through group projects, will they also be
+*   **Social support:** If they learn through group projects, will they also be
     able to apply the instruction when working on their own?
-*   **Physical Aspects:** Will they have access to the same, or similar, tools
+*   **Physical aspects:** Will they have access to the same, or similar, tools
     and resources they have access to during the instruction? For example, if
     students only learn in notebooks, will they also be able apply the learning
     in an IDE that is used by their employer?
@@ -254,8 +254,7 @@ harmonize together to make an experience leading to your desired learning goal.
 Perhaps for the section above add a block diagram or word cloud visual of the
 major decision considerations.
 
-
-## Transitioning To and From Jupyter
+## Transitioning to and from jupyter
 
 Although this book focuses on using Jupyter Notebooks in education, we recognize
 that students have different backgrounds and familiarity with coding. Not all
@@ -285,7 +284,6 @@ achieve those goals.
 
 # Oh the places your notebooks will go!
 
-
 ## Introduction
 
 In chapter 4 you will learn about the many creative ways that notebooks can be
@@ -313,7 +311,7 @@ Jupyter ecosystem can be integrated into that use. Some of these uses are quick
 to spin up as experiments to test the waters.
 
 
-## Jupyter Notebooks as textbooks
+## Jupyter notebooks as textbooks
 
 Instructors often write Jupyter Notebooks as linear narrative documents. These
 notebooks are to be read by students and learners, perhaps worked through,
