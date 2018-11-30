@@ -7,6 +7,7 @@ rmd_files: ["index.Rmd",
            "01-introduction.md",
            "02-why-jupyter.md",
            "05-jupyter-ecosystem.md",
+           "06-getting-your-class-going-with-jupyter.md",
            "08-about-the-authors.md",
            "09-glossary.md",
            ]
