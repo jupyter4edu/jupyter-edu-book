@@ -1,8 +1,6 @@
-# Chapter 7: Usage case studies
+# Usage Case Studies {#case-studies}
 
 Contributors to this chapter: you may increase adoption by new users if you integrate information about some of the following into your case:
-
-
 
 1.  Demonstrate that you can increase students' ability to:
     1.  Engage material & participate in class
@@ -17,15 +15,15 @@ Contributors to this chapter: you may increase adoption by new users if you inte
     1.  what Jupyter does in terms of promoting learning, instructor affordances
 
 
-# Jupyter Notebooks in Support of Scaling for Large Enrollments
+## Jupyter Notebooks in Support of Scaling for Large Enrollments
 
 
-## Supporting large enrollment courses at UC Berkeley
+### Supporting large enrollment courses at UC Berkeley
 
 The University of California at Berkeley started a pilot course titled "Foundations in Data Science" (also known as Data-8) for about 100 incoming undergraduate students in Fall 2015. Data-8, the fastest growing course in Berkeley's history, is entirely Jupyter-based, allowing the program to scale the course to 1,400 students in 2018.  This scale is made possible by Jupyter's shared computational environment. In particular, Jupyter allowed "browser-based computation, avoiding the need for students to install software, transfer files, or update libraries" (see The Course of the Future and the Technology Behind It [[https://data.berkeley.edu/news/coursefuture](https://data.berkeley.edu/news/coursefuture)]). Data-8 is powered by JupyterHub and all the course materials are published openly ([http://data8.org](http://data8.org)). 
 
 
-## Large-scale adoption: Jupyter across Canada
+### Large-scale adoption: Jupyter across Canada
 
 Recognizing the importance of data science, computational research, and educational resources, the [Pacific Institute for the Mathematical Sciences (PIMS)](https://www.pims.math.ca/), in partnership with [Compute Canada](https://www.computecanada.ca/) and [Cybera](https://www.cybera.ca/), have launched JupyterHub platforms (under the project name Syzygy) to support researchers and educators across Canada. Syzygy ([http://syzygy.ca](http://syzygy.ca)) provides access to cloud-hosted Jupyter resources using existing institutional credentials and encourages the development of computational and data science skills. It is currently accessible at 16 institutions across the country (McMaster, Queen's, SFU, UAlberta, UBC, UCalgary, ULethbridge, UNewBrunswick, UOttawa, URegina, USask, UToronto, UVic, UWashington (US), UWaterloo, Yorku) and has been used by over 11,000 people at those institutions. 
 
@@ -36,7 +34,7 @@ Callysto ([https://callysto.ca/](https://callysto.ca/)) is a related project, al
 -- Ian Allison
 
 
-## Quick switch: moving an existing course to Python and Jupyter (at the last minute)
+### Quick switch: moving an existing course to Python and Jupyter (at the last minute)
 
 For many years, our chemical engineering kinetics course had used software for  differential equation and nonlinear simultaneous equation solving to simulate reactors and solve design problems. The software, recommended and described by the textbook, was installed in the college's computer labs, but licenses for student-owned computers were expensive and it was only available for Windows.  In Spring 2015, I was informed my class now had 52 students, but the largest computer lab had room for only 40. As the semester progressed and we neared the chapters that required numerical simulation, I rewrote the examples using Python and SciPy and created Jupyter Notebooks, walking students through the steps involved in setting up and solving the problems. I found Lorena Barba's open-source MOOC materials online, and adapted these for my "getting started" notebooks. I had students install Anaconda on their own computers, and got everyone up and running without any central infrastructure or support from the college's IT staff. I found the Jupyter Notebook format of including "lecture note" style commentary along with short, unintimidating, snippets of code, to be extremely effective. A couple of years later I passed on the course to a new instructor, who took my course materials, taught himself some Python, and continued to use Jupyter Notebooks for content delivery and assignments. 
 
@@ -45,15 +43,13 @@ The first year was a bit rough around the edges as I introduced it quite late in
 -- Richard West
 
 
-# The "CFD Python" story: Guiding Learners at their Own Pace
+## The "CFD Python" story: Guiding Learners at their Own Pace
 
 "CFD Python" is a collection of Jupyter Notebooks based on a practical module that I began using in class in my Computational Fluid Dynamics (CFD) course at Boston University in 2009. The 5-week module develops worked examples that build on each other to incrementally guide the learner to create a program to solve the Navier-Stokes equations of fluid mechanics, in 12 steps. In 2013, I was invited to teach a mini-course in the Latin-American School in High-Performance Computing, in Argentina. The Jupyter Notebooks platform allowed me to create a guided narrative to support learners with different background experience and knowledge. For that event, we wrote IPython Notebooks based on the CFD course module, to use as instructional scaffolding in the 2-full-days of minicourse. Twenty students worked through the notebooks as self-paced lessons, while I went from desk to desk asking and answering questions. About four of the students completed all the lessons in the 2 days, a bulk of them achieved up to about Step 8, and a few of them lagged behind in Steps 4 or 5 by the end of the course. For those who completed the full module, they had achieved in 2 days what my regular students in the classroom normally took 5 weeks to do. Seeing that was an eye-opening moment: both the power of worked examples in code, and the ability to allow learners to follow their own pace made a remarkable difference in these learners.
 
 _REF — Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier–Stokes equations. Journal of Open Source Education, 1(9), 21, [https://doi.org/10.21105/jose.0002](https://doi.org/10.21105/jose.0002) _
 
 Based on the experience developing the "CFD Python" learning module, we adopted this basic design pattern for creating lessons using computable content:
-
-
 
 1.  Break it down into small steps
 1.  Chunk small steps into bigger steps
@@ -66,7 +62,7 @@ Based on the experience developing the "CFD Python" learning module, we adopted 
 -- Lorena A. Barba
 
 
-# Analyzing Music with music21
+## Analyzing Music with music21
 
 I became interested in learning more about Python in 2013 after reading a tutorial by Luciano Ramalho as he was writing Fluent Python. Since I tend to seek out projects that match my outside interests (music, art, and nature) I was looking for Python projects with music and came across Myke Cuthbert's music21 project. Music21, an open source music theory and analysis library maintained by Professor Michael Cuthbert at MIT, provides a set of tools to answer questions about music quickly and simply. Users can create, analyze, and share music with just a few lines of code. Myke's use of the Notebook hooked me. Unlike many things that I had worked on before, the notebooks made it easy to get started and to write small code snippets that did real work! The more I used the notebooks and showed them to people that I taught at Fab Lab San Diego, the more that I saw the power of the notebook to engage a user and empower them to explore and learn.
 
@@ -74,9 +70,7 @@ Music, a universal language, appeals to learners of all origins, ages, education
 
 -- Carol Willing
 
-**Education Benefits **
-
-
+**Education Benefits**
 
 *   lessons notebooks can be tailored to age appropriate content within music
 *   multisensory
@@ -111,7 +105,7 @@ _Music  is  the  greatest communication  in  the  world. Even  if  people  don't
 _"In  the  beginner's  mind  there  are  many possibilities.  In  the  expert's  mind  there  are few." –Shunryu  Suzuki_
 
 
-# Interactivity in Computer Science (high school and middle school)
+## Interactivity in Computer Science (high school and middle school)
 
 **Who**
 
@@ -127,8 +121,6 @@ Illustrate that there are many skills beyond math and science that are needed to
 
 Two hour workshop that maximizes "hands on" exploration with the goal of building an ongoing interest in computer science
 
-
-
 *   short lectures
     *   interactive discussion - LISTEN
     *   hands on - DO/APPLY This section is self-paced to engage different learning styles and prior knowledge
@@ -139,14 +131,12 @@ Two hour workshop that maximizes "hands on" exploration with the goal of buildin
 
 Instructor Approach
 
-
-
 *   Start with high quality engaging content
 *   Self contained notebooks
 *   Use widgets to add additional interactivity
 
 
-# Interactive geophysics with Jupyter
+## Interactive geophysics with Jupyter
 
 The GeoSci.xyz project ([https://geosci.xyz](https://geosci.xyz)) is an effort to develop a community of scientists and educators around learning resources and software for the geosciences. The project includes multiple open-source textbooks, each which have associated Jupyter notebook "apps" that serve as interactive simulation engines for exploring concepts in geophysics. We have used these resources in an undergraduate course on applied geophysics at the University of British Columbia; this course is primarily taken by by geologists and engineers (non-geophysics majors). In 2017, we delivered a 2 day short course for professionals, graduate students, and researchers in 26 different countries around the world ([https://disc2017.geosci.xyz](https://disc2017.geosci.xyz)). In both of these courses, the goal is to provide learners with an overview of the various geophysical methods (e.g. magnetics, gravity, seismic, electromagnetics) and concepts governing the physics; we do not dive into details of the math nor do we expect students to program or write any lines of code. The role of Jupyter notebooks in these courses is to serve as a tool for visualizing and exploring the physics. 
 
@@ -160,7 +150,7 @@ During a lecture, the notebooks as a presentation medium lend to a dynamic prese
 -- Lindsey Heagy
 
 
-# Investigating Hurricanes
+## Investigating Hurricanes
 
 **Who **
 
@@ -178,10 +168,7 @@ Instead of a lab or lecture a computer lab was reserved for an hour and a Jupyte
 
 
 
-
-
  TODO ! [alt_text] (images/Chapter-71.png "image_tooltip")
-
 
 **Fig:  **Visualization from the notebook at [https://github.com/applied-math/demos](https://github.com/applied-math/demos) demonstrating the paths of Atlantic hurricane tracks from 1950-2012 with coloring demonstrating category of storm.
 
