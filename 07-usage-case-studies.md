@@ -346,11 +346,8 @@ available at https://github.com/applied-math/demos.
 
 
 
- TODO ! [alt_text] (images/Chapter-71.png "image_tooltip")
-
-**Fig: **Visualization from the notebook at
+[Visualization from the notebook at
   [https://github.com/applied-math/demos](https://github.com/applied-math/demos)
   demonstrating the paths of Atlantic hurricane tracks from 1950-2012
-  with coloring demonstrating category of storm.
-
-
+  with coloring demonstrating category of storm.](images/hurricanes.png 
+  "https://github.com/applied-math/demos")
