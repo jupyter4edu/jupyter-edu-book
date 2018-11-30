@@ -81,7 +81,7 @@ Our other use of notebooks for education include:
 *   Visualizations of process and data
 
 
-## Course Benefits & Anecdotes
+## Course benefits & anecdotes
 
 
 ### Engagement
@@ -89,7 +89,7 @@ Our other use of notebooks for education include:
 As teachers we routinely struggle to engage our students, especially when we are constrained by the format of the course (e.g., online, 50-minute lecture), available technologies, students distractions, and/or other factors. Nevertheless, it is substantially our responsibility to create environments and experiences within these limits that engage students in our courses.  This is where notebooks can give you another tool to break out of the mundane, and get students engaged in their learning.
 
 
-#### Conversations with Data
+#### Conversations with data
 
 The creators of Jupyter describe it as a set of open-source tools for interactive and exploratory computing, and a platform for creating computational narratives. Jupyter allows us, as educators, to narrate a "conversation between the student and data". Consider this example, using the data of life expectancy of many countries over the years:
 
@@ -106,7 +106,7 @@ Jupyter notebooks are essential tools of connection -- tools that engage learner
 Engaging students in your courses requires their participation and interaction with you, their peers, and/or the content [Michael Moore, 1989]. How, when, and why you use student participation in yours will, of course, depend on your goals, the specific objectives for teaching the content within your course, your students, and other factors.  Using notebooks, however, encourages participation and gives you more tools for promoting participation. Notebooks can connect students to authentic external audiences as well. Students can, for example, consume notebooks from other classes, and publish notebooks where others can read them.
 
 
-#### Real World Experience -- bringing concepts to life
+#### Real world experience -- bringing concepts to life
 
 Notebooks are living documents, meaning they can be edited to respond to questions or input from students and used a conversation piece during a lecture or presentation.
 
@@ -115,7 +115,7 @@ Notebooks are living documents, meaning they can be edited to respond to questio
 
 ![Dr. Douglas Oldenburg (left) engaging with a student during a short course on geophysical electromagnetics (https://geosci.xyz). Photo credit: Seogi Kang](images/oldenburg-geosci.jpg "Photo credit: Seogi Kang")
 
-#### Real World Experience -- Ticket to leave
+#### Real world experience -- Ticket to leave
 
 Another example of generating participation in the classroom with Jupyter notebooks is the Activity magic, available as an extension. It creates what has been called a "ticket to leave" (or "exit ticket") via the notebook. The idea of a "ticket to leave" is an excellent way to end a class or lab. Briefly, it is just a survey that you give the students (see figure). Often, these surveys are given via a Personal Response System (also known as "clickers" or PRS) or cell phones. There are a few uses of such surveys:
 
@@ -135,12 +135,12 @@ These questions do not typically require much time to answer, but are meant to c
 Good "exit ticket" questions can be domain specific questions, but can also be metacognitive questions (about one's learning style, for example), or high-level organizational questions (e.g., "what was the goal of today's discussion?"). We recommend leaving enough time at the end of class (perhaps 10 minutes) to have a full and complete wrap-up discussion. After the discussion, you may wish to adjust the following class meeting if you feel that not enough students had the insight you were aiming for. For more information on "tickets to leave" see [https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample](https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample)
 
 
-### Increasing Understanding
+### Increasing understanding
 
 Within any course you will typically try to achieve a diverse set of objectives. Benjamin Bloom (https://en.wikipedia.org/wiki/Bloom%27s_taxonomy) provided a framework for the detailed objectives we want to achieve, ranging from basic knowledge (such as, terminology, specific facts, trends and sequences, classifications and categories, etc.) all the way to ability to evaluate and create (such as, abstract relationships, judgments but based criteria, original works).  Achieving the former (i.e., basic knowledge and comprehension) is far easier to achieve that understanding (i.e., evaluation and creation); yet, most often we, as educators, are striving for increasing the complex understanding of our students on the topics we are teaching.  The good news is that notebooks offer a valuable tool for teaching toward understanding -- moving students, for example, from passively viewing course content to exploring, analyzing, synthesizing, and evaluating the content in active ways.
 
 
-#### Real World Experience -- Guiding Learners at their Own Pace
+#### Real world experience -- Guiding learners at their own pace
 
 The fundamental theory behind Computational Fluid Dynamics (CFD) used in Aerospace Engineering is based on understanding the Navier-Stokes equations. "CFD Python" is a collection of Jupyter Notebooks based on a practical module that I began using in class in my Computational Fluid Dynamics (CFD) course at Boston University in 2009. The 5-week module develops worked examples that build on each other to incrementally guide the learner to create a program to solve the Navier-Stokes equations of fluid mechanics, in 12 steps.
 
@@ -162,22 +162,22 @@ Based on the experience developing the "CFD Python" learning module [_Barba et. 
 This was particularly helpful for student understanding.
 
 
-### Increasing Student's Performance
+### Increasing student's performance
 
 The goal of learning is often actualized through the performance of students. This is routinely most visible by what we attempt to assess during and at the end of instruction. Using notebooks we can create a variety of a performance opportunities for students, thereby giving them more opportunities for practice and feedback, as well as more opportunities for us, as instructors, to assessment their ability to perform.
 
 
-#### Real World Experience -- The Worked-example effect
+#### Real world experience -- The worked-example effect
 
 The worked-example effect is the best known and most widely studied of the cognitive load effects [Sweller, J. (2006)]. It refers to providing full guidance on how to solve a problem, resulting in better student performance than problem-solving conditions with no guidance. For complex tasks, inexperienced or beginner learners benefit the most from the worked-examples procedure. One study (Chen et al., 2015) concludes that: "worked example effect occurs for complex, high-element interactivity materials that impose a heavy working memory load" and "when dealing with complex material that learners may have difficulty understanding, high levels of guidance are likely to result in enhanced performance over lower levels of guidance." This research-based guidance seems especially relevant for teaching novice programmers to use computation in the context of their subject matter (science, engineering, or other).
 
 
-### Increasing Students' Preparation for Their Career
+### Increasing students' preparation for their career
 
 In preparing students to apply what they have learned, striving to align what happens in the course with what they will experience in their career is important. From using parallel software to mirroring workflows,  we want our students to experience and be prepared for the workplace. Recognizing, of course, that workplaces are not static and the skills required for a career are always emerging, using notebooks provides a flexible platform to build skills and build portfolios of what students can do.
 
 
-#### Real World Experience --  Publishing a data narrative as a demonstration of industry ability
+#### Real world experience --  Publishing a data narrative as a demonstration of industry ability
 
 For Data Science careers, a publicly shared narrative about a data analytics project goes a long way at demonstrating the student's potential at an interview. Elizabeth Wicks has her students develop a Jupyter notebook that tells the story of a data munging and analysis project done in the class. The students then publish this notebook to their Github profile pages. Being that Jupyter is one of the most popular ways in industry to communicate data science results, the students have a very valuable key to a potential career.
 
@@ -189,7 +189,7 @@ TODO: Add quote from Elizabeth
 Creating opportunities for students to develop as learners stretch beyond the boundaries of any specific course where you may use notebooks.  By enriching their learning experience in your course, you will help them develop valuable skill-sets and mind-sets that they will take with them into other courses and into their career.
 
 
-### Computational Thinking
+### Computational thinking
 
 Jupyter Notebooks support a wide range of learning goals. Its interactivity enables building intuitive understanding of domain knowledge, such as the understanding of a mechanical response of a system while varying parameters or understanding how an algorithm behaves. Notebooks can also help teach effective communication skills, combining prose with graphics into a strong narrative. Finally, notebooks can support teaching or strengthening programming skills, by combining code with text descriptions and visualizations. Even if a notebook is designed to be consumed passively, the exposure to code helps show students how to do something—and that they can do it themselves. This also helps demystify coding for students who do not view themselves as traditional "computer science" types.
 
