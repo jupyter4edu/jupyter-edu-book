@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="authors.html">
-
+<link rel="prev" href="chapter-6-getting-your-class-going-with-jupyter.html">
+<link rel="next" href="assessing-student-learning-with-jupyter-notebooks.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -175,52 +175,68 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="glossary" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Glossary</h1>
-<p><strong>Anaconda</strong>: a free, open-source package manager, environment manager, Python distribution, and collection of <a href="https://docs.anaconda.com/anaconda/packages/pkg-docs/">over 1,500+ open source packages</a> including and also Jupyter. <a href="https://www.anaconda.com/what-is-anaconda/" class="uri">https://www.anaconda.com/what-is-anaconda/</a></p>
-<p><strong>API (Application Programming Interface)</strong>: the exact details of interacting with software, usually used by other software.</p>
-<p><strong>Binder</strong>: a hosted service that allows anyone to launch their own sandboxed notebook environment from a Git repository. <a href="https://mybinder.org" class="uri">https://mybinder.org</a></p>
-<p><strong>cell</strong>: the area in a Jupyter Notebook where you can enter markdown, or computer code.</p>
-<p><strong>cloud, in the</strong>: used to describe software or documents hosted on a remote computer accessed over the internet.</p>
-<p><strong>CSV (Comma Separated Values)</strong>: referring to a comma-separated value file. A plain-text file format such that each line is a list of data separated by commas.</p>
-<p><strong>execute</strong>: technical term for having the computer perform the instructions of your program. Alias for “run it.”</p>
-<p><strong>extension, Jupyter</strong>: in this instance, it is not a request for more time. Rather, a Jupyter extension is a bit of code, often developed by a third-party, that adds additional functionality to Jupyter. For example, a popular extension is a Table of Contents creator.</p>
-<p><strong>flipped classroom</strong>: a teaching style where students work on their own outside of class to learn new material (sometimes by watching recorded lectures or reading descriptive/interactive notebooks) and the come together in the classroom to practice what they’ve learned through exercises or experiments.</p>
-<p><strong>Git</strong>: a popular version control system (VCS) used for keeping track of changes of files over time.</p>
-<p><strong>IDE (Integrated Development Environment)</strong>: software that assists in the development of additional software.</p>
-<p><strong>Jupyter</strong>: The term “Jupyter” may refer to one of a couple of different things: a community of users and developers focused on the open source software; the collection of tools and standards that, together, allow projects like the Jupyter Notebook to operate. The name refers to the three core programming languages supported: Julia, Python, and R.</p>
-<p><strong>JupyterHub</strong>: a cloud service that can provide access to Jupyter notebooks and environments to multiple users via a modern web browser. <a href="http://jupyter.org/hub" class="uri">http://jupyter.org/hub</a></p>
-<p><strong>kernel</strong>: In Jupyter, a kernel is the packaging up of a language, and related programs needed to run it. For example, Python2 and Python3 are separate kernels.</p>
-<p><strong>LMS (Learning Management System)</strong>: a cloud service that helps instructors manage aspects of classrooms.</p>
-<p><strong>load</strong>: how many students can a computer support?</p>
-<p><strong>Markdown</strong>: a text format that allows for basic formatting (headers, text styles, links) mixed inline with the text. Markdown files usually have the extension <code>.md</code> and can be rendered natively by GitHub and other tools.</p>
-<p><strong>magic</strong>: a meta-command typically starting with one or two percent signs. Changes the meaning of the contents of a line (one percent sign, <code>%</code>) or the cell (two percent signs, <code>%%</code>) from code to a particular meta-instruction. For example, <code>%%R</code> indicates that the cell contents will be interpreted as commands to the R language. Magics are kernel-specific (e.g., vary with the kernel in use).</p>
-<p><strong>nbgrader</strong>: a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. <a href="https://nbgrader.readthedocs.io" class="uri">https://nbgrader.readthedocs.io</a></p>
-<p><strong>nbviewer</strong>: a web application for rendering Jupyter notebooks as static web pages, providing a URL to share and view them with a modern web browser. <a href="https://nbviewer.jupyter.org" class="uri">https://nbviewer.jupyter.org</a></p>
-<p><strong>nbconvert</strong>: a tool for converting Jupyter notebooks into other formats such as PDF, HTML, LaTeX, Markdown, reStructuredText, and others. <a href="https://nbconvert.readthedocs.io" class="uri">https://nbconvert.readthedocs.io</a></p>
-<p><strong>notebook hidden state</strong>: a technical term referring to the value of variables that may have surprising results due to cells having been executed in a non-sequential order.</p>
-<p><strong>open source</strong>: software and documents that are created in a manner that give you rights to be able to use, and reproduce.</p>
-<p><strong>pattern</strong>: A “pattern” is a technical term referring to an abstract description of a labeled process. For example, “wash, rinse, repeat” is a common pattern for cleaning various objects.</p>
-<p><strong>service, JupyterHub</strong>: JupyterHub can take advantage of additional separate, but integrated, software extensions. These are called “services.”</p>
-<p><strong>script</strong>: a colloquial term for a computer program.</p>
-<p><strong>unit test</strong>: a technical term for a “test” for checking to see if software is operating correctly.</p>
-<p><strong>URL (Universal Resource Locator)</strong>: the address of a resource (e.g., webpage) on the internet.</p>
-<p><strong>widget</strong>: a user interface (such as buttons, sliders, and checkboxes) that allow the easy control of hidden computer code.</p>
-
+<div id="distribution-and-collection-of-materials" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Distribution and Collection of Materials</h1>
+<p>You may want to distribute course materials to and collect them from students. A variety of options are available. Some important things to consider:</p>
+<ul>
+<li>Do you want to share your notebooks publicly, or do they require privacy?</li>
+<li>Can the notebooks that the students create or edit be public? Or do they require privacy?</li>
+<li>How do you plan to assess collected notebooks?</li>
+<li>Do you need integration with your LMS?</li>
+<li>Do you need integration with a file-sharing system?</li>
+<li>Do you want to distribute with the cell output showing?</li>
+<li>Do students need software that is not easily available on their own (or laboratory) computers?</li>
+</ul>
+<p>Jupyter notebooks are plain text computer files, so you can distribute them to students and collect them using any system that handles text files, including GitHub, Google Drive, and (as a last resort) email.</p>
+<div id="learning-management-systems" class="section level3">
+<h3><span class="header-section-number">4.0.1</span> Learning Management Systems</h3>
+<p>Many instructors use a Learning Management System (LMS) to communicate with students. These tools offer private file sharing and assignments that connect to the students’ institutional computing accounts and they can be used to distribute and collect notebooks as text files. However, most LMS tools are not yet notebook-aware, so they don’t render notebooks or make it easy for instructors to comment on or grade them.</p>
+<p>Some tools and workflows are being actively developed to connect the Jupyter ecosystem to the LMS ecosystem using the <a href="https://open.edx.org/learning-tools-interoperability">Learning Tools Interoperability (LTI)</a>(<a href="https://open.edx.org/learning-tools-interoperability" class="uri">https://open.edx.org/learning-tools-interoperability</a>) standard. By the time you read this, you might find that the options have improved.</p>
 </div>
+<div id="web-hosting" class="section level3">
+<h3><span class="header-section-number">4.0.2</span> Web hosting</h3>
+<p>Notebooks can be publicly hosted on any website, so students can download the files by clicking on a link. Most web hosting software is not notebook-aware,</p>
+<p>but nbviewer is a web service that renders notebooks (<a href="https://nbviewer.jupyter.org/" class="uri">https://nbviewer.jupyter.org/</a>). Also, some browser extensions can open notebook files via nbviewer (<a href="https://github.com/jiffyclub/open-in-nbviewer" class="uri">https://github.com/jiffyclub/open-in-nbviewer</a>).</p>
+<p>GitHub Pages (and other similar services) can be used to host rendered notebooks, and continuous integration services can build the web pages from the notebooks and then display content. See Jupyter Book (<a href="https://github.com/choldgraf/jupyter-book" class="uri">https://github.com/choldgraf/jupyter-book</a>) and use of <a href="https://drdoctr.github.io/doctr">doctr</a> to do this.</p>
+</div>
+<div id="git" class="section level3">
+<h3><span class="header-section-number">4.0.3</span> Git</h3>
+<p>One of the most popular tools for distributing and collecting notebooks is Git, which is a version control system. Files under Git control are often hosted on services like GitHub, GitLab, and Bitbucket. Many of these services are notebook-aware; for example, when you view a notebook on GitHub, you see a rendered notebook that includes formatted text, typeset mathematics, code highlighting, and the output of the code, including figures.</p>
+<p>Educators at academic institutions can use GitHub Classroom, which allows instructors to set up assignments for a class. Students click on a link for an assignment and a copy of the assignment repo is created and initialized with the assignment content, which can be a notebook. Each student’s repository can be made private, with access only granted for the student and instructor. This can be an efficient way to distribute assignments to a large class.</p>
+<p>A drawback of Git is that it is hard to use. It might be worth spending time in your class to teach Git if it is valuable for students to learn about version control. But if this is not one of the learning goals for your class, you can minimize the students’ exposure to Git using graphical interfaces like GitHub Desktop and Git for Windows.</p>
+<p>The default Git tools for comparing files and merging changes do not work well with Jupyter notebooks. However, there are specialized tools to help with these tasks (see Notebooks Under Version Control).</p>
+</div>
+<div id="jupyterhub" class="section level3">
+<h3><span class="header-section-number">4.0.4</span> JupyterHub</h3>
+<p>If your students are using JupyterHub, you can place notebooks and any related files directly into the students’ directories manually or via a script. If nbgrader is available on your JupyterHub instance you can use it to collect and distribute notebooks (whether or not you choose to use nbgrader’s assessment features). This allows you to develop the notebooks and incrementally make them visible to the students for them to “fetch”. They can then edit the notebooks or create new ones in the directory created in their storage space, and then publish their notebooks back to you for downloading, viewing, or assessing with the nbgrader tools (see the next section for details on this tool).</p>
+<pre><code>**— Box**
 
 
+**What is nbgrader?** `nbgrader` is a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. It works as a Jupyter extension that the course creator installs on their computer. `nbgrader` is a flexible project in the Jupyter ecosystem that allows the distribution and collection of materials. As its name implies, it also can grade assignments; it can be used in a distributed manner where each student is running Jupyter on their own computers, or in a centralized manner, for example, if the students each have an account on a JupyterHub installation. (More details in the Assessment section.)
 
 
-
-
+[https://nbgrader.readthedocs.io](https://nbgrader.readthedocs.io) </code></pre>
+</div>
+<div id="using-an-lms-and-nbgrader-together" class="section level3">
+<h3><span class="header-section-number">4.0.5</span> Using an LMS and nbgrader together:</h3>
+<p>Integration of nbgrader with learning management systems is still primitive, but the following is a strategy that works with current tools.</p>
+<ol style="list-style-type: decimal">
+<li>The instructor creates an assignment notebook using nbgrader, then distributes the assignment to students via an LMS.</li>
+<li>Students complete the assignment and upload the solution to the LMS.</li>
+<li>The instructor downloads the completed assignments as zip file and extracts the students’ solutions in a Jupyter environment.</li>
+<li>Instructors and graders use nbgrader to grade the assignment and save the grades to a CSV file.</li>
+<li>The CSV file is then uploaded to the LMS.</li>
+</ol>
+<p>There are already some tools that make this workflow easier, including the Extractor plugin to the ZipCollect feature in nbgrader (<a href="https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html" class="uri">https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html</a>).</p>
+</div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="authors.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="chapter-6-getting-your-class-going-with-jupyter.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="assessing-student-learning-with-jupyter-notebooks.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -250,7 +266,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/09-glossary.md",
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/06-getting-your-class-going-with-jupyter.md",
 "text": "Edit"
 },
 "history": {

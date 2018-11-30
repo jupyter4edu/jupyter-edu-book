@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="authors.html">
-
+<link rel="prev" href="assessing-student-learning-with-jupyter-notebooks.html">
+<link rel="next" href="authors.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -175,52 +175,40 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="glossary" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Glossary</h1>
-<p><strong>Anaconda</strong>: a free, open-source package manager, environment manager, Python distribution, and collection of <a href="https://docs.anaconda.com/anaconda/packages/pkg-docs/">over 1,500+ open source packages</a> including and also Jupyter. <a href="https://www.anaconda.com/what-is-anaconda/" class="uri">https://www.anaconda.com/what-is-anaconda/</a></p>
-<p><strong>API (Application Programming Interface)</strong>: the exact details of interacting with software, usually used by other software.</p>
-<p><strong>Binder</strong>: a hosted service that allows anyone to launch their own sandboxed notebook environment from a Git repository. <a href="https://mybinder.org" class="uri">https://mybinder.org</a></p>
-<p><strong>cell</strong>: the area in a Jupyter Notebook where you can enter markdown, or computer code.</p>
-<p><strong>cloud, in the</strong>: used to describe software or documents hosted on a remote computer accessed over the internet.</p>
-<p><strong>CSV (Comma Separated Values)</strong>: referring to a comma-separated value file. A plain-text file format such that each line is a list of data separated by commas.</p>
-<p><strong>execute</strong>: technical term for having the computer perform the instructions of your program. Alias for “run it.”</p>
-<p><strong>extension, Jupyter</strong>: in this instance, it is not a request for more time. Rather, a Jupyter extension is a bit of code, often developed by a third-party, that adds additional functionality to Jupyter. For example, a popular extension is a Table of Contents creator.</p>
-<p><strong>flipped classroom</strong>: a teaching style where students work on their own outside of class to learn new material (sometimes by watching recorded lectures or reading descriptive/interactive notebooks) and the come together in the classroom to practice what they’ve learned through exercises or experiments.</p>
-<p><strong>Git</strong>: a popular version control system (VCS) used for keeping track of changes of files over time.</p>
-<p><strong>IDE (Integrated Development Environment)</strong>: software that assists in the development of additional software.</p>
-<p><strong>Jupyter</strong>: The term “Jupyter” may refer to one of a couple of different things: a community of users and developers focused on the open source software; the collection of tools and standards that, together, allow projects like the Jupyter Notebook to operate. The name refers to the three core programming languages supported: Julia, Python, and R.</p>
-<p><strong>JupyterHub</strong>: a cloud service that can provide access to Jupyter notebooks and environments to multiple users via a modern web browser. <a href="http://jupyter.org/hub" class="uri">http://jupyter.org/hub</a></p>
-<p><strong>kernel</strong>: In Jupyter, a kernel is the packaging up of a language, and related programs needed to run it. For example, Python2 and Python3 are separate kernels.</p>
-<p><strong>LMS (Learning Management System)</strong>: a cloud service that helps instructors manage aspects of classrooms.</p>
-<p><strong>load</strong>: how many students can a computer support?</p>
-<p><strong>Markdown</strong>: a text format that allows for basic formatting (headers, text styles, links) mixed inline with the text. Markdown files usually have the extension <code>.md</code> and can be rendered natively by GitHub and other tools.</p>
-<p><strong>magic</strong>: a meta-command typically starting with one or two percent signs. Changes the meaning of the contents of a line (one percent sign, <code>%</code>) or the cell (two percent signs, <code>%%</code>) from code to a particular meta-instruction. For example, <code>%%R</code> indicates that the cell contents will be interpreted as commands to the R language. Magics are kernel-specific (e.g., vary with the kernel in use).</p>
-<p><strong>nbgrader</strong>: a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. <a href="https://nbgrader.readthedocs.io" class="uri">https://nbgrader.readthedocs.io</a></p>
-<p><strong>nbviewer</strong>: a web application for rendering Jupyter notebooks as static web pages, providing a URL to share and view them with a modern web browser. <a href="https://nbviewer.jupyter.org" class="uri">https://nbviewer.jupyter.org</a></p>
-<p><strong>nbconvert</strong>: a tool for converting Jupyter notebooks into other formats such as PDF, HTML, LaTeX, Markdown, reStructuredText, and others. <a href="https://nbconvert.readthedocs.io" class="uri">https://nbconvert.readthedocs.io</a></p>
-<p><strong>notebook hidden state</strong>: a technical term referring to the value of variables that may have surprising results due to cells having been executed in a non-sequential order.</p>
-<p><strong>open source</strong>: software and documents that are created in a manner that give you rights to be able to use, and reproduce.</p>
-<p><strong>pattern</strong>: A “pattern” is a technical term referring to an abstract description of a labeled process. For example, “wash, rinse, repeat” is a common pattern for cleaning various objects.</p>
-<p><strong>service, JupyterHub</strong>: JupyterHub can take advantage of additional separate, but integrated, software extensions. These are called “services.”</p>
-<p><strong>script</strong>: a colloquial term for a computer program.</p>
-<p><strong>unit test</strong>: a technical term for a “test” for checking to see if software is operating correctly.</p>
-<p><strong>URL (Universal Resource Locator)</strong>: the address of a resource (e.g., webpage) on the internet.</p>
-<p><strong>widget</strong>: a user interface (such as buttons, sliders, and checkboxes) that allow the easy control of hidden computer code.</p>
+<div id="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> How do you create Jupyter Notebooks for reuse and sharing?</h1>
+<p>As you create notebooks for your lectures, computational essays, or homework assignments, you may wish to think about how to make it possible that they can be reused by yourself and others.</p>
+<p>First, you may want to make the materials openly accessible and findable via the internet. This suggests avoiding keeping the notebooks behind a “walled garden,” such as a Course Management System. That is, users may have access to some material, but be prevented from seeing other materials. You will have to decide whether you want others to have full access. For example, many teachers do not want students to be able to see notebooks that may have solutions, or hints of solutions and therefore limit their access.</p>
+<p>Callout box: To share your notebook with others you can submit it to <a href="https://www.engage-csedu.org/" class="uri">https://www.engage-csedu.org/</a> This curated collection of open educational computing resources is maintained by the National Center for Women in Information Technology (NCWIT).</p>
+<p>If you decide to make your notebooks reusable by others, make it clear under which license the materials can be used. For example, you can include a Creative Commons attribution and share-alike statement at the bottom of your notebook. Adding a license allows people to reuse your materials without asking for permission explicitly. <a href="https://creativecommons.org/licenses/by-sa/3.0/us/" class="uri">https://creativecommons.org/licenses/by-sa/3.0/us/</a></p>
+<p>GitHub may be the most common service to host and share notebooks, where they can be viewed (including rendering), downloaded, or forked by others. (Private repositories can also be used to limit visibility to colleagues, students, or other organizations.). Make sure to be aware of some of the pitfalls of keeping notebooks version controlled however (see Notebooks Under Version Control for details).</p>
+<p>Another potential issue with sharing deals with external files that you may want to include in your notebook. This is in contrast with content (say a plot) that can be directly created by the notebook’s code. Possible content includes data, images and videos using code and embedding tags in markdown or HTML. The implication is that if you share your notebook you must include the external files along with the notebook. This can be done a number of ways including using a version control repository, a zip-file, or a file sharing service. Another external dependency issue with sharing notebooks involves software libraries. In this case you share a configuration file that a user can use to setup the same environment. Examples of these files include a conda env.yml, a pip requirements.txt, or dockerfile.</p>
+<p>Because Jupyter notebooks embed the output of cells into the ipynb file itself (e.g., images, videos, etc.), the files can grow large. To make it possible to display the cell output via the renderers on Github, Gitlab, or nbviewer, save the notebook after it is executed and then upload to those services. If instead you want to reduce file size and provide the notebooks to someone with the code cell output cleared, choose this option in the notebook’s dropdown interface. Then the user will need to execute the notebook themselves to see the output.</p>
+<p><strong>Jupyter: a 21st Century Genre of Open Educational Resources and Practices</strong></p>
+<p>Educators create teaching and learning materials. With the appearance of the internet, a community of educators began producing open access traditional teaching materials. In parallel, a community of software developers began creating open source software. Each community developed their own development patterns. In particular open source software communities gravitated to the bazaar style<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> of distributed and collaborative work. Jupyter notebooks may be the first time that these communities are merging. Jupyter notebook authors are applying the content creation patterns they use to the creation of open educational resources that teach computation or teach through computation.</p>
+<p>Open Education encompasses a large community, with its own conferences and journals, with leaders and advocated practices. The most visible efforts are related to Open Educational Resources (OER): the creation and adoption of openly licensed learning materials. In 1994, Wayne Hodgins coined the term “learning object” and the idea spread that digital materials could be designed and made to be <em>reused</em>. This was followed by efforts to develop metadata standards, content exchanges, and so on (addressing the concern of how to find the objects to reuse them). In 1998, David Wiley coined the term “open content” and spread the idea that principles of Free and Open Source Software (FOSS) could be applied to content on the World Wide Web. The Creative Commons non-profit organization was founded in 2001 to provide ready-made license agreements for sharing content and served a vital infrastructure role on the spread of OER. The Creative Commons licenses are now the most widely used licensing framework for open education. The year 2001 also saw the launch of MIT OpenCourseWare (OCW). MIT promised free public access for non-commercial uses of their course materials. It was a unique commitment at an institutional level, strengthened by the MIT brand. Other universities joined the OCW movement: Rice with the OpenStax project (now formerly Connexion), CMU with the Open Learning Initiative (OLI), Utah State University with the Center for Open and Sustainable Learning, and so on. Today, the Open Education Consortium has hundreds of members from around the world. The recurrent topics in OER are: reducing costs for students buying textbooks, increasing access, and dealing with copyright and licenses.</p>
+<p>In the last few years, educators using Jupyter have been creating and sharing all kinds of educational materials in the form of notebooks, typically under a Creative Commons Attribution license (CC-BY). In fact, Jupyter is <em>a new genre of OER</em>. But in addition to creating open content, educators using Jupyter often take active part in the Jupyter community and adopt the <em>culture</em> of open-source software. This is a culture with strong ethical commitments, related to freedom of access, transparency, and governance (Coleman, 2012). The content they create has the value of giving access (the very definition of OER), under an open model. But open-source culture also promotes a culture of collaboration. In this regard, engaging in teaching with Jupyter opens new possibilities for educators to engage in <em>open development</em> and collaborate with others in producing lessons, tutorials, courses, and even books.</p>
+<p>REF—Coleman, E.G., 2012. Coding freedom: The ethics and aesthetics of hacking. Princeton University Press.</p>
+<p>NOTE from Carol: Installation on a student computer or web-based access. Installation on computer lab computers or web-based access. Web-based access requires additional decisions and system administration resources.</p>
+<!-- Footnotes themselves at the bottom. -->
+<div id="notes" class="section level2">
+<h2><span class="header-section-number">6.1</span> Notes</h2>
 
 </div>
-
-
-
-
-
-
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>The bazaar style is a method of collectively creating software that isn’t top down directed like a traditional company hierarchy.<a href="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html#fnref1">↩</a></p></li>
+</ol>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="authors.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="assessing-student-learning-with-jupyter-notebooks.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -250,7 +238,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/09-glossary.md",
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/06-getting-your-class-going-with-jupyter.md",
 "text": "Edit"
 },
 "history": {

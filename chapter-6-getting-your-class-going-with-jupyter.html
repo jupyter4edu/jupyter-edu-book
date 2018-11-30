@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Teaching and Learning with Jupyter</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Teaching and Learning with Jupyter" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="jupyter4edu/jupyter-edu-book" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Teaching and Learning with Jupyter" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Lorena A. Barba et al.">
+
+
+<meta name="date" content="2018-11-30">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="intro.html">
+<link rel="next" href="distribution-and-collection-of-materials.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Teaching and Learning with Jupyter</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#acknowledgements"><i class="fa fa-check"></i><b>2.1</b> Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html"><i class="fa fa-check"></i><b>3</b> Chapter 6. Getting Your Class Going with Jupyter</a><ul>
+<li class="chapter" data-level="3.1" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#local-installation-on-students-or-lab-computers"><i class="fa fa-check"></i><b>3.1</b> Local installation on students’ or lab computers</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#jupyter-on-student-owned-computers"><i class="fa fa-check"></i><b>3.1.1</b> Jupyter on student-owned computers</a></li>
+<li class="chapter" data-level="3.1.2" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#jupyter-on-lab-computers"><i class="fa fa-check"></i><b>3.1.2</b> Jupyter on lab computers</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#jupyter-on-remote-servers"><i class="fa fa-check"></i><b>3.2</b> Jupyter on remote servers</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#running-in-a-temporary-environment-in-the-cloud"><i class="fa fa-check"></i><b>3.2.1</b> Running in a temporary environment in the cloud</a></li>
+<li class="chapter" data-level="3.2.2" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#running-on-servers-you-control"><i class="fa fa-check"></i><b>3.2.2</b> Running on servers you control</a></li>
+<li class="chapter" data-level="3.2.3" data-path="chapter-6-getting-your-class-going-with-jupyter.html"><a href="chapter-6-getting-your-class-going-with-jupyter.html#running-jupyter-in-the-cloud"><i class="fa fa-check"></i><b>3.2.3</b> Running Jupyter in the cloud</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="distribution-and-collection-of-materials.html"><a href="distribution-and-collection-of-materials.html"><i class="fa fa-check"></i><b>4</b> Distribution and Collection of Materials</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="distribution-and-collection-of-materials.html"><a href="distribution-and-collection-of-materials.html#learning-management-systems"><i class="fa fa-check"></i><b>4.0.1</b> Learning Management Systems</a></li>
+<li class="chapter" data-level="4.0.2" data-path="distribution-and-collection-of-materials.html"><a href="distribution-and-collection-of-materials.html#web-hosting"><i class="fa fa-check"></i><b>4.0.2</b> Web hosting</a></li>
+<li class="chapter" data-level="4.0.3" data-path="distribution-and-collection-of-materials.html"><a href="distribution-and-collection-of-materials.html#git"><i class="fa fa-check"></i><b>4.0.3</b> Git</a></li>
+<li class="chapter" data-level="4.0.4" data-path="distribution-and-collection-of-materials.html"><a href="distribution-and-collection-of-materials.html#jupyterhub"><i class="fa fa-check"></i><b>4.0.4</b> JupyterHub</a></li>
+<li class="chapter" data-level="4.0.5" data-path="distribution-and-collection-of-materials.html"><a href="distribution-and-collection-of-materials.html#using-an-lms-and-nbgrader-together"><i class="fa fa-check"></i><b>4.0.5</b> Using an LMS and nbgrader together:</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="assessing-student-learning-with-jupyter-notebooks.html"><a href="assessing-student-learning-with-jupyter-notebooks.html"><i class="fa fa-check"></i><b>5</b> Assessing student learning with Jupyter Notebooks</a><ul>
+<li class="chapter" data-level="5.1" data-path="assessing-student-learning-with-jupyter-notebooks.html"><a href="assessing-student-learning-with-jupyter-notebooks.html#section"><i class="fa fa-check"></i><b>5.1</b> </a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html"><a href="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html"><i class="fa fa-check"></i><b>6</b> How do you create Jupyter Notebooks for reuse and sharing?</a><ul>
+<li class="chapter" data-level="6.1" data-path="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html"><a href="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html#notes"><i class="fa fa-check"></i><b>6.1</b> Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="authors.html"><a href="authors.html"><i class="fa fa-check"></i><b>7</b> About the Authors</a><ul>
+<li class="chapter" data-level="7.1" data-path="authors.html"><a href="authors.html#project-lead"><i class="fa fa-check"></i><b>7.1</b> Project Lead</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="authors.html"><a href="authors.html#lorena-a.-barba"><i class="fa fa-check"></i><b>7.1.1</b> Lorena A. Barba</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="authors.html"><a href="authors.html#authors-at-the-sprint"><i class="fa fa-check"></i><b>7.2</b> Authors at the sprint</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="authors.html"><a href="authors.html#lecia-j.-barker"><i class="fa fa-check"></i><b>7.2.1</b> Lecia J. Barker</a></li>
+<li class="chapter" data-level="7.2.2" data-path="authors.html"><a href="authors.html#douglas-blank"><i class="fa fa-check"></i><b>7.2.2</b> Douglas Blank</a></li>
+<li class="chapter" data-level="7.2.3" data-path="authors.html"><a href="authors.html#jed-brown"><i class="fa fa-check"></i><b>7.2.3</b> Jed Brown</a></li>
+<li class="chapter" data-level="7.2.4" data-path="authors.html"><a href="authors.html#allen-downey"><i class="fa fa-check"></i><b>7.2.4</b> Allen Downey</a></li>
+<li class="chapter" data-level="7.2.5" data-path="authors.html"><a href="authors.html#tim-george"><i class="fa fa-check"></i><b>7.2.5</b> Tim George</a></li>
+<li class="chapter" data-level="7.2.6" data-path="authors.html"><a href="authors.html#lindsey-heagy"><i class="fa fa-check"></i><b>7.2.6</b> Lindsey Heagy</a></li>
+<li class="chapter" data-level="7.2.7" data-path="authors.html"><a href="authors.html#kyle-mandli"><i class="fa fa-check"></i><b>7.2.7</b> Kyle Mandli</a></li>
+<li class="chapter" data-level="7.2.8" data-path="authors.html"><a href="authors.html#jason-k.-moore"><i class="fa fa-check"></i><b>7.2.8</b> Jason K. Moore</a></li>
+<li class="chapter" data-level="7.2.9" data-path="authors.html"><a href="authors.html#david-lippert"><i class="fa fa-check"></i><b>7.2.9</b> David Lippert</a></li>
+<li class="chapter" data-level="7.2.10" data-path="authors.html"><a href="authors.html#kyle-niemeyer"><i class="fa fa-check"></i><b>7.2.10</b> Kyle Niemeyer</a></li>
+<li class="chapter" data-level="7.2.11" data-path="authors.html"><a href="authors.html#ryan-watkins"><i class="fa fa-check"></i><b>7.2.11</b> Ryan Watkins</a></li>
+<li class="chapter" data-level="7.2.12" data-path="authors.html"><a href="authors.html#richard-west"><i class="fa fa-check"></i><b>7.2.12</b> Richard West</a></li>
+<li class="chapter" data-level="7.2.13" data-path="authors.html"><a href="authors.html#elizabeth-wickes"><i class="fa fa-check"></i><b>7.2.13</b> Elizabeth Wickes</a></li>
+<li class="chapter" data-level="7.2.14" data-path="authors.html"><a href="authors.html#carol-willing"><i class="fa fa-check"></i><b>7.2.14</b> Carol Willing</a></li>
+<li class="chapter" data-level="7.2.15" data-path="authors.html"><a href="authors.html#michael-zingale"><i class="fa fa-check"></i><b>7.2.15</b> Michael Zingale</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>8</b> Glossary</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Teaching and Learning with Jupyter</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="chapter-6.-getting-your-class-going-with-jupyter" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Chapter 6. Getting Your Class Going with Jupyter</h1>
+<p>You have several options on how to get Jupyter Notebooks to your students. You can ask students to install Jupyter on their own computers, install Jupyter on lab computers for students to use, or run Jupyter on a remote server that your students access on the internet.</p>
+<div id="local-installation-on-students-or-lab-computers" class="section level2">
+<h2><span class="header-section-number">3.1</span> Local installation on students’ or lab computers</h2>
+<p>“Local installation” means that each computer is running the software that includes the Jupyter Notebook. Typically, this requires installing a distribution that includes Jupyter, Python, and possibly other language kernels.</p>
+<p>A popular distribution for Jupyter is Anaconda, which is easy to install on Windows, Mac, and Linux. Because it can install everything at the user level, it does not require the installer to have administrator (or root) permissions.</p>
+<p>Two other popular open source projects that can run Jupyter notebooks are <a href="https://nteract.io/">nteract</a> and <a href="https://nteract.io/atom">Hydrogen</a>. nteract is installed by downloading a binary installer from their website and double-clicking the installation file. Once nteract is installed, any Jupyter notebook on a student’s local system can be double-clicked and it will open within nteract. nteract’s simple user interface make it an excellent choice for students new to computer programming. Hydrogen is a <a href="https://atom.io/packages/hydrogen">very popular plugin</a> for the open source Atom editor; it’s currently used by over 700,000 people. Hydrogen lets a user edit, display, and execute a notebook within the Atom editor.</p>
+<p>You can ask students to install Jupyter on their own computer or make it possible for them to use lab computers. These can also be combined: give students the instructions to install it on their own, but also tell them that it’s available in the lab if they can’t get it to work on their laptop. This way you don’t need a large enough computer lab for everyone, and don’t need to worry that not everyone can get it to work on their own.</p>
+<div id="jupyter-on-student-owned-computers" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Jupyter on student-owned computers</h3>
+<p>The benefits of installation on student-owned computers include:</p>
+<ul>
+<li>Once students have the software on their computers, they always have access to it; they can work anywhere, and they can use it for internships, jobs, and other non-school activities.</li>
+<li>It is easy for them to install additional packages later.</li>
+<li>Students learn to install and set up Jupyter, and software in general, which is a skill they are likely to need.</li>
+<li>The total computing power for the class scales with the number of students, as long as each student has enough CPU power and memory to support the intended applications.</li>
+<li>You can adopt Jupyter without support or resources from your institution.</li>
+<li>Students learn to use Jupyter on their preferred OS, e.g. Linux, Mac, or Windows, which means they are already familiar with the basic idioms of their OS.</li>
+</ul>
+<p>Drawbacks include:</p>
+<ul>
+<li>This approach is only possible if every student owns a computer with enough capacity.</li>
+<li>Students with less powerful computers might be at an unfair disadvantage.</li>
+<li>Although installation is generally easy, it still takes time. The time you spend at the beginning of a class can be worthwhile for a semester-long course that uses Jupyter throughout, but it is a barrier to using Jupyter for a single module or one-off assignment in a course about something else.</li>
+<li>Also, the amount of time spent debugging esoteric problems scales with the number of students: a class of 25 students is bound to have a few people with 32-bit processors, incompatible libraries, out-of-date operating systems, over-zealous virus checkers, etc., and a class with 100 students will have four times as many. One work-around is to have students work in pairs: the probability that more than half of the students cannot get it working is reduced.</li>
+<li>Discrepancies in installed library versions can cause issues for students and may lead to different behaviors when students run code.</li>
+</ul>
+<p>Although Jupyter is cross-platform and ideally behaves the same on Windows, Mac, or Linux, and distributions such as Anaconda also behave very similarly on all platforms, the instructions for installing and launching it are slightly different on each operating system, so fine-grained instructions such as “double click here” or “type this command” need different versions for Linux, Mac, and Windows users, which can be challenging when the instructor presenting the material has only one platform at their disposal. It is worth developing detailed instructions that the students can go through at their own pace, rather than relying only on a live demo in class that will only apply to a fraction of the students.</p>
+</div>
+<div id="jupyter-on-lab-computers" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Jupyter on lab computers</h3>
+<p>Using lab computers instead of student-owned computers has the benefits of uniformity and improved equity. Each student will have exactly the same setup, and the instructions will work the same for everyone. This reduces the amount of individual tech support required and guarantees that all students have access to enough computational power.</p>
+<p>However, this deployment has some disadvantages:</p>
+<ul>
+<li>Depending on how much control you have of the computer lab, you might need institutional permission and support.</li>
+<li>Students might be limited to working on assignments only when they are on campus and when computer labs are open, which might be an unfair disadvantage for non-resident students or those with full time jobs.</li>
+<li>It might be difficult to install additional packages as the need arises, and students might not be allowed to install packages they need for projects.</li>
+<li><p>Even in a computer lab, it can be difficult to maintain consistency across machines, and to keep all installations functional.</p>
+<p><strong>— Box</strong></p>
+<p>What is Anaconda? You will see the Anaconda distribution recommended by many educators and course authors. Anaconda is a package manager, an environment manager, a Python distribution, a collection of <a href="https://docs.anaconda.com/anaconda/packages/pkg-docs/">over 1,500+ open source packages</a>, and also Jupyter. It is free to download, open source, and easy to install, on any computer system (Windows, Mac OS X or Linux). It also includes the conda packaging utility to update and install new packages of the Python and R ecosystems, and to manage computational environments. According to the company’s webpage, Anaconda has more than 6 million users. <a href="https://www.anaconda.com/what-is-anaconda/" class="uri">https://www.anaconda.com/what-is-anaconda/</a> . The Software Carpentry project provides installation instructions with videos for anaconda: <a href="https://swcarpentry.github.io/python-novice-gapminder/setup/" class="uri">https://swcarpentry.github.io/python-novice-gapminder/setup/</a></p>
+<p><strong>— Box</strong></p>
+<p>Two other popular open source projects that can run Jupyter notebooks are <a href="https://nteract.io/">nteract</a> and <a href="https://nteract.io/atom">Hydrogen</a>. nteract is installed by downloading a binary installer from their website and double-clicking the installation file. Once nteract is installed, any Jupyter notebook on a student’s local system can be double-clicked and it will open within nteract. nteract’s simple user interface make it an excellent choice for students new to computer programming. Hydrogen is a <a href="https://atom.io/packages/hydrogen">very popular plugin</a> for the open source Atom editor; it’s currently used by over 700,000 people. Hydrogen lets a user edit, display, and execute a notebook within the Atom editor.</p></li>
+</ul>
+</div>
+</div>
+<div id="jupyter-on-remote-servers" class="section level2">
+<h2><span class="header-section-number">3.2</span> Jupyter on remote servers</h2>
+<p>Even when Jupyter runs locally, it runs as a web application; that is, it runs in a browser connected to a server. In a local installation, the browser and the server run on the same machine. But it is also possible to run the server remotely.</p>
+<p>In that case, students don’t have to install anything; they only have to run a browser and load a URL.</p>
+<p>There are several ways to run Jupyter on a remote server:</p>
+<ol style="list-style-type: decimal">
+<li>You can run Jupyter on a server owned by you or your institution.</li>
+<li>You can run Jupyter in a temporary environment running in the cloud.</li>
+<li>You can run Jupyter in a persistent environment running in the cloud.</li>
+</ol>
+<p>Running Jupyter remotely has many of the advantages of running in a lab: you can provide a consistent environment and guarantee that all students have access to sufficient computation resources. And it mitigates one of the drawbacks of a lab installation, since students have access to cloud resources from anywhere, not just on campus.</p>
+<p>Working in the cloud also means that students do not have to manage their own backups of a laptop hard drive. Although a student could still inadvertently overwrite, delete, or destroy the contents of a notebook stored in the cloud, they will not lose their entire work if a laptop is damaged or lost.</p>
+<p>For simple, one-off uses of Jupyter (say, for a single assignment or in-class activity) the cloud option is very attractive as it requires little in-class time to discuss installation of additional software.</p>
+<div id="running-in-a-temporary-environment-in-the-cloud" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Running in a temporary environment in the cloud</h3>
+<p>The easiest option for running Jupyter in the cloud is to use a cloud service that provides temporary environments. Some of these services are free of cost, and you can use them without installing anything.</p>
+<p>These environments are well-suited for short examples in classes that do not use Jupyter extensively. Students can open a notebook and start running with the push of a button.</p>
+<p>However, there are some limitations to these services:</p>
+<ul>
+<li>If your notebooks depend on particular packages, or particular versions of packages, it can be difficult to satisfy these requirements.</li>
+<li>These services run notebooks in a temporary environment that disappears if it is left idle. So they might not be suitable for managing student work.</li>
+<li><p>Some of these services do not guarantee a level of service and may not be as reliable as you need for a class or workshop.</p>
+<p><strong>— Box</strong></p>
+<p><strong>Binder</strong> (<a href="https://mybinder.org">https://mybinder.</a>org) is an open-source service provided by Project Jupyter. It allows the owner of a set of notebooks residing in a git repository to pre-build an image in the Binder service, and get a shareable link that any visitor can click to obtain a working instance of JupyterHub, with the notebooks in the repository. The session is temporary (any changes the user makes will be deleted when closing the tab or window), but it’s fully interactive. Binder is currently one of the favorite services for running one-off workshops or tutorials.</p></li>
+</ul>
+</div>
+<div id="running-on-servers-you-control" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Running on servers you control</h3>
+<p>If you have access to a server or cluster with enough computing power to support your class—including CPU and especially memory—you can provide a Jupyter as a service using JupyterHub.</p>
+<p>JupyterHub is open-source software that provides a cloud-based Jupyter application for each user in a group. Each user has their own account and home directory on the server. The Hub, JupyterHub’s central system, allows authenticating users and starting individual Jupyter notebook servers. Programs that start notebook servers can use a variety of technical solutions. For more details, see: <a href="https://github.com/jupyterhub/jupyterhub/wiki/Spawners" class="uri">https://github.com/jupyterhub/jupyterhub/wiki/Spawners</a></p>
+<p>Once the Hub starts a user’s notebook server, the Jupyter Notebook running in the cloud behaves just like Jupyter does when installed on an individual’s computer, but JupyterHub will be running notebooks and storing files on a remote cloud computer. Students can download notebooks stored in the cloud to their local computer if they wish to work with a local installation as well. Additionally, students can upload notebooks (and other files) from their local computer to the cloud.</p>
+<p>While anyone can run a JupyterHub server on their own Linux or Mac computer, installing and configuring JupyterHub requires sophisticated knowledge spanning the Linux/Unix operating system, system administration, and networking. For more information, see:</p>
+<ul>
+<li><a href="https://github.com/jupyterhub/jupyterhub" class="uri">https://github.com/jupyterhub/jupyterhub</a> (the basic JupyterHub project, which can be installed on a bare-metal server, a virtual private server (VPS), or a commercial cloud cluster)</li>
+<li><a href="https://github.com/jupyterhub/the-littlest-jupyterhub" class="uri">https://github.com/jupyterhub/the-littlest-jupyterhub</a> (a simplified installation of JupyterHub on a remote server or VPS)</li>
+<li><a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s" class="uri">https://github.com/jupyterhub/zero-to-jupyterhub-k8s</a> (a step-by-step guide to install JupyterHub on a Kubernetes cloud system)</li>
+</ul>
+<p>Providing a JupyterHub service offers several benefits. First, students get up and running immediately—they spend no time installing software. They navigate to a web URL, log in to JupyterHub, and begin using Jupyter. This ability to quickly log in and begin computing is a powerful way to get students to engage with the lesson, builds confidence, and avoids the sometimes-stressful experience of installing software on the student’s computer.</p>
+<p>However, running JupyterHub on your own server has drawbacks:</p>
+<ul>
+<li>Getting started is not easy; most instructors would require (or at least benefit from) institutional support that may not be available.</li>
+<li>It can be difficult to scale: if the number of students increases, you might need more computing power. And the load students generate can be uneven; for example, if everyone runs a computationally-intensive example at the same time, your server might not be able to handle it.</li>
+<li>This option can be expensive, unless you already have servers with sufficient power.</li>
+</ul>
+</div>
+<div id="running-jupyter-in-the-cloud" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Running Jupyter in the cloud</h3>
+<p>If you or your institution don’t own computing hardware with the power to support your class, you can run JupyterHub on virtual servers provided by cloud services like AWS and Microsoft Azure. In those environment, you can install JupyterHub as described in the previous section</p>
+<p>Commercial offerings also exist to use Jupyter in the cloud, some of which provide free trials or a “freemium” pricing model. They include:</p>
+<ul>
+<li>CoCalc, previously MathSageCloud (<a href="https://cocalc.com" class="uri">https://cocalc.com</a>) is a subscription service with a free trial plan. The service also includes the ability to share files with project collaborators. The no-cost version does not allow network access. This has some important limitations (for example, you cannot install additional packages or kernels).</li>
+<li>Gryd (<a href="https://gryd.us" class="uri">https://gryd.us</a>) is another subscription service with a free tier. It includes course-management features, like a way to create a course, invite students, and deploy auto-graded assignments.</li>
+<li>codio (<a href="https://codio.com/features/ide" class="uri">https://codio.com/features/ide</a>)</li>
+<li>Microsoft Azure notebooks (<a href="https://notebooks.azure.com/" class="uri">https://notebooks.azure.com/</a> )</li>
+<li>Amazon Sagemaker (<a href="https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-prepare.html" class="uri">https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-prepare.html</a>)</li>
+<li>Gradient by Paperspace (<a href="https://www.paperspace.com/gradient" class="uri">https://www.paperspace.com/gradient</a>)</li>
+<li>Google Colaboratory (<a href="https://colab.research.google.com/" class="uri">https://colab.research.google.com/</a> )</li>
+</ul>
+<p>The biggest advantage of these services is that they require no installation and minimal setup by instructors, and some of them provide features that integrate with learning management systems. However, instructors generally have to create student accounts and set up student environments.</p>
+<p>These services are highly scalable; that is, they can handle large numbers of students and uneven loads. However, they are not infallible; they might require some tending to make sure students have access to enough resources.</p>
+<p>The biggest drawback of these services is that they can be expensive. Some charge on a per-student basis, with limits on computation and memory use. Some charge on the basis of actual use, which can be unpredictable (and might require instructors to enforce limits on student activities).</p>
+<p>Other drawbacks include:</p>
+<ul>
+<li>It may be difficult or impossible to install packages you, or particular versions of packages.</li>
+<li>Some of these services impose limits on what students can do; for example, they might have limited ability to access external services.</li>
+<li>Many of these services are relatively new, and they sometimes expose instructors and students to rough edges.</li>
+<li>Students generally lose access to their accounts when the class ends (or a limited time after).</li>
+<li>There may be privacy concerns with sharing student information on commercial servers. Some institutions have agreements with one or more of these providers that address privacy.</li>
+</ul>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="distribution-and-collection-of-materials.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/06-getting-your-class-going-with-jupyter.md",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["jupyter-edu-book.pdf", "jupyter-edu-book.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

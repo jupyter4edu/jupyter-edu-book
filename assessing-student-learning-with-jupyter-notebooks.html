@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="authors.html">
-
+<link rel="prev" href="distribution-and-collection-of-materials.html">
+<link rel="next" href="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -175,52 +175,27 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="glossary" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Glossary</h1>
-<p><strong>Anaconda</strong>: a free, open-source package manager, environment manager, Python distribution, and collection of <a href="https://docs.anaconda.com/anaconda/packages/pkg-docs/">over 1,500+ open source packages</a> including and also Jupyter. <a href="https://www.anaconda.com/what-is-anaconda/" class="uri">https://www.anaconda.com/what-is-anaconda/</a></p>
-<p><strong>API (Application Programming Interface)</strong>: the exact details of interacting with software, usually used by other software.</p>
-<p><strong>Binder</strong>: a hosted service that allows anyone to launch their own sandboxed notebook environment from a Git repository. <a href="https://mybinder.org" class="uri">https://mybinder.org</a></p>
-<p><strong>cell</strong>: the area in a Jupyter Notebook where you can enter markdown, or computer code.</p>
-<p><strong>cloud, in the</strong>: used to describe software or documents hosted on a remote computer accessed over the internet.</p>
-<p><strong>CSV (Comma Separated Values)</strong>: referring to a comma-separated value file. A plain-text file format such that each line is a list of data separated by commas.</p>
-<p><strong>execute</strong>: technical term for having the computer perform the instructions of your program. Alias for “run it.”</p>
-<p><strong>extension, Jupyter</strong>: in this instance, it is not a request for more time. Rather, a Jupyter extension is a bit of code, often developed by a third-party, that adds additional functionality to Jupyter. For example, a popular extension is a Table of Contents creator.</p>
-<p><strong>flipped classroom</strong>: a teaching style where students work on their own outside of class to learn new material (sometimes by watching recorded lectures or reading descriptive/interactive notebooks) and the come together in the classroom to practice what they’ve learned through exercises or experiments.</p>
-<p><strong>Git</strong>: a popular version control system (VCS) used for keeping track of changes of files over time.</p>
-<p><strong>IDE (Integrated Development Environment)</strong>: software that assists in the development of additional software.</p>
-<p><strong>Jupyter</strong>: The term “Jupyter” may refer to one of a couple of different things: a community of users and developers focused on the open source software; the collection of tools and standards that, together, allow projects like the Jupyter Notebook to operate. The name refers to the three core programming languages supported: Julia, Python, and R.</p>
-<p><strong>JupyterHub</strong>: a cloud service that can provide access to Jupyter notebooks and environments to multiple users via a modern web browser. <a href="http://jupyter.org/hub" class="uri">http://jupyter.org/hub</a></p>
-<p><strong>kernel</strong>: In Jupyter, a kernel is the packaging up of a language, and related programs needed to run it. For example, Python2 and Python3 are separate kernels.</p>
-<p><strong>LMS (Learning Management System)</strong>: a cloud service that helps instructors manage aspects of classrooms.</p>
-<p><strong>load</strong>: how many students can a computer support?</p>
-<p><strong>Markdown</strong>: a text format that allows for basic formatting (headers, text styles, links) mixed inline with the text. Markdown files usually have the extension <code>.md</code> and can be rendered natively by GitHub and other tools.</p>
-<p><strong>magic</strong>: a meta-command typically starting with one or two percent signs. Changes the meaning of the contents of a line (one percent sign, <code>%</code>) or the cell (two percent signs, <code>%%</code>) from code to a particular meta-instruction. For example, <code>%%R</code> indicates that the cell contents will be interpreted as commands to the R language. Magics are kernel-specific (e.g., vary with the kernel in use).</p>
-<p><strong>nbgrader</strong>: a tool for creating, handling, and automatically grading assignments based on Jupyter notebooks. <a href="https://nbgrader.readthedocs.io" class="uri">https://nbgrader.readthedocs.io</a></p>
-<p><strong>nbviewer</strong>: a web application for rendering Jupyter notebooks as static web pages, providing a URL to share and view them with a modern web browser. <a href="https://nbviewer.jupyter.org" class="uri">https://nbviewer.jupyter.org</a></p>
-<p><strong>nbconvert</strong>: a tool for converting Jupyter notebooks into other formats such as PDF, HTML, LaTeX, Markdown, reStructuredText, and others. <a href="https://nbconvert.readthedocs.io" class="uri">https://nbconvert.readthedocs.io</a></p>
-<p><strong>notebook hidden state</strong>: a technical term referring to the value of variables that may have surprising results due to cells having been executed in a non-sequential order.</p>
-<p><strong>open source</strong>: software and documents that are created in a manner that give you rights to be able to use, and reproduce.</p>
-<p><strong>pattern</strong>: A “pattern” is a technical term referring to an abstract description of a labeled process. For example, “wash, rinse, repeat” is a common pattern for cleaning various objects.</p>
-<p><strong>service, JupyterHub</strong>: JupyterHub can take advantage of additional separate, but integrated, software extensions. These are called “services.”</p>
-<p><strong>script</strong>: a colloquial term for a computer program.</p>
-<p><strong>unit test</strong>: a technical term for a “test” for checking to see if software is operating correctly.</p>
-<p><strong>URL (Universal Resource Locator)</strong>: the address of a resource (e.g., webpage) on the internet.</p>
-<p><strong>widget</strong>: a user interface (such as buttons, sliders, and checkboxes) that allow the easy control of hidden computer code.</p>
-
+<div id="assessing-student-learning-with-jupyter-notebooks" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Assessing student learning with Jupyter Notebooks</h1>
+<p>Many educators develop course-assessment activities as Jupyter Notebooks. This includes exams, in-class activities, homework assignments, and projects.</p>
+<p>One simple way to handle the assessment of a notebook-based submission is to have students either print them out, email them, submit them as a standard electronic document (say into a Course Management System), or drop them into a shared folder. At that point, the instructor can mark and grade them in a traditional manner, for example by simply writing comments on a printout or adding annotations to a PDF.</p>
+<pre><code>**_Pro Tip: Printing out a notebook can sometimes result in wasted space on pages, especially for notebooks with many images or figures. Converting to PDF requires large/complex LaTeX installations. Exporting to HTML and then printing often gives a better result._**</code></pre>
+<p>nbgrader allows code cells in a notebook to be marked to be auto-graded or manually graded. An instructor can then create an assignment that can be completely auo-graded, requiring little work after the notebook has been created. This makes grading much easier and scales well with large class sizes. However, creating such an auto-graded notebook in nbgrader can be quite time-consuming. In addition, pedagogically a completely auto-graded notebook may have serious downsides. For example, studies suggest that students learn better when they can actively connect a topic to their own interests [CITATION NEEDED]. One method of encouraging this is to have a “reflection” question on each submission. Such a reflection question can encourage students to comment on the material in a personal way, but it cannot be auto-graded. Another downside is that simply autograding code with unit tests is unlikely to assess many of the learning objectives you might have for an assignment, e.g., ability to use specific software-design patterns. To address this, you can create manually graded cells for a portion of an assignment and provide written feedback to the student.</p>
+<p><em>GOTCHA: At the time of this writing, nbgrader has some limitations that require careful use. For example, using it in a multi-class setting (say, on JupyterHub) requires that instructors coordinate the naming of assignments so that they do not collide.</em></p>
+<p>nbgrader is a sophisticated tool that can be set up to allow multiple graders, teaching assistants, and more. For more information on using nbgrader, see <a href="https://github.com/jupyter/nbgrader" class="uri">https://github.com/jupyter/nbgrader</a>.</p>
+<p>There are some third-party notebook-based assessment solutions. For example CoCalc (<a href="www.cocalc.com" class="uri">www.cocalc.com</a>) and Vocareum (<a href="www.vocareum.com" class="uri">www.vocareum.com</a>) provide a cloud notebook platform that can also perform assessment similar to nbgrader.</p>
+<p>_For example, cocalc.com offers… [are there other third-party course management notebook-oriented solutions?] and Berkeley uses DataHub for their large Data8 course. Vocareum (<a href="https://www.vocareum.com)_" class="uri">https://www.vocareum.com)_</a></p>
+<div id="section" class="section level2">
+<h2><span class="header-section-number">5.1</span> </h2>
 </div>
-
-
-
-
-
-
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="authors.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="distribution-and-collection-of-materials.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="how-do-you-create-jupyter-notebooks-for-reuse-and-sharing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -250,7 +225,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/09-glossary.md",
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/06-getting-your-class-going-with-jupyter.md",
 "text": "Edit"
 },
 "history": {
