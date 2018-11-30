@@ -3,7 +3,13 @@
 
 ## Introduction
 
-In this chapter, we present a collection of patterns that are particularly aligned with teaching and learning with Jupyter. Each pattern is targeted at specific learning goals, audiences, and formats. With those in mind we describe each pattern and its pedagogical features that support the learning goals, present a practical example, and close each with any potential pitfalls you would want to be aware of.
+In this chapter, we present a collection of patterns that are
+particularly aligned with teaching and learning with Jupyter. Each
+pattern is targeted at specific learning goals, audiences, and
+formats. With those in mind we describe each pattern and its
+pedagogical features that support the learning goals, present a
+practical example, and close each with any potential pitfalls you
+would want to be aware of.
 
 
 ## Shift-Enter for the win
@@ -11,17 +17,23 @@ In this chapter, we present a collection of patterns that are particularly align
 
 **Description:**
 
-Instead of reading a static chapter about a topic, the learners read and execute code, as well as potentially interact with widgets to explore concepts. Starting from a complete notebook, the instructor or learner runs through the notebook cell-by-cell using SHIFT + ENTER.
+Instead of reading a static chapter about a topic, the learners read
+and execute code, as well as potentially interact with widgets to
+explore concepts. Starting from a complete notebook, the instructor or
+learner runs through the notebook cell-by-cell using SHIFT + ENTER.
 
 
 **Example:**
 
-The notebook (or a collection of notebooks) can be used as an alternative to a static textbook on a topic.
+The notebook (or a collection of notebooks) can be used as an
+alternative to a static textbook on a topic.
 
 
 **Learning Goals:**
 
-This pattern can be used to introduce a topic or promote awareness about a set of tools. Additionally, it can serve as documentation that provides a tour of an application programming interface (API).
+This pattern can be used to introduce a topic or promote awareness
+about a set of tools. Additionally, it can serve as documentation that
+provides a tour of an application programming interface (API).
 
 
 **Audience(s):**
@@ -31,17 +43,27 @@ Depending on the style of the notebook, this pattern can be used for a spectrum 
 
 **Format (Lecture / Lab / …):**
 
-This pattern can be used as an alternative to a static textbook. In a tutorial, a complete notebook can be used to provide a tour of an application programming interface (API) of a software package.
+This pattern can be used as an alternative to a static textbook. In a
+tutorial, a complete notebook can be used to provide a tour of an
+application programming interface (API) of a software package.
 
 
 **Features:**
 
-One benefit of this approach is that learners have a complete working example which they can adapt or build from. It provides opportunity for richer interaction than a static textbook.
+One benefit of this approach is that learners have a complete working
+example which they can adapt or build from. It provides opportunity
+for richer interaction than a static textbook.
 
 
 **Pitfalls:**
 
-This style does not prompt much engagement with students. Having a class that interactively works through a notebook can lead to some students finishing much faster than others (e.g., racing through shift+enter). Breaking long notebooks into many smaller ones can help with the pacing in a lecture. Having a master notebook serve as the table of contents can then help students navigate through the class. Notebooks can be linked in a markdown cell as:
+This style does not prompt much engagement with students. Having a
+class that interactively works through a notebook can lead to some
+students finishing much faster than others (e.g., racing through
+shift+enter). Breaking long notebooks into many smaller ones can help
+with the pacing in a lecture. Having a master notebook serve as the
+table of contents can then help students navigate through the
+class. Notebooks can be linked in a markdown cell as:
 
 ```
 
@@ -55,12 +77,25 @@ This style does not prompt much engagement with students. Having a class that in
 
 **Description:**
 
-Notebooks can be used to rapidly generate user interfaces where students and instructors can interact with code through slidebars, entry boxes and toggle buttons. The code can run numerical simulations or perform simple computations, and the output is often a graph or image.
+Notebooks can be used to rapidly generate user interfaces where
+students and instructors can interact with code through slidebars,
+entry boxes and toggle buttons. The code can run numerical simulations
+or perform simple computations, and the output is often a graph or
+image.
 
 
 **Example:**
 
-In geophysics, a direct current resistivity survey involves connecting two electrodes to the ground through which current is injected. Currents flow through the earth and their behavior depends upon the electrical resistivity of the subsurface structures; current flows around resistors and is channeled into conductors. At interfaces between conductors and resistors, charges build up, and these charges generate electric potentials which we measure at the surface of the earth. Each of these steps can be demonstrated through a simulation where students or the instructor builds a model, and views the currents, charges and electric potentials.
+In geophysics, a direct current resistivity survey involves connecting
+two electrodes to the ground through which current is
+injected. Currents flow through the earth and their behavior depends
+upon the electrical resistivity of the subsurface structures; current
+flows around resistors and is channeled into conductors. At interfaces
+between conductors and resistors, charges build up, and these charges
+generate electric potentials which we measure at the surface of the
+earth. Each of these steps can be demonstrated through a simulation
+where students or the instructor builds a model, and views the
+currents, charges and electric potentials.
 
 
 **Related Patterns:**
@@ -70,33 +105,50 @@ Top-down
 
 **Learning Goals:**
 
-This approach can be effective for focusing on domain-specific knowledge and facilitating the exploration of models or computations.
+This approach can be effective for focusing on domain-specific
+knowledge and facilitating the exploration of models or computations.
 
 
 **Audience(s):**
 
-This style can be effective for students with minimal programming experience as they do not have to read, write, or see the code.
+This style can be effective for students with minimal programming
+experience as they do not have to read, write, or see the code.
 
 
 **Format (Lecture / Lab / …):**
 
-In lecture, this style of notebook can be used by an instructor to methodically walk through a concept step-by-step. It is also useful for promoting in-class engagement as students can suggest different parameter choices and instructors can adapt the input parameters based on students' questions.
+In lecture, this style of notebook can be used by an instructor to
+methodically walk through a concept step-by-step. It is also useful
+for promoting in-class engagement as students can suggest different
+parameter choices and instructors can adapt the input parameters based
+on students' questions.
 
-In a lab or assignment, the notebook can be used as a "app" around which questions and exercises are built.
+In a lab or assignment, the notebook can be used as a "app" around
+which questions and exercises are built.
 
 
 **Features:**
 
-Notebooks as apps can be used to promote engagement with students in lecture. In labs, assignments or in-class activities, this approach lowers the barrier-to-entry for students to explore complex models.
+Notebooks as apps can be used to promote engagement with students in
+lecture. In labs, assignments or in-class activities, this approach
+lowers the barrier-to-entry for students to explore complex models.
 
 
 **Pitfalls:**
 
-It is important to have well-structured exercises and questions for students to address with the app. As with any app, simply asking students to play with it does not promote productive engagement.
+It is important to have well-structured exercises and questions for
+students to address with the app. As with any app, simply asking
+students to play with it does not promote productive engagement.
 
-In structuring an exercise for students, we recommend putting instructions and questions in a separate document rather than in the notebook. If students view the notebook as an app, they often want to interact with it rather than read it. By having instructions and questions that go alongside the notebook, they can have the app in view while reading.
+In structuring an exercise for students, we recommend putting
+instructions and questions in a separate document rather than in the
+notebook. If students view the notebook as an app, they often want to
+interact with it rather than read it. By having instructions and
+questions that go alongside the notebook, they can have the app in
+view while reading.
 
-This approach is not intended to be used for developing students' programming skills.
+This approach is not intended to be used for developing students'
+programming skills.
 
 
 **Enabling technologies:**
@@ -109,14 +161,35 @@ Widgets, domain-specific libraries such as simulation tools.
 
 **Description:**
 
-A win-day-one exercise brings learners to the answer quickly and concisely, almost like a magic trick, and then breaks down and methodically works through each of the steps, revealing the magician's tricks. It generally involves multiple notebooks: the first notebook being the "win" which shows the workflow end-to-end, and subsequent notebooks breaking down the details of each component of the workflow.
+A win-day-one exercise brings learners to the answer quickly and
+concisely, almost like a magic trick, and then breaks down and
+methodically works through each of the steps, revealing the magician's
+tricks. It generally involves multiple notebooks: the first notebook
+being the "win" which shows the workflow end-to-end, and subsequent
+notebooks breaking down the details of each component of the workflow.
 
 
 **Example:**
 
-To solve a numerical simulation using a finite volume approach, a mesh must be designed, differential operators formed, boundary conditions set, a right hand-side generated and then the system solved. Naturally, there are important considerations for each step. For even a moderately sized problem, sparse matrices are necessary in order to keep memory usage contained, the mesh must be appropriately designed in order to satisfy boundary conditions, and the solver needs to be compatible with the structure of the system matrix. These details are critical for assembling a numerical computation, but if introduced upfront, they can overwhelm the conversation.
+To solve a numerical simulation using a finite volume approach, a mesh
+must be designed, differential operators formed, boundary conditions
+set, a right hand-side generated and then the system
+solved. Naturally, there are important considerations for each
+step. For even a moderately sized problem, sparse matrices are
+necessary in order to keep memory usage contained, the mesh must be
+appropriately designed in order to satisfy boundary conditions, and
+the solver needs to be compatible with the structure of the system
+matrix. These details are critical for assembling a numerical
+computation, but if introduced upfront, they can overwhelm the
+conversation.
 
-In a win-day-one approach, learners are first shown a concise example, in which many of the details are abstracted away in functions or objects. For example, methods such as `get_mesh`, `get_pde`, and `solve` abstract away the details of mesh design, creating differential operators and solving the set of equations. In subsequent notebooks, the workflow is tackled methodically, and the inner workings of each component discussed.
+In a win-day-one approach, learners are first shown a concise example,
+in which many of the details are abstracted away in functions or
+objects. For example, methods such as `get_mesh`, `get_pde`, and
+`solve` abstract away the details of mesh design, creating
+differential operators and solving the set of equations. In subsequent
+notebooks, the workflow is tackled methodically, and the inner
+workings of each component discussed.
 
 
 **Related Patterns:**
@@ -126,17 +199,22 @@ Top-down, Proof by Example
 
 **Learning Goals:**
 
-This can be an effective approach for introducing complex processes, providing context for how each of the components fits together, and focusing attention.
+This can be an effective approach for introducing complex processes,
+providing context for how each of the components fits together, and
+focusing attention.
 
 
 **Audience(s):**
 
-This style can be effective for a spectrum of student audiences from those with some programming experience to those with significant experience.
+This style can be effective for a spectrum of student audiences from
+those with some programming experience to those with significant
+experience.
 
 
 **Format (Lecture / Lab / …):**
 
-This can be effective for tutorials and workshops, and can be used over multiple lectures.
+This can be effective for tutorials and workshops, and can be used
+over multiple lectures.
 
 
 **Features:**
@@ -144,7 +222,10 @@ This can be effective for tutorials and workshops, and can be used over multiple
 
 **Pitfalls:**
 
-One hazard of the "win-day-one" is that the "win" is overwhelming (too much detail) or too magical (too little detail). An appropriate level of detail needs to be selected so that each of the components of the workflow is demonstrated, but at a high-level.
+One hazard of the "win-day-one" is that the "win" is overwhelming (too
+much detail) or too magical (too little detail). An appropriate level
+of detail needs to be selected so that each of the components of the
+workflow is demonstrated, but at a high-level.
 
 
 ## Fill in the blanks
@@ -152,32 +233,53 @@ One hazard of the "win-day-one" is that the "win" is overwhelming (too much deta
 
 **Description:**
 
-In order to focus attention on one aspect of a workflow, the scaffolding and majority of the workflow can be laid out and some elements removed with the intent that students (or the instructor during a demo) fill in those pieces. The exercise might be accompanied by a small test that the code should pass, or a plot, or value which the code should generate if correct.
+In order to focus attention on one aspect of a workflow, the
+scaffolding and majority of the workflow can be laid out and some
+elements removed with the intent that students (or the instructor
+during a demo) fill in those pieces. The exercise might be accompanied
+by a small test that the code should pass, or a plot, or value which
+the code should generate if correct.
 
 
 **Example:**
 
-A fundamental concept in computing is the use of a for loop to accumulate a result.  A fill-in-the-blank exercise demonstrating an accumulator could lay out the initialization, provide the skeleton of the for loop and include plotting code, with the aim being that students write the update step inside the for loop.
+A fundamental concept in computing is the use of a for loop to
+accumulate a result.  A fill-in-the-blank exercise demonstrating an
+accumulator could lay out the initialization, provide the skeleton of
+the for loop and include plotting code, with the aim being that
+students write the update step inside the for loop.
 
 
 **Related Patterns:**
 
-This pattern is similar to Target Practice; a difference is that Target Practice often focuses on a bigger step in a multi-step process.  Fill in the Blank exercises tend to be smaller and more immediate.
+This pattern is similar to Target Practice; a difference is that
+Target Practice often focuses on a bigger step in a multi-step
+process.  Fill in the Blank exercises tend to be smaller and more
+immediate.
 
 
 **Learning Goals:**
 
-This pattern focuses attention on a component of a task and provides the benefit of demonstrating how that component fits into the bigger picture or a larger workflow. It can be an effective approach for taking students on a tour of an API, requiring that they use the documentation of the software, or for focusing attention on one aspect of an multi-step computational model.
+This pattern focuses attention on a component of a task and provides
+the benefit of demonstrating how that component fits into the bigger
+picture or a larger workflow. It can be an effective approach for
+taking students on a tour of an API, requiring that they use the
+documentation of the software, or for focusing attention on one aspect
+of an multi-step computational model.
 
 
 **Audience(s):**
 
-This approach can be used with a range of students, from those who are first being introduced to computing concepts to those who have significant experience.
+This approach can be used with a range of students, from those who are
+first being introduced to computing concepts to those who have
+significant experience.
 
 
 **Format (Lecture / Lab / …):**
 
-Assignments and labs can adopt this approach (nbgrader can be used to help with marking). It can also be used in a lecture or tutorial setting where the instructor demo's how to fill in the blank.
+Assignments and labs can adopt this approach (nbgrader can be used to
+help with marking). It can also be used in a lecture or tutorial
+setting where the instructor demo's how to fill in the blank.
 
 
 **Features:**
@@ -185,7 +287,9 @@ Assignments and labs can adopt this approach (nbgrader can be used to help with 
 
 **Pitfalls:**
 
-Some students don't find this approach engaging. In particular, if the exercise is too simple for the level of programming competency of the students, it can be perceived a "make-work" task.
+Some students don't find this approach engaging. In particular, if the
+exercise is too simple for the level of programming competency of the
+students, it can be perceived a "make-work" task.
 
 
 ## Top-down sequence
@@ -193,16 +297,28 @@ Some students don't find this approach engaging. In particular, if the exercise 
 
 **Description:**
 
-Particularly in STEM, the default sequence of presentation is bottom-up, meaning that we teach students how things work (and sometimes prove that they work), before students learn how to use them, or what they are for.
+Particularly in STEM, the default sequence of presentation is
+bottom-up, meaning that we teach students how things work (and
+sometimes prove that they work), before students learn how to use
+them, or what they are for.
 
-Notebooks afford the opportunity to present topics top-down; that is, students learn what a tool is for and how to use it, before they learn how it works.
+Notebooks afford the opportunity to present topics top-down; that is,
+students learn what a tool is for and how to use it, before they learn
+how it works.
 
 
 **Example:**
 
-In digital signal processing, one of the most important ideas is the discrete Fourier transform, which depends on complex arithmetic; in a bottom-up approach, we would have to start by teaching or reviewing complex numbers, which is not particularly engaging.
+In digital signal processing, one of the most important ideas is the
+discrete Fourier transform, which depends on complex arithmetic; in a
+bottom-up approach, we would have to start by teaching or reviewing
+complex numbers, which is not particularly engaging.
 
-In contrast to writing the mathematics on paper, in a notebook students can use a library that does the discrete Fourier transform for them, so they understand what it is used for, and see the value of learning about it, before we ask them to do the work of understanding it.
+In contrast to writing the mathematics on paper, in a notebook
+students can use a library that does the discrete Fourier transform
+for them, so they understand what it is used for, and see the value of
+learning about it, before we ask them to do the work of understanding
+it.
 
 
 **Learning Goals:**
@@ -603,7 +719,7 @@ In some situations (such as the first day of class of a very introductory course
 Draw a rectangle. Change the numbers, run it again, and see what happens.
 
 
-![Figure: a first sketch using Calysto Processing, a Java-based language designed for creating art.](images/chapter-40.png "image_tooltip")
+![Figure: a first sketch using Calysto Processing, a Java-based language designed for creating art.](images/processing.png "Calysto processing")
 
 
 **Learning Goals:**
@@ -624,13 +740,17 @@ Open ended, creative, fun.
 
 **Pitfalls:**
 
-Works best when used with a pre-installed Jupyter (see Chapter 5). Rather than telling students that they can do it, just do it. As a first assignment, to cut down on the vast possibilities, we suggest limiting the palette of options. For example, restrict their drawings to use only a single shape, such as rectangle or triangle. We suggest having the students draw something in their life that is important or meaningful to them. We suggest discussing the coordinate grid for the first assignment (see below) and sketching an idea on paper first.
+Works best when used with a pre-installed Jupyter (see Chapter
+5). Rather than telling students that they can do it, just do it. As a
+first assignment, to cut down on the vast possibilities, we suggest
+limiting the palette of options. For example, restrict their drawings
+to use only a single shape, such as rectangle or triangle. We suggest
+having the students draw something in their life that is important or
+meaningful to them. We suggest discussing the coordinate grid for the
+first assignment (see below) and sketching an idea on paper first.
 
 
-![alt_text](images/chapter-41.png "image_tooltip")
-
-
-Figure: actual results from a first homework assignment, using only a series of two different functions.
+![Actual results from a first homework assignment, using only a series of two different functions.](images/ebrose.png "assignment result")
 
 
 ## Test Driven Development
