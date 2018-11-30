@@ -3208,6 +3208,22 @@ on Windows, Mac, and Linux. Because it can install everything at the
 user level, it does not require the installer to have administrator (or
 root) permissions.
 
+\begin{quote}
+\textbf{What is Anaconda?} You will see the Anaconda distribution
+recommended by many educators and course authors. Anaconda is a package
+manager, an environment manager, a Python distribution, a collection of
+\href{https://docs.anaconda.com/anaconda/packages/pkg-docs/}{over 1,500+
+open source packages}, and also Jupyter. It is free to download, open
+source, and easy to install, on any computer system (Windows, Mac OS X
+or Linux). It also includes the conda packaging utility to update and
+install new packages of the Python and R ecosystems, and to manage
+computational environments. According to the company's webpage, Anaconda
+has more than 6 million users:
+\url{https://www.anaconda.com/what-is-anaconda/}. The Software Carpentry
+project provides installation instructions with videos for anaconda:
+\url{https://swcarpentry.github.io/python-novice-gapminder/setup/}.
+\end{quote}
+
 Two other popular open source projects that can run Jupyter notebooks
 are \href{https://nteract.io/}{nteract} and
 \href{https://nteract.io/atom}{Hydrogen}. nteract is installed by
@@ -3322,38 +3338,6 @@ However, this deployment has some disadvantages:
 \item
   Even in a computer lab, it can be difficult to maintain consistency
   across machines, and to keep all installations functional.
-
-  \textbf{--- Box}
-
-  What is Anaconda? You will see the Anaconda distribution recommended
-  by many educators and course authors. Anaconda is a package manager,
-  an environment manager, a Python distribution, a collection of
-  \href{https://docs.anaconda.com/anaconda/packages/pkg-docs/}{over
-  1,500+ open source packages}, and also Jupyter. It is free to
-  download, open source, and easy to install, on any computer system
-  (Windows, Mac OS X or Linux). It also includes the conda packaging
-  utility to update and install new packages of the Python and R
-  ecosystems, and to manage computational environments. According to the
-  company's webpage, Anaconda has more than 6 million users.
-  \url{https://www.anaconda.com/what-is-anaconda/} . The Software
-  Carpentry project provides installation instructions with videos for
-  anaconda:
-  \url{https://swcarpentry.github.io/python-novice-gapminder/setup/}
-
-  \textbf{--- Box}
-
-  Two other popular open source projects that can run Jupyter notebooks
-  are \href{https://nteract.io/}{nteract} and
-  \href{https://nteract.io/atom}{Hydrogen}. nteract is installed by
-  downloading a binary installer from their website and double-clicking
-  the installation file. Once nteract is installed, any Jupyter notebook
-  on a student's local system can be double-clicked and it will open
-  within nteract. nteract's simple user interface make it an excellent
-  choice for students new to computer programming. Hydrogen is a
-  \href{https://atom.io/packages/hydrogen}{very popular plugin} for the
-  open source Atom editor; it's currently used by over 700,000 people.
-  Hydrogen lets a user edit, display, and execute a notebook within the
-  Atom editor.
 \end{itemize}
 
 \section{Jupyter on remote servers}\label{jupyter-on-remote-servers}
@@ -3420,19 +3404,19 @@ However, there are some limitations to these services:
 \item
   Some of these services do not guarantee a level of service and may not
   be as reliable as you need for a class or workshop.
-
-  \textbf{--- Box}
-
-  \textbf{Binder} (\href{https://mybinder.org}{mybinder.org}) is an
-  open-source service provided by Project Jupyter. It allows the owner
-  of a set of notebooks residing in a git repository to pre-build an
-  image in the Binder service, and get a shareable link that any visitor
-  can click to obtain a working instance of JupyterHub, with the
-  notebooks in the repository. The session is temporary (any changes the
-  user makes will be deleted when closing the tab or window), but it's
-  fully interactive. Binder is currently one of the favorite services
-  for running one-off workshops or tutorials.
 \end{itemize}
+
+\begin{quote}
+\textbf{Binder} (\href{https://mybinder.org}{mybinder.org}) is an
+open-source service provided by Project Jupyter. It allows the owner of
+a set of notebooks residing in a git repository to pre-build an image in
+the Binder service, and get a shareable link that any visitor can click
+to obtain a working instance of JupyterHub, with the notebooks in the
+repository. The session is temporary (any changes the user makes will be
+deleted when closing the tab or window), but it's fully interactive.
+Binder is currently one of the favorite services for running one-off
+workshops or tutorials.
+\end{quote}
 
 \subsection{Running on servers you
 control}\label{running-on-servers-you-control}
@@ -3626,16 +3610,16 @@ might find that the options have improved.
 
 Notebooks can be publicly hosted on any website, so students can
 download the files by clicking on a link. Most web hosting software is
-not notebook-aware, but nbviewer is a web service that renders notebooks
-(\url{https://nbviewer.jupyter.org/}). Also, some browser extensions can
-open notebook files via nbviewer
+not notebook-aware, but \texttt{nbviewer} is a web service that renders
+notebooks (\url{https://nbviewer.jupyter.org/}). Also, some browser
+extensions can open notebook files via \texttt{nbviewer}
 (\url{https://github.com/jiffyclub/open-in-nbviewer}).
 
 GitHub Pages (and other similar services) can be used to host rendered
 notebooks, and continuous integration services can build the web pages
 from the notebooks and then display content. See Jupyter Book
 (\url{https://github.com/choldgraf/jupyter-book}) and use of
-\href{https://drdoctr.github.io/doctr}{doctr} to do this.
+\href{https://drdoctr.github.io/doctr}{\texttt{doctr}} to do this.
 
 \subsection{Git}\label{git}
 
@@ -3679,22 +3663,19 @@ then publish their notebooks back to you for downloading, viewing, or
 assessing with the \texttt{nbgrader} tools (see the next section for
 details on this tool).
 
-\begin{verbatim}
-**— Box**
-
-
-**What is nbgrader?** `nbgrader` is a tool for creating, handling,
-  and automatically grading assignments based on Jupyter
-  notebooks. It works as a Jupyter extension that the course
-  creator installs on their computer. `nbgrader` is a flexible
-  project in the Jupyter ecosystem that allows the distribution
-  and collection of materials. As its name implies, it also can
-  grade assignments; it can be used in a distributed manner where
-  each student is running Jupyter on their own computers, or in a
-  centralized manner, for example, if the students each have an
-  account on a JupyterHub installation. (More details in the
-  Assessment section.) <https://nbgrader.readthedocs.io>
-\end{verbatim}
+\begin{quote}
+\textbf{What is nbgrader?} \texttt{nbgrader} is a tool for creating,
+handling, and automatically grading assignments based on Jupyter
+notebooks. It works as a Jupyter extension that the course creator
+installs on their computer. \texttt{nbgrader} is a flexible project in
+the Jupyter ecosystem that allows the distribution and collection of
+materials. As its name implies, it also can grade assignments; it can be
+used in a distributed manner where each student is running Jupyter on
+their own computers, or in a centralized manner, for example, if the
+students each have an account on a JupyterHub installation. (More
+details in the Assessment section.)
+\url{https://nbgrader.readthedocs.io}
+\end{quote}
 
 \subsection{\texorpdfstring{Using an LMS and \texttt{nbgrader}
 together:}{Using an LMS and nbgrader together:}}\label{using-an-lms-and-nbgrader-together}
@@ -3800,17 +3781,21 @@ access. For example, many teachers do not want students to be able to
 see notebooks that may have solutions, or hints of solutions and
 therefore limit their access.
 
-Callout box: To share your notebook with others you can submit it to
-\url{https://www.engage-csedu.org/} This curated collection of open
-educational computing resources is maintained by the National Center for
-Women in Information Technology (NCWIT).
+\begin{quote}
+To share your notebook with others you can submit it to
+\url{https://www.engage-csedu.org/}. This curated collection of open
+educational computing resources is maintained by the
+\href{https://www.ncwit.org/}{National Center for Women in Information
+Technology (NCWIT)}.
+\end{quote}
 
 If you decide to make your notebooks reusable by others, make it clear
 under which license the materials can be used. For example, you can
-include a Creative Commons attribution and share-alike statement at the
-bottom of your notebook. Adding a license allows people to reuse your
-materials without asking for permission explicitly.
-\url{https://creativecommons.org/licenses/by-sa/3.0/us/}
+include a
+\href{https://creativecommons.org/licenses/by-sa/3.0/us/}{Creative
+Commons attribution and share-alike} statement at the bottom of your
+notebook. Adding a license allows people to reuse your materials without
+asking for permission explicitly.
 
 GitHub may be the most common service to host and share notebooks, where
 they can be viewed (including rendering), downloaded, or forked by
@@ -3830,7 +3815,8 @@ control repository, a zip-file, or a file sharing service. Another
 external dependency issue with sharing notebooks involves software
 libraries. In this case you share a configuration file that a user can
 use to setup the same environment. Examples of these files include a
-conda env.yml, a pip requirements.txt, or dockerfile.
+conda \texttt{env.yml}, a pip \texttt{requirements.txt}, or
+\texttt{dockerfile}.
 
 Because Jupyter notebooks embed the output of cells into the ipynb file
 itself (e.g., images, videos, etc.), the files can grow large. To make
@@ -3867,21 +3853,22 @@ was followed by efforts to develop metadata standards, content
 exchanges, and so on (addressing the concern of how to find the objects
 to reuse them). In 1998, David Wiley coined the term ``open content''
 and spread the idea that principles of Free and Open Source Software
-(FOSS) could be applied to content on the World Wide Web. The Creative
-Commons non-profit organization was founded in 2001 to provide
-ready-made license agreements for sharing content and served a vital
-infrastructure role on the spread of OER. The Creative Commons licenses
-are now the most widely used licensing framework for open education. The
-year 2001 also saw the launch of MIT OpenCourseWare (OCW). MIT promised
-free public access for non-commercial uses of their course materials. It
-was a unique commitment at an institutional level, strengthened by the
-MIT brand. Other universities joined the OCW movement: Rice with the
-OpenStax project (now formerly Connexion), CMU with the Open Learning
-Initiative (OLI), Utah State University with the Center for Open and
-Sustainable Learning, and so on. Today, the Open Education Consortium
-has hundreds of members from around the world. The recurrent topics in
-OER are: reducing costs for students buying textbooks, increasing
-access, and dealing with copyright and licenses.
+(FOSS) could be applied to content on the World Wide Web (OpenContent,
+\protect\hyperlink{ref-OC1998}{1998}). The Creative Commons non-profit
+organization was founded in 2001 to provide ready-made license
+agreements for sharing content and served a vital infrastructure role on
+the spread of OER. The Creative Commons licenses are now the most widely
+used licensing framework for open education. The year 2001 also saw the
+launch of MIT OpenCourseWare (OCW). MIT promised free public access for
+non-commercial uses of their course materials. It was a unique
+commitment at an institutional level, strengthened by the MIT brand.
+Other universities joined the OCW movement: Rice with the OpenStax
+project (now formerly Connexion), CMU with the Open Learning Initiative
+(OLI), Utah State University with the Center for Open and Sustainable
+Learning, and so on. Today, the Open Education Consortium has hundreds
+of members from around the world. The recurrent topics in OER are:
+reducing costs for students buying textbooks, increasing access, and
+dealing with copyright and licenses.
 
 In the last few years, educators using Jupyter have been creating and
 sharing all kinds of educational materials in the form of notebooks,
@@ -3890,23 +3877,14 @@ Jupyter is \emph{a new genre of OER}. But in addition to creating open
 content, educators using Jupyter often take active part in the Jupyter
 community and adopt the \emph{culture} of open-source software. This is
 a culture with strong ethical commitments, related to freedom of access,
-transparency, and governance (Coleman, 2012). The content they create
-has the value of giving access (the very definition of OER), under an
-open model. But open-source culture also promotes a culture of
+transparency, and governance (Coleman,
+\protect\hyperlink{ref-coleman2012coding}{2012}). The content they
+create has the value of giving access (the very definition of OER),
+under an open model. But open-source culture also promotes a culture of
 collaboration. In this regard, engaging in teaching with Jupyter opens
 new possibilities for educators to engage in \emph{open development} and
 collaborate with others in producing lessons, tutorials, courses, and
 even books.
-
-REF---Coleman, E.G., 2012. Coding freedom: The ethics and aesthetics of
-hacking. Princeton University Press.
-
-NOTE from Carol: Installation on a student computer or web-based access.
-Installation on computer lab computers or web-based access. Web-based
-access requires additional decisions and system administration
-resources.
-
-\section{Notes}\label{notes}
 
 \chapter{Usage case studies}\label{case-studies}
 
@@ -4837,6 +4815,10 @@ the generation effect, and element interactivity. \emph{Journal of
 Educational Psychology}, \emph{107}(3), 689.
 \url{https://doi.org/10.1037/edu0000018}
 
+\hypertarget{ref-coleman2012coding}{}
+Coleman, E. G. (2012). \emph{Coding freedom: The ethics and aesthetics
+of hacking}. Princeton University Press.
+
 \hypertarget{ref-freeman2014active}{}
 Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N.,
 Jordt, H., \& Wenderoth, M. P. (2014). Active learning increases student
@@ -4860,6 +4842,10 @@ Python. \emph{PeerJ Computer Science}, \emph{3}, e103.
 Moore, M. G. (1989). Editorial: Three types of interaction.
 \emph{American Journal of Distance Education}.
 \url{https://doi.org/10.1080/08923648909526659}
+
+\hypertarget{ref-OC1998}{}
+OpenContent. (1998). About opencontent. Retrieved 18 December 2002 from
+\url{http://opencontent.org/}.
 
 \hypertarget{ref-raymond1996new}{}
 Raymond, E. S. (1996). \emph{The new hacker's dictionary}. MIT Press.
