@@ -9,11 +9,6 @@ pool:
 container: my_container
 
 steps:
-- script: printenv
-variables:
-  imageName: 'your-container-image-name:$(build.buildId)'
-
-steps:
 - script: docker build -f Dockerfile -t $(imageName) .
   displayName: 'docker build'
 - script: chmod +x ./_build.sh
