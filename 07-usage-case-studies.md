@@ -133,7 +133,7 @@ fluid mechanics, in 12 steps. In 2013, I was invited to teach a
 mini-course in the Latin-American School in High-Performance
 Computing, in Argentina. The Jupyter notebooks platform allowed me to
 create a guided narrative to support learners with different
-background experience and knowledge. For that event, we wrote IPython
+background experience and knowledge. For that event, we wrote
 notebooks based on the CFD course module, to use as instructional
 scaffolding in the 2-full-days of minicourse. Twenty students worked
 through the notebooks as self-paced lessons, while I went from desk to
