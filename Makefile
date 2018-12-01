@@ -1,12 +1,17 @@
-gitbook : _book/index.html
+PYTHON := /usr/bin/env python
 
-view-gitbook : _book/index.html
-	python3 -c 'import webbrowser; webbrowser.open("$^")'
+html : _book/index.html
 
 pdf : _book/jupyter-edu-book.pdf
 
+view-html : _book/index.html
+	$(PYTHON) -c 'import webbrowser; webbrowser.open("$^")'
+
 view-pdf : _book/jupyter-edu-book.pdf
-	python3 -c 'import webbrowser; webbrowser.open("$^")'
+	$(PYTHON) -c 'import webbrowser; webbrowser.open("$^")'
+
+clean :
+	$(RM) -r _book/*
 
 SOURCES := $(wildcard [0-9]*.md [0-9]*.Rmd book.bib) _bookdown.yml
 
@@ -16,4 +21,4 @@ _book/index.html : $(SOURCES)
 _book/jupyter-edu-book.pdf : $(SOURCES)
 	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
-.PHONY: gitbook pdf view-gitbook view-pdf
+.PHONY: html pdf view-html view-pdf clean
