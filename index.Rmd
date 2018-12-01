@@ -33,7 +33,7 @@ description: "A handbook on teaching and learning with Jupyter notebooks."
 This handbook is for any educator teaching a topic that includes data analysis or computation
 to support the learning—not just courses in engineering or science, but also data journalism,
 business and quantitative economics, data-based decision sciences and policy,
-quantitative health sciences, and others. It aims to give an entry point, and
+quantitative health sciences, and digital humanities. It aims to give an entry point, and
 a broad overview of Jupyter in education. Whether you are already using Jupyter to teach,
 you have found learning materials built on Jupyter that piqued your curiosity,
 or have never heard of Jupyter, the material in this open book can help you empower
