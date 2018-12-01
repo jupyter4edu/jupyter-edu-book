@@ -309,12 +309,11 @@ visualize the result. If the resultant image matches their
 expectation, then they understand the concept, and if not, it is an
 opportunity to learn and further explore.
 
-![Notebook "app" for exploring the direct current resistivity experiment over a two layer earth ([https://em.geosci.xyz/apps.html](https://em.geosci.xyz/apps.html)).] (images/DC-layered-earth-app.png "DC resistivity")
-
-
-**Caption:  **
-
 -- Lindsey Heagy
+
+![Notebook "app" for exploring the direct current resistivity experiment over a
+two layer earth
+([https://em.geosci.xyz/apps.html](https://em.geosci.xyz/apps.html)).](images/DC-layered-earth-app.png "DC resistivity")
 
 
 ## Investigating hurricanes
@@ -346,8 +345,8 @@ available at https://github.com/applied-math/demos.
 
 
 
-[Visualization from the notebook at
+![Visualization from the notebook at
   [https://github.com/applied-math/demos](https://github.com/applied-math/demos)
   demonstrating the paths of Atlantic hurricane tracks from 1950-2012
   with coloring demonstrating category of storm.](images/hurricanes.png
-  "https://github.com/applied-math/demos")
+  "Image frome https://github.com/applied-math/demos")
