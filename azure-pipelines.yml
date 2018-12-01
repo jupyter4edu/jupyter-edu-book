@@ -1,13 +1,22 @@
-pool:
-  vmImage: 'Ubuntu 16.04'
+resources:
+  containers:
+  - container: my_container
+    image: jupyter/datascience-notebook:14fdfbf9cfc1
 
+pool:
+  vmImage: 'ubuntu-16.04'
+
+container: my_container
+
+steps:
+- script: printenv
 variables:
   imageName: 'your-container-image-name:$(build.buildId)'
 
 steps:
 - script: docker build -f Dockerfile -t $(imageName) .
   displayName: 'docker build'
-- script: |
-    chmod +x ./_build.sh
-    ./_build.sh
+- script: chmod +x ./_build.sh
+  displayName: 'make build script executable'
+- script: ./_build.sh
   displayName: 'build bookdown content'
