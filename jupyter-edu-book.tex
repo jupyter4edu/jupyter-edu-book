@@ -1530,18 +1530,19 @@ course define when and how to best use notebooks to achieve those goals.
 
 In this chapter, we present a collection of patterns that are
 particularly aligned with teaching and learning with Jupyter. Each
-pattern is targeted at specific learning goals, audiences, and formats.
-With those in mind we describe each pattern and its pedagogical features
-that support the learning goals, present a practical example, and close
-each with any potential pitfalls you would want to be aware of.
+pattern is targeted at specific learning goals, audiences, and teaching
+formats. With those in mind we describe each pattern and its pedagogical
+features that support the learning goals, present a practical example,
+and close each with any potential pitfalls you would want to be aware
+of.
 
 \section{Shift-Enter for the win}\label{shift-enter-for-the-win}
 
 \textbf{Description:} Instead of reading a static chapter about a topic,
 the learners read and execute code, as well as potentially interact with
-widgets to explore concepts. Starting from a complete notebook, the
-instructor or learner runs through the notebook cell-by-cell using SHIFT
-+ ENTER.
+a widget to explore concepts. Starting from a complete notebook, the
+instructor or learner runs through the notebook cell-by-cell by typing
+SHIFT + ENTER.
 
 \textbf{Example:} The notebook (or a collection of notebooks) can be
 used as an alternative to a static textbook on a topic.
@@ -1566,9 +1567,9 @@ opportunity for richer interaction than a static textbook.
 \textbf{Pitfalls:} This style does not prompt much engagement with
 students. Having a class that interactively works through a notebook can
 lead to some students finishing much faster than others (e.g., racing
-through shift+enter). Breaking long notebooks into many smaller ones can
-help with the pacing in a lecture. Having a master notebook serve as the
-table of contents can then help students navigate through the class.
+through SHIFT + ENTER). Breaking long notebooks into many smaller ones
+can help with the pacing in a lecture. Having a master notebook serve as
+the table of contents can then help students navigate through the class.
 Notebooks can be linked in a markdown cell as:
 
 \begin{verbatim}
@@ -1579,13 +1580,13 @@ Notebooks can be linked in a markdown cell as:
 
 \textbf{Description:} Notebooks can be used to rapidly generate user
 interfaces where students and instructors can interact with code through
-slidebars, entry boxes and toggle buttons. The code can run numerical
+sliders, entry boxes, and toggle buttons. The code can run numerical
 simulations or perform simple computations, and the output is often a
 graph or image.
 
 \textbf{Example:} In geophysics, a direct current resistivity survey
 involves connecting two electrodes to the ground through which current
-is injected. Currents flow through the earth and their behavior depends
+is induced. Current flows through the earth and the behavior depends
 upon the electrical resistivity of the subsurface structures; current
 flows around resistors and is channeled into conductors. At interfaces
 between conductors and resistors, charges build up, and these charges
@@ -1675,7 +1676,9 @@ student audiences from those with some programming experience to those
 with significant experience.
 
 \textbf{Format (lecture / lab / \ldots{}):} This can be effective for
-tutorials and workshops, and can be used over multiple lectures.
+tutorials and workshops, and can be used over multiple lectures. This
+can be useful when introducing new topics to help hook students because
+they accomplish significant results early in the learning process.
 
 \textbf{Pitfalls:} One hazard of the ``win-day-one'' is that the ``win''
 is overwhelming (too much detail) or too magical (too little detail). An
@@ -1757,7 +1760,7 @@ course; for example, students could use a tool on the first day and find
 out how it works on the last.
 
 \textbf{Features:} Shows students value and rewards their attention
-quickly (see ``Win Day One'')
+quickly (see ``Win Day One'').
 
 \textbf{Pitfalls:} A potential hazard of this pattern is that students
 might be less motivated to learn how the tool works if they think they
@@ -1771,7 +1774,7 @@ lesson}{The API is the lesson}}\label{the-api-is-the-lesson}
 
 \textbf{Description:} When students work with a software library, they
 are exposed to functions and objects that make up an application
-programmer interface (API). Learning an API can be cognitive overhead;
+programming interface (API). Learning an API can be cognitive overhead;
 that is, material students have to learn to get work done
 computationally, but which does not contribute to their understanding of
 the subject matter. But the API can also be the lesson; that is, by
@@ -1815,16 +1818,17 @@ for data integrity (going to the source rather than working with a copy)
 and demystifies the source of the data.
 
 For data in tabular form on a web page, it is often possible to use
-Pandas to parse the HTML and generate DataFrames. Also, tools like
-Scrapy can be used to scrape data from sources that would be hard to
-collect manually, and to automate cleaning and validation steps.
+Pandas to parse the HTML and generate a DataFrame. Also, for less
+structured sources, tools like Scrapy can be used to extract data,
+``scrape'', from sources that would be hard to collect manually, and to
+automate cleaning and validation steps.
 
-\textbf{Examples:} Datasets like the National Survey of Family Growth
-are available in files that can be downloaded directly from their
-website, but the terms of use forbid redistributing the data. So the
-best way to share this data is to provide students with code to input
-into a notebook cell, which, when executed, will download the data set
-the first time the student runs the notebook.
+\textbf{Examples:} Datasets like the \href{htto://TODO}{National Survey
+of Family Growth} are available in files that can be downloaded directly
+from their website, but the terms of use forbid redistributing the data.
+So the best way for an instructor to share this data is to provide
+students with code to input into a notebook cell, which, when executed,
+will download the data set the first time the student runs the notebook.
 
 Many Wikipedia pages contain data in HTML tables; most of them can be
 imported easily into a notebook using Pandas.
@@ -1850,7 +1854,7 @@ too much time looking for data that is not available. They might need
 coaching about how to make do with the data they can get, even if it is
 not ideal.
 
-\textbf{Enabling technologies:} Pandas, Scrapy
+\textbf{Enabling technologies:} Pandas, Scrapy, R, ROpenSci packages
 
 \section{Connect to external
 audiences}\label{connect-to-external-audiences}
@@ -1891,7 +1895,9 @@ workflows.
 \textbf{Pitfalls:} You need to be clear about the library requirements
 needed to run the notebook. Also, since the data files are likely
 separate from the notebook, it is possible for copies of the notebook to
-get shared without the data.
+get shared without the data. Students may also be shy or fearful of
+showing their work publicly, so explaining the benefits may be needed to
+curtail their worries.
 
 \section{Twiddle, tweak, and frob}\label{twiddle-tweak-and-frob}
 
@@ -1951,7 +1957,7 @@ use patterns
 
 This pattern is similar to ``The notebook is an app''; a difference is
 that in this pattern the code is more visible to the students, which can
-help orient them if hey will make bigger changes in the future.
+help orient them if they will make bigger changes in the future.
 
 \textbf{Audience(s):} This pattern can work with students who have no
 programming experience; they only need to be able to edit the contents
@@ -1978,8 +1984,8 @@ effect of the parameters might be lost in the chaos.
 \textbf{Enabling technologies:} Ideally the students should work in some
 kind of version control system that lets them revert to a previous
 version if they break something (and don't know how to fix it). Note
-that C-z and C-y can be used to traverse deep history within each cell,
-but not across cells.
+that undo and redo, Ctrl-z and Ctrl-y, can be used to traverse deep
+history within each cell, but not across cells.
 
 \section{Coding as translation}\label{coding-as-translation}
 
@@ -1996,12 +2002,13 @@ mathematics and suggesting replacing the sums with loops and
 initializing the sum properly.
 
 \textbf{Learning goals:} Translating mathematics to code (and vice
-versa)\\
-Audience(s): Learners who understand the theory but struggle with the
-programming side of things.
+versa)
+
+\textbf{Audience(s)}: Learners who understand the theory but struggle
+with the programming side of things.
 
 \textbf{Format:} This type of pattern is often best served as a notebook
-with some explanative text and possibly some scaffolded code so that a
+with some explanatory text and possibly some scaffolded code so that a
 student can focus on the critical areas. This can be done as easily as a
 lab exercise or in lecture with perhaps some time held out for the
 students to solve it themselves before moving forward. It is critical to
@@ -2044,7 +2051,7 @@ of the system.
 arises in their theoretical analysis.
 
 \textbf{Audience(s):} STEM students that want to focus on understanding
-a mathematical system without worrying about the algebraic details
+a mathematical system without worrying about the algebraic details.
 
 \textbf{Format:} This works well as a notebook that acts as a supplement
 to the main lecture. Since the goal of the lecture is the theory, the
@@ -2065,7 +2072,7 @@ contains deliberate bugs. The students are asked to find and fix the
 bugs. Automated tests might be provided to help students know whether
 some bugs remain unfixed.
 
-\textbf{Example:} todo
+\textbf{Example:} TODO
 
 \textbf{Learning goals:} This pattern helps students develop programming
 skills, especially debugging (of course); it also gives the practice
@@ -2187,7 +2194,7 @@ write code to make the tests pass.
 \textbf{Example:} TODO: Necessary?
 
 \textbf{Learning goals:} Helps students learn a good software
-development process,.
+development process.
 
 \textbf{Audience(s):} This pattern requires students to have some
 programming experience.
@@ -2301,7 +2308,7 @@ effective at not only reinforcing student knowledge but also at
 introducing students to new concepts.
 
 \textbf{Pitfalls:} It can be difficult to construct questions for each
-audience that require equal amounts of difficulty.\\
+audience that require equal amounts of difficulty.
 
 \section{Replace analysis with numerical
 methods}\label{replace-analysis-with-numerical-methods}
@@ -4438,8 +4445,9 @@ manager, Python distribution, and collection of
 open source packages} including and also Jupyter.
 \url{https://www.anaconda.com/what-is-anaconda/}
 
-\textbf{API (Application Programming Interface)}: the exact details of
-interacting with software, usually used by other software.
+\textbf{API (Application Programming Interface)}: a specification of
+what a programmer must write or define to interact with a software
+library.
 
 \textbf{Binder}: a hosted service that allows anyone to launch their own
 sandboxed notebook environment from a Git repository.
@@ -4454,6 +4462,9 @@ a remote computer accessed over the internet.
 \textbf{CSV (Comma Separated Values)}: referring to a comma-separated
 value file. A plain-text file format such that each line is a list of
 data separated by commas.
+
+\textbf{DataFrame} A common tabular data structure with rows and columns
+available in R and in Python through Pandas.
 
 \textbf{execute}: technical term for having the computer perform the
 instructions of your program. Alias for ``run it.''
@@ -4530,6 +4541,9 @@ manner that give you rights to be able to use, and reproduce.
 \textbf{pattern}: A ``pattern'' is a technical term referring to an
 abstract description of a labeled process. For example, ``wash, rinse,
 repeat'' is a common pattern for cleaning various objects.
+
+\textbf{scaffold}: A teaching and learning pattern that provides steps
+in the learning process that build on prior learned knowledge.
 
 \textbf{service, JupyterHub}: JupyterHub can take advantage of
 additional separate, but integrated, software extensions. These are
