@@ -12,7 +12,7 @@ usually used by other software.
 **Binder**: a hosted service that allows anyone to launch their own sandboxed notebook environment from
 a Git repository. <https://mybinder.org>
 
-**cell**: the area in a Jupyter Notebook where you can enter markdown, or computer code.
+**cell**: the area in a Jupyter notebook where you can enter markdown, or computer code.
 
 **cloud, in the**: used to describe software or documents hosted on a remote computer
 accessed over the internet.

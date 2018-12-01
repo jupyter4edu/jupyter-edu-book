@@ -205,7 +205,7 @@ chemical engineering problems.
 at the School of Information Sciences at the University of Illinois at Urbana-Champaign.
 She teaches foundational programming from an information and data sciences perspective,
 as well as other coursework on open data and reproducibility. Her programming course
-lectures are written in Jupyter Notebooks and the class is taught via live coding.
+lectures are written in Jupyter notebooks and the class is taught via live coding.
 
 ### Carol Willing {-}
 

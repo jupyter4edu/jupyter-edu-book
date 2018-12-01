@@ -190,10 +190,10 @@ in the repository, including images, if clear output is not used
 before committing changes.  This can make detecting changes difficult
 as changes in output will be detected when nothing has actually
 changed content wise.  The tracked notebooks also can become large if
-output is tracked.  Even with clearing the output reading through
-changes can be difficult due to the format of the notebook, Notebooks
+output is tracked.  Even with clearing the output, reading through
+changes can be difficult due to the format of the notebook (notebooks
 are plain-text files and the file format is represented as
-[JSON](https://www.json.org/). This can be an issue if you are storing
+[JSON](https://www.json.org/)). This can be an issue if you are storing
 notebooks in a version control system, like git, and you wish to see
 differences between versions. For more information, see:
 [https://github.com/jupyter/nbdime](https://github.com/jupyter/nbdime)
