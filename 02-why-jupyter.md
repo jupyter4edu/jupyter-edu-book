@@ -45,28 +45,8 @@ Literature, creating music and art, or illustrating the engineering concepts
 behind Digital Signal Processing, the notebooks can combine explanations
 traditionally found in textbooks with _the interactivity of an application_.
 
+![A Jupyter notebook, starting with a markdown cell containing a title and an explanation (including an equation rendered with LaTeX). Three code cells produce the final inline plot.](images/Fig_notebook.png)
 
-<table>
-  <tr>
-   <td>Figure
-   </td>
-  </tr>
-  <tr>
-   <td><em>Visual of a notebook - Side Box with an anatomy of a notebook - descriptions with arrows to particular cells. Link to Binder: Try it now.</em><ul>
-
-<li><em>Title Cell: Point out prose (markdown)</em>
-<li><em>Introduction Cell: Links to other content</em>
-<li><em>Engaging visualization (a few lines of code 5 or less)</em>
-<li><em>Make the example interactive with widgets</em>
-<li><em>Add a cell with a problem to solve</em>
-<li><em>Solution cell</em>
-
-<p>
-<em>It would be nice also to have a callout box here that illustrates a relatively simple use of JN for say, one learning objective -- or maybe one of each of the following: domain knowledge, programming, and other use.</em></li></ul>
-
-   </td>
-  </tr>
-</table>
 
 
 Jupyter is a free, open source platform that is an excellent learning
