@@ -378,7 +378,7 @@ steps.
 
 
 **Examples:**<br/>
-Datasets like the [National Survey of Family Growth](htto://TODO) are available
+Datasets like the [National Survey of Family Growth](https://www.cdc.gov/nchs/nsfg/index.htm) are available
 in files that can be downloaded directly from their website, but the terms of
 use forbid redistributing the data. So the best way for an instructor to share
 this data is to provide students with code to input into a notebook cell,
