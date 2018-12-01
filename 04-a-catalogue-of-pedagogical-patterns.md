@@ -88,7 +88,7 @@ currents, charges and electric potentials.
 
 
 **Related patterns:**<br/>
-Top-down
+[Top-down sequence]
 
 
 **Learning goals:**<br/>
@@ -173,7 +173,7 @@ workings of each component discussed.
 
 
 **Related patterns:**<br/>
-Top-down, Proof by Example
+[Top-down sequence], [Proof by example, disproof by counterexample]
 
 
 **Learning goals:**<br/>
@@ -223,7 +223,7 @@ students write the update step inside the for loop.
 
 
 **Related patterns:**<br/>
-This pattern is similar to Target Practice; a difference is that
+This pattern is similar to [Target practice] **TODO: missing section?**; a difference is that
 Target Practice often focuses on a bigger step in a multi-step
 process. Fill in the Blank exercises tend to be smaller and more
 immediate.
@@ -334,7 +334,7 @@ same information; given either one, you can compute the other.
 
 
 **Related patterns:**<br/>
-Top-down sequence
+[Top-down sequence]
 
 
 **Learning goals:**<br/>
@@ -844,7 +844,7 @@ help an analyst decide which method to use given external requirements (e.g.,
 using accuracy versus cost tradeoff curves).
 
 **Related patterns:**<br/>
-Top-down sequence
+[Top-down sequence]
 
 **Learning goals:**<br/>
 This pattern allows students to apply their knowledge
