@@ -16,7 +16,7 @@ these things.
 In short, we design learning environments and experiences.
 
 We use Jupyter notebooks to design learning environments to help support these
-activities. We believe that incorporating Jupyter Notebooks in our teaching has
+activities. We believe that incorporating Jupyter notebooks in our teaching has
 allowed us to improve students' understanding of course content, increase
 student engagement with material and their participation in class, and to make
 concepts more meaningful and relevant to students' diverse interests.  We
@@ -362,7 +362,7 @@ into their career.
 
 ### Computational thinking
 
-Jupyter Notebooks support a wide range of learning goals. Its interactivity
+Jupyter notebooks support a wide range of learning goals. Its interactivity
 enables building intuitive understanding of domain knowledge, such as the
 understanding of a mechanical response of a system while varying parameters or
 understanding how an algorithm behaves. Notebooks can also help teach effective
