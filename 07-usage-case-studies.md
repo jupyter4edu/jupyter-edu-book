@@ -92,7 +92,7 @@ expensive and it was only available for Windows.  In Spring 2015, I
 was informed my class now had 52 students, but the largest computer
 lab had room for only 40. As the semester progressed and we neared the
 chapters that required numerical simulation, I rewrote the examples
-using Python and SciPy and created Jupyter Notebooks, walking students
+using Python and SciPy and created Jupyter notebooks, walking students
 through the steps involved in setting up and solving the problems. I
 found Lorena Barba's open-source MOOC materials online, and adapted
 these for my "getting started" notebooks. I had students install
@@ -102,7 +102,7 @@ staff. I found the Jupyter Notebook format of including "lecture note"
 style commentary along with short, unintimidating, snippets of code,
 to be extremely effective. A couple of years later I passed on the
 course to a new instructor, who took my course materials, taught
-himself some Python, and continued to use Jupyter Notebooks for
+himself some Python, and continued to use Jupyter notebooks for
 content delivery and assignments.
 
 The first year was a bit rough around the edges as I introduced it
@@ -124,17 +124,17 @@ molecular thermodynamics."
 
 ## The "CFD Python" story: guiding learners at their own pace
 
-"CFD Python" is a collection of Jupyter Notebooks based on a practical
+"CFD Python" is a collection of Jupyter notebooks based on a practical
 module that I began using in class in my Computational Fluid Dynamics
 (CFD) course at Boston University in 2009. The 5-week module develops
 worked examples that build on each other to incrementally guide the
 learner to create a program to solve the Navier-Stokes equations of
 fluid mechanics, in 12 steps. In 2013, I was invited to teach a
 mini-course in the Latin-American School in High-Performance
-Computing, in Argentina. The Jupyter Notebooks platform allowed me to
+Computing, in Argentina. The Jupyter notebooks platform allowed me to
 create a guided narrative to support learners with different
-background experience and knowledge. For that event, we wrote IPython
-Notebooks based on the CFD course module, to use as instructional
+background experience and knowledge. For that event, we wrote
+notebooks based on the CFD course module, to use as instructional
 scaffolding in the 2-full-days of minicourse. Twenty students worked
 through the notebooks as self-paced lessons, while I went from desk to
 desk asking and answering questions. About four of the students
@@ -178,7 +178,7 @@ an open source music theory and analysis library maintained by
 Professor Michael Cuthbert at MIT, provides a set of tools to answer
 questions about music quickly and simply. Users can create, analyze,
 and share music with just a few lines of code. Myke's use of the
-Notebook hooked me. Unlike many things that I had worked on before,
+notebook hooked me. Unlike many things that I had worked on before,
 the notebooks made it easy to get started and to write small code
 snippets that did real work! The more I used the notebooks and showed
 them to people that I taught at Fab Lab San Diego, the more that I saw

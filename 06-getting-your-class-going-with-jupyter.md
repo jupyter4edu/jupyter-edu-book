@@ -1,6 +1,6 @@
 # Getting your class going with Jupyter {#getting-going}
 
-You have several options on how to get Jupyter Notebooks to your
+You have several options on how to get Jupyter notebooks to your
 students. You can ask students to install Jupyter on their own
 computers, install Jupyter on lab computers for students to use, or
 run Jupyter on a remote server that your students access on the
@@ -501,10 +501,10 @@ the Extractor plugin to the ZipCollect feature in `nbgrader`
 (<https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html>).
 
 
-## Assessing student learning with Jupyter Notebooks
+## Assessing student learning with Jupyter notebooks
 
 Many educators develop course-assessment activities as Jupyter
-Notebooks. This includes exams, in-class activities, homework
+notebooks. This includes exams, in-class activities, homework
 assignments, and projects.
 
 One simple way to handle the assessment of a notebook-based submission
