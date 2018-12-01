@@ -6,8 +6,8 @@ and collection of
 including and also Jupyter.
 <https://www.anaconda.com/what-is-anaconda/>
 
-**API (Application Programming Interface)**: the exact details of interacting with software,
-usually used by other software.
+**API (Application Programming Interface)**: a specification of what a
+programmer must write or define to interact with a software library.
 
 **Binder**: a hosted service that allows anyone to launch their own sandboxed notebook environment from
 a Git repository. <https://mybinder.org>
@@ -19,6 +19,9 @@ accessed over the internet.
 
 **CSV (Comma Separated Values)**: referring to a comma-separated value file.
 A plain-text file format such that each line is a list of data separated by commas.
+
+**DataFrame** A common tabular data structure with rows and columns available
+in R and in Python through Pandas.
 
 **execute**: technical term for having the computer perform the instructions of your program.
 Alias for "run it."
@@ -83,6 +86,9 @@ rights to be able to use, and reproduce.
 **pattern**: A "pattern" is a technical term referring to an abstract description
 of a labeled process. For example, "wash, rinse, repeat" is a common pattern for
 cleaning various objects.
+
+**scaffold**: A teaching and learning pattern that provides steps in the
+learning process that build on prior learned knowledge.
 
 **service, JupyterHub**: JupyterHub can take advantage of additional separate,
 but integrated, software extensions. These are called "services."
