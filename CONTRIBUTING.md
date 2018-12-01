@@ -230,7 +230,7 @@ Please follow these steps to have your contribution considered by the maintainer
 
 ### Recognition
 
-If you would like to be recognized as a contributor to the book, please edit the `contributors.md` and add your name in the file in alphabetical order by family name. Please submit this modified file with your pull request.
+If you would like to be recognized as a contributor to the book, please edit the `contributors.md` and add your name in the file in alphabetical order by family name. Please submit this modified file in your pull request.
 
 With each tagged release of the book in Zenodo, we will update the
 list of contributors at the end of the book.
