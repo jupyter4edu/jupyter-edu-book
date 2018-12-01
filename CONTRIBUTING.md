@@ -23,10 +23,10 @@ change or add.
 
 When completed editing a chapter, at the bottom of the page:
 
-* provide a summary of the changes
-* use the second box for more details about the changes
-* click the "Commit changes" button
-* click the "Create Pull Request" button
+- provide a summary of the changes
+- use the second box for more details about the changes
+- click the "Commit changes" button
+- click the "Create Pull Request" button
 
 For more extensive changes, we recommend cloning this repository and
 using the full power of git.
@@ -39,7 +39,7 @@ We use markdown for the book formatting.
 
 Some useful links:
 
-* Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+- Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
 
 ## Book Organization
 
@@ -61,10 +61,10 @@ Please feel free to add to or edit these sections.
 
 If you wish to build your own copy of the book in HTML format you'll need:
 
-* R
-  * `bookdown` package
-* pandoc
-  * pandoc-citeproc
+- R
+  - `bookdown` package
+- pandoc
+  - pandoc-citeproc
 
 On Ubuntu, you can install these with the following:
 
@@ -84,7 +84,7 @@ Save workspace image? [y/n/c]: y
 If you wish to build your own copy of the book in PDF format you'll
 need, in addition to the above, the following:
 
-* LaTeX
+- LaTeX
 
 On Ubuntu, you can install that with the following:
 
@@ -94,9 +94,30 @@ sudo apt install texlive-full
 
 Now, to actually build the book, you can:
 
-* `make html` - makes the HTML
-* `make pdf` - makes the PDF
-* `make view-html` - open the HTML in your browser
-* `make view-pdf` - open the PDF in a viewer
+- `make html` - makes the HTML
+- `make pdf` - makes the PDF
+- `make view-html` - open the HTML in your browser
+- `make view-pdf` - open the PDF in a viewer
 
 The book PDF and HTML can be found in the `_book` folder.
+
+# Contributing Guide
+
+Welcome! We're pleased that you are thinking about contributing to this open
+book on teaching and learning with Jupyter. This document outlines some
+expectations that we have for contributors as well as guidance on how to make
+a contribution.
+
+We've tried to be thorough in this guide, but you may have questions or need
+clarification. Please [file an issue on this GitHub repo](https://github.com/jupyter4edu/jupyter-edu-book/issues/new)
+with your question. We'll do our best to respond in a timely manner. Thanks
+in advance for your help improving the book.
+
+## Community Expectations
+
+This project has a [Code of Conduct](CODE-OF-CONDUCT.md) which all contributors should read and are
+expected use when interacting with the community.
+
+## Formatting tips
+
+- Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
