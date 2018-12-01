@@ -103,9 +103,10 @@ The book PDF and HTML can be found in the `_book` folder.
 
 # Contributing Guide
 
-:+1::tada: Welcome! We're pleased that you are thinking about contributing to this open
-book on teaching and learning with Jupyter. :tada::+1:
+:+1::tada: Welcome! :tada::+1:
 
+We're pleased that you are thinking about contributing to this open
+book on teaching and learning with Jupyter.
 This document outlines some expectations that we have for contributors as well
 as guidance on how to make a contribution.
 
@@ -118,7 +119,7 @@ in advance for your help improving the book.
 
 [Code of Conduct](#code-of-conduct)
 
-[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+[I don't want to read this whole thing, I just have a question.](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
 [How Can I Contribute?](#how-can-i-contribute)
 
@@ -180,7 +181,11 @@ to open an issue suggesting the enhancement before submitting a pull request.
 
 ### Your First Content Contribution
 
-Are you ready to make your first content contribution? Great. You will edit the content using one of the methods below: From the book; From the GitHub user interface; or Local development.
+Are you ready to make your first content contribution? Great. You will edit the content using one of the methods below:
+
+- From the book
+- From the GitHub user interface
+- Local development
 
 After making and commiting content changes, you will submit a [pull request](#pull-requests).
 
@@ -211,7 +216,7 @@ The process described here has several goals:
 
 Please follow these steps to have your contribution considered by the maintainers:
 
-1. Follow the [styleguides](#styleguides)
+1. Follow the [styleguides](#styleguides).
 1. If you would like recognition in the book for your contribution, please follow the steps in the [recognition](#recognition) section.
 1. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing.
 1. Be patient. The maintainers are volunteers and will review at their
