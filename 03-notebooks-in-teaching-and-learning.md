@@ -2,7 +2,7 @@
 
 Jupyter notebooks are a valuable tool for teachers, but their value can only be
 leveraged if you apply them correctly within the context of your course. In
-chapter 3, you will learn how teachers can initially structure the design of
+this chapter, you will learn how teachers can initially structure the design of
 their course and then determine when and how notebooks can be used to achieve
 their goals.
 
@@ -11,7 +11,7 @@ their goals.
 
 ### Introduction
 
-In chapter 4 you will learn about the many creative ways that notebooks can be
+In Chapter \@ref(catalogue) you will learn about the many creative ways that notebooks can be
 used within the design of your course.  Many times notebooks can be adapted into
 course activities that you are already doing, and other times notebooks will
 give you opportunities to extend what you have done in past to increase the
@@ -71,7 +71,7 @@ students from a passive or static learning environment like a book into an
 active learning experience where they can engage with and critically think about
 the content.
 
-You can include many pedagogical patterns (discussed in the next chapter) within
+You can include many pedagogical patterns (discussed in the [next chapter](#catalogue)) within
 a workbook, crafting a completely custom learning experience. These workbooks
 can be assigned as independent student learning (for example, pre-work for
 flipped classroom), or as part of an in class activity for individuals or small
@@ -375,7 +375,7 @@ you can use them from relatively passive to very active student learning, you
 can use them in your lecture or in a flipped-classroom environment. There is no
 single best way to use notebooks in your courses, and you explore the various
 options you will want to start filling your use of notebooks with a variety of
-the pedagogical patterns described in next chapter.
+the pedagogical patterns described in the [next chapter](#catalogue).
 
 
 ## Before You Begin...
