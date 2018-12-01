@@ -6,7 +6,7 @@
 In this chapter, we present a collection of patterns that are
 particularly aligned with teaching and learning with Jupyter. Each
 pattern is targeted at specific learning goals, audiences, and
-formats. With those in mind we describe each pattern and its
+teaching formats. With those in mind we describe each pattern and its
 pedagogical features that support the learning goals, present a
 practical example, and close each with any potential pitfalls you
 would want to be aware of.
@@ -14,12 +14,11 @@ would want to be aware of.
 
 ## Shift-Enter for the win
 
-
 **Description:**<br/>
 Instead of reading a static chapter about a topic, the learners read
-and execute code, as well as potentially interact with widgets to
+and execute code, as well as potentially interact with a widget to
 explore concepts. Starting from a complete notebook, the instructor or
-learner runs through the notebook cell-by-cell using SHIFT + ENTER.
+learner runs through the notebook cell-by-cell by typing SHIFT + ENTER.
 
 
 **Example:**<br/>
@@ -34,7 +33,8 @@ provides a tour of an application programming interface (API).
 
 
 **Audience(s):**<br/>
-Depending on the style of the notebook, this pattern can be used for a spectrum of programming abilities.
+Depending on the style of the notebook, this pattern can be used for a spectrum
+of programming abilities.
 
 
 **Format (lecture / lab / …):**<br/>
@@ -53,7 +53,7 @@ for richer interaction than a static textbook.
 This style does not prompt much engagement with students. Having a
 class that interactively works through a notebook can lead to some
 students finishing much faster than others (e.g., racing through
-shift+enter). Breaking long notebooks into many smaller ones can help
+SHIFT + ENTER). Breaking long notebooks into many smaller ones can help
 with the pacing in a lecture. Having a master notebook serve as the
 table of contents can then help students navigate through the
 class. Notebooks can be linked in a markdown cell as:
@@ -68,8 +68,8 @@ class. Notebooks can be linked in a markdown cell as:
 
 **Description:**<br/>
 Notebooks can be used to rapidly generate user interfaces where
-students and instructors can interact with code through slidebars,
-entry boxes and toggle buttons. The code can run numerical simulations
+students and instructors can interact with code through sliders,
+entry boxes, and toggle buttons. The code can run numerical simulations
 or perform simple computations, and the output is often a graph or
 image.
 
@@ -77,7 +77,7 @@ image.
 **Example:**<br/>
 In geophysics, a direct current resistivity survey involves connecting
 two electrodes to the ground through which current is
-injected. Currents flow through the earth and their behavior depends
+induced. Current flows through the earth and the behavior depends
 upon the electrical resistivity of the subsurface structures; current
 flows around resistors and is channeled into conductors. At interfaces
 between conductors and resistors, charges build up, and these charges
@@ -189,8 +189,10 @@ experience.
 
 
 **Format (lecture / lab / …):**<br/>
-This can be effective for tutorials and workshops, and can be used
-over multiple lectures.
+This can be effective for tutorials and workshops, and can be used over
+multiple lectures. This can be useful when introducing new topics to help hook
+students because they accomplish significant results early in the learning
+process.
 
 
 **Pitfalls:**<br/>
@@ -282,7 +284,8 @@ it.
 
 
 **Learning goals:**<br/>
-This pattern is useful for shifting students' focus from implementation details to domain content.
+This pattern is useful for shifting students' focus from implementation details
+to domain content.
 
 
 **Audience(s):**<br/>
@@ -296,7 +299,7 @@ the duration of a course; for example, students could use a tool on the first da
 and find out how it works on the last.
 
 **Features:**<br/>
-Shows students value and rewards their attention quickly (see "Win Day One")
+Shows students value and rewards their attention quickly (see "Win Day One").
 
 
 **Pitfalls:**<br/>
@@ -313,7 +316,7 @@ not enough to assert that knowing how it works is necessarily better).
 
 **Description:**<br/>
 When students work with a software library, they are exposed to functions and
-objects that make up an application programmer interface (API). Learning an API
+objects that make up an application programming interface (API). Learning an API
 can be cognitive overhead; that is, material students have to learn to get work
 done computationally, but which does not contribute to their understanding of
 the subject matter. But the API can also be the lesson; that is, by learning the API,
@@ -335,11 +338,13 @@ Top-down sequence
 
 
 **Learning goals:**<br/>
-This pattern is useful for shifting students' focus from implementation details to domain content.
+This pattern is useful for shifting students' focus from implementation details
+to domain content.
 
 
 **Audience(s):**<br/>
-This pattern is most effective if students have some experience using libraries and exploring APIs.
+This pattern is most effective if students have some experience using libraries
+and exploring APIs.
 
 
 **Format (lecture / lab / …):**<br/>
@@ -351,8 +356,6 @@ TODO: complete
 A hazard of this pattern is that students sometimes perceive the costs of learning the
 API and do not perceive the benefits. It might be necessary to help them see that
 learning the API is part of the lesson and not just overhead.
-
-
 
 
 ## The world is your dataset
@@ -367,17 +370,20 @@ If a dataset is available in a standard format, like CSV, it can be downloaded f
 inside the notebook, which demonstrates a good practice for data integrity (going to
 the source rather than working with a copy) and demystifies the source of the data.
 
-For data in tabular form on a web page, it is often possible to use Pandas to parse
-the HTML and generate DataFrames. Also, tools like Scrapy can be used to scrape data
-from sources that would be hard to collect manually, and to automate cleaning and validation steps.
+For data in tabular form on a web page, it is often possible to use Pandas to
+parse the HTML and generate a DataFrame. Also, for less structured sources,
+tools like Scrapy can be used to extract data, "scrape", from sources that
+would be hard to collect manually, and to automate cleaning and validation
+steps.
 
 
 **Examples:**<br/>
-Datasets like the National Survey of Family Growth are available in files that can
-be downloaded directly from their website, but the terms of use forbid redistributing
-the data. So the best way to share this data is to provide students with code to
-input into a notebook cell, which, when executed, will download the data set the
-first time the student runs the notebook.
+Datasets like the [National Survey of Family Growth](htto://TODO) are available
+in files that can be downloaded directly from their website, but the terms of
+use forbid redistributing the data. So the best way for an instructor to share
+this data is to provide students with code to input into a notebook cell,
+which, when executed, will download the data set the first time the student
+runs the notebook.
 
 Many Wikipedia pages contain data in HTML tables; most of them can be imported
 easily into a notebook using Pandas.
@@ -388,7 +394,8 @@ in forms more amenable to automated analysis.
 
 
 **Audience(s):**<br/>
-Students with limited programming experience can work with datasets in standard formats, but scraping data might require more programming experience.
+Students with limited programming experience can work with datasets in standard
+formats, but scraping data might require more programming experience.
 
 
 **Format (lecture / lab / …):**<br/>
@@ -408,7 +415,7 @@ they can get, even if it is not ideal.
 
 
 **Enabling technologies:**<br/>
-Pandas, Scrapy
+Pandas, Scrapy, R, ROpenSci packages
 
 
 ## Connect to external audiences
@@ -456,8 +463,9 @@ Teaches students about reproducible science workflows.
 **Pitfalls:**<br/>
 You need to be clear about the library requirements needed to run the notebook.
 Also, since the data files are likely separate from the notebook, it is possible
-for copies of the notebook to get shared without the data.
-
+for copies of the notebook to get shared without the data. Students may also be
+shy or fearful of showing their work publicly, so explaining the benefits may
+be needed to curtail their worries.
 
 
 ## Twiddle, tweak, and frob
@@ -490,7 +498,8 @@ and interact at multiple levels of detail:
 
 *   **twiddle** hyper parameters to quickly see minor improvements in the results.
 *   **tweak** feature sets to create new models for a bigger impact
-*   **frob** by replacing the machine learning algorithm with a new algorithm or a new version
+*   **frob** by replacing the machine learning algorithm with a new algorithm
+    or a new version
 
 This pattern is particularly suitable for examples with a lot of parameters.
 
@@ -502,7 +511,7 @@ learn new notebook use patterns
 
 This pattern is similar to "The notebook is an app"; a difference is that in this
 pattern the code is more visible to the students, which can help orient them if
-hey will make bigger changes in the future.
+they will make bigger changes in the future.
 
 
 **Audience(s):**<br/>
@@ -534,8 +543,8 @@ effect of the parameters might be lost in the chaos.
 **Enabling technologies:**<br/>
 Ideally the students should work in some kind of version control system that lets
 them revert to a previous version if they break something (and don't know how to
-fix it). Note that C-z and C-y can be used to traverse deep history within each cell,
-but not across cells.
+fix it). Note that undo and redo, Ctrl-z and Ctrl-y, can be used to traverse
+deep history within each cell, but not across cells.
 
 
 ## Coding as translation
@@ -555,12 +564,13 @@ mathematics and suggesting replacing the sums with loops and initializing the su
 
 
 **Learning goals:**<br/>
-Translating mathematics to code (and vice versa) \
-Audience(s): Learners who understand the theory but struggle with the programming side of things.
+Translating mathematics to code (and vice versa)
 
+**Audience(s)**:<br/>
+Learners who understand the theory but struggle with the programming side of things.
 
 **Format:**<br/>
-This type of pattern is often best served as a notebook with some explanative text and
+This type of pattern is often best served as a notebook with some explanatory text and
 possibly some scaffolded code so that a student can focus on the critical areas.
 This can be done as easily as a lab exercise or in lecture with perhaps some time held
 out for the students to solve it themselves before moving forward. It is critical to this
@@ -579,16 +589,15 @@ This is especially true if the code example is too complex with too many steps.
 For instance avoiding compound operators in the example above (`+=`) can help student retention.
 
 
-
 ## Symbolic math over pencil + paper
 
 
 **Description:**<br/>
-Your objective is to convey an understanding of a physical system governed by a complicated
-mathematical system. Working out the algebra is necessary to uncover the fundamental
-behavior of the system, but how to do the algebra is not the goal of the lesson.
-In this case, you want to see the algebraic result and then teach the students the
-underlying meaning of the system,
+Your objective is to convey an understanding of a physical system governed by a
+complicated mathematical system. Working out the algebra is necessary to
+uncover the fundamental behavior of the system, but how to do the algebra is
+not the goal of the lesson.  In this case, you want to see the algebraic result
+and then teach the students the underlying meaning of the system,
 
 
 **Example:**<br/>
@@ -609,7 +618,7 @@ Students will see how to do symbolic math that arises in their theoretical analy
 
 **Audience(s):**<br/>
 STEM students that want to focus on understanding a mathematical system without
-worrying about the algebraic details
+worrying about the algebraic details.
 
 
 **Format:**<br/>
@@ -627,8 +636,6 @@ This only works well in the case that the algebra is not essential to the main
 learning goals, but rather is simply something that must be done to get to the main goal.
 
 
-
-
 ## Bug hunt
 
 
@@ -639,7 +646,7 @@ to help students know whether some bugs remain unfixed.
 
 
 **Example:**<br/>
-todo
+TODO
 
 **Learning goals:**<br/>
 This pattern helps students develop programming skills, especially debugging (of course);
@@ -666,7 +673,6 @@ they are not engaging; if they are too hard, they are likely to be frustrating.
 
 
 
-
 ## Proof by example, disproof by counterexample
 
 **Description:**<br/>
@@ -676,9 +682,10 @@ in practice, when they apply, and how they fail when they do not.
 
 
 **Example:**<br/>
-In statistics, the Central Limit Theorem (CLT) gives the conditions when the sum of
-random variables converge to a Gaussian distribution. Students can generate random
-variables from a variety of distributions and test whether the sums converge and how quickly.
+In statistics, the Central Limit Theorem (CLT) gives the conditions when the
+sum of random variables converge to a Gaussian distribution. Students can
+generate random variables from a variety of distributions and test whether the
+sums converge and how quickly.
 
 The classical Gram–Schmidt is unstable while the modified method is stable.
 Students can find matrices for which this instability produces obviously unusable results.
@@ -686,8 +693,10 @@ They can also find matrices for which modified Gram-Schmidt produces unusable re
 to its lack of backward stability, and this can be used to motivate Householder factorization
 and discussion of backward stability.
 
-Some numerical methods for PDE converge with an assumption on smoothness of coefficients.
-Students can show how violating these assumptions leads to erroneous solutions, thus motivating discussion of conservative/compatible methods that can converge in such circumstances.
+Some numerical methods for PDE converge with an assumption on smoothness of
+coefficients. Students can show how violating these assumptions leads to
+erroneous solutions, thus motivating discussion of conservative/compatible
+methods that can converge in such circumstances.
 
 **Learning goals:**<br/>
 This pattern is primarily useful for developing mathematical or domain knowledge,
@@ -713,8 +722,6 @@ and to remember the assumptions and limitations of theory.
 **Pitfalls:**<br/>
 This pattern requires additional time and student effort on a topic that might
 not deserve the additional resources.
-
-
 
 
 ## Hello, world!
@@ -774,7 +781,7 @@ TODO: Necessary?
 
 
 **Learning goals:**<br/>
-Helps students learn a good software development process,.
+Helps students learn a good software development process.
 
 
 **Audience(s):**<br/>
@@ -786,30 +793,55 @@ This pattern can be used for in-class activities or homework.
 
 
 **Features:**<br/>
-Helps students focus on the task at hand and know when they are done (at least to the degree that the tests are complete).
+Helps students focus on the task at hand and know when they are done (at least
+to the degree that the tests are complete).
 
 
 **Pitfalls:**<br/>
-Some Python unit testing frameworks are not designed to work with notebooks, and can be awkward to use. On the other hand, `nbgrader` [TODO: add cross reference to nbgrader] supports automated testing of the code students write in notebooks; in that environment, the tests are not visible to students, which may or may not be a bug.
+Some Python unit testing frameworks are not designed to work with notebooks,
+and can be awkward to use. On the other hand, `nbgrader` [TODO: add cross
+reference to nbgrader] supports automated testing of the code students write in
+notebooks; in that environment, the tests are not visible to students, which
+may or may not be a bug.
 
-This pattern required the overhead of teaching students about the unit testing framework. Students working to make tests pass can lose their view of the big picture, and feel like they have been robbed of autonomy. This type of exercise is best used sparingly.
-
+This pattern required the overhead of teaching students about the unit testing
+framework. Students working to make tests pass can lose their view of the big
+picture, and feel like they have been robbed of autonomy. This type of exercise
+is best used sparingly.
 
 
 ## Now you try (with different data or process)
 
 
 **Description:**<br/>
-Students start with a complete working example provided by an instructor and then they change the dataset or process to apply the notebook to an area of their own choosing. This method can allow more or less fluctuation depending on the skills of the students. For example we can allow students to select new datasets from a list that ensures the cells of the notebook will all still work or we can give them freedom to try new data structures or add new processes to break the notebooks and learn as they go through the process of fixing the broken cells.
+Students start with a complete working example provided by an instructor and
+then they change the dataset or process to apply the notebook to an area of
+their own choosing. This method can allow more or less fluctuation depending on
+the skills of the students. For example we can allow students to select new
+datasets from a list that ensures the cells of the notebook will all still work
+or we can give them freedom to try new data structures or add new processes to
+break the notebooks and learn as they go through the process of fixing the
+broken cells.
 
 **Example:**<br/>
-An instructor designs a lesson in exploratory data analysis to scrape the critics reviews for a specific movie from a particular movie review website and then provide some simple visualizations. The students have a few options:
+An instructor designs a lesson in exploratory data analysis to scrape the
+critics reviews for a specific movie from a particular movie review website and
+then provide some simple visualizations. The students have a few options:
 
-1. Green Circle - replace the movie name and pick any movie they want and then step through the new notebook and see the new results.
-1. Blue Square - adjust the notebook to scrape user reviews rather than critics reviews and then fix any data parsing problems.
-1. Black Diamond - add different visualizations tailored to explore the user reviews (as opposed to the initial visualizations that are tailored for the critic reviews).
+1. Green Circle - replace the movie name and pick any movie they want and then
+   step through the new notebook and see the new results.
+1. Blue Square - adjust the notebook to scrape user reviews rather than critics
+   reviews and then fix any data parsing problems.
+1. Black Diamond - add different visualizations tailored to explore the user
+   reviews (as opposed to the initial visualizations that are tailored for the
+   critic reviews).
 
-There are various ways to test the properties of numerical methods. For example, students can use the method of manufactured solutions to test the order of accuracy for a differential equation solver. They can also measure cost as the resolution is increased and present the results in a way that would help an analyst decide which method to use given external requirements (e.g., using accuracy versus cost tradeoff curves).
+There are various ways to test the properties of numerical methods. For
+example, students can use the method of manufactured solutions to test the
+order of accuracy for a differential equation solver. They can also measure
+cost as the resolution is increased and present the results in a way that would
+help an analyst decide which method to use given external requirements (e.g.,
+using accuracy versus cost tradeoff curves).
 
 **Related patterns:**<br/>
 Top-down sequence
@@ -818,65 +850,107 @@ Top-down sequence
 This pattern allows students to apply their knowledge
 
 **Audience(s):**<br/>
-This pattern can be tailored for students with more or less experience even in the same course.
+This pattern can be tailored for students with more or less experience even in
+the same course.
 
 **Format (lecture / lab / …):**<br/>
 This pattern is best in a lab or an interactive tutorial
 
 **Pitfalls:**<br/>
-A hazard of this pattern is that students may go completely off the rails and chose datasets or new processes that have not been tested and will not work in the timeframe allowed.
-
+A hazard of this pattern is that students may go completely off the rails and
+chose datasets or new processes that have not been tested and will not work in
+the timeframe allowed.
 
 
 ## Two bites at every apple
 
 
 **Description:**<br/>
-This pattern involves writing an activity that can address multiple audiences from different perspectives at the same time. This can be powerful when addressing a mixed audience of students.
+This pattern involves writing an activity that can address multiple audiences
+from different perspectives at the same time. This can be powerful when
+addressing a mixed audience of students.
 
 **Example:**<br/>
-Say you have a group of students, some of whom are computer science students and some of whom are physics students, and ask them to come up with two expressions for computing the centroid of an area. The computer science students will be tasked with a description that involves adding up discrete pieces of areas with for loops and the physics students tasked with using the integral definition. When the students come up with their expressions they can then pair up with someone from the other background where they can attempt to explain how their approach matches the other and compare their final answers.
+Say you have a group of students, some of whom are computer science students
+and some of whom are physics students, and ask them to come up with two
+expressions for computing the centroid of an area. The computer science
+students will be tasked with a description that involves adding up discrete
+pieces of areas with for loops and the physics students tasked with using the
+integral definition. When the students come up with their expressions they can
+then pair up with someone from the other background where they can attempt to
+explain how their approach matches the other and compare their final answers.
 
 **Learning goals:**<br/>
-Ability to translate from one field/language to another. Explain complex topics to someone from a different field.
+Ability to translate from one field/language to another. Explain complex topics
+to someone from a different field.
 
 **Audience(s):**<br/>
 Groups which are composed of disparate backgrounds.
 
 **Format:**<br/>
-This format involves both individual and group work but can be used in a lab or lecture setting. The basic notebook would include an overview of the problem and then pose questions whose answer is the same but is worded for the different audiences. There can be a single notebook that contains both questions so that students can fill in their peers solution once they understand it or there can be separate notebooks for each group so they do not get distracted by the other question.
+This format involves both individual and group work but can be used in a lab or
+lecture setting. The basic notebook would include an overview of the problem
+and then pose questions whose answer is the same but is worded for the
+different audiences. There can be a single notebook that contains both
+questions so that students can fill in their peers solution once they
+understand it or there can be separate notebooks for each group so they do not
+get distracted by the other question.
 
 **Features:**<br/>
-Group work and peer teaching has been shown to be effective at not only reinforcing student knowledge but also at introducing students to new concepts.
+Group work and peer teaching has been shown to be effective at not only
+reinforcing student knowledge but also at introducing students to new concepts.
 
 **Pitfalls:**<br/>
-It can be difficult to construct questions for each audience that require equal amounts of difficulty. \
-
+It can be difficult to construct questions for each audience that require equal
+amounts of difficulty.
 
 
 ## Replace analysis with numerical methods
 
 
 **Description:**<br/>
-Some ideas that are hard to understand with mathematical analysis are easy to understand with computer simulation and numerical methods.
+Some ideas that are hard to understand with mathematical analysis are easy to
+understand with computer simulation and numerical methods.
 
-In the usual presentation, students see and learn to do mathematical analysis on a series of simple examples, and resort to numerical methods only when necessary. In an alternative pattern, students skip the analysis and start with simulation and numerical methods, optionally visiting analysis after gaining practical experience.
-
+In the usual presentation, students see and learn to do mathematical analysis
+on a series of simple examples, and resort to numerical methods only when
+necessary. In an alternative pattern, students skip the analysis and start with
+simulation and numerical methods, optionally visiting analysis after gaining
+practical experience.
 
 **Examples:**<br/>
-In statistics, hypothesis testing is a central idea that is notoriously difficult for students to understand. Students learn methods for computing p-values in a series of special cases, but many of them never understand the framework, or what a p-value means. The alternative is to compute sampling distributions and p-values by simulation; anecdotally, many students report that this approach makes the framework much clearer. Such simulation can also be used to drive home points about misconceptions held by most students and instructors [@HallerKrauss2002].
+In statistics, hypothesis testing is a central idea that is notoriously
+difficult for students to understand. Students learn methods for computing
+p-values in a series of special cases, but many of them never understand the
+framework, or what a p-value means. The alternative is to compute sampling
+distributions and p-values by simulation; anecdotally, many students report
+that this approach makes the framework much clearer. Such simulation can also
+be used to drive home points about misconceptions held by most students and
+instructors [@HallerKrauss2002].
 
-Similarly, in queueing theory, there are a few analytic results that apply under narrow conditions; when those conditions don't apply, there are no analytic solutions. However, queueing systems lend themselves to simulation and visualization, and in simulation it is easy to explore a wide range of conditions.
+Similarly, in queueing theory, there are a few analytic results that apply
+under narrow conditions; when those conditions don't apply, there are no
+analytic solutions. However, queueing systems lend themselves to simulation and
+visualization, and in simulation it is easy to explore a wide range of
+conditions.
 
-And again, with differential equations, there are only a few special cases that have analytic solutions; the large majority of interesting, realistic problems don't.
-
+And again, with differential equations, there are only a few special cases that
+have analytic solutions; the large majority of interesting, realistic problems
+don't.
 
 **Learning goals:**<br/>
-This pattern is primarily about helping students see the big ideas of the domain more clearly, but it is also a chance to develop their programming skills. It also provides students with tools that are likely to be needed if they encounter similar problems in the real world, where analytic methods are often inapplicable, fragile, or complicated to use effectively.
+This pattern is primarily about helping students see the big ideas of the
+domain more clearly, but it is also a chance to develop their programming
+skills. It also provides students with tools that are likely to be needed if
+they encounter similar problems in the real world, where analytic methods are
+often inapplicable, fragile, or complicated to use effectively.
 
 
 **Audience(s):**<br/>
-This pattern requires students to have some comfort with programming, although it would be possible for them to get some of the benefit from seeing examples without implementing them. Non-programmers can use this pattern via prepared notebooks; see [Win Day One](#win-day-one).
+This pattern requires students to have some comfort with programming, although
+it would be possible for them to get some of the benefit from seeing examples
+without implementing them. Non-programmers can use this pattern via prepared
+notebooks; see [Win Day One](#win-day-one).
 
 
 **Format (lecture / lab / …):**<br/>
@@ -884,19 +958,36 @@ This pattern can be used for in-class activities or homework.
 
 
 **Features:**<br/>
-Students can understand general ideas without getting bogged down in the details of special cases; and they are able to explore more interesting and realistic examples.
+Students can understand general ideas without getting bogged down in the
+details of special cases; and they are able to explore more interesting and
+realistic examples.
 
 
 **Pitfalls:**<br/>
-If students are not comfortable programmers, they can get bogged down in implementation details and debugging problems, and miss the domain content entirely. It is important to scope the implementation effort to suit the full range of students in the class. Pair programming can help mitigate these problems, especially if every pair has at least one student with programming skills, and if students are coached to pair program effectively (without letting the more experienced student dominate).
+If students are not comfortable programmers, they can get bogged down in
+implementation details and debugging problems, and miss the domain content
+entirely. It is important to scope the implementation effort to suit the full
+range of students in the class. Pair programming can help mitigate these
+problems, especially if every pair has at least one student with programming
+skills, and if students are coached to pair program effectively (without
+letting the more experienced student dominate).
 
 
 ## Code reviews
 
-Code reviews involve a student or instructor providing feedback on someone else's code. This pattern involves peer work as well as a means for providing feedback to students on topics other than correctness of their code but also on code readability and styling.
+Code reviews involve a student or instructor providing feedback on someone
+else's code. This pattern involves peer work as well as a means for providing
+feedback to students on topics other than correctness of their code but also on
+code readability and styling.
 
 **Example:**<br/>
-Present a problem to students that they must write a solution to, say computing the square root of a number without using a built-in function but have them write a test for their function that uses a built-in function to compute the answer. After they are finished have the students pair up and perform peer reviews of each other's code, commenting not only on the way they solved the problem, such as making up a list of pros and cons of their approaches, but also on the readability of the code.
+Present a problem to students that they must write a solution to, say computing
+the square root of a number without using a built-in function but have them
+write a test for their function that uses a built-in function to compute the
+answer. After they are finished have the students pair up and perform peer
+reviews of each other's code, commenting not only on the way they solved the
+problem, such as making up a list of pros and cons of their approaches, but
+also on the readability of the code.
 
 **Learning goals:**<br/>
 Learn to read and understand someone else's code. Learn to write readable code.
@@ -905,22 +996,45 @@ Learn to read and understand someone else's code. Learn to write readable code.
 Any group of students who are involved in coding.
 
 **Format:**<br/>
-Once a suitable problem is formulated in a notebook (or simply a script) then in-class review, as with the above example, can work for peer reviews. Alternatively students can upload their notebooks/scripts to a platform such as GitHub and the code reviews can be done using the tools available there. Sufficient scaffolding must be provided so that students understand the process, how to make constructive comments and why the process is important. If an instructor wants to review and provide feedback notebooks/scripts can be collected and commented on with a similar explanation to students as to how they are going to be graded (if they are).
+Once a suitable problem is formulated in a notebook (or simply a script) then
+in-class review, as with the above example, can work for peer reviews.
+Alternatively students can upload their notebooks/scripts to a platform such as
+GitHub and the code reviews can be done using the tools available there.
+Sufficient scaffolding must be provided so that students understand the
+process, how to make constructive comments and why the process is important. If
+an instructor wants to review and provide feedback notebooks/scripts can be
+collected and commented on with a similar explanation to students as to how
+they are going to be graded (if they are).
 
 **Features:**<br/>
-This pattern leads to not just feedback for the person who wrote the code but also for the reader. Code review is also a critical piece of the software development process used in industry providing students with a view of the process. This can also have the result of making sure that a student's code is readable via appropriate code styling, commenting and documentation.
+This pattern leads to not just feedback for the person who wrote the code but
+also for the reader. Code review is also a critical piece of the software
+development process used in industry providing students with a view of the
+process. This can also have the result of making sure that a student's code is
+readable via appropriate code styling, commenting and documentation.
 
 **Pitfalls:**<br/>
-Students need to be properly informed as to how the code reviews will impact their grades, especially if peer review is used. Notebooks on GitHub are not as easily reviewed as scripts.
-
+Students need to be properly informed as to how the code reviews will impact
+their grades, especially if peer review is used. Notebooks on GitHub are not as
+easily reviewed as scripts.
 
 
 ## Adversarial programming
 
-This pattern involves participants writing a solution to a problem and tests that attempt to make the written solution fail. This pattern can be done in many ways including having students complete the tasks and pair up and exchange solutions/tests or having the instructor writing the solution and the students then write the tests.
+This pattern involves participants writing a solution to a problem and tests
+that attempt to make the written solution fail. This pattern can be done in
+many ways including having students complete the tasks and pair up and exchange
+solutions/tests or having the instructor writing the solution and the students
+then write the tests.
 
 **Example:**<br/>
-Students are tasked to write a function that finds the roots of a polynomial specified via some appropriate input. They are also asked to write a set of tests that their function passes and fails on. When students have completed these tasks they then exchange their notebooks and use the tests they wrote on their peer's function. Finally they will discuss any differences in their approaches and whether they can come up with ways to not fail each other's tests or if the tests provided are invalid.
+Students are tasked to write a function that finds the roots of a polynomial
+specified via some appropriate input. They are also asked to write a set of
+tests that their function passes and fails on. When students have completed
+these tasks they then exchange their notebooks and use the tests they wrote on
+their peer's function. Finally they will discuss any differences in their
+approaches and whether they can come up with ways to not fail each other's
+tests or if the tests provided are invalid.
 
 
 **Learning goals:**<br/>
@@ -931,15 +1045,24 @@ Any group of students who are involved in coding.
 
 
 **Format:**<br/>
-Decide on a sufficiently complex problem that may have non-trivial tests written for it and write up the question in a notebook. Then as an in-class activity or lab start the discussion regarding the tests. If appropriate the instructor can collect notable tests written by students and also share those.
+Decide on a sufficiently complex problem that may have non-trivial tests
+written for it and write up the question in a notebook. Then as an in-class
+activity or lab start the discussion regarding the tests. If appropriate the
+instructor can collect notable tests written by students and also share those.
 
 
 **Features:**<br/>
-Provides a means for students to think critically about a problem they are solving and how someone might break their solution. Also can provide a learning activity with a form of competition involved, which can then lead to an award system if desired.
+Provides a means for students to think critically about a problem they are
+solving and how someone might break their solution. Also can provide a learning
+activity with a form of competition involved, which can then lead to an award
+system if desired.
 
 
 **Pitfalls:**<br/>
-With competition come dangers if students are not properly scaffolded so that they can provide constructive feedback. Some problems and/or solution strategies are vulnerable to many corner cases, leading to tedious whack-a-mole or fatalism that may distract from learning objectives.
+With competition come dangers if students are not properly scaffolded so that
+they can provide constructive feedback. Some problems and/or solution
+strategies are vulnerable to many corner cases, leading to tedious whack-a-mole
+or fatalism that may distract from learning objectives.
 
 
 
@@ -947,25 +1070,46 @@ With competition come dangers if students are not properly scaffolded so that th
 
 
 **Description:**<br/>
-This pattern involves creating a competition between individual students or teams of students. Clear goals and metrics need to be defined and then students submit notebooks that are scored and evaluated. Competitions can span months or be completed in a single class.
+This pattern involves creating a competition between individual students or
+teams of students. Clear goals and metrics need to be defined and then students
+submit notebooks that are scored and evaluated. Competitions can span months or
+be completed in a single class.
 
-The Jupyter ecosystem support for reproducibility and data sharing make it a great environment for creating healthy competitions. Kaggle is a site that hosts many machine learning competitions using Jupyter as its underlying infrastructure and is a great place for advanced students to extend their knowledge with a chance of winning cash prizes and solving current world problems.
+The Jupyter ecosystem support for reproducibility and data sharing make it a
+great environment for creating healthy competitions. Kaggle is a site that
+hosts many machine learning competitions using Jupyter as its underlying
+infrastructure and is a great place for advanced students to extend their
+knowledge with a chance of winning cash prizes and solving current world
+problems.
 
 
 **Examples:**<br/>
-Identify a machine learning problem and a labeled dataset your students can use to train their model. Then select an evaluation metric and detail your problem statement and rules. Finally, launch your competition and allow your students to submit their notebooks and post their results on a public leaderboard.
+Identify a machine learning problem and a labeled dataset your students can use
+to train their model. Then select an evaluation metric and detail your problem
+statement and rules. Finally, launch your competition and allow your students
+to submit their notebooks and post their results on a public leaderboard.
 
 
 **Learning goals:**<br/>
-Creative problem solving is a key aspect of this pattern. In addition, if the competition is team-based then the students will learn how to work in groups and communicate effectively and share responsibilities.
+Creative problem solving is a key aspect of this pattern. In addition, if the
+competition is team-based then the students will learn how to work in groups
+and communicate effectively and share responsibilities.
 
 
 **Audience(s):**<br/>
-Students can benefit from healthy competition and working in teams, however it is critical that a safe, fun, and engaging environment is created. Advanced students can be pointed toward kaggle or other public competitions that may be in their area of interest and give them a chance to test their skills in the real world.
+Students can benefit from healthy competition and working in teams, however it
+is critical that a safe, fun, and engaging environment is created. Advanced
+students can be pointed toward kaggle or other public competitions that may be
+in their area of interest and give them a chance to test their skills in the
+real world.
 
 
 **Format:**<br/>
-A competition can be defined with any metrics and rules and can be run in multiple ways. The students can help define the rules or a simple vote can decide the winners. For a more formal competition instructor can host free competitions for their class hosted by Kaggle. [https://www.kaggle.com/about/inclass/overview](https://www.kaggle.com/about/inclass/overview)
+A competition can be defined with any metrics and rules and can be run in
+multiple ways. The students can help define the rules or a simple vote can
+decide the winners. For a more formal competition instructor can host free
+competitions for their class hosted by Kaggle.
+[https://www.kaggle.com/about/inclass/overview](https://www.kaggle.com/about/inclass/overview)
 
 
 **Features:**<br/>
@@ -973,4 +1117,7 @@ Teaches students about creative problem solving and teamwork.
 
 
 **Pitfalls:**<br/>
-Creating a fair competition is not trivial and considerations regarding data, metrics, rules, and scoring may be time consuming. Competition is risky business and effort should be made to ensure both winners and losers enjoy the experience.
+Creating a fair competition is not trivial and considerations regarding data,
+metrics, rules, and scoring may be time consuming. Competition is risky
+business and effort should be made to ensure both winners and losers enjoy the
+experience.
