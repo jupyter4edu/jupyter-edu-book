@@ -22,7 +22,11 @@ in advance for your help improving the book.
 
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
-- [Your First Content Contribution](#your-first-content-contribution)
+
+[Your First Content Contribution](#your-first-content-contribution)
+
+- [GitHub account](#github-account)
+- [Edit content](#edit-content)
   - [From the book](#from-the-book)
   - [From the GitHub UI](#from-the-github-ui)
   - [Local development and building](#local-development-building)
@@ -80,11 +84,11 @@ understand your suggestion :pencil: and find related suggestions :mag_right:.
 If you are interested in making a major change or addition, it is good practice
 to open an issue suggesting the enhancement before submitting a pull request.
 
-### Your First Content Contribution
+## Your First Content Contribution
 
 Are you ready to make your first content contribution? Great.
 
-#### GitHub Account
+### GitHub Account
 
 In order to contribute directly, you will need a GitHub account.
 You can get an account by simply clicking on the "Sign Up" button
