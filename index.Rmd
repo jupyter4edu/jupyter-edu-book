@@ -31,23 +31,23 @@ description: "A handbook on teaching and learning with Jupyter notebooks."
 # Introduction {#intro}
 
 This handbook is for any educator teaching a topic that includes data analysis
-or computation to support the learning—not just courses in engineering or
+or computation in order to support learning. It is not just for educators teaching courses in engineering or
 science, but also data journalism, business and quantitative economics,
 data-based decision sciences and policy, quantitative health sciences, and
-digital humanities. It aims to give an entry point, and a broad overview of
+digital humanities. It aims to provide an entry point, and a broad overview of
 Jupyter in education. Whether you are already using Jupyter to teach, you have
 found learning materials built on Jupyter that piqued your curiosity, or have
-never heard of Jupyter, the material in this open book can help you empower your
-teaching with this new technology.
+never heard of Jupyter, the material in this open book can help empower you to 
+use this technology in your teaching. 
 
 [Project Jupyter](http://jupyter.org/) is a broad collaboration that develops
 open-source tools for interactive and exploratory computing. The tools include:
 over 100 computer languages (with a focus on Python), the Jupyter Notebook, JupyterHub,
 and an ecosystem of extensions
-contributed by a large community. Jupyter Notebook exploded in popularity since
+contributed by a large community. The Jupyter Notebook has exploded in popularity since
 late 2014, fueled by its adoption as the favorite environment for doing data
-science. It has also grown as a platform to use in the classroom, to develop
-teaching materials, to share lessons and tutorials, and to create
+science. It has also grown as a platform for use in the classroom, for the development of
+teaching materials, for the sharing of lessons and tutorials, and for the creation
 computational stories. Notebooks are documents containing text narratives,
 combined with executable code (many languages are supported) and the output of
 that code. This marriage of content and code makes for a powerful new form of
@@ -56,11 +56,11 @@ teaching.
 
 Educators newly adopting Jupyter can be overwhelmed by having to navigate the
 ecosystem of tools and content. They could study many examples, or consume a
-myriad of blog posts and talk videos to distill the patterns of good practices
+myriad of blog posts and videos of talks to distill the patterns of good practices
 and technical solutions to serve their students best. Several early adopters,
 having much experience to share, decided to begin collecting this know-how, and
-sharing open documentation about using Jupyter for teaching and learning. The
-result is this open book: a live document of collective experience with Jupyter
+share open documentation about using Jupyter for teaching and learning. The
+result is this open book: a live document of collective experiences with Jupyter
 in education.
 
 The Jupyter Community Workshop in Washington, DC (November 2018) began that
