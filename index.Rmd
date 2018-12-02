@@ -48,7 +48,7 @@ contributed by a large community. The Jupyter Notebook has exploded in popularit
 late 2014, fueled by its adoption as the favorite environment for doing data
 science. It has also grown as a platform for use in the classroom, for the development of
 teaching materials, for the sharing of lessons and tutorials, and for the creation
-computational stories. Notebooks are documents containing text narratives,
+computational stories. Notebooks are documents containing text narratives with images and math,
 combined with executable code (many languages are supported) and the output of
 that code. This marriage of content and code makes for a powerful new form of
 data-based communication. Educators everywhere are adopting Jupyter for
@@ -60,8 +60,8 @@ myriad of blog posts and videos of talks to distill the patterns of good practic
 and technical solutions to serve their students best. Several early adopters,
 having much experience to share, decided to begin collecting this know-how, and
 share open documentation about using Jupyter for teaching and learning. The
-result is this open book: a live document of collective experiences with Jupyter
-in education.
+result is this open book: a living document that captures the experiences of 
+community members using Jupyter in education.
 
 The Jupyter Community Workshop in Washington, DC (November 2018) began that
 process, with a book sprint aimed at producing the first version of this
