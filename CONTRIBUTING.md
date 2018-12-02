@@ -1,106 +1,3 @@
-## Contributing
-
-We would love to have you contribute to this book! And, it is
-fairly easy to do so.
-
-### GitHub Account
-
-In order to contribute directly, you will need a GitHub account.
-You can get an account by simply clicking on the "Sign Up" button
-at https://github.com
-
-One you have an account, you will need to Sign in.
-
-The easiest way to contribute is to go to the sources of the book:
-
-https://github.com/jupyter4edu/jupyter-edu-book
-
-and click on the pencil button. You can edit the page directly
-in the browser. Just make the minimal about of change for your
-edit. In other words, don't remove spaces, or other formatting
-unless it is directly related to the item you would like to
-change or add.
-
-When completed editing a chapter, at the bottom of the page:
-
-- provide a summary of the changes
-- use the second box for more details about the changes
-- click the "Commit changes" button
-- click the "Create Pull Request" button
-
-For more extensive changes, we recommend cloning this repository and
-using the full power of git.
-
-After submitting your pull request, someone will review your changes.
-
-## Formatting tips
-
-We use markdown for the book formatting.
-
-Some useful links:
-
-- Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
-
-## Book Organization
-
-The book is divided into 10 chapters:
-
-1. [index.Rmd](index.Rmd)
-2. [02-why-jupyter.md](02-why-jupyter.md)
-3. [03-notebooks-in-teaching-and-learning.md](03-notebooks-in-teaching-and-learning.md)
-4. [04-a-catalogue-of-pedagogical-patterns.md](04-a-catalogue-of-pedagogical-patterns.md)
-5. [05-jupyter-ecosystem.md](05-jupyter-ecosystem.md)
-6. [06-getting-your-class-going-with-jupyter.md](06-getting-your-class-going-with-jupyter.md)
-7. [07-usage-case-studies.md](07-usage-case-studies.md)
-8. [08-about-the-authors.md](08-about-the-authors.md)
-9. [09-glossary.md](09-glossary.md)
-
-Please feel free to add to or edit these sections.
-
-## Building
-
-If you wish to build your own copy of the book in HTML format you'll need:
-
-- R
-  - `bookdown` package
-- pandoc
-  - pandoc-citeproc
-
-On Ubuntu, you can install these with the following:
-
-```shell
-sudo apt install littler pandoc pandoc-citeproc
-```
-
-Followed by installing the `bookdown` package in R:
-
-```shell
-$ R
-> install.packages("bookdown")
-> q()
-Save workspace image? [y/n/c]: y
-```
-
-If you wish to build your own copy of the book in PDF format you'll
-need, in addition to the above, the following:
-
-- LaTeX
-
-On Ubuntu, you can install that with the following:
-
-```shell
-sudo apt install texlive-full
-```
-
-Now, to actually build the book, you can:
-
-- `make html` - makes the HTML
-- `make pdf` - makes the PDF
-- `make view-html` - open the HTML in your browser
-- `make view-pdf` - open the PDF in a viewer
-
-The book PDF and HTML can be found in the `_book` folder.
-
 # Contributing Guide
 
 :+1::tada: Welcome! :tada::+1:
@@ -126,11 +23,15 @@ in advance for your help improving the book.
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Your First Content Contribution](#your-first-content-contribution)
+  - [From the book](#from-the-book)
+  - [From the GitHub UI](#from-the-github-ui)
+  - [Local development and building](#local-development-building)
 - [Pull Requests](#pull-requests)
 - [Recognition](#recognition)
 
 [Styleguides](#styleguides)
 
+- [Book organization](#book-organization)
 - [Git Commit Messages](#git-commit-messages)
 - [Formatting Tips](#formatting-tips)
 
@@ -181,29 +82,102 @@ to open an issue suggesting the enhancement before submitting a pull request.
 
 ### Your First Content Contribution
 
-Are you ready to make your first content contribution? Great. You will edit the content using one of the methods below:
+Are you ready to make your first content contribution? Great.
+
+#### GitHub Account
+
+In order to contribute directly, you will need a GitHub account.
+You can get an account by simply clicking on the "Sign Up" button
+at https://github.com
+
+Once you have an account, you will need to Sign in.
+
+### Edit content
+
+You will edit the content using one of the methods below:
 
 - From the book
 - From the GitHub user interface
-- Local development
+- Local development and building
 
-After making and commiting content changes, you will submit a [pull request](#pull-requests).
+After making and commiting content changes, you will submit a
+[pull request](#pull-requests).
 
 #### From the book
 
 At the top of each page in the book, there is a row of light gray icons.
-The edit icon (the small box with a pencil inside) can be clicked to make changes to the page. Clicking the edit button will open the
-GitHub user interface for making an edit.
+The edit icon (the small box with a pencil inside) can be clicked to make
+changes to the page. Clicking the edit button will open the
+GitHub user interface for making an edit. You will now follow the
+[From the GitHub user interface](#from-the-github-user-interface) section.
 
 #### From the GitHub user interface
 
-Navigate to the file that you wish to change. Click the edit icon and
-GitHub will open an edit window to make a change. Save your changes
-by entering a commit message and pressing save.
+The easiest way to contribute is to go to the sources of the book:
 
-#### Local development
+https://github.com/jupyter4edu/jupyter-edu-book
+
+and click on the pencil button. You can edit the page directly
+in the browser. Just make the minimal about of change for your
+edit. In other words, don't remove spaces, or other formatting
+unless it is directly related to the item you would like to
+change or add.
+
+When completed editing a chapter, at the bottom of the page:
+
+- provide a summary of the changes
+- use the second box for more details about the changes
+- click the "Commit changes" button
+- click the "Create Pull Request" button
+
+For more extensive changes, we recommend cloning this repository and
+using the full power of git using [local development](#local-development).
+
+#### Local development and building
 
 The book content can be developed locally.
+
+If you wish to build your own copy of the book in HTML format you'll need:
+
+- R
+  - `bookdown` package
+- pandoc
+  - pandoc-citeproc
+
+On Ubuntu, you can install these with the following:
+
+```shell
+sudo apt install littler pandoc pandoc-citeproc
+```
+
+Followed by installing the `bookdown` package in R:
+
+```shell
+$ R
+> install.packages("bookdown")
+> q()
+Save workspace image? [y/n/c]: y
+```
+
+If you wish to build your own copy of the book in PDF format you'll
+need, in addition to the above, the following:
+
+- LaTeX
+
+On Ubuntu, you can install that with the following:
+
+```shell
+sudo apt install texlive-full
+```
+
+Now, to actually build the book, you can:
+
+- `make html` - makes the HTML
+- `make pdf` - makes the PDF
+- `make view-html` - open the HTML in your browser
+- `make view-pdf` - open the PDF in a viewer
+
+The book PDF and HTML can be found in the `_book` folder.
 
 ### Pull Requests
 
@@ -237,6 +211,22 @@ list of contributors at the end of the book.
 
 ## Styleguides
 
+### Book Organization
+
+The book is divided into 10 chapters:
+
+1. [index.Rmd](index.Rmd)
+2. [02-why-jupyter.md](02-why-jupyter.md)
+3. [03-notebooks-in-teaching-and-learning.md](03-notebooks-in-teaching-and-learning.md)
+4. [04-a-catalogue-of-pedagogical-patterns.md](04-a-catalogue-of-pedagogical-patterns.md)
+5. [05-jupyter-ecosystem.md](05-jupyter-ecosystem.md)
+6. [06-getting-your-class-going-with-jupyter.md](06-getting-your-class-going-with-jupyter.md)
+7. [07-usage-case-studies.md](07-usage-case-studies.md)
+8. [08-about-the-authors.md](08-about-the-authors.md)
+9. [09-glossary.md](09-glossary.md)
+
+Please feel free to add to or edit these sections.
+
 ### Git Commit Messages
 
 - Use the present tense ("Add feature" not "Added feature")
@@ -245,5 +235,7 @@ list of contributors at the end of the book.
 - Reference issues and pull requests liberally after the first line
 
 ### Formatting tips
+
+We use markdown for the book formatting.
 
 - Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
