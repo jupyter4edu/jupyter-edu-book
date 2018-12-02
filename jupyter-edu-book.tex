@@ -1736,19 +1736,55 @@ Notebooks afford the opportunity to present topics top-down; that is,
 students learn what a tool is for and how to use it, before they learn
 how it works.
 
-\textbf{Example:} In digital signal processing, one of the most
-important ideas is the discrete Fourier transform, which depends on
-complex arithmetic; in a bottom-up approach, we would have to start by
-teaching or reviewing complex numbers, which is not particularly
-engaging.
+\textbf{Examples}
+
+\begin{itemize}
+\tightlist
+\item
+  In digital signal processing, one of the most important ideas is the
+  discrete Fourier transform, which depends on complex arithmetic; in a
+  bottom-up approach, we would have to start by teaching or reviewing
+  complex numbers, which is not particularly engaging.
+\end{itemize}
 
 In contrast to writing the mathematics on paper, in a notebook students
 can use a library that does the discrete Fourier transform for them, so
 they understand what it is used for, and see the value of learning about
 it, before we ask them to do the work of understanding it.
 
-\textbf{Learning goals:} This pattern is useful for shifting students'
-focus from implementation details to domain content.
+\begin{itemize}
+\tightlist
+\item
+  Some important methods are intrinsically leaky abstractions that
+  require user expertise to use effectively and reliably. This is often
+  because truly reliable solutions (if they exist) are
+  disproportionately expensive for common cases. Numerical integration
+  and methods for discretizing and solving differential equations often
+  fall in this category. In addition to gaining intuition before diving
+  into the details, the top-down pattern can be used to expose these
+  leaks as motivation to understand the methods well enough to explain
+  and correct for the shortcomings. For example, one can motivate
+  convergence analysis and verification (Roache,
+  \protect\hyperlink{ref-roache2004bpc}{2004}) by showing a solver that
+  passes some consistency tests, but does not converge (or converges
+  suboptimally) in general; or motivate conservative/compatible
+  discretizations by showing a solver that has been verified for smooth
+  solutions produce erroneous results for problems with singularities or
+  discontinuities. Consider, for example, Gibbs and Runge phenomena,
+  instability for Gram-Schmidt (Trefethen \& Bau,
+  \protect\hyperlink{ref-trefethen1997numerical}{1997}), entropy
+  principles (LeVeque, \protect\hyperlink{ref-leveque2002finite}{2002}),
+  eddy viscosity (Mishra \& Spinolo,
+  \protect\hyperlink{ref-mishra2015accurate}{2015}), and LBB/inf-sup
+  stability and ``variational crimes'' (Brenner \& Scott,
+  \protect\hyperlink{ref-brenner2008mathematical}{2008}; Chapelle \&
+  Bathe, \protect\hyperlink{ref-chapelle1993inf}{1993}).
+\end{itemize}
+
+\textbf{Learning goals:} This pattern is useful for building intuition,
+context, and motivation before introducing technical domain content
+instead of building up in a setting where implementation details often
+take center stage.
 
 \textbf{Audience(s):} This pattern can be effective with students who
 have limited programming skills, as they can use a library and see the
@@ -1760,7 +1796,7 @@ course; for example, students could use a tool on the first day and find
 out how it works on the last.
 
 \textbf{Features:} Shows students value and rewards their attention
-quickly (see ``Win Day One'').
+quickly (see \protect\hyperlink{win-day-one}{Win-day-one}).
 
 \textbf{Pitfalls:} A potential hazard of this pattern is that students
 might be less motivated to learn how the tool works if they think they
@@ -1768,6 +1804,9 @@ have already understood what it is for and how to use it. This hazard
 can be mitigated by making obvious the additional benefit of
 understanding how it works (assuming that there actually is one---it is
 not enough to assert that knowing how it works is necessarily better).
+``Interesting'' failure modes (see examples above) discovered by
+students while trying to solve a problem are great for motivating deeper
+understanding.
 
 \section{\texorpdfstring{The API \emph{is} the
 lesson}{The API is the lesson}}\label{the-api-is-the-lesson}
@@ -4590,6 +4629,15 @@ Barba, L., \& Forsyth, G. (2018). CFD Python: The 12 steps to
 Navier--Stokes equations. \emph{Journal of Open Source Education},
 \emph{1}(9), 21. \url{https://doi.org/10.21105/jose.00021}
 
+\hypertarget{ref-brenner2008mathematical}{}
+Brenner, S., \& Scott, L. (2008). \emph{The mathematical theory of
+finite element methods}. Springer Verlag.
+
+\hypertarget{ref-chapelle1993inf}{}
+Chapelle, D., \& Bathe, K. (1993). The inf-sup test. \emph{Computers and
+Structures}, \emph{47}, 537--537.
+\url{https://doi.org/10.1016/0045-7949(93)90340-J}
+
 \hypertarget{ref-chen2015worked}{}
 Chen, O., Kalyuga, S., \& Sweller, J. (2015). The worked example effect,
 the generation effect, and element interactivity. \emph{Journal of
@@ -4613,11 +4661,21 @@ problem students share with their teachers. \emph{Methods of
 Psychological Research}, \emph{7}(1), 1--20. Retrieved from
 \url{http://www.dgps.de/fachgruppen/methoden/mpr-online/issue16/art1/haller.pdf}
 
+\hypertarget{ref-leveque2002finite}{}
+LeVeque, R. (2002). \emph{Finite volume methods for hyperbolic
+problems}. Cambridge University Press.
+
 \hypertarget{ref-Meurer2017}{}
 Meurer, A., Smith, C. P., Paprocki, M., Čertík, O., Kirpichev, S. B.,
 Rocklin, M., \ldots{} Scopatz, A. (2017). SymPy: Symbolic computing in
 Python. \emph{PeerJ Computer Science}, \emph{3}, e103.
 \url{https://doi.org/10.7717/peerj-cs.103}
+
+\hypertarget{ref-mishra2015accurate}{}
+Mishra, S., \& Spinolo, L. V. (2015). Accurate numerical schemes for
+approximating initial-boundary value problems for systems of
+conservation laws. \emph{Journal of Hyperbolic Differential Equations},
+\emph{12}(01), 61--86. \url{https://doi.org/10.1142/S0219891615500034}
 
 \hypertarget{ref-moore1989three}{}
 Moore, M. G. (1989). Editorial: Three types of interaction.
@@ -4631,10 +4689,19 @@ OpenContent. (1998). About opencontent. Retrieved 18 December 2002 from
 \hypertarget{ref-raymond1996new}{}
 Raymond, E. S. (1996). \emph{The new hacker's dictionary}. MIT Press.
 
+\hypertarget{ref-roache2004bpc}{}
+Roache, P. (2004). Building PDE codes to be verifiable and validatable.
+\emph{Computing in Science \& Engineering}, \emph{6}(5), 30--38.
+\url{https://doi.org/10.1109/MCSE.2004.33}
+
 \hypertarget{ref-sweller2006worked}{}
 Sweller, J. (2006). The worked example effect and human cognition.
 \emph{Learning and Instruction}, \emph{16}(2), 165--169.
 \url{https://doi.org/10.1016/j.learninstruc.2006.02.005}
+
+\hypertarget{ref-trefethen1997numerical}{}
+Trefethen, L., \& Bau, D. (1997). \emph{Numerical linear algebra}.
+Society for Industrial Mathematics.
 
 
 \end{document}

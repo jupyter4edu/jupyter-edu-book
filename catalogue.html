@@ -293,13 +293,19 @@
 <h2><span class="header-section-number">4.6</span> Top-down sequence</h2>
 <p><strong>Description:</strong><br/> Particularly in STEM, the default sequence of presentation is bottom-up, meaning that we teach students how things work (and sometimes prove that they work), before students learn how to use them, or what they are for.</p>
 <p>Notebooks afford the opportunity to present topics top-down; that is, students learn what a tool is for and how to use it, before they learn how it works.</p>
-<p><strong>Example:</strong><br/> In digital signal processing, one of the most important ideas is the discrete Fourier transform, which depends on complex arithmetic; in a bottom-up approach, we would have to start by teaching or reviewing complex numbers, which is not particularly engaging.</p>
+<p><strong>Examples</strong><br/></p>
+<ul>
+<li>In digital signal processing, one of the most important ideas is the discrete Fourier transform, which depends on complex arithmetic; in a bottom-up approach, we would have to start by teaching or reviewing complex numbers, which is not particularly engaging.</li>
+</ul>
 <p>In contrast to writing the mathematics on paper, in a notebook students can use a library that does the discrete Fourier transform for them, so they understand what it is used for, and see the value of learning about it, before we ask them to do the work of understanding it.</p>
-<p><strong>Learning goals:</strong><br/> This pattern is useful for shifting students’ focus from implementation details to domain content.</p>
+<ul>
+<li>Some important methods are intrinsically leaky abstractions that require user expertise to use effectively and reliably. This is often because truly reliable solutions (if they exist) are disproportionately expensive for common cases. Numerical integration and methods for discretizing and solving differential equations often fall in this category. In addition to gaining intuition before diving into the details, the top-down pattern can be used to expose these leaks as motivation to understand the methods well enough to explain and correct for the shortcomings. For example, one can motivate convergence analysis and verification <span class="citation">(Roache, <a href="#ref-roache2004bpc">2004</a>)</span> by showing a solver that passes some consistency tests, but does not converge (or converges suboptimally) in general; or motivate conservative/compatible discretizations by showing a solver that has been verified for smooth solutions produce erroneous results for problems with singularities or discontinuities. Consider, for example, Gibbs and Runge phenomena, instability for Gram-Schmidt <span class="citation">(Trefethen &amp; Bau, <a href="#ref-trefethen1997numerical">1997</a>)</span>, entropy principles <span class="citation">(LeVeque, <a href="#ref-leveque2002finite">2002</a>)</span>, eddy viscosity <span class="citation">(Mishra &amp; Spinolo, <a href="#ref-mishra2015accurate">2015</a>)</span>, and LBB/inf-sup stability and “variational crimes” <span class="citation">(Brenner &amp; Scott, <a href="#ref-brenner2008mathematical">2008</a>; Chapelle &amp; Bathe, <a href="#ref-chapelle1993inf">1993</a>)</span>.</li>
+</ul>
+<p><strong>Learning goals:</strong><br/> This pattern is useful for building intuition, context, and motivation before introducing technical domain content instead of building up in a setting where implementation details often take center stage.</p>
 <p><strong>Audience(s):</strong><br/> This pattern can be effective with students who have limited programming skills, as they can use a library and see the results without writing much, if any, code.</p>
 <p><strong>Format (lecture / lab / …):</strong><br/> This pattern can be used in a single class session or homework, or spread out over the duration of a course; for example, students could use a tool on the first day and find out how it works on the last.</p>
-<p><strong>Features:</strong><br/> Shows students value and rewards their attention quickly (see “Win Day One”).</p>
-<p><strong>Pitfalls:</strong><br/> A potential hazard of this pattern is that students might be less motivated to learn how the tool works if they think they have already understood what it is for and how to use it. This hazard can be mitigated by making obvious the additional benefit of understanding how it works (assuming that there actually is one—it is not enough to assert that knowing how it works is necessarily better).</p>
+<p><strong>Features:</strong><br/> Shows students value and rewards their attention quickly (see <a href="catalogue.html#win-day-one">Win-day-one</a>).</p>
+<p><strong>Pitfalls:</strong><br/> A potential hazard of this pattern is that students might be less motivated to learn how the tool works if they think they have already understood what it is for and how to use it. This hazard can be mitigated by making obvious the additional benefit of understanding how it works (assuming that there actually is one—it is not enough to assert that knowing how it works is necessarily better). “Interesting” failure modes (see examples above) discovered by students while trying to solve a problem are great for motivating deeper understanding.</p>
 </div>
 <div id="the-api-is-the-lesson" class="section level2">
 <h2><span class="header-section-number">4.7</span> The API <em>is</em> the lesson</h2>
@@ -502,6 +508,24 @@
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
+<div id="ref-roache2004bpc">
+<p>Roache, P. (2004). Building PDE codes to be verifiable and validatable. <em>Computing in Science &amp; Engineering</em>, <em>6</em>(5), 30–38. <a href="https://doi.org/10.1109/MCSE.2004.33" class="uri">https://doi.org/10.1109/MCSE.2004.33</a></p>
+</div>
+<div id="ref-trefethen1997numerical">
+<p>Trefethen, L., &amp; Bau, D. (1997). <em>Numerical linear algebra</em>. Society for Industrial Mathematics.</p>
+</div>
+<div id="ref-leveque2002finite">
+<p>LeVeque, R. (2002). <em>Finite volume methods for hyperbolic problems</em>. Cambridge University Press.</p>
+</div>
+<div id="ref-mishra2015accurate">
+<p>Mishra, S., &amp; Spinolo, L. V. (2015). Accurate numerical schemes for approximating initial-boundary value problems for systems of conservation laws. <em>Journal of Hyperbolic Differential Equations</em>, <em>12</em>(01), 61–86. <a href="https://doi.org/10.1142/S0219891615500034" class="uri">https://doi.org/10.1142/S0219891615500034</a></p>
+</div>
+<div id="ref-brenner2008mathematical">
+<p>Brenner, S., &amp; Scott, L. (2008). <em>The mathematical theory of finite element methods</em>. Springer Verlag.</p>
+</div>
+<div id="ref-chapelle1993inf">
+<p>Chapelle, D., &amp; Bathe, K. (1993). The inf-sup test. <em>Computers and Structures</em>, <em>47</em>, 537–537. <a href="https://doi.org/10.1016/0045-7949(93)90340-J" class="uri">https://doi.org/10.1016/0045-7949(93)90340-J</a></p>
+</div>
 <div id="ref-raymond1996new">
 <p>Raymond, E. S. (1996). <em>The new hacker’s dictionary</em>. MIT Press.</p>
 </div>
