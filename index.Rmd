@@ -42,7 +42,8 @@ teaching with this new technology.
 
 [Project Jupyter](http://jupyter.org/) is a broad collaboration that develops
 open-source tools for interactive and exploratory computing. The tools include:
-IPython, the Jupyter Notebook, JupyterHub, and an ecosystem of extensions
+over 100 computer languages (with a focus on Python), the Jupyter Notebook, JupyterHub,
+and an ecosystem of extensions
 contributed by a large community. Jupyter Notebook exploded in popularity since
 late 2014, fueled by its adoption as the favorite environment for doing data
 science. It has also grown as a platform to use in the classroom, to develop
