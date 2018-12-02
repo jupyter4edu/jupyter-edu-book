@@ -14,10 +14,14 @@ that includes the Jupyter Notebook. Typically, this requires
 installing a distribution that includes Jupyter, Python, and possibly
 other language kernels.
 
-A popular distribution for Jupyter is Anaconda, which is easy to
-install on Windows, Mac, and Linux.  Because it can install everything
-at the user level, it does not require the installer to have
-administrator (or root) permissions.
+A popular software distribution that includes Jupyter is Anaconda, which is
+easy to install on Windows, Mac, and Linux. Because it can install everything
+with user level permissions, it does not require the user to have administrator
+(or root) access to the computer. Anaconda includes over 1500 software packages
+providing most, if not all, needed software for learners. Jupyter notebooks can
+be opened by launching Jupyter or by opening them through the Spyder IDE. These
+attributes make it attractive for both personal use and for installation on
+institution controlled computers.
 
 <table>
   <tr>
@@ -46,28 +50,23 @@ instructions for Anaconda</a>, with videos.
   </tr>
 </table>
 
+Two other easily installable software packages that can run Jupyter notebooks
+are [nteract](https://nteract.io/) and [Hydrogen](https://nteract.io/atom).
+nteract is installed by downloading a binary installer from their website and
+double-clicking the installation file. nteract's simple user interface make it
+an excellent choice for students new to computer programming. Once nteract is
+installed, any Jupyter notebook on a student's local system with a graphical interface can be
+double-clicked and it will open within nteract. Hydrogen is a [very popular
+plugin](https://atom.io/packages/hydrogen) for the open source Atom editor;
+it's currently used by over 700,000 people. Hydrogen lets a user edit, display,
+and execute a notebook within the Atom editor.
 
-
-Two other popular open source projects that can run Jupyter notebooks
-are [nteract](https://nteract.io/) and
-[Hydrogen](https://nteract.io/atom). nteract is installed by
-downloading a binary installer from their website and double-clicking
-the installation file. Once nteract is installed, any Jupyter notebook
-on a student's local system can be double-clicked and it will open
-within nteract. nteract's simple user interface make it an excellent
-choice for students new to computer programming. Hydrogen is a [very
-popular plugin](https://atom.io/packages/hydrogen) for the open source
-Atom editor; it's currently used by over 700,000 people. Hydrogen lets
-a user edit, display, and execute a notebook within the Atom editor.
-
-You can ask students to install Jupyter on their own computer or make
-it possible for them to use lab computers. These can also be combined:
-give students the instructions to install it on their own, but also
-tell them that it's available in the lab if they can't get it to work
-on their laptop. This way you don't need a large enough computer lab
-for everyone, and don't need to worry that not everyone can get it to
-work on their own.
-
+You can ask students to install Jupyter on their own computer or make it
+possible for them to use it on lab computers. These can also be combined: give
+students the instructions to install it on their own, but also tell them that
+it's available in the lab if they can't get it to work on their laptop. This
+way you don't need a large enough computer lab for everyone, and don't need to
+worry that not everyone can get it to work on their own.
 
 ### Jupyter on student-owned computers
 

@@ -90,10 +90,13 @@ cleaning various objects.
 **scaffold**: A teaching and learning pattern that provides steps in the
 learning process that build on prior learned knowledge.
 
+**script**: a colloquial term for a computer program.
+
 **service, JupyterHub**: JupyterHub can take advantage of additional separate,
 but integrated, software extensions. These are called "services."
 
-**script**: a colloquial term for a computer program.
+**software distribution**: A collection of software that is typically installed
+in bulk and is designed to ensure interoperability.
 
 **unit test**: a technical term for a "test" for checking to see if software is operating correctly.
 
