@@ -8,10 +8,6 @@ cache:
   directories:
     - $TRAVIS_BUILD_DIR/_bookdown_files
 
-env:
-  global:
-    - secure: "tq4LJyZPjCK3YWCvEs5hTPL8eob/B/0Z/Ruf96rkxlerY87eHQIjpRHx8lMaWjrQDxRnNZkp/3CyauJt57SErD7B8VF1mRQkBw0WIaV5qlhnq5Z6liQuIv6+VENLQyKIJDKMNDMjUnA8KjHtM/Zv39VQKeT5btGzWZq2lK/wPObV2YkhoczPVi2C31UdUtktQDLlGySSMtkOIixTB+poPt1AJB5Ik/UOcA3lZNT/x1+gxTHFB3on0U2Sfj1/Qej2JAhtnOaCWUnAjJDeBADNzbafHh0/BI+neSQGyAohCvbvZW+dM5wVdnSFwiTITNYPRfM2j7iU/5sAGMiFmVXOwMgKxVXPEtke4J2zCMg5praY31pj6QcbjOKZAF01xZNMwkUmnvUjhUu98WuscmaUSaqjreeBFEbZzXCr1aCw4BvSI/LeHIX2dC1+0P7anrBTeuJ0f5lrCdduqLzC/vyHA/yJPYr/lNZbL2QUMHuHzpCbtQEQ2u1vArKgqTkT6elJOo4cZ4o6/ZZyAJSFUvLaVnteCqFaTDYGD9WenfGAWrkFrLD8nLewirGaOmIiUiJGzZW1DhikyUX/8Y5KFjYeRRely7UKld1opOlcxNHqYzf5Q6YDv3Is06sMdOqNWyop9RnNK2Y/5ON6bMFVvhBBCGehVJeTQrg/DNPttgNj3xg="
-
 before_script:
   - chmod +x ./_build.sh
   - chmod +x ./_deploy.sh

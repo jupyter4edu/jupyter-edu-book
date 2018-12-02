@@ -16,7 +16,7 @@ these things.
 In short, we design learning environments and experiences.
 
 We use Jupyter notebooks to design learning environments to help support these
-activities. We believe that incorporating Jupyter Notebooks in our teaching has
+activities. We believe that incorporating Jupyter notebooks in our teaching has
 allowed us to improve students' understanding of course content, increase
 student engagement with material and their participation in class, and to make
 concepts more meaningful and relevant to students' diverse interests.  We
@@ -45,28 +45,8 @@ Literature, creating music and art, or illustrating the engineering concepts
 behind Digital Signal Processing, the notebooks can combine explanations
 traditionally found in textbooks with _the interactivity of an application_.
 
+![A Jupyter notebook, starting with a markdown cell containing a title and an explanation (including an equation rendered with LaTeX). Three code cells produce the final inline plot.](images/Fig_notebook.png)
 
-<table>
-  <tr>
-   <td>Figure
-   </td>
-  </tr>
-  <tr>
-   <td><em>Visual of a notebook - Side Box with an anatomy of a notebook - descriptions with arrows to particular cells. Link to Binder: Try it now.</em><ul>
-
-<li><em>Title Cell: Point out prose (markdown)</em>
-<li><em>Introduction Cell: Links to other content</em>
-<li><em>Engaging visualization (a few lines of code 5 or less)</em>
-<li><em>Make the example interactive with widgets</em>
-<li><em>Add a cell with a problem to solve</em>
-<li><em>Solution cell</em>
-
-<p>
-<em>It would be nice also to have a callout box here that illustrates a relatively simple use of JN for say, one learning objective -- or maybe one of each of the following: domain knowledge, programming, and other use.</em></li></ul>
-
-   </td>
-  </tr>
-</table>
 
 
 Jupyter is a free, open source platform that is an excellent learning
@@ -74,24 +54,24 @@ environment for students. For teachers, it increases our efficiency and
 decreases cognitive load so we can engage students. Notebooks can be useful for
 achieving your goals as a teacher in numerous environments from STEM labs or
 humanities narratives, to podium lectures or flipped classrooms. We use Jupyter
-Notebooks in small classes and for classes that have hundreds of students.
-Jupyter Notebooks can be used for teaching part of one lecture or can be used to
-teach a whole course.  Jupyter Notebooks enable us and our students to have a
+notebooks in small classes and for classes that have hundreds of students.
+Jupyter notebooks can be used for teaching part of one lecture or can be used to
+teach a whole course.  Jupyter notebooks enable us and our students to have a
 conversation with a problem and link to resources, like audio, video, images,
 visualizations--and even allow students to mix and remix these. And yet students
 need to install nothing beyond a modern web browser to use this free software.
 
-Jupyter Notebooks can be used to organize classroom materials and objects, store
+Jupyter notebooks can be used to organize classroom materials and objects, store
 and provide access to reading materials for students, present and share lecture
 materials, perform live coding, explore and interact with materials, support
 self-paced learning, grade students' homework, solve homework problems, or make
 materials reusable to others (see Chapters 3 and 4).
 
-Read on to find out how we have used Jupyter Notebooks for teaching and learning
-to benefit both our students and ourselves. Jupyter Notebooks support a wide
+Read on to find out how we have used Jupyter notebooks for teaching and learning
+to benefit both our students and ourselves. Jupyter notebooks support a wide
 range of learning goals, including learning to program, learning domain
 knowledge, and practicing communication skills like storytelling. The authors of
-this book have used Jupyter Notebooks to teach:
+this book have used Jupyter notebooks to teach:
 
 *   Sciences
     *   Physics and astronomy
@@ -264,7 +244,7 @@ synthesizing, and evaluating the content in active ways.
 
 The fundamental theory behind Computational Fluid Dynamics (CFD) used in
 Aerospace Engineering is based on understanding the Navier-Stokes equations.
-"CFD Python" is a collection of Jupyter Notebooks based on a practical module
+"CFD Python" is a collection of Jupyter notebooks based on a practical module
 that Lorena Barba began using in class in her Computational Fluid Dynamics (CFD) course at
 Boston University in 2009. The 5-week module develops worked examples that build
 on each other to incrementally guide the learner to create a program to solve
@@ -272,10 +252,10 @@ the Navier–Stokes equations of fluid dynamics, in 12 steps.
 
 
 > In 2013, I was invited to teach a 2 day mini-course in the Latin-American
-> School in High-Performance Computing, in Argentina. The Jupyter Notebooks
+> School in High-Performance Computing, in Argentina. The Jupyter notebooks
 > platform allowed me to create a guided narrative to support learners with
 > different background experience and knowledge. For that event, we wrote
-> Notebooks based on the CFD course module, to use as instructional scaffolding
+> notebooks based on the CFD course module, to use as instructional scaffolding
 > in the minicourse. Twenty students worked through the notebooks as self-paced
 > lessons, while I went from desk to desk asking and answering questions. About
 > four of the students completed all 12 steps in the 2 days, a bulk of them
@@ -362,7 +342,7 @@ into their career.
 
 ### Computational thinking
 
-Jupyter Notebooks support a wide range of learning goals. Its interactivity
+Jupyter notebooks support a wide range of learning goals. Its interactivity
 enables building intuitive understanding of domain knowledge, such as the
 understanding of a mechanical response of a system while varying parameters or
 understanding how an algorithm behaves. Notebooks can also help teach effective

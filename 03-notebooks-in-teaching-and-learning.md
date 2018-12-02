@@ -1,8 +1,8 @@
 # Notebooks in teaching and learning
 
-Jupyter Notebooks are a valuable tool for teachers, but their value can only be
+Jupyter notebooks are a valuable tool for teachers, but their value can only be
 leveraged if you apply them correctly within the context of your course. In
-chapter 3, you will learn how teachers can initially structure the design of
+this chapter, you will learn how teachers can initially structure the design of
 their course and then determine when and how notebooks can be used to achieve
 their goals.
 
@@ -11,12 +11,12 @@ their goals.
 
 ### Introduction
 
-In chapter 4 you will learn about the many creative ways that notebooks can be
+In Chapter \@ref(catalogue) you will learn about the many creative ways that notebooks can be
 used within the design of your course.  Many times notebooks can be adapted into
 course activities that you are already doing, and other times notebooks will
 give you opportunities to extend what you have done in past to increase the
 engagement, participation, understanding, and performance of your students.
-Jupyter Notebooks can be a valuable member of your existing instruction toolkit,
+Jupyter notebooks can be a valuable member of your existing instruction toolkit,
 useful at every point in the learning environment. New adopters of Jupyter can
 start small, incorporating notebooks into single modules, assignments, or
 classroom activities. This is an excellent approach to see how your learning
@@ -36,9 +36,9 @@ Jupyter ecosystem can be integrated into that use. Some of these uses are quick
 to spin up as experiments to test the waters.
 
 
-### Jupyter Notebooks as textbooks
+### Jupyter notebooks as textbooks
 
-Instructors often write Jupyter Notebooks as linear narrative documents. These
+Instructors often write Jupyter notebooks as linear narrative documents. These
 notebooks are to be read by students and learners, perhaps worked through,
 marked up and are a relatively one sided information consumption experience.
 
@@ -71,7 +71,7 @@ students from a passive or static learning environment like a book into an
 active learning experience where they can engage with and critically think about
 the content.
 
-You can include many pedagogical patterns (discussed in the next chapter) within
+You can include many pedagogical patterns (discussed in the [next chapter](#catalogue)) within
 a workbook, crafting a completely custom learning experience. These workbooks
 can be assigned as independent student learning (for example, pre-work for
 flipped classroom), or as part of an in class activity for individuals or small
@@ -375,14 +375,14 @@ you can use them from relatively passive to very active student learning, you
 can use them in your lecture or in a flipped-classroom environment. There is no
 single best way to use notebooks in your courses, and you explore the various
 options you will want to start filling your use of notebooks with a variety of
-the pedagogical patterns described in next chapter.
+the pedagogical patterns described in the [next chapter](#catalogue).
 
 
 ## Before You Begin...
 
 This chapter focuses on course considerations when incorporating notebooks into
 a class. Experienced instructors may choose to skim parts of this chapter and
-focus specifically on how Jupyter Notebooks would change their current teaching
+focus specifically on how Jupyter notebooks would change their current teaching
 style.
 
 Before you begin adding Jupyter notebooks to your course, take some time to:
@@ -392,7 +392,7 @@ Before you begin adding Jupyter notebooks to your course, take some time to:
 * Develop your content strategy
 * Consider the context of the learning environment
 
-The Jupyter Notebook is a tool; its use in this context is subject to the
+The Jupyter notebook is a tool; its use in this context is subject to the
 expectations of the instruction. Setting expectations for learning depends on
 your goals, your students, the content,  the learning environment context, and
 you.
@@ -501,7 +501,7 @@ are closely related.
 The content of your instruction is not limited to what you want to teach; it
 involves activities, exercises, feedback opportunities, and assessments. Each of
 these supports your goal(s) for instruction and benefits from the use of
-different tools within and outside of Jupyter Notebooks. For example, if your
+different tools within and outside of Jupyter notebooks. For example, if your
 content goals suggest that students require some specific knowledge (such as,
 what is a logic fallacy) before they are prepared to move on to another content
 topic, then you should assess that knowledge before you select which tools
@@ -581,11 +581,11 @@ students to apply what they have learned.
 ### Crafting an experience: choose the right tool and approach for the task
 
 As an instructor, you create many types of learning objects for your classroom.
-Jupyter Notebooks can be used to present many types of information, from
+Jupyter notebooks can be used to present many types of information, from
 slideshows to book chapters to homework. You can imagine the large differences
 you might have with the information you present within a slideshow, a book
 chapter, a homework assignment, and a worksheet for an in class activity.
-Jupyter Notebooks can be used for all these activities, yet this is all within
+Jupyter notebooks can be used for all these activities, yet this is all within
 the same type of document platform.
 
 This freedom of expression available within the Jupyter notebook environment can
@@ -625,9 +625,9 @@ Perhaps for the section above add a block diagram or word cloud visual of the
 major decision considerations.
 
 
-### Transitioning To and From Jupyter
+### Transitioning to and from Jupyter
 
-Although this book focuses on using Jupyter Notebooks in education, we recognize
+Although this book focuses on using Jupyter notebooks in education, we recognize
 that students have different backgrounds and familiarity with coding. Not all
 students are ready to jump right into notebooks from a traditional lecture-based
 classroom; while, other students may have significant programming experience and
@@ -646,8 +646,8 @@ the time.
 
 ### Conclusion about teaching practices
 
-In this chapter we have attempted to place the use of Jupyter Notebooks into the
-process of good course design.  Notebooks is a tool that many teachers can use
+In this chapter we have attempted to place the use of Jupyter notebooks into the
+process of good course design.  Notebooks are a tool that many teachers can use
 to increase student engagement, participation, understanding, and performance---but
 that is not to say that every course and every lesson should use notebooks.
 Let the goals of your course define when and how to best use notebooks to
