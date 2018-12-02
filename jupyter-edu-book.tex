@@ -2965,21 +2965,18 @@ on Windows, Mac, and Linux. Because it can install everything at the
 user level, it does not require the installer to have administrator (or
 root) permissions.
 
-\begin{quote}
-\textbf{What is Anaconda?} You will see the Anaconda distribution
-recommended by many educators and course authors. Anaconda is a package
-manager, an environment manager, a Python distribution, a collection of
-\href{https://docs.anaconda.com/anaconda/packages/pkg-docs/}{over 1,500+
-open source packages}, and also Jupyter. It is free to download, open
-source, and easy to install, on any computer system (Windows, Mac OS X
-or Linux). It also includes the conda packaging utility to update and
-install new packages of the Python and R ecosystems, and to manage
-computational environments. According to the company's webpage, Anaconda
-has more than 6 million users:
-\url{https://www.anaconda.com/what-is-anaconda/}. The Software Carpentry
-project provides installation instructions with videos for anaconda:
-\url{https://swcarpentry.github.io/python-novice-gapminder/setup/}.
-\end{quote}
+What is Anaconda?
+
+You will see the Anaconda distribution recommended by many educators and
+course authors. Anaconda is a package manager, an environment manager, a
+Python distribution, a collection of over 1,500+ open source packages,
+including Jupyter. It is free to download, open source, and easy to
+install, on any computer system (Windows, Mac OS X or Linux). It also
+includes the conda packaging utility to update and install new packages
+of the Python and R ecosystems, and to manage computational
+environments. According to the company's webpage, Anaconda has more than
+6 million users; see: What is Anaconda?. The Software Carpentry project
+provides installation instructions for Anaconda, with videos.
 
 Two other popular open source projects that can run Jupyter notebooks
 are \href{https://nteract.io/}{nteract} and
@@ -3163,17 +3160,16 @@ However, there are some limitations to these services:
   be as reliable as you need for a class or workshop.
 \end{itemize}
 
-\begin{quote}
-\textbf{Binder} (\href{https://mybinder.org}{mybinder.org}) is an
-open-source service provided by Project Jupyter. It allows the owner of
-a set of notebooks residing in a git repository to pre-build an image in
-the Binder service, and get a shareable link that any visitor can click
-to obtain a working instance of JupyterHub, with the notebooks in the
-repository. The session is temporary (any changes the user makes will be
-deleted when closing the tab or window), but it's fully interactive.
-Binder is currently one of the favorite services for running one-off
-workshops or tutorials.
-\end{quote}
+Binder mybinder.org
+
+Binder is an open-source service provided by Project Jupyter. It allows
+the owner of a set of notebooks residing in a public repository to
+pre-build an image in the Binder service, and get a shareable link that
+any visitor can use to obtain a working instance of JupyterHub,
+pre-loaded with the notebooks in the repository. The session is
+temporary (any changes the user makes will be deleted when closing the
+tab or window), but it's fully interactive. Binder is currently one of
+the favorite services for running one-off workshops or tutorials.
 
 \subsection{Running on servers you
 control}\label{running-on-servers-you-control}
@@ -3345,7 +3341,8 @@ consider:
 
 Jupyter notebooks are plain text computer files, so you can distribute
 them to students and collect them using any system that handles text
-files, including GitHub, Google Drive, and (as a last resort) email.
+files, including GitHub, Google Drive, and (as a last resort) email
+attachment.
 
 \subsection{Learning management
 systems}\label{learning-management-systems}
@@ -3366,45 +3363,50 @@ might find that the options have improved.
 \subsection{Web hosting}\label{web-hosting}
 
 Notebooks can be publicly hosted on any website, so students can
-download the files by clicking on a link. Most web hosting software is
-not notebook-aware, but \texttt{nbviewer} is a web service that renders
-notebooks (\url{https://nbviewer.jupyter.org/}). Also, some browser
-extensions can open notebook files via \texttt{nbviewer}
-(\url{https://github.com/jiffyclub/open-in-nbviewer}).
+download the files by clicking on a link. Most web-hosting software is
+not notebook-aware, but you can use \texttt{nbviewer} to share public
+notebooks, rendered as a static web page.
 
-GitHub Pages (and other similar services) can be used to host rendered
-notebooks, and continuous integration services can build the web pages
-from the notebooks and then display content. See Jupyter Book
-(\url{https://github.com/choldgraf/jupyter-book}) and use of
-\href{https://drdoctr.github.io/doctr}{\texttt{doctr}} to do this.
+nbviewer nbviewer.jupyter.org
 
-\subsection{Git}\label{git}
+\begin{verbatim}
+nbviewer is a web service provided by Project Jupyter. You can enter the URL of any publicly hosted notebook, and get a web page with the content of the notebook fully rendered. Some browser extensions and add-ons let you open a notebook in nbviewer with a button click. See: <a href="https://jiffyclub.github.io/open-in-nbviewer/">Open in nbviewer</a>.
+\end{verbatim}
 
-One of the most popular tools for distributing and collecting notebooks
-is Git, which is a version control system. Files under Git control are
-often hosted on services like GitHub, GitLab, and Bitbucket. Many of
-these services are notebook-aware; for example, when you view a notebook
+\subsection{GitHub}\label{github}
+
+One of the popular tools for distributing and collecting notebooks is
+GitHub, a hosting and collaboration platform for software. GitHub is
+based on git, a \emph{version-control system}. Files under version
+control are often hosted on services like GitHub, GitLab, or Bitbucket,
+all of which are notebook-aware. For example, when you view a notebook
 on GitHub, you see a rendered notebook that includes formatted text,
 typeset mathematics, code highlighting, and the output of the code,
 including figures.
 
+GitHub Pages (and other similar services) can also be used to host
+rendered notebooks, and continuous integration services can build the
+web pages from the notebooks and then display the content. See: Jupyter
+Book and use of \href{https://drdoctr.github.io/doctr}{\texttt{doctr}}
+to do this.
+
 Educators at academic institutions can use GitHub Classroom, which
 allows instructors to set up assignments for a class. Students click on
-a link for an assignment and a copy of the assignment repo is created
-and initialized with the assignment content, which can be a notebook.
-Each student's repository can be made private, with access only granted
-for the student and instructor. This can be an efficient way to
-distribute assignments to a large class.
+a link for an assignment and a copy of the assignment repository is
+created and initialized with the assignment content, which can be a
+notebook. Each student's repository can be made private, with access
+only granted for the student and instructor. This can be an efficient
+way to distribute assignments to a large class.
 
-A drawback of Git is that it is hard to use. It might be worth spending
-time in your class to teach Git if it is valuable for students to learn
+A drawback of git is that it is hard to use. It might be worth spending
+time in your class to teach git, if it is valuable for students to learn
 about version control. But if this is not one of the learning goals for
-your class, you can minimize the students' exposure to Git using
-graphical interfaces like GitHub Desktop and Git for Windows.
+your class, you can minimize the students' exposure to git using
+graphical interfaces like GitHub Desktop and git for Windows.
 
-The default Git tools for comparing files and merging changes do not
-work well with Jupyter notebooks. However, there are specialized tools
-to help with these tasks (see Notebooks Under Version Control).
+The default git tools for comparing files and merging changes do not
+work well with Jupyter notebooks. However, some specialized tools can
+help with these tasks (see Notebooks Under Version Control).
 
 \subsection{JupyterHub}\label{jupyterhub}
 
@@ -3420,19 +3422,18 @@ then publish their notebooks back to you for downloading, viewing, or
 assessing with the \texttt{nbgrader} tools (see the next section for
 details on this tool).
 
-\begin{quote}
-\textbf{What is nbgrader?} \texttt{nbgrader} is a tool for creating,
-handling, and automatically grading assignments based on Jupyter
-notebooks. It works as a Jupyter extension that the course creator
-installs on their computer. \texttt{nbgrader} is a flexible project in
-the Jupyter ecosystem that allows the distribution and collection of
-materials. As its name implies, it also can grade assignments; it can be
-used in a distributed manner where each student is running Jupyter on
-their own computers, or in a centralized manner, for example, if the
-students each have an account on a JupyterHub installation. (More
-details in the Assessment section.)
+nbgrader
+
+nbgrader is a tool for creating, handling, and automatically grading
+assignments based on Jupyter notebooks. It works as a Jupyter extension
+that the course creator installs on their computer. nbgrader is a
+flexible project in the Jupyter ecosystem that allows the distribution
+and collection of materials. As its name implies, it also can grade
+assignments; it can be used in a distributed manner where each student
+is running Jupyter on their own computers, or in a centralized manner,
+for example, if the students each have an account on a JupyterHub
+installation. (More details in the Assessment section.)
 \url{https://nbgrader.readthedocs.io}
-\end{quote}
 
 \subsection{\texorpdfstring{Using an LMS and \texttt{nbgrader}
 together:}{Using an LMS and nbgrader together:}}\label{using-an-lms-and-nbgrader-together}
@@ -3449,7 +3450,7 @@ tools.
 \item
   Students complete the assignment and upload the solution to the LMS.
 \item
-  The instructor downloads the completed assignments as zip file and
+  The instructor downloads the completed assignments as a zip file and
   extracts the students' solutions in a Jupyter environment.
 \item
   Instructors and graders use \texttt{nbgrader} to grade the assignment
@@ -3458,9 +3459,10 @@ tools.
   The CSV file is then uploaded to the LMS.
 \end{enumerate}
 
-There are already some tools that make this workflow easier, including
-the Extractor plugin to the ZipCollect feature in \texttt{nbgrader}
-(\url{https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html}).
+Some tools that make this workflow easier include the Extractor plugin
+to the
+\href{https://nbgrader.readthedocs.io/en/stable/plugins/zipcollect-plugin.html}{ZipCollect}
+feature in \texttt{nbgrader}.
 
 \section{Assessing student learning with Jupyter
 notebooks}\label{assessing-student-learning-with-jupyter-notebooks}
@@ -3469,20 +3471,19 @@ Many educators develop course-assessment activities as Jupyter
 notebooks. This includes exams, in-class activities, homework
 assignments, and projects.
 
-One simple way to handle the assessment of a notebook-based submission
-is to have students either print them out, email them, submit them as a
-standard electronic document (say into a Course Management System), or
-drop them into a shared folder. At that point, the instructor can mark
-and grade them in a traditional manner, for example by simply writing
-comments on a printout or adding annotations to a PDF.
+Simple ways to handle the assessment of a notebook-based submission:
+have students either print them out, email them, submit them as a
+standard electronic document (say, into the LMS), or drop them into a
+shared folder. At that point, the instructor can mark and grade them in
+a traditional manner, for example by writing comments on a printout or
+adding annotations to a PDF.
 
-\begin{verbatim}
-**_Pro Tip: Printing out a notebook can sometimes result in wasted
-  space on pages, especially for notebooks with many images or
-  figures. Converting to PDF requires large/complex LaTeX
-  installations. Exporting to HTML and then printing often gives a
-  better result._**
-\end{verbatim}
+Pro Tip
+
+Printing out a notebook can sometimes result in wasted space on pages,
+especially for notebooks with many images or figures. Converting to PDF
+requires large/complex LaTeX installations. Exporting to HTML and then
+printing often gives a better result.
 
 \texttt{nbgrader} allows code cells in a notebook to be marked to be
 auto-graded or manually graded. An instructor can then create an
@@ -3503,23 +3504,26 @@ specific software-design patterns. To address this, you can create
 manually graded cells for a portion of an assignment and provide written
 feedback to the student.
 
-\emph{GOTCHA: At the time of this writing, nbgrader has some limitations
-that require careful use. For example, using it in a multi-class setting
-(say, on JupyterHub) requires that instructors coordinate the naming of
-assignments so that they do not collide.}
+Caution
+
+At the time of this writing, nbgrader has some limitations that require
+careful use. For example, using it in a multi-class setting (say, on
+JupyterHub) requires that instructors coordinate the naming of
+assignments so that they do not collide.
 
 \texttt{nbgrader} is a sophisticated tool that can be set up to allow
 multiple graders, teaching assistants, and more. For more information on
 using \texttt{nbgrader}, see \url{https://github.com/jupyter/nbgrader}.
 
-There are some third-party notebook-based assessment solutions. For
-example CoCalc (\textless{}www.cocalc.com\textgreater{}) and Vocareum
-(\textless{}www.vocareum.com\textgreater{}) provide a cloud notebook
-platform that can also perform assessment similar to nbgrader.
+Some third-party notebook-based assessment solutions do exist. For
+example \href{www.cocalc.com}{CoCalc},
+\href{www.vocareum.com}{Vocareum}, and \href{https://gryd.us}{Gryd}
+provide a cloud notebook platform that can also grade assessments
+similar to or using nbgrader.
 
-\_For example, cocalc.com offers\ldots{} {[}are there other third-party
-course management notebook-oriented solutions?{]} and Berkeley uses
-DataHub for their large Data8 course. Vocareum
+{[}TODO{]} \_For example, cocalc.com offers\ldots{} {[}are there other
+third-party course management notebook-oriented solutions?{]} and
+Berkeley uses DataHub for their large Data8 course. Vocareum
 (\url{https://www.vocareum.com}) TODO
 
 \section{How do you create Jupyter notebooks for reuse and
