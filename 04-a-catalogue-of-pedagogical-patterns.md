@@ -270,22 +270,41 @@ students learn what a tool is for and how to use it, before they learn
 how it works.
 
 
-**Example:**<br/>
-In digital signal processing, one of the most important ideas is the
-discrete Fourier transform, which depends on complex arithmetic; in a
-bottom-up approach, we would have to start by teaching or reviewing
-complex numbers, which is not particularly engaging.
+**Examples**<br/>
 
-In contrast to writing the mathematics on paper, in a notebook
-students can use a library that does the discrete Fourier transform
-for them, so they understand what it is used for, and see the value of
-learning about it, before we ask them to do the work of understanding
-it.
+* In digital signal processing, one of the most important ideas is the discrete
+  Fourier transform, which depends on complex arithmetic; in a bottom-up
+  approach, we would have to start by teaching or reviewing complex numbers,
+  which is not particularly engaging.
 
+  In contrast to writing the mathematics on paper, in a notebook students can
+  use a library that does the discrete Fourier transform for them, so they
+  understand what it is used for, and see the value of learning about it, before
+  we ask them to do the work of understanding it.
+
+* Some important methods are intrinsically leaky abstractions that require user
+  expertise to use effectively and reliably.  This is often because truly
+  reliable solutions (if they exist) are disproportionately expensive for common
+  cases.  Numerical integration and methods for discretizing and solving
+  differential equations often fall in this category.  In addition to gaining
+  intuition before diving into the details, the top-down pattern can be used to
+  expose these leaks as motivation to understand the methods well enough to
+  explain and correct for the shortcomings.  For example, one can motivate
+  convergence analysis and verification [@roache2004bpc] by showing a solver
+  that passes some consistency tests, but does not converge (or converges
+  suboptimally) in general; or motivate conservative/compatible discretizations
+  by showing a solver that has been verified for smooth solutions produce
+  erroneous results for problems with singularities or discontinuities.
+  Consider, for example, Gibbs and Runge phenomena, instability for
+  Gram-Schmidt [@trefethen1997numerical], entropy principles
+  [@leveque2002finite], eddy viscosity [@mishra2015accurate], and LBB/inf-sup
+  stability and "variational crimes"
+  [@brenner2008mathematical;@chapelle1993inf].
 
 **Learning goals:**<br/>
-This pattern is useful for shifting students' focus from implementation details
-to domain content.
+This pattern is useful for building intuition, context, and motivation before
+introducing technical domain content instead of building up in a setting where
+implementation details often take center stage.
 
 
 **Audience(s):**<br/>
@@ -299,7 +318,7 @@ the duration of a course; for example, students could use a tool on the first da
 and find out how it works on the last.
 
 **Features:**<br/>
-Shows students value and rewards their attention quickly (see "Win Day One").
+Shows students value and rewards their attention quickly (see [Win-day-one]).
 
 
 **Pitfalls:**<br/>
@@ -308,7 +327,8 @@ learn how the tool works if they think they have already understood what it is
 for and how to use it. This hazard can be mitigated by making obvious the additional
 benefit of understanding how it works (assuming that there actually is one---it is
 not enough to assert that knowing how it works is necessarily better).
-
+"Interesting" failure modes (see examples above) discovered by students while
+trying to solve a problem are great for motivating deeper understanding.
 
 
 ## The API _is_ the lesson
