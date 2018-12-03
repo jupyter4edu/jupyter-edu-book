@@ -332,8 +332,8 @@ which provide free trials or a "freemium" pricing model. They include:
     [can be installed with standard package managers (pip, conda, R, Julia,
     etc)](https://github.com/sagemathinc/cocalc/wiki/How-to-Install-Python-Packages-into-CoCalc)
     but the primary limitation is that the free version does not allow access
-    to the internet to prevent abuse. But you can download files yourself and
-    upload to the service.
+    to the internet to prevent abuse, thus you have to download files yourself
+    and then upload to the service.
 * Gryd ([https://gryd.us](https://gryd.us)) is another subscription
     service with a free tier. It includes course-management features,
     like a way to create a course, invite students, and deploy
