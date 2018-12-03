@@ -38,6 +38,7 @@ in advance for your help improving the book.
 - [Book organization](#book-organization)
 - [Git Commit Messages](#git-commit-messages)
 - [Formatting Tips](#formatting-tips)
+- [Attribution and Citations](#attribution-and-citations)
 
 ## Code of Conduct
 
@@ -240,12 +241,16 @@ Please feel free to add to or edit these sections.
 
 ### Formatting tips
 
-We use markdown for the book formatting.
-
-- Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+We use [markdown](https://daringfireball.net/projects/markdown/) for the book's
+formatting.
 
 If possible, avoid using unicode characters as they don't always
 transfer well into the document formats possible (HTML, PDF, etc.)
 Often, you might be able to find unicode replacements by using LaTeX
 math symbols and surrounding them by dollar signs (for example, $\neq$
 will render as ≠).
+
+### Attribution and Citations
+
+- Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+- Image attribution: Include credit, copyright notice, and license info for all images
