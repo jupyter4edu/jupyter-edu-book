@@ -168,35 +168,51 @@ R code from within an IPython notebook by using the `%%R` magic.
 ### Notebooks under version control {#notebooks-under-version-control}
 
 Keeping notebooks under version control is a great way to not only
-keep track of changes to your created content but can also allow for
-sharable content. In a course where multiple people are contributing
+keep track of changes to your content, but can also allow for
+sharing it. In a course where multiple people are contributing
 to the development of notebooks for the course, using version control
 in conjunction with a platform like GitHub, allows authorship to be
 tracked and provides communication tools for reviewing new
 contributions or outlining requested development for a new assignment,
 activity, etc.  Another advantage of using version control is that
-there are services that will provide rendered views of your notebooks
-that are publicly accessible. GitHub for instance will show a rendered
-version of the notebook rather than the direct text that a notebook is
-comprised of. There are a few pitfalls with this with LaTeX rendering
+some services will provide rendered views of notebooks
+that you have made public. GitHub shows a rendered
+version of the notebook rather than the ASCII text that a notebook is
+comprised of.  Some pitfalls with LaTeX rendering may occur,
 as platforms do not always render the notebooks the same as they would
 appear in an active Jupyter interface.
 
-There are a few caveats to keeping notebooks under version control
-that should be kept in mind.  First of all the output will be stored
-in the repository, including images, if clear output is not used
-before committing changes.  This can make detecting changes difficult
+A few caveats to keeping notebooks undeTFirst of all the output will be stored
+in the repository, including images, unless you clear the output
+before committing changes.  This can make reviewing changes difficult,
 as changes in output will be detected when nothing has actually
-changed content wise.  The tracked notebooks also can become large if
-output is tracked.  Even with clearing the output, reading through
-changes can be difficult due to the format of the notebook (notebooks
+changed content-wise.  The tracked notebooks also can become large if
+output is tracked.  Even when clearing the output, reviewing
+changes can be awkward due to the format of the notebook (notebooks
 are plain-text files and the file format is represented as
-[JSON](https://www.json.org/)). This can be an issue if you are storing
-notebooks in a version control system, like git, and you wish to see
-differences between versions. For more information, see:
-[https://github.com/jupyter/nbdime](https://github.com/jupyter/nbdime)
-and
-[https://github.com/mwouts/jupytext](https://github.com/mwouts/jupytext).
+[JSON](https://www.json.org/)). 
+The community is actively developing tools to make it easier to use version control with Jupyter notebooks; one such tool is `nbdime` (see box).
+
+<table>
+  <tr>
+  <td> <strong>nbdime</strong> <a href="https://nbdime.readthedocs.io/">nbdime.readthedocs.io/</a>
+  </td>
+  <tr>
+  <td>
+  nbidime includes a set of tools for reviewing the changes ("diffs") 
+  and merging changes in Jupyter notebooks. You can compare versions 
+  of a notebook using the terminal, view the changes richly rendered 
+  on a browser, and merge in various ways. Because nbdime understands 
+  the structure of notebook documents, it can make smart "diffing and 
+  merging" decisions.
+  </td>
+  </tr>
+</table>
+
+Another option to improve your version-control experience is to export
+a Jupyter notebook to a markdown document, for example using the [jupytext](https://github.com/mwouts/jupytext) tool.
+Then you can review diffs in the usual way for plain-text files.
+
 
 
 ### Testing notebooks {#testing-notebooks}
