@@ -314,14 +314,25 @@ section
 Commercial offerings also exist to use Jupyter in the cloud, some of
 which provide free trials or a "freemium" pricing model. They include:
 
-* CoCalc, previously MathSageCloud
-    ([https://cocalc.com](https://cocalc.com)) is a subscription
-    service with a free trial plan. The service also includes the
-    ability to share files with project collaborators. The no-cost
-    version does not allow network access. This has some important
-    limitations (for example, you cannot install additional packages
-    or kernels).
-
+* CoCalc (previously SageMathCloud)
+    ([https://cocalc.com](https://cocalc.com)) is an online open source
+    computing environment with [first class support for Jupyter
+    notebooks](https://cocalc.com/doc/jupyter-notebook.html) supported by
+    SageMath, Inc. It is one of the few services that allows multiple users to
+    edit a Jupyter notebook simultaneously. It also allows the notebook user to
+    cycle through the revision history of a notebook and provides a number of
+    popular kernels by default. The service includes the ability to share files
+    with project collaborators. It is free to use and greater computational
+    resources can be obtained by paying the monthly, yearly, or course based
+    subscription fees. Instructors can pay for resources for an entire class or
+    ask students to pay and subscribe for a semester.  Instructors can make use
+    of the [course management system](https://tutorial.cocalc.com/) for
+    assignment distribution, collection, grading, and more. Addtional software
+    [can be installed with standard package managers (pip, conda, R, Julia,
+    etc)](https://github.com/sagemathinc/cocalc/wiki/How-to-Install-Python-Packages-into-CoCalc)
+    but the primary limitation is that the free version does not allow access
+    to the internet to prevent abuse. But you can download files yourself and
+    upload to the service.
 * Gryd ([https://gryd.us](https://gryd.us)) is another subscription
     service with a free tier. It includes course-management features,
     like a way to create a course, invite students, and deploy
