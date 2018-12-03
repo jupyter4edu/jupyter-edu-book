@@ -223,7 +223,7 @@ students write the update step inside the for loop.
 
 
 **Related patterns:**<br/>
-This pattern is similar to [Target practice] **TODO: missing section?**; a difference is that
+This pattern is similar to [Target practice]; a difference is that
 Target Practice often focuses on a bigger step in a multi-step
 process. Fill in the Blank exercises tend to be smaller and more
 immediate.
@@ -255,6 +255,51 @@ Some students don't find this approach engaging. In particular, if the
 exercise is too simple for the level of programming competency of the
 students, it can be perceived a "make-work" task.
 
+## Target Practice
+
+
+**Description:**<br/>
+This pattern is focusses attention on one component of a multi-step workflow. 
+Learners are asked to implement one stage of a workflow while preceeding and 
+subsequent stages may be provided to them. 
+
+
+**Example:**<br/>
+In a climate-science exercise, the notebook that is provided to students 
+provides code for fetching and parsing 20 years of hourly average temperature 
+data from a public database. Students are asked to design an algorithm for computing
+yearly average temperature and standard deviation. Plotting code which plots the
+yearly temperature with error-bars showing the standard deviation. 
+
+**Related patterns:**<br/>
+This pattern is similar to [Fill in the Blank] exercises. Fill in the Blank
+exercises are typically smaller and more immediate, while Target Practice
+exercises tend to be larger (e.g. an entire step in a multi-step process). 
+
+
+**Learning goals:**<br/>
+The aim of a Target Practice exercise is to focus attention on one 
+component of a workflow and practice skills for solving that component. 
+
+
+**Audience(s):**<br/>
+This approach assumes some programming competency as learners are 
+typically asked to start from scratch on the step that they are 
+practicing. 
+
+
+**Format (lecture / lab / …):**<br/>
+This approach is readily used in assignments or labs. 
+It can also be used in an in-class demo where the instructor live-codes 
+the missing component. It is beneficial if preceeding steps have been discussed 
+in earlier lectures.  
+
+
+**Pitfalls:**<br/>
+As there is more freedom in the implementation, this approach is typically 
+more engaging than a [Fill in the Blanks] approach. However, starting from 
+more of a "blank slate" can require more instructor input in order to 
+get students started. 
 
 ## Top-down sequence
 
