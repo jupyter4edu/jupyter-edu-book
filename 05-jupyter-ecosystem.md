@@ -61,9 +61,9 @@ of working effectively with libraries.
 
 ### Widgets {#widgets}
 
-Widgets provide the opportunity a for learners and instructors to
-interact with code outputs, such as charts and tables,
-interactively. Widgets are simple and quickly generated "mini"
+Widgets provide the opportunity for learners and instructors to
+interact with code outputs, such as charts and tables.
+Widgets are "mini"
 Graphical User Interfaces (GUI) that give the notebook user access to
 slide bars, toggle buttons, and text-boxes. They can be used in
 conjunction with code, allowing a change of mindset from programming
@@ -72,32 +72,31 @@ goal. Alternatively, the code can be hidden and the widgets used to
 create a notebook "app" that might connect input parameters with a
 simulation and a plot.
 
-Currently only a small subset of kernels have widget
-functionality. For example, the reference implementation of widgets
+Currently, only a small subset of kernels have widget
+functionality. The reference implementation of widgets
 are the Jupyter-Python widgets
 ([https://ipywidgets.rtfd.io](https://ipywidgets.rtfd.io)). It
 includes widget components to generate and display sliders, progress
 bars, text boxes, check boxes, toggle buttons, etc. Many popular
-visualization tools, such as matplotlib, Plotly, leaflet.js, three.js,
+visualization tools, such as Matplotlib, Plotly, leaflet.js, three.js,
 have Jupyter-Python widget implementations. The documentation contains
 an up-to-date list of all of the widgets and their
-variations. Additionally, the `interact` method wraps allows you to
+variations. The `interact` method allows you to
 wrap a function, which might be a simple computation or a complex
 simulation that produces a plot, and provides widgets for each of the
-inputs to the function. Figure XX shows a simple example of a sinusoid
+inputs to the function. Figure 5.2 shows a simple example of a sinusoid
 plot whose frequency is controlled by a slide-bar. Another kernel that
 has some widget functionality is C++
-(https://github.com/QUantStack/xwidgets).
+([https://github.com/QUantStack/xwidgets](https://github.com/QUantStack/xwidgets)).
 
 
 
-![Here, a simple slider is used to interactively change the variable k in our function as we plot it.](images/notebook-matplotlib-interact.png "interactive sliders")
+![Here, a slider allows the user to interactively change the variable k in our function as we plot it.](images/notebook-matplotlib-interact.png "interactive sliders")
 
 In addition to the IPywidgets library, the ipyleaflet library
-(https://ipyleaflet.rtfd.io) enables an interactive map to be
-displayed in a notebook.
+(https://ipyleaflet.rtfd.io) displays an interactive map in a notebook.
 
-#### Example
+#### Example {-}
 
 
 ```
