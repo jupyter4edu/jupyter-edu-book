@@ -119,47 +119,47 @@ place to start.
 ### Magics {#magics}
 
 Magics are meta-commands that only function within Jupyter and allow
-a user to access features that are language/kernel specific. For
+a user to access language/kernel-specific features. For
 instance, the IPython kernel provides a number of magics that can be
-useful while developing Jupyter notebooks that uses Python as the
+useful while developing Jupyter notebooks using Python as the
 primary language. These are
 [documented](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
-and we will only call out a few of these here. There are many other
-magics available for different kernels but the downfall of these are
-that they are specific to Jupyter so does not translate to scripts and
-in a teaching environment we generally recommend to be sparing in
-their use so as to not obfuscate what is happening. Magics always
-begin with either a single `%` for single line commands or double `%%`
-for applying a command to an entire cell. Many magics can be used with
-single or double percents, but some do not.
+and we will only call out a few of these here. Many other
+magics are available for different kernels but 
+they are specific to Jupyter so do not translate to script.
+In a teaching environment, we recommend to use them sparingly
+to avoid obfuscating what is happening. Magics always
+begin with either a single `%` for single-line commands or with `%%`
+for applying a command to an entire cell. Some magics can be used with
+single or double `%`, but some cannot.
 
-  * `%run` allows for running external scripts, capturing output and
-     displaying it in the notebook, e.g. `%run my_script.py`.
+#### Examples {-}
 
-  * It is common to use matplotlib for visualization. In Jupyter, the
-     magic `%matplotlib` allows the matplotlibs resulting figures to
-     be displayed in the notebook. `%matplotlib inline` and causes
-     static images to be embedded in the notebook and `%matplotlib
-     notebook` causes interactive images (zooming, panning, etc)
-     images to be embedded.
+  *  Matplotlib is a common choice for visualization. In Jupyter, the
+     magic `%matplotlib` allows the resulting figures to
+     be displayed in the notebook: `%matplotlib inline` produces
+     static images embedded in the notebook, and `%matplotlib
+     notebook` produces interactive images (with zooming, panning, etc.).
+     
+  *  The `%run` magic allows running external scripts, captures output and
+     displays it in the notebook, e.g., `%run my_script.py`.
 
-  * `%time` times the execution of the Python expression following the
-    command, e.g. `%time sum(range(1000))`.
+  *  The `%time` magic times the execution of the Python expression following it, e.g., `%time sum(range(1000))`.
 
-  * `%timeit` is is similar to `%time` with the difference that it
+  * The `%timeit` magic is similar to `%time`, but it
     runs the expression multiple times and reports the average
     execution time.
 
-  * `%reset` removes all user defined variables along with input and
-    output.  Magics often have "flags", following the Unix command
-    pattern. For example, `%reset -s` is a soft reset and only removed
-    user defined variables. These commands can be useful to help to
-    overcome out-of-order execution problems.
+  * The `%reset` magic deletes all user-defined variables along with input and
+    output.  Magics often have "flags," following the Unix command
+    pattern. For example, `%reset -s` is a soft reset and only removes
+    user-defined variables. These commands can be useful to avoid problems
+    with out-of-order execution problems.
 
 
 A good example of a magic operating on the entire contents of cell is
-the `%%HTML` magic that will force the cell to be interpreted as HTML
-and render it appropriately. You can also use magics to call other
+the `%%HTML` magic, forcing the cell to be interpreted as HTML
+and rendered appropriately. You can also use magics to call other
 languages while running the IPython kernel.  For example, you can run
 R code from within an IPython notebook by using the `%%R` magic.
 
