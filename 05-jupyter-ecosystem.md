@@ -336,25 +336,39 @@ time to complete.
 
 ### Explaining each cell
 
-A good rule of thumb is to always include a markdown cell above every
-code cell. In fact, instead of adding comments in code, consider
-moving the comments out of the code cell into a markdown cell either
-directly above or below the code cell. This often reads much better,
-and gives you more flexibilty in discussing or describing the
-code. However, short comments in a block of code can still be useful.
+Consider moving the comments for a code block into a markdown cell
+either directly above or below the code cell. Comments in a markdown
+cell often read much better and give you more flexibility in
+discussing or describing the code. However, short comments in a block
+of code can still be useful.
 
 
-### How much code should go in a cell?
+### How to structure code cells
 
 How much code should you put in a cell? You will develop your own
-style of writing noteooks with experience, but we recommend putting
+style of writing noteooks with experience. Typically, you will want to
+keep the number of lines low so that it is easy to follow, and you can
+have useful comments above the cell. However, we recommend putting
 code that "goes together as a meaningful unit" into a single cell. For
 example, if you have lines of code that are highly dependent on each
 other, then you might want to put them together. As an example,
-consider two lines of code: one that creates an item, and the second
-that initializes it. It may be a good idea to put those into the same
-cell so that they are always executed together. Otherwise, the student
-may encounter errors if they execute cells again.
+consider two lines of code: one that opens a file, and the second that
+reads the data from the file. It is probably a good idea to put those
+into the same cell so that they are always executed
+together. Otherwise, the student may encounter errors if they execute
+cells independently a second time (e.g., there are no more data).
+
+Specifically, messing up the dependencies between cells is where most
+of the confusion using notebooks comes from with new users. For
+example, if you change a variable's name (without restarting the
+notebook), then the following code cells may continue to use the old
+variable's name (and value). Later, when running the notebook again,
+the notebook may fail in unexpected ways because the old variable no
+longer exists. This is sometimes referred to as "the hidden state
+problem." This is an open research problem, and researchers are
+exploring various possible solutions. For example, trying searching
+the internet for "jupyter dependency graph" or "jupyter dataflow
+notebook."
 
 <table>
   <tr>
@@ -375,12 +389,13 @@ may encounter errors if they execute cells again.
 On the other hand, it is often a useful idea to separate lines of code
 where you want to provide the student a place to interactively add
 cells, and examine the state at that particular point in the
-process. Asking probing questions in a Socratic method is very useful
-technique for engaging the reader and encouraging them to become more
-than a reader. Students do not naturally know to insert cells and
-explore items in a notebook. You will need to explicitly teach this
-skill. In fact, teaching students how to effectively weave code into
-their own notebook stories is a very effective use of the notebook.
+process. Asking probing questions in a Socratic method is a very
+useful technique for engaging the reader and encouraging them to
+become more than a reader. Students do not naturally know to insert
+cells and explore items in a notebook. You will need to explicitly
+teach this skill. In fact, teaching students how to effectively weave
+code into their *own* notebook stories is an important component of
+teaching with notebooks.
 
 ### Custom styling
 
