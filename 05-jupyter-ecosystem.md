@@ -1,16 +1,17 @@
-# Jupyter ecosystem: notebooks {#jupyter}
+# Jupyter Notebook ecosystem {#jupyter}
 
+## Language support: kernels
 
 The Jupyter system supports over 100 programming languages (called
 "kernels" in the Jupyter ecosystem) including Python, Java, R, Julia,
 Matlab, Octave, Scheme, Processing, Scala, and many more.  Out of the
-box Jupyter will only run the IPython kernel, but additional kernels
-may be installed.  Additional language support continues to be added
-by the open source community and
-[https://github.com/jupyter/jupyter/wiki/Jupyter-kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
-is the best source for an up-to-date list. Note that these projects
+box, Jupyter will only run the IPython kernel, but additional kernels
+may be installed. Language support continues to be added
+by the open source community and the best source for an up-to-date list is the wiki page maintained by the project: 
+[https://github.com/jupyter/jupyter/wiki/Jupyter-kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+These projects 
 are developed and maintained by the open source community and exist in
-various levels of support. For example, some kernels may be supported
+various levels of support. Some kernels may be supported
 by a vast number of active (and even paid) developers, while others
 may be a single person's pet project. When trying out a new kernel, we
 suggest exploring a kernel's community of users and documentation to
@@ -20,25 +21,23 @@ students') use.
 Jupyter's kernel flexibility allows instructors to pick the right
 language for a particular context.  For example instructors may use
 Python to teach programming, while switching to R to teach statistics,
-and then perhaps Scala to teach big data processing. Regardless of the
+and then perhaps Scala to teach big-data processing. Regardless of the
 language chosen, the Jupyter interface remains the same. Thus, some
-cognitive load can be lessened when using multiple languages in, or
-across courses (e.g., the user interface doesn't change at all between
-the student's Digital Humanities and Biology courses). Of course, if
-you can remain in one language in a course, that is often easier for
-the student.
+cognitive load can be lessened when using multiple languages within or
+across courses (e.g., the user interface stays the same between
+the student's Digital Humanities and Biology courses). 
+Students often appreciate consistent use of the same language within a course, however.
 
-
-## Resources for authoring Jupyter notebooks
+## Authoring Jupyter notebooks
 
 
 Before embarking on writing notebooks for your course, we recommend
-that you look around on the internet for related courses. There may be
-a similar course for which an instructor has already generated
-notebooks that you can use or adapt for your course. In many cases,
-instructors are very happy to have collaborate on open source
-educational resources and have the resources be used by other
-instructors. The following sections will be oriented towards Python
+that you look around on the internet for related courses. 
+A similar course for which an instructor has already generated
+notebooks could exist for you to use or adapt for your course. 
+Notebook authors often are happy to collaborate on open source
+educational resources or have their resources be used by other
+instructors. The following sections focus on Python
 simply because it is currently the language with the largest Jupyter
 feature support.
 
@@ -50,14 +49,14 @@ which students and other users will likely consult regularly. From a
 notebook cell, the TAB key autocompletes (or gives completion tips)
 and SHIFT-TAB brings up full documentation. Similarly, using a
 question-mark after a method or function will bring up the
-documentation after the cell is run, as shown in Figure XX.
+documentation after the cell is run, as shown in Figure 5.1.
 
 
-![A question mark can be used after a method or function and the cell run in order to bring up the documentation.](images/chapter50.png "getting help")
+![A question mark used after a method or function brings up the documentation after executing the cell.](images/chapter50.png "getting help")
 
-Using this feature in class during live coding and modification or
-while just explaining how code works helps increase student comfort
-and enable them to work effectively with libraries.
+Using this feature in class during live coding or
+while explaining how code works helps make students comfortable
+of working effectively with libraries.
 
 
 ### Widgets {#widgets}
