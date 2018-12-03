@@ -243,3 +243,9 @@ Please feel free to add to or edit these sections.
 We use markdown for the book formatting.
 
 - Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+
+If possible, avoid using unicode characters as they don't always
+transfer well into the document formats possible (HTML, PDF, etc.)
+Often, you might be able to find unicode replacements by using LaTeX
+math symbols and surrounding them by dollar signs (for example, $\neq$
+will render as ≠).
