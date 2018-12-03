@@ -336,8 +336,51 @@ time to complete.
 
 ### Explaining each cell
 
-A good rule of thumb is to always include a markdown cell above every code cell.
+A good rule of thumb is to always include a markdown cell above every
+code cell. In fact, instead of adding comments in code, consider
+moving the comments out of the code cell into a markdown cell either
+directly above or below the code cell. This often reads much better,
+and gives you more flexibilty in discussing or describing the
+code. However, short comments in a block of code can still be useful.
 
+
+### How much code should go in a cell?
+
+How much code should you put in a cell? You will develop your own
+style of writing noteooks with experience, but we recommend putting
+code that "goes together as a meaningful unit" into a single cell. For
+example, if you have lines of code that are highly dependent on each
+other, then you might want to put them together. As an example,
+consider two lines of code: one that creates an item, and the second
+that initializes it. It may be a good idea to put those into the same
+cell so that they are always executed together. Otherwise, the student
+may encounter errors if they execute cells again.
+
+<table>
+  <tr>
+   <td><strong>Pro Tip</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   You can easily split a cell into two parts at the cursor using the
+   keystroke `CONTROL` + `SHIFT` + `-`. You can also merge multiple cells
+   with `SHIFT` + `m`. Both of these are also available from the menu under
+   `Edit`.
+   </td>
+  </tr>
+</table>
+
+
+On the other hand, it is often a useful idea to separate lines of code
+where you want to provide the student a place to interactively add
+cells, and examine the state at that particular point in the
+process. Asking probing questions in a Socratic method is very useful
+technique for engaging the reader and encouraging them to become more
+than a reader. Students do not naturally know to insert cells and
+explore items in a notebook. You will need to explicitly teach this
+skill. In fact, teaching students how to effectively weave code into
+their own notebook stories is a very effective use of the notebook.
 
 ### Custom styling
 
