@@ -2544,46 +2544,46 @@ considerations regarding data, metrics, rules, and scoring may be time
 consuming. Competition is risky business and effort should be made to
 ensure both winners and losers enjoy the experience.
 
-\hypertarget{jupyter}{\chapter{Jupyter ecosystem:
-notebooks}\label{jupyter}}
+\hypertarget{jupyter}{\chapter{Jupyter Notebook
+ecosystem}\label{jupyter}}
+
+\section{Language support: kernels}\label{language-support-kernels}
 
 The Jupyter system supports over 100 programming languages (called
 ``kernels'' in the Jupyter ecosystem) including Python, Java, R, Julia,
-Matlab, Octave, Scheme, Processing, Scala, and many more. Out of the box
-Jupyter will only run the IPython kernel, but additional kernels may be
-installed. Additional language support continues to be added by the open
-source community and
-\url{https://github.com/jupyter/jupyter/wiki/Jupyter-kernels} is the
-best source for an up-to-date list. Note that these projects are
-developed and maintained by the open source community and exist in
-various levels of support. For example, some kernels may be supported by
-a vast number of active (and even paid) developers, while others may be
-a single person's pet project. When trying out a new kernel, we suggest
+Matlab, Octave, Scheme, Processing, Scala, and many more. Out of the
+box, Jupyter will only run the IPython kernel, but additional kernels
+may be installed. Language support continues to be added by the open
+source community and the best source for an up-to-date list is the wiki
+page maintained by the project:
+\url{https://github.com/jupyter/jupyter/wiki/Jupyter-kernels}. These
+projects are developed and maintained by the open source community and
+exist in various levels of support. Some kernels may be supported by a
+vast number of active (and even paid) developers, while others may be a
+single person's pet project. When trying out a new kernel, we suggest
 exploring a kernel's community of users and documentation to see if it
 has an appropriate level of support for your (and your students') use.
 
 Jupyter's kernel flexibility allows instructors to pick the right
 language for a particular context. For example instructors may use
 Python to teach programming, while switching to R to teach statistics,
-and then perhaps Scala to teach big data processing. Regardless of the
+and then perhaps Scala to teach big-data processing. Regardless of the
 language chosen, the Jupyter interface remains the same. Thus, some
-cognitive load can be lessened when using multiple languages in, or
-across courses (e.g., the user interface doesn't change at all between
-the student's Digital Humanities and Biology courses). Of course, if you
-can remain in one language in a course, that is often easier for the
-student.
+cognitive load can be lessened when using multiple languages within or
+across courses (e.g., the user interface stays the same between the
+student's Digital Humanities and Biology courses). Students often
+appreciate consistent use of the same language within a course, however.
 
-\section{Resources for authoring Jupyter
-notebooks}\label{resources-for-authoring-jupyter-notebooks}
+\section{Authoring Jupyter notebooks}\label{authoring-jupyter-notebooks}
 
 Before embarking on writing notebooks for your course, we recommend that
-you look around on the internet for related courses. There may be a
-similar course for which an instructor has already generated notebooks
-that you can use or adapt for your course. In many cases, instructors
-are very happy to have collaborate on open source educational resources
-and have the resources be used by other instructors. The following
-sections will be oriented towards Python simply because it is currently
-the language with the largest Jupyter feature support.
+you look around on the internet for related courses. A similar course
+for which an instructor has already generated notebooks could exist for
+you to use or adapt for your course. Notebook authors often are happy to
+collaborate on open source educational resources or have their resources
+be used by other instructors. The following sections focus on Python
+simply because it is currently the language with the largest Jupyter
+feature support.
 
 \subsection{Accessing documentation in the
 notebook}\label{accessing-documentation-in-the-notebook}
@@ -2593,58 +2593,59 @@ which students and other users will likely consult regularly. From a
 notebook cell, the TAB key autocompletes (or gives completion tips) and
 SHIFT-TAB brings up full documentation. Similarly, using a question-mark
 after a method or function will bring up the documentation after the
-cell is run, as shown in Figure XX.
+cell is run, as shown in Figure 5.1.
 
 \begin{figure}
 \centering
 \includegraphics{images/chapter50.png}
-\caption{A question mark can be used after a method or function and the
-cell run in order to bring up the documentation.}
+\caption{A question mark used after a method or function brings up the
+documentation after executing the cell.}
 \end{figure}
 
-Using this feature in class during live coding and modification or while
-just explaining how code works helps increase student comfort and enable
-them to work effectively with libraries.
+Using this feature in class during live coding or while explaining how
+code works helps make students comfortable of working effectively with
+libraries.
 
 \subsection{Widgets}\label{widgets}
 
-Widgets provide the opportunity a for learners and instructors to
-interact with code outputs, such as charts and tables, interactively.
-Widgets are simple and quickly generated ``mini'' Graphical User
-Interfaces (GUI) that give the notebook user access to slide bars,
-toggle buttons, and text-boxes. They can be used in conjunction with
-code, allowing a change of mindset from programming as a primary goal to
-exploring a model or computation as the primary goal. Alternatively, the
-code can be hidden and the widgets used to create a notebook ``app''
-that might connect input parameters with a simulation and a plot.
+Widgets provide the opportunity for learners and instructors to interact
+with code outputs, such as charts and tables. Widgets are ``mini''
+Graphical User Interfaces (GUI) that give the notebook user access to
+slide bars, toggle buttons, and text-boxes. They can be used in
+conjunction with code, allowing a change of mindset from programming as
+a primary goal to exploring a model or computation as the primary goal.
+Alternatively, the code can be hidden and the widgets used to create a
+notebook ``app'' that might connect input parameters with a simulation
+and a plot.
 
-Currently only a small subset of kernels have widget functionality. For
-example, the reference implementation of widgets are the Jupyter-Python
-widgets (\url{https://ipywidgets.rtfd.io}). It includes widget
-components to generate and display sliders, progress bars, text boxes,
-check boxes, toggle buttons, etc. Many popular visualization tools, such
-as matplotlib, Plotly, leaflet.js, three.js, have Jupyter-Python widget
+Currently, only a small subset of kernels have widget functionality. The
+reference implementation of widgets are the Jupyter-Python widgets
+(\url{https://ipywidgets.rtfd.io}). It includes widget components to
+generate and display sliders, progress bars, text boxes, check boxes,
+toggle buttons, etc. Many popular visualization tools, such as
+Matplotlib, Plotly, leaflet.js, three.js, have Jupyter-Python widget
 implementations. The documentation contains an up-to-date list of all of
-the widgets and their variations. Additionally, the \texttt{interact}
-method wraps allows you to wrap a function, which might be a simple
-computation or a complex simulation that produces a plot, and provides
-widgets for each of the inputs to the function. Figure XX shows a simple
-example of a sinusoid plot whose frequency is controlled by a slide-bar.
-Another kernel that has some widget functionality is C++
+the widgets and their variations. The \texttt{interact} method allows
+you to wrap a function, which might be a simple computation or a complex
+simulation that produces a plot, and provides widgets for each of the
+inputs to the function. Figure 5.2 shows a simple example of a sinusoid
+plot whose frequency is controlled by a slide-bar. Another kernel that
+has some widget functionality is C++
 (\url{https://github.com/QUantStack/xwidgets}).
 
 \begin{figure}
 \centering
 \includegraphics{images/notebook-matplotlib-interact.png}
-\caption{Here, a simple slider is used to interactively change the
+\caption{Here, a slider allows the user to interactively change the
 variable k in our function as we plot it.}
 \end{figure}
 
 In addition to the IPywidgets library, the ipyleaflet library
-(\url{https://ipyleaflet.rtfd.io}) enables an interactive map to be
-displayed in a notebook.
+(\url{https://ipyleaflet.rtfd.io}) displays an interactive map in a
+notebook.
 
-\subsubsection{Example}\label{example}
+\subsubsection*{Example}\label{example}
+\addcontentsline{toc}{subsubsection}{Example}
 
 \begin{verbatim}
 from ipyleaflet import Map
