@@ -315,8 +315,9 @@ Commercial offerings also exist to use Jupyter in the cloud, some of
 which provide free trials or a "freemium" pricing model. They include:
 
 * CoCalc (previously SageMathCloud)
-    ([https://cocalc.com](https://cocalc.com)) is an online open source
-    computing environment with [first class support for Jupyter
+    ([https://cocalc.com](https://cocalc.com)) is an online [open
+    source](https://github.com/sagemathinc/) computing environment with [first
+    class support for Jupyter
     notebooks](https://cocalc.com/doc/jupyter-notebook.html) supported by
     SageMath, Inc. It is one of the few services that allows multiple users to
     edit a Jupyter notebook simultaneously. It also allows the notebook user to
