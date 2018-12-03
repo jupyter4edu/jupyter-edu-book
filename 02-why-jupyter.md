@@ -211,7 +211,7 @@ capture the essence of the conversation of the class.  After a minute or so to
 contemplate the question, the students select their answer (by clicking one of
 the buttons), and instructor shows the gestalt results (see figure).
 
-![The Activity magic, from the the instructor's perspective. The barchart is shown on the project once all of the students have had a chance to respond.](images/activity-magic-instructor.png "The Activity magic, from the the instructor's perspective.")
+![The Activity magic, from the the instructor's perspective. The barchart is shown on the projector once all of the students have had a chance to respond.](images/activity-magic-instructor.png "The Activity magic, from the the instructor's perspective.")
 
 Good "exit ticket" questions can be domain specific questions, but can also be
 metacognitive questions (about one's learning style, for example), or high-level
@@ -220,7 +220,12 @@ recommend leaving enough time at the end of class (perhaps 10 minutes) to have a
 full and complete wrap-up discussion. After the discussion, you may wish to
 adjust the following class meeting if you feel that not enough students had the
 insight you were aiming for. For more information on "tickets to leave" see
-[https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample](https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample)
+[https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample](https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample).
+For more on the Jupyter Notebook extension, see
+[using](https://github.com/Calysto/metakernel/blob/master/metakernel/magics/README.md#activity)
+and [installing](https://github.com/Calysto/metakernel#use-metakernel-magics-in-ipython)
+Calysto Activity magic.
+
 
 
 ### Increasing understanding
