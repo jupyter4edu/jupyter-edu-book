@@ -182,10 +182,11 @@ comprised of.  Some pitfalls with LaTeX rendering may occur,
 as platforms do not always render the notebooks the same as they would
 appear in an active Jupyter interface.
 
-A few caveats to keeping notebooks undeTFirst of all the output will be stored
-in the repository, including images, unless you clear the output
+A few caveats to keeping notebooks under version control.
+The code output, including images, is stored
+in the repository, unless you clear the output
 before committing changes.  This can make reviewing changes difficult,
-as changes in output will be detected when nothing has actually
+as changes in output will be detected even when nothing has actually
 changed content-wise.  The tracked notebooks also can become large if
 output is tracked.  Even when clearing the output, reviewing
 changes can be awkward due to the format of the notebook (notebooks
