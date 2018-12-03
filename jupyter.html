@@ -150,9 +150,8 @@
 <li class="chapter" data-level="5.2.1" data-path="jupyter.html"><a href="jupyter.html#reminders"><i class="fa fa-check"></i><b>5.2.1</b> Reminders</a></li>
 <li class="chapter" data-level="5.2.2" data-path="jupyter.html"><a href="jupyter.html#feedback"><i class="fa fa-check"></i><b>5.2.2</b> Feedback</a></li>
 <li class="chapter" data-level="5.2.3" data-path="jupyter.html"><a href="jupyter.html#explaining-each-cell"><i class="fa fa-check"></i><b>5.2.3</b> Explaining each cell</a></li>
-<li class="chapter" data-level="5.2.4" data-path="jupyter.html"><a href="jupyter.html#how-to-structure-code-cells"><i class="fa fa-check"></i><b>5.2.4</b> How to structure code cells</a></li>
-<li class="chapter" data-level="5.2.5" data-path="jupyter.html"><a href="jupyter.html#custom-styling"><i class="fa fa-check"></i><b>5.2.5</b> Custom styling</a></li>
-<li class="chapter" data-level="5.2.6" data-path="jupyter.html"><a href="jupyter.html#length-of-notebooks"><i class="fa fa-check"></i><b>5.2.6</b> Length of notebooks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="jupyter.html"><a href="jupyter.html#custom-styling"><i class="fa fa-check"></i><b>5.2.4</b> Custom styling</a></li>
+<li class="chapter" data-level="5.2.5" data-path="jupyter.html"><a href="jupyter.html#length-of-notebooks"><i class="fa fa-check"></i><b>5.2.5</b> Length of notebooks</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="jupyter.html"><a href="jupyter.html#gotchas"><i class="fa fa-check"></i><b>5.3</b> Gotchas</a><ul>
 <li class="chapter" data-level="5.3.1" data-path="jupyter.html"><a href="jupyter.html#programming-language-jupyter"><i class="fa fa-check"></i><b>5.3.1</b> Programming language ≠ Jupyter</a></li>
@@ -327,28 +326,10 @@ Map(center=[34.6252978589571, -77.34580993652344], zoom=10)</code></pre>
 </div>
 <div id="explaining-each-cell" class="section level3">
 <h3><span class="header-section-number">5.2.3</span> Explaining each cell</h3>
-<p>Consider moving the comments for a code block into a markdown cell either directly above or below the code cell. Comments in a markdown cell often read much better and give you more flexibility in discussing or describing the code. However, short comments in a block of code can still be useful.</p>
-</div>
-<div id="how-to-structure-code-cells" class="section level3">
-<h3><span class="header-section-number">5.2.4</span> How to structure code cells</h3>
-<p>How much code should you put in a cell? You will develop your own style of writing noteooks with experience. Typically, you will want to keep the number of lines low so that it is easy to follow, and you can have useful comments above the cell. However, we recommend putting code that “goes together as a meaningful unit” into a single cell. For example, if you have lines of code that are highly dependent on each other, then you might want to put them together. As an example, consider two lines of code: one that opens a file, and the second that reads the data from the file. It is probably a good idea to put those into the same cell so that they are always executed together. Otherwise, the student may encounter errors if they execute cells independently a second time (e.g., there are no more data).</p>
-<p>Specifically, messing up the dependencies between cells is where most of the confusion using notebooks comes from with new users. For example, if you change a variable’s name (without restarting the notebook), then the following code cells may continue to use the old variable’s name (and value). Later, when running the notebook again, the notebook may fail in unexpected ways because the old variable no longer exists. This is sometimes referred to as “the hidden state problem.” This is an open research problem, and researchers are exploring various possible solutions. For example, trying searching the internet for “jupyter dependency graph” or “jupyter dataflow notebook.”</p>
-<table>
-<tr>
-<td>
-<strong>Pro Tip</strong>
-</td>
-</tr>
-<tr>
-<td>
-You can easily split a cell into two parts at the cursor using the keystroke <code>CONTROL</code> + <code>SHIFT</code> + <code>-</code>. You can also merge multiple cells with <code>SHIFT</code> + <code>m</code>. Both of these are also available from the menu under <code>Edit</code>.
-</td>
-</tr>
-</table>
-<p>On the other hand, it is often a useful idea to separate lines of code where you want to provide the student a place to interactively add cells, and examine the state at that particular point in the process. Asking probing questions in a Socratic method is a very useful technique for engaging the reader and encouraging them to become more than a reader. Students do not naturally know to insert cells and explore items in a notebook. You will need to explicitly teach this skill. In fact, teaching students how to effectively weave code into their <em>own</em> notebook stories is an important component of teaching with notebooks.</p>
+<p>A good rule of thumb is to always include a markdown cell above every code cell.</p>
 </div>
 <div id="custom-styling" class="section level3">
-<h3><span class="header-section-number">5.2.5</span> Custom styling</h3>
+<h3><span class="header-section-number">5.2.4</span> Custom styling</h3>
 <p>New notebook creators often try to centrally manage the formatting of headings, equations, and other textual items. For example, rather than using a standard markdown heading, a creator may over-design the headings by using HTML styles. This may create two problems:</p>
 <ol style="list-style-type: decimal">
 <li><p>The rendering of the notebook markdown may change and your formatted HTML header may not maintain the same look over time.</p></li>
@@ -357,7 +338,7 @@ You can easily split a cell into two parts at the cursor using the keystroke <co
 <p>Our recommendation is to resist the desire to customize the styling and simply use the default representations. If you want to do customization (for example if you want to color certain cells) you can use CSS.</p>
 </div>
 <div id="length-of-notebooks" class="section level3">
-<h3><span class="header-section-number">5.2.6</span> Length of notebooks</h3>
+<h3><span class="header-section-number">5.2.5</span> Length of notebooks</h3>
 <p>Notebook authors sometimes make the notebooks very long with many topics and sections. Notebook sections and cells are currently not easily reused in a copy/paste sense for mixing intra-notebook content. Until this functionality is available, we recommend that authors make short, self-contained notebooks around short topics. This allows other notebooks authors to mix and match notebooks to create curriculum.</p>
 </div>
 </div>
