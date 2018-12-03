@@ -430,7 +430,7 @@ curriculum.
 
 ## Gotchas
 
-### Programming language ≠ Jupyter
+### Programming language $\neq$ Jupyter
 
 Teaching a class entirely with Jupyter can give the sense to students
 that this is the way all computational exploration is done. In
