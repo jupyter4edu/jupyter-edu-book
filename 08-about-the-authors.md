@@ -179,7 +179,7 @@ share the stories behind their science. He also developed the
 [We Share Science](https://wesharescience.org/) platform for sharing video abstracts
 of research.
 
-### Richard West {-}
+### Richard H. West {-}
 
 * Northeastern University
 * [R.West@northeastern.edu](mailto:R.West@northeastern.edu)
