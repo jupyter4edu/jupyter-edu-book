@@ -558,7 +558,7 @@ writing comments on a printout or adding annotations to a PDF.
 
 <table>
   <tr>
-   <td><strong>Pro Tip</a>
+   <td><strong>Pro Tip</strong>
    </td>
   </tr>
   <tr>
@@ -592,7 +592,7 @@ written feedback to the student.
 
 <table>
   <tr>
-   <td><strong>Caution</a>
+   <td><strong>Caution</strong>
    </td>
   </tr>
   <tr>
