@@ -281,7 +281,8 @@ exercises tend to be larger (e.g. an entire step in a multi-step process).
 **Learning goals:**<br/>
 The aim of a Target Practice exercise is to focus attention on one 
 component of a workflow and practice skills for solving that component. 
-
+It can also be used to reflect on broader consequences of choices made 
+in the target step of an integrated workflow or analysis.
 
 **Audience(s):**<br/>
 This approach assumes some programming competency as learners are 
