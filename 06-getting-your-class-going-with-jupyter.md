@@ -326,14 +326,15 @@ which provide free trials or a "freemium" pricing model. They include:
     with project collaborators. It is free to use and greater computational
     resources can be obtained by paying the monthly, yearly, or course based
     subscription fees. Instructors can pay for resources for an entire class or
-    ask students to pay and subscribe for a semester.  Instructors can make use
+    ask students to pay and subscribe for a semester. Instructors can make use
     of the [course management system](https://tutorial.cocalc.com/) for
-    assignment distribution, collection, grading, and more. Addtional software
-    [can be installed with standard package managers (pip, conda, R, Julia,
-    etc)](https://github.com/sagemathinc/cocalc/wiki/How-to-Install-Python-Packages-into-CoCalc)
-    but the primary limitation is that the free version does not allow access
-    to the internet to prevent abuse, thus you have to download files yourself
-    and then upload to the service.
+    assignment distribution, collection, grading, and more. The free version
+    limits access to the internet to prevent abuse, effectively blocking use of
+    standard package managers. While an instructor could work around this limitation
+    by uploading files to the service or requesting the company to install
+    software, this is likley onerous for many users. Paid versions lift this
+    limitation and allow use of standard package managers (e.g. pip, conda, R,
+    Julia, etc).
 * Gryd ([https://gryd.us](https://gryd.us)) is another subscription
     service with a free tier. It includes course-management features,
     like a way to create a course, invite students, and deploy
