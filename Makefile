@@ -13,12 +13,12 @@ view-pdf : _book/jupyter-edu-book.pdf
 clean :
 	$(RM) -r _book/*
 
-SOURCES := $(wildcard [0-9]*.md [0-9]*.Rmd book.bib) _bookdown.yml
+SOURCES := $(wildcard [0-9]*.md [0-9]*.Rmd book.bib) _bookdown.yml index.Rmd
 
 _book/index.html : $(SOURCES)
 	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 
-_book/jupyter-edu-book.pdf : $(SOURCES)
+_book/jupyter-edu-book.pdf : $(SOURCES) preamble.tex
 	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
 .PHONY: html pdf view-html view-pdf clean
