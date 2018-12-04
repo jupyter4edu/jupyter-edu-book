@@ -259,17 +259,18 @@ students, it can be perceived a "make-work" task.
 
 
 **Description:**<br/>
-This pattern is focusses attention on one component of a multi-step workflow. 
-Learners are asked to implement one stage of a workflow while preceeding and 
-subsequent stages may be provided to them. 
-
+The Target Practice pattern focuses the learner's attention on one component 
+of a multi-step workflow. The instructor provides all workflow steps except 
+the one which is the focus of the exercise; the student will implement the 
+"target" step within a notebook.
 
 **Example:**<br/>
-In a climate-science exercise, the notebook that is provided to students 
+In a climate science assignment, the notebook that is given to students 
 provides code for fetching and parsing 20 years of hourly average temperature 
 data from a public database. Students are asked to design an algorithm for computing
-yearly average temperature and standard deviation. Plotting code which plots the
-yearly temperature with error-bars showing the standard deviation. 
+yearly average temperature and standard deviation. Following this, the plotting code 
+which plots the yearly temperature with error-bars showing the standard deviation
+is also provided to the students. 
 
 **Related patterns:**<br/>
 This pattern is similar to [Fill in the Blank] exercises. Fill in the Blank
@@ -299,7 +300,13 @@ in earlier lectures.
 As there is more freedom in the implementation, this approach is typically 
 more engaging than a [Fill in the Blanks] approach. However, starting from 
 more of a "blank slate" can require more instructor input in order to 
-get students started. 
+get students started. Unit tests and pointers to useful library functions 
+are often helpful, but may over-constrain the space of solutions, thereby 
+reducing the level of creativity and problem solving expected from students. 
+The amount of guidance should be carefully calibrated to the class and can 
+be adjusted by giving tips in response to formative assessments. Working in 
+small groups can help mitigate the risks of students having trouble getting 
+started or pursuing tangents.
 
 ## Top-down sequence
 
