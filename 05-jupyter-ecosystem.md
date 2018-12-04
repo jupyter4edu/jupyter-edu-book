@@ -168,35 +168,52 @@ R code from within an IPython notebook by using the `%%R` magic.
 ### Notebooks under version control {#notebooks-under-version-control}
 
 Keeping notebooks under version control is a great way to not only
-keep track of changes to your created content but can also allow for
-sharable content. In a course where multiple people are contributing
+keep track of changes to your content, but also for
+sharing it. In a course where multiple people are contributing
 to the development of notebooks for the course, using version control
 in conjunction with a platform like GitHub, allows authorship to be
 tracked and provides communication tools for reviewing new
 contributions or outlining requested development for a new assignment,
 activity, etc.  Another advantage of using version control is that
-there are services that will provide rendered views of your notebooks
-that are publicly accessible. GitHub for instance will show a rendered
-version of the notebook rather than the direct text that a notebook is
-comprised of. There are a few pitfalls with this with LaTeX rendering
+some services will provide rendered views of notebooks
+that you have made public. GitHub shows a rendered
+version of the notebook, rather than the ASCII text that a notebook is
+comprised of.  Some pitfalls with LaTeX rendering may occur,
 as platforms do not always render the notebooks the same as they would
 appear in an active Jupyter interface.
 
-There are a few caveats to keeping notebooks under version control
-that should be kept in mind.  First of all the output will be stored
-in the repository, including images, if clear output is not used
-before committing changes.  This can make detecting changes difficult
-as changes in output will be detected when nothing has actually
-changed content wise.  The tracked notebooks also can become large if
-output is tracked.  Even with clearing the output, reading through
-changes can be difficult due to the format of the notebook (notebooks
+We should mention a few caveats to keeping notebooks under version control.
+The code output, including images, is stored
+in the repository, unless you clear the output
+before committing changes.  This can make reviewing changes difficult,
+as changes in output will be detected even when nothing has actually
+changed content-wise.  The tracked notebooks also can become large if
+output is tracked.  Even when clearing the output, reviewing
+changes can be awkward due to the format of the notebook (notebooks
 are plain-text files and the file format is represented as
-[JSON](https://www.json.org/)). This can be an issue if you are storing
-notebooks in a version control system, like git, and you wish to see
-differences between versions. For more information, see:
-[https://github.com/jupyter/nbdime](https://github.com/jupyter/nbdime)
-and
-[https://github.com/mwouts/jupytext](https://github.com/mwouts/jupytext).
+[JSON](https://www.json.org/)). 
+The community is actively developing tools to make it easier to use version control with Jupyter notebooks; one such tool is `nbdime` (see box).
+
+<table>
+  <tr>
+  <td> <strong>nbdime</strong> <a href="https://nbdime.readthedocs.io/">nbdime.readthedocs.io/</a>
+  </td>
+  <tr>
+  <td>
+  nbidime includes a set of tools for reviewing the changes ("diffs") 
+  and merging changes in Jupyter notebooks. You can compare versions 
+  of a notebook using the terminal, view the changes richly rendered 
+  on a browser, and merge in various ways. Because nbdime understands 
+  the structure of notebook documents, it can make smart "diffing and 
+  merging" decisions.
+  </td>
+  </tr>
+</table>
+
+Another option to improve your version-control experience is to export
+a Jupyter notebook to a markdown document, for example using the [jupytext](https://github.com/mwouts/jupytext) tool.
+Then you can review diffs in the usual way for plain-text files.
+
 
 
 ### Testing notebooks {#testing-notebooks}
@@ -227,43 +244,42 @@ provides an easy way to test notebooks.
 ### Essential Python libraries  {#essential-python-libraries}
 
 The purpose of this section is to introduce some of the most widely
-used packages within the Python ecosystem. Python is not the only
-language that can be used in the notebook; over 90 different kernels
-enable different programming languages be used. We discuss the use of
-other languages in the section: [Using other
-languages](#using-other-languages). Python has a large open-source
-community which develops and maintains an ecosystem of over 150,000
-software packages, making it a common language of choice in many
-disciplines.
+used packages within the Python ecosystem. As mentioned before, over 100 kernels enable different programming languages in Jupyter. 
+But Python is a common choice in many disciplines, due to its
+large open-source community which develops and maintains an ecosystem of over 150,000 software packages.
 
 The core Python library
-([https://docs.python.org](https://docs.python.org/3/)) contains data
+([https://docs.python.org](https://docs.python.org/3/)) contains basic data
 types such as lists and dictionaries, as well as core functionality
 such as arithmetic operators and simple file parsers. Most tasks can
-be achieved with core python, however, they are often made easier with
-higher-level libraries. These libraries are particularly useful for
-scientific computing with Python.
+be achieved with core Python. They are often made easier, however, with
+higher-level libraries. This particularly applies for
+scientific computing with Python. 
+Among the vast number of packages in the Python ecosystem, NumPy,
+Scipy, Matplotlib and Pandas are among the most commonly used. 
+A good resource for getting familiar with these libraries
+is the **Scipy Lecture Notes** [https://www.scipy-lectures.org](https://www.scipy-lectures.org).
 
-Among the vast number of packages in the Python ecosystem, Numpy,
-Scipy, Matplotlib and Pandas are among the most commonly used. Numpy
+* Numpy
 ([http://www.numpy.org/](http://www.numpy.org/)) is a fundamental
 library for numerical and scientific computing with Python. It
 contains data structures for numerical arrays, tools for linear
-algebra, and random number capabilities. Scipy
-([https://docs.scipy.org/](https://docs.scipy.org/)) contains a
-variety of functionality for common scientific computing tasks, such
+algebra, random number capabilities, and much more. 
+* SciPy
+([https://docs.scipy.org/](https://docs.scipy.rg/)) offers a
+varied set of functions for scientific computing, such
 as optimization, interpolation, statistics and signal processing. It
 also includes fundamental constants from many disciplines such as the
 speed of light as well as data structures for sparse
-matrices. Matplotlib
+matrices. 
+* Matplotlib
 ([https://matplotlib.org/](https://matplotlib.org/)) is the core
-plotting library for python and can be used inline in the notebook
+plotting library for Python and can be used inline in the notebook
 with the `%matplotlib notebook` or `%matplotlib inline` cell
-magic. Pandas
+magics. 
+* Pandas
 ([https://pandas.pydata.org/](https://pandas.pydata.org/)) provides
-resources for data analysis and more flexible data structures than
-core python. A good resource for getting familiar with these libraries
-is the Scipy Lecture Notes (https://www.scipy-lectures.org).
+resources for data analysis and a flexible data structures for labeled two-dimenstional data. 
 
 
 ### Advanced topic: extensions {#advanced-topic-extensions}
