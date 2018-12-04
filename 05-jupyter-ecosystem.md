@@ -200,7 +200,7 @@ The community is actively developing tools to make it easier to use version cont
   </td>
   <tr>
   <td>
-  nbidime includes a set of tools for reviewing the changes ("diffs") 
+  nbdime includes a set of tools for reviewing the changes ("diffs") 
   and merging changes in Jupyter notebooks. You can compare versions 
   of a notebook using the terminal, view the changes richly rendered 
   on a browser, and merge in various ways. Because nbdime understands 
