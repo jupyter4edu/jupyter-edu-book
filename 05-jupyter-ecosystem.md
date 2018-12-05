@@ -118,20 +118,21 @@ place to start.
 
 ### Magics {#magics}
 
-Magics are meta-commands that only function within Jupyter and allow
-a user to access language/kernel-specific features. For
-instance, the IPython kernel provides a number of magics that can be
-useful while developing Jupyter notebooks using Python as the
-primary language. These are
+Magics are meta-commands that only function within Jupyter and allow a
+user to access language/kernel-specific features. For instance, the
+IPython kernel provides a number of magics that can be useful while
+developing Jupyter notebooks using Python as the primary
+language. These are
 [documented](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
-and we will only call out a few of these here. Many other
-magics are available for different kernels but 
-they are specific to Jupyter so do not translate to script.
-In a teaching environment, we recommend to use them sparingly
-to avoid obfuscating what is happening. Magics always
-begin with either a single `%` for single-line commands or with `%%`
-for applying a command to an entire cell. Some magics can be used with
-single or double `%`, but some cannot.
+and we will only call out a few of these here. Many other magics are
+available for different kernels but they are specific to Jupyter so
+may not be usable in a stand-alone script in that language outside of
+Jupyter.  In some instances, you may want to use magics sparingly to
+avoid obfuscating these meta-commands with the actual commands in the
+language you are teaching. Magics always begin with either a single
+`%` for single-line commands or with `%%` for applying a command to an
+entire cell. Some magics can be used with single or double `%`, but
+some cannot.
 
 #### Examples {-}
 
@@ -141,8 +142,11 @@ single or double `%`, but some cannot.
      static images embedded in the notebook, and `%matplotlib
      notebook` produces interactive images (with zooming, panning, etc.).
      
-  *  The `%run` magic allows running external scripts, captures output and
-     displays it in the notebook, e.g., `%run my_script.py`.
+  * The `%run` magic allows running external scripts (and other
+     notebooks), captures output and displays it in the notebook,
+     e.g., `%run my_script.py`. The `%run` magic is one answer to "how
+     do I import one notebook into another?" (although there are some
+     differences between importing and running).
 
   *  The `%time` magic times the execution of the Python expression following it, e.g., `%time sum(range(1000))`.
 
@@ -156,6 +160,12 @@ single or double `%`, but some cannot.
     user-defined variables. These commands can be useful to avoid problems
     with out-of-order execution problems.
 
+  * The `%debug` magic is used after code has stopped due to an
+    exception (i.e., "the program has crashed"). Enter the `%debug`
+    magic immediately after the crash, and you will be placed into the
+    environment that caused the problem. From there you can explore
+    variables and find the cause of the problem.
+
 
 A good example of a magic operating on the entire contents of cell is
 the `%%HTML` magic, forcing the cell to be interpreted as HTML
@@ -163,6 +173,24 @@ and rendered appropriately. You can also use magics to call other
 languages while running the IPython kernel.  For example, you can run
 R code from within an IPython notebook by using the `%%R` magic.
 
+<table>
+  <tr>
+   <td><strong>Pro Tip</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+
+In the IPython kernel you can also use the `%shell` magic. This is
+often abbreviated as `!` and can run and return results from the
+shell/terminal. In IPython, you can also mix magics with regular
+Python code. For example, `files = ! ls` will use the `ls` (list
+files) command in the terminal, return the list, and set the
+Python variable `files` to that list.
+
+   </td>
+  </tr>
+</table>
 
 
 ### Notebooks under version control {#notebooks-under-version-control}
