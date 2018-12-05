@@ -105,22 +105,15 @@ In this example, you wouldn't actually see the value computed unless
 you print it to the display area, or return the value. Here, we return
 it as the last value of the cell.
 
-<table>
-  <tr>
-   <td><strong>Pro Tip</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-
+```{block2, type='rmdimportant'}
 Keep in mind that the bottom portion of the notebook on the screen or
 monitor may not be visible to students in the back of the room. Make
-sure that the font size is large enough, and that you don't go to fast
-when demonstrating code that students don't have access to.
-
-   </td>
-  </tr>
-</table>
+sure that the font size is large enough, and that you don't go too fast
+when demonstrating code that students don't have access to. We also
+recommend that you hide the Jupyter toolbar and header to get more
+room for the actual notebook (select `Toggle Header` and ``Toggle View`
+under the Jupyter `View` menu).
+```
 
 ## Authoring Jupyter notebooks
 
