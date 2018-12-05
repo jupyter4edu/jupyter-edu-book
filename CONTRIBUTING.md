@@ -241,8 +241,9 @@ Please feel free to add to or edit these sections.
 
 ### Formatting tips
 
-We use [markdown](https://daringfireball.net/projects/markdown/) for the book's
-formatting.
+We use [markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) with
+[bookdown extensions](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html)
+for the book's formatting.
 
 If possible, avoid using unicode characters as they don't always
 transfer well into the document formats possible (HTML, PDF, etc.)
@@ -253,4 +254,5 @@ will render as ≠).
 ### Attribution and Citations
 
 - Citations: https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
-- Image attribution: Include credit, copyright notice, and license info for all images
+- Image attribution: Include title, credit, source, copyright notice, and
+  license info for all images. [Additional information on Creative Commons image attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution#This_is_an_ideal_attribution)
