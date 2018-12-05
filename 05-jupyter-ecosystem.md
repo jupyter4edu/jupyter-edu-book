@@ -28,6 +28,100 @@ across courses (e.g., the user interface stays the same between
 the student's Digital Humanities and Biology courses). 
 Students often appreciate consistent use of the same language within a course, however.
 
+## Using Jupyter notebooks
+
+When using Jupyter notebooks on the data projector or large screen
+monitor in the classroom, we recommend giving the students specific
+instructions on the meaning of the user interface of the notebook. It
+is not exactly intuitive.
+
+The first and most salient component of the notebook is the
+*cell*. Indeed, the entire contents of a notebook is composed of
+only cells. These cells can take one of two forms: text or code. We
+will descibe the authoring of a notebook in the following section;
+however, here we identify some of the subtle, yet important components
+of a code cell.
+
+Code cells are composed of three areas: the **input** area, the
+**display** area, and the **output** area. The input area is identified by
+the `In []:` prompt to the left of the cell. Between the brackets of
+the `In` prompt can be one of three items: a number, an asterisk, or a
+blank. A number indicates that this cell has been executed and the
+value of the number indicates the order of execution. For example,
+normally, after you execute the first cell after opening a notebook,
+its prompt will read `In [1]:`.
+
+<table>
+  <tr>
+   <td><strong>Pro Tip</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+
+When teaching with notebooks, you often will want to refer to a cell
+my name. You could refer to a cell by its input prompt
+number. However, keep in mind that this number will change if you
+excecute the cell again, or that students may have different numbers
+if they, too, are executing their own copy of the notebook. A better
+way of referring to a cell may be to refer to the text right above the
+cell as that won't change while you execute cells. For referring to
+lines of code, see the following section on Tips and Tricks.
+
+   </td>
+  </tr>
+</table>
+
+Before executing a cell, the input prompt number area will be
+blank. Therefore, you can tell at a glance that that cell has not been
+executed yet. It may also be the case that if an input prompt does
+have a number in it, then the cell has been run in the past.  However,
+the cell may not have been run during this session, and thus the
+output may be showing old results. We recommend running from the menu:
+`Cell`, `All outputs`, `Clear` at the beginning of a
+presentation. That initializes all cell inputs to the blank state.
+
+During the execution of a cell, the input prompt will contain an
+asterisk. If it seems that too much time has passed and you still see
+`In [*]:` your code may be in an infinite loop, or you have lost
+communication with the kernel. You may have to interrupt or restart
+the kernel. This is discuss below.
+
+Finally, it is important to keep separate the display and output areas
+below the input cell. The difference between these two areas is subtle
+and confusing, but is very important in some instances. The display
+area is reserved for any item that code has produced for viewing. That
+includes simple text (i.e., `print("hello, world")`) or figures from a
+plot. The output area is reserved for items that the cell "returns."
+This is why in many notebooks you may see a variable assignment
+followed immediately by the variable, like this:
+
+```python
+x = 2434 + 33476
+x
+```
+
+In this example, you wouldn't actually see the value computed unless
+you print it to the display area, or return the value. Here, we return
+it as the last value of the cell.
+
+<table>
+  <tr>
+   <td><strong>Pro Tip</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+
+Keep in mind that the bottom portion of the notebook on the screen or
+monitor may not be visible to students in the back of the room. Make
+sure that the font size is large enough, and that you don't go to fast
+when demonstrating code that students don't have access to.
+
+   </td>
+  </tr>
+</table>
+
 ## Authoring Jupyter notebooks
 
 
