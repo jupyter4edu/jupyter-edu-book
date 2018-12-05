@@ -14,4 +14,4 @@ Example: `Family name, First name (GitHub username)`
 
 ## Contributors
 
-- `Family name, First name (GitHub username)`
+- `Drake, Peter (PeterDrake)`
