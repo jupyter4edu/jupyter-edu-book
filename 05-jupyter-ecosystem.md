@@ -111,7 +111,7 @@ monitor may not be visible to students in the back of the room. Make
 sure that the font size is large enough, and that you don't go too fast
 when demonstrating code that students don't have access to. We also
 recommend that you hide the Jupyter toolbar and header to get more
-room for the actual notebook (select `Toggle Header` and ``Toggle View`
+room for the actual notebook (select `Toggle Header` and `Toggle View`
 under the Jupyter `View` menu).
 ```
 
