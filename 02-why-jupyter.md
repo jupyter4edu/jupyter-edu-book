@@ -237,7 +237,7 @@ knowledge (such as, terminology, specific facts, trends and sequences,
 classifications and categories, etc.) all the way to ability to evaluate and
 create (such as, abstract relationships, judgments but based criteria, original
 works).  Achieving the former (i.e., basic knowledge and comprehension) is far
-easier to achieve that understanding (i.e., evaluation and creation); yet, most
+easier to achieve than understanding (i.e., evaluation and creation); yet, most
 often we, as educators, are striving for increasing the complex understanding of
 our students on the topics we are teaching.  The good news is that notebooks
 offer a valuable tool for teaching toward understanding -- moving students, for
@@ -293,7 +293,7 @@ This is routinely most visible by what we attempt to assess during and at the
 end of instruction. Using notebooks we can create a variety of a performance
 opportunities for students, thereby giving them more opportunities for practice
 and feedback, as well as more opportunities for us, as instructors, to
-assessment their ability to perform.
+assess their ability to perform.
 
 
 #### Real world experience -- The worked-example effect
@@ -413,7 +413,7 @@ less initial experience/comfort with programming.
 Instilling the habits of active learning, through the use of notebooks, will
 also provide benefits beyond the boundaries of your course. Interactivity drives
 engagement, interest, and exploration of concepts. Engaged students in your
-course, are more likely to be engaged learner in other courses and beyond.
+course are more likely to be engaged learners in other courses and beyond.
 
 
 ## Instructor benefits
@@ -446,9 +446,9 @@ but these are free, openly available, and cross-platform.
 ## Conclusions
 
 We hope that this chapter has illustrated that teaching with Jupyter notebooks
-can be valuable for you and your student. We have notebooks to be a tool that
+can be valuable for you and your student. We have shown notebooks to be a tool that
 can increase student engagement, participation, understanding, performance, and
-preparation for their careers.  These are substantial accomplished that can be
+preparation for their careers.  These are substantial accomplishments that can be
 achieved in a variety of disciplines and content areas. Using several real world
 examples, we attempted to illustrate the numerous ways teachers are using
 notebooks. Hopefully these, when combined with the chapters that follow, will
