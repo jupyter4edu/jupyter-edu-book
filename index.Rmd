@@ -26,6 +26,7 @@ biblio-style: apa
 link-citations: yes
 github-repo: jupyter4edu/jupyter-edu-book
 description: "A handbook on teaching and learning with Jupyter notebooks."
+favicon: "images/favicon.ico"
 ---
 
 # Introduction {#intro}
