@@ -329,7 +329,9 @@ The block-based programming extension (called Jigsaw) allows users to
 program using drag-and-drop blocks of code that can be integrated with
 other cells in a Jupyter Notebook (see figure). The advantages (and
 disadvantages) of blocked-based languages are active research topics
-in computer education research.
+in computer education research (see, for example, Mark Guzdial's
+excellent [Computing Education Research Blog](https://computinged.wordpress.com/),
+specifically [those posts on block-based languages](https://computinged.wordpress.com/tag/blocks-based-language/)).
 
 ![Example of incorporating Jigsaw, a block-based extension, in a Jupyter Notebook. The extension allows the user to assemble code blocks that can then be translated into Python or Java, and executed.](images/jigsaw.png "block-based programming")
 
