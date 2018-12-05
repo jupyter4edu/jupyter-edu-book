@@ -28,46 +28,6 @@
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -129,8 +89,6 @@ West, Elizabeth Wickes, Carol Willing, and Michael Zingale}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
-\usepackage{framed,color}
-\definecolor{shadecolor}{RGB}{248,248,248}
 \setmainfont{texgyrepagella}[
   Path = fonts/,
   Extension = .otf,
@@ -144,68 +102,8 @@ West, Elizabeth Wickes, Carol Willing, and Michael Zingale}
   \thm@preskip=8pt plus 2pt minus 4pt
   \thm@postskip=\thm@preskip
 }
-
-\makeatletter
-
-\newenvironment{kframe}{%
-\medskip{}
-\setlength{\fboxsep}{.8em}
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
 \makeatother
 
-\makeatletter
-\@ifundefined{Shaded}{
-}{\renewenvironment{Shaded}{\begin{kframe}}{\end{kframe}}}
-\makeatother
-
-\newenvironment{rmdblock}[1]
-  {
-  \begin{itemize}
-  \renewcommand{\labelitemi}{
-    \raisebox{-.7\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=3em,keepaspectratio}\includegraphics{images/#1}}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{kframe}
-  \item
-  }
-  {
-  \end{kframe}
-  \end{itemize}
-  }
-\newenvironment{rmdnote}
-  {\begin{rmdblock}{note}}
-  {\end{rmdblock}}
-\newenvironment{rmdcaution}
-  {\begin{rmdblock}{caution}}
-  {\end{rmdblock}}
-\newenvironment{rmdimportant}
-  {\begin{rmdblock}{important}}
-  {\end{rmdblock}}
-\newenvironment{rmdtip}
-  {\begin{rmdblock}{tip}}
-  {\end{rmdblock}}
-\newenvironment{rmdwarning}
-  {\begin{rmdblock}{warning}}
-  {\end{rmdblock}}
-
-\makeatother
-
-\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -631,7 +529,7 @@ basic knowledge (such as, terminology, specific facts, trends and
 sequences, classifications and categories, etc.) all the way to ability
 to evaluate and create (such as, abstract relationships, judgments but
 based criteria, original works). Achieving the former (i.e., basic
-knowledge and comprehension) is far easier to achieve that understanding
+knowledge and comprehension) is far easier to achieve than understanding
 (i.e., evaluation and creation); yet, most often we, as educators, are
 striving for increasing the complex understanding of our students on the
 topics we are teaching. The good news is that notebooks offer a valuable
@@ -704,7 +602,7 @@ students. This is routinely most visible by what we attempt to assess
 during and at the end of instruction. Using notebooks we can create a
 variety of a performance opportunities for students, thereby giving them
 more opportunities for practice and feedback, as well as more
-opportunities for us, as instructors, to assessment their ability to
+opportunities for us, as instructors, to assess their ability to
 perform.
 
 \subsubsection{Real world experience -- The worked-example
@@ -843,7 +741,7 @@ experience/comfort with programming.
 Instilling the habits of active learning, through the use of notebooks,
 will also provide benefits beyond the boundaries of your course.
 Interactivity drives engagement, interest, and exploration of concepts.
-Engaged students in your course, are more likely to be engaged learner
+Engaged students in your course are more likely to be engaged learners
 in other courses and beyond.
 
 \section{Instructor benefits}\label{instructor-benefits}
@@ -877,17 +775,17 @@ openly available, and cross-platform.
 \section{Conclusions}\label{conclusions}
 
 We hope that this chapter has illustrated that teaching with Jupyter
-notebooks can be valuable for you and your student. We have notebooks to
-be a tool that can increase student engagement, participation,
-understanding, performance, and preparation for their careers. These are
-substantial accomplished that can be achieved in a variety of
-disciplines and content areas. Using several real world examples, we
-attempted to illustrate the numerous ways teachers are using notebooks.
-Hopefully these, when combined with the chapters that follow, will guide
-you in 1) supporting your students' learning, 2) giving you confidence
-that you can use notebooks, 3) help you understand the necessary
-logistics, and 4) help give you clear expectations of what can be
-accomplished with Jupyter notebooks.
+notebooks can be valuable for you and your student. We have shown
+notebooks to be a tool that can increase student engagement,
+participation, understanding, performance, and preparation for their
+careers. These are substantial accomplishments that can be achieved in a
+variety of disciplines and content areas. Using several real world
+examples, we attempted to illustrate the numerous ways teachers are
+using notebooks. Hopefully these, when combined with the chapters that
+follow, will guide you in 1) supporting your students' learning, 2)
+giving you confidence that you can use notebooks, 3) help you understand
+the necessary logistics, and 4) help give you clear expectations of what
+can be accomplished with Jupyter notebooks.
 
 \chapter{Notebooks in teaching and
 learning}\label{notebooks-in-teaching-and-learning}
@@ -2740,84 +2638,6 @@ cognitive load can be lessened when using multiple languages within or
 across courses (e.g., the user interface stays the same between the
 student's Digital Humanities and Biology courses). Students often
 appreciate consistent use of the same language within a course, however.
-
-\section{Using Jupyter notebooks}\label{using-jupyter-notebooks}
-
-When using Jupyter notebooks on the data projector or large screen
-monitor in the classroom, we recommend giving the students specific
-instructions on the meaning of the user interface of the notebook. It is
-not exactly intuitive.
-
-The first and most salient component of the notebook is the \emph{cell}.
-Indeed, the entire contents of a notebook is composed of only cells.
-These cells can take one of two forms: text or code. We will descibe the
-authoring of a notebook in the following section; however, here we
-identify some of the subtle, yet important components of a code cell.
-
-Code cells are composed of three areas: the \textbf{input} area, the
-\textbf{display} area, and the \textbf{output} area. The input area is
-identified by the \texttt{In\ {[}{]}:} prompt to the left of the cell.
-Between the brackets of the \texttt{In} prompt can be one of three
-items: a number, an asterisk, or a blank. A number indicates that this
-cell has been executed and the value of the number indicates the order
-of execution. For example, normally, after you execute the first cell
-after opening a notebook, its prompt will read \texttt{In\ {[}1{]}:}.
-
-Pro Tip
-
-When teaching with notebooks, you often will want to refer to a cell my
-name. You could refer to a cell by its input prompt number. However,
-keep in mind that this number will change if you excecute the cell
-again, or that students may have different numbers if they, too, are
-executing their own copy of the notebook. A better way of referring to a
-cell may be to refer to the text right above the cell as that won't
-change while you execute cells. For referring to lines of code, see the
-following section on Tips and Tricks.
-
-Before executing a cell, the input prompt number area will be blank.
-Therefore, you can tell at a glance that that cell has not been executed
-yet. It may also be the case that if an input prompt does have a number
-in it, then the cell has been run in the past. However, the cell may not
-have been run during this session, and thus the output may be showing
-old results. We recommend running from the menu: \texttt{Cell},
-\texttt{All\ outputs}, \texttt{Clear} at the beginning of a
-presentation. That initializes all cell inputs to the blank state.
-
-During the execution of a cell, the input prompt will contain an
-asterisk. If it seems that too much time has passed and you still see
-\texttt{In\ {[}*{]}:} your code may be in an infinite loop, or you have
-lost communication with the kernel. You may have to interrupt or restart
-the kernel. This is discuss below.
-
-Finally, it is important to keep separate the display and output areas
-below the input cell. The difference between these two areas is subtle
-and confusing, but is very important in some instances. The display area
-is reserved for any item that code has produced for viewing. That
-includes simple text (i.e., \texttt{print("hello,\ world")}) or figures
-from a plot. The output area is reserved for items that the cell
-``returns.'' This is why in many notebooks you may see a variable
-assignment followed immediately by the variable, like this:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{x }\OperatorTok{=} \DecValTok{2434} \OperatorTok{+} \DecValTok{33476}
-\NormalTok{x}
-\end{Highlighting}
-\end{Shaded}
-
-In this example, you wouldn't actually see the value computed unless you
-print it to the display area, or return the value. Here, we return it as
-the last value of the cell.
-
-\BeginKnitrBlock{rmdimportant}
-Keep in mind that the bottom portion of the notebook on the screen or
-monitor may not be visible to students in the back of the room. Make
-sure that the font size is large enough, and that you don't go too fast
-when demonstrating code that students don't have access to. We also
-recommend that you hide the Jupyter toolbar and header to get more room
-for the actual notebook (select \texttt{Toggle\ Header} and
-`\texttt{Toggle\ View} under the Jupyter \texttt{View} menu).
-\EndKnitrBlock{rmdimportant}
 
 \section{Authoring Jupyter notebooks}\label{authoring-jupyter-notebooks}
 
