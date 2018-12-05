@@ -30,7 +30,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
-  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="prev" href="catalogue.html">
 <link rel="next" href="getting-going.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
@@ -280,30 +280,17 @@ Map(center=[34.6252978589571, -77.34580993652344], zoom=10)</code></pre>
 </div>
 <div id="magics" class="section level3">
 <h3><span class="header-section-number">5.2.3</span> Magics</h3>
-<p>Magics are meta-commands that only function within Jupyter and allow a user to access language/kernel-specific features. For instance, the IPython kernel provides a number of magics that can be useful while developing Jupyter notebooks using Python as the primary language. These are <a href="https://ipython.readthedocs.io/en/stable/interactive/magics.html">documented</a> and we will only call out a few of these here. Many other magics are available for different kernels but they are specific to Jupyter so may not be usable in a stand-alone script in that language outside of Jupyter. In some instances, you may want to use magics sparingly to avoid obfuscating these meta-commands with the actual commands in the language you are teaching. Magics always begin with either a single <code>%</code> for single-line commands or with <code>%%</code> for applying a command to an entire cell. Some magics can be used with single or double <code>%</code>, but some cannot.</p>
+<p>Magics are meta-commands that only function within Jupyter and allow a user to access language/kernel-specific features. For instance, the IPython kernel provides a number of magics that can be useful while developing Jupyter notebooks using Python as the primary language. These are <a href="https://ipython.readthedocs.io/en/stable/interactive/magics.html">documented</a> and we will only call out a few of these here. Many other magics are available for different kernels but they are specific to Jupyter so do not translate to script. In a teaching environment, we recommend to use them sparingly to avoid obfuscating what is happening. Magics always begin with either a single <code>%</code> for single-line commands or with <code>%%</code> for applying a command to an entire cell. Some magics can be used with single or double <code>%</code>, but some cannot.</p>
 <div id="examples" class="section level4 unnumbered">
 <h4>Examples</h4>
 <ul>
 <li><p>Matplotlib is a common choice for visualization. In Jupyter, the magic <code>%matplotlib</code> allows the resulting figures to be displayed in the notebook: <code>%matplotlib inline</code> produces static images embedded in the notebook, and <code>%matplotlib  notebook</code> produces interactive images (with zooming, panning, etc.).</p></li>
-<li><p>The <code>%run</code> magic allows running external scripts (and other notebooks), captures output and displays it in the notebook, e.g., <code>%run my_script.py</code>. The <code>%run</code> magic is one answer to “how do I import one notebook into another?” (although there are some differences between importing and running).</p></li>
+<li><p>The <code>%run</code> magic allows running external scripts, captures output and displays it in the notebook, e.g., <code>%run my_script.py</code>.</p></li>
 <li><p>The <code>%time</code> magic times the execution of the Python expression following it, e.g., <code>%time sum(range(1000))</code>.</p></li>
 <li><p>The <code>%timeit</code> magic is similar to <code>%time</code>, but it runs the expression multiple times and reports the average execution time.</p></li>
 <li><p>The <code>%reset</code> magic deletes all user-defined variables along with input and output. Magics often have “flags,” following the Unix command pattern. For example, <code>%reset -s</code> is a soft reset and only removes user-defined variables. These commands can be useful to avoid problems with out-of-order execution problems.</p></li>
-<li><p>The <code>%debug</code> magic is used after code has stopped due to an exception (i.e., “the program has crashed”). Enter the <code>%debug</code> magic immediately after the crash, and you will be placed into the environment that caused the problem. From there you can explore variables and find the cause of the problem.</p></li>
 </ul>
 <p>A good example of a magic operating on the entire contents of cell is the <code>%%HTML</code> magic, forcing the cell to be interpreted as HTML and rendered appropriately. You can also use magics to call other languages while running the IPython kernel. For example, you can run R code from within an IPython notebook by using the <code>%%R</code> magic.</p>
-<table>
-<tr>
-<td>
-<strong>Pro Tip</strong>
-</td>
-</tr>
-<tr>
-<td>
-<p>In the IPython kernel you can also use the <code>%shell</code> magic. This is often abbreviated as <code>!</code> and can run and return results from the shell/terminal. In IPython, you can also mix magics with regular Python code. For example, <code>files = ! ls</code> will use the <code>ls</code> (list files) command in the terminal, return the list, and set the Python variable <code>files</code> to that list.</p>
-</td>
-</tr>
-</table>
 </div>
 </div>
 <div id="notebooks-under-version-control" class="section level3">
