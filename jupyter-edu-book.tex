@@ -2736,12 +2736,14 @@ developing Jupyter notebooks using Python as the primary language. These
 are
 \href{https://ipython.readthedocs.io/en/stable/interactive/magics.html}{documented}
 and we will only call out a few of these here. Many other magics are
-available for different kernels but they are specific to Jupyter so do
-not translate to script. In a teaching environment, we recommend to use
-them sparingly to avoid obfuscating what is happening. Magics always
-begin with either a single \texttt{\%} for single-line commands or with
-\texttt{\%\%} for applying a command to an entire cell. Some magics can
-be used with single or double \texttt{\%}, but some cannot.
+available for different kernels but they are specific to Jupyter so may
+not be usable in a stand-alone script in that language outside of
+Jupyter. In some instances, you may want to use magics sparingly to
+avoid obfuscating these meta-commands with the actual commands in the
+language you are teaching. Magics always begin with either a single
+\texttt{\%} for single-line commands or with \texttt{\%\%} for applying
+a command to an entire cell. Some magics can be used with single or
+double \texttt{\%}, but some cannot.
 
 \subsubsection*{Examples}\label{examples}
 \addcontentsline{toc}{subsubsection}{Examples}
@@ -2754,9 +2756,11 @@ be used with single or double \texttt{\%}, but some cannot.
   embedded in the notebook, and \texttt{\%matplotlib\ \ notebook}
   produces interactive images (with zooming, panning, etc.).
 \item
-  The \texttt{\%run} magic allows running external scripts, captures
-  output and displays it in the notebook, e.g.,
-  \texttt{\%run\ my\_script.py}.
+  The \texttt{\%run} magic allows running external scripts (and other
+  notebooks), captures output and displays it in the notebook, e.g.,
+  \texttt{\%run\ my\_script.py}. The \texttt{\%run} magic is one answer
+  to ``how do I import one notebook into another?'' (although there are
+  some differences between importing and running).
 \item
   The \texttt{\%time} magic times the execution of the Python expression
   following it, e.g., \texttt{\%time\ sum(range(1000))}.
@@ -2769,6 +2773,12 @@ be used with single or double \texttt{\%}, but some cannot.
   command pattern. For example, \texttt{\%reset\ -s} is a soft reset and
   only removes user-defined variables. These commands can be useful to
   avoid problems with out-of-order execution problems.
+\item
+  The \texttt{\%debug} magic is used after code has stopped due to an
+  exception (i.e., ``the program has crashed''). Enter the
+  \texttt{\%debug} magic immediately after the crash, and you will be
+  placed into the environment that caused the problem. From there you
+  can explore variables and find the cause of the problem.
 \end{itemize}
 
 A good example of a magic operating on the entire contents of cell is
@@ -2776,6 +2786,15 @@ the \texttt{\%\%HTML} magic, forcing the cell to be interpreted as HTML
 and rendered appropriately. You can also use magics to call other
 languages while running the IPython kernel. For example, you can run R
 code from within an IPython notebook by using the \texttt{\%\%R} magic.
+
+Pro Tip
+
+In the IPython kernel you can also use the \texttt{\%shell} magic. This
+is often abbreviated as \texttt{!} and can run and return results from
+the shell/terminal. In IPython, you can also mix magics with regular
+Python code. For example, \texttt{files\ =\ !\ ls} will use the
+\texttt{ls} (list files) command in the terminal, return the list, and
+set the Python variable \texttt{files} to that list.
 
 \subsection{Notebooks under version
 control}\label{notebooks-under-version-control}
