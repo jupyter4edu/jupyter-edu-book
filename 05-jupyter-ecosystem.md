@@ -309,6 +309,31 @@ extensions for custom interaction and presentation.
 
 ![Google Collaboratory uses Jupyter extensions to customize Jupyter for their users. The run/play icon to the left of the code cell is created using extensions. This is not present in the standard Jupyter software. TensorFlow is a library for creating Machine Learning experiments in Python.](images/chapter53.png "Tensorflow example")
 
+The set of extensions for Jupyter is constantly evolving. Educators
+are exploring new and interesting methods of using notebooks in
+pedagogy. While the list of current extensions is far too long to
+list, you can interactively experience some of the most useful
+extensions through this live
+[Binder notebook](https://hub.mybinder.org/user/psychemedia-showntell-eii7j2nh/notebooks/index_computing.ipynb)
+(Binder is described in detail in the following chapter).
+This live notebook demonstrates the following:
+
+* Turning on line numbers in code cells (makes it easier to refer to a line of code)
+* Code folding extension (hide code blocks to help focus attention)
+* Locked and frozen cells extension (prevent changes to cells)
+* An extension for a better user interface for error messages
+* A "turtle" extension (draws in a canvas in the notebook)
+* Block-based programming extension
+
+The block-based programming extension (called Jigsaw) allows users to
+program using drag-and-drop blocks of code that can be integrated with
+other cells in a Jupyter Notebook (see figure). The advantages (and
+disadvantages) of blocked-based languages are active research topics
+in computer education research (see, for example, Mark Guzdial's
+excellent [Computing Education Research Blog](https://computinged.wordpress.com/),
+specifically [those posts on block-based languages](https://computinged.wordpress.com/tag/blocks-based-language/)).
+
+![Example of incorporating Jigsaw, a block-based extension, in a Jupyter Notebook. The extension allows the user to assemble code blocks that can then be translated into Python or Java, and executed.](images/jigsaw.png "block-based programming")
 
 ## Tips and tricks
 
