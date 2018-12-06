@@ -22,17 +22,17 @@ pre code {
   background: #f5f5f5 5px center/3em no-repeat;
 }
 .rmdcaution {
-  background-image: url("images/logos/caution.png");
+  background-image: url("icons/caution.png");
 }
 .rmdimportant {
-  background-image: url("images/logos/important.png");
+  background-image: url("icons/important.png");
 }
 .rmdnote {
-  background-image: url("images/logos/note.png");
+  background-image: url("icons/note.png");
 }
 .rmdtip {
-  background-image: url("images/logos/tip.png");
+  background-image: url("icons/tip.png");
 }
 .rmdwarning {
-  background-image: url("images/logos/warning.png");
+  background-image: url("icons/warning.png");
 }
