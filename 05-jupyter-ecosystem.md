@@ -145,8 +145,7 @@ some cannot.
   * The `%run` magic allows running external scripts (and other
      notebooks), captures output and displays it in the notebook,
      e.g., `%run my_script.py`. The `%run` magic is one answer to "how
-     do I import one notebook into another?" (although there are some
-     differences between importing and running).
+     do I import one notebook into another?"
 
   *  The `%time` magic times the execution of the Python expression following it, e.g., `%time sum(range(1000))`.
 
