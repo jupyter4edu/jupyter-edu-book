@@ -325,7 +325,7 @@ picking out particularly illustrative examples or key points and appropriately
 scaffolding the example can be critical.  For example, if the critical concept
 is inside of a for loop then only coding the inner part of the for loop can be
 helpful and not overwhelm the presentation with scaffolding such as the setup.
-The reverse can also be true however.  If the complexity or amount of
+The reverse can also be true however.  If too much complexity or
 scaffolding is displayed learners may struggle to understand the scaffolding
 rather than concentrating on the key concept.
 
@@ -336,7 +336,7 @@ and all within an environment where they can ask questions (or pause a video).
 Actively coding along with the instructor also includes a requirement that they
 are actively listening to the instructor and engaged with the content.
 
-Presentation styles of scrolling or shift + enter can are not live coding, but
+Presentation styles of scrolling or shift + enter are not live coding, but
 live demonstrations.  While these limit or negate the benefits of the live
 coding environment, the benefits of speeding up the presentation or running
 through code that's irrelevant to the learning goals may be more important.
