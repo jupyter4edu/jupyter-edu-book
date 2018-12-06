@@ -189,7 +189,7 @@ Coding assignments can be submitted to a Jupyter supported learning management
 system and be autograded (discussed in later chapters), providing instant
 feedback and automating the grading process.  This opens up self paced and
 highly scaled options for many courses, particularly open access MOOCs or large
-sections. Meanwhile, the inline visualization options mean that as assignment
+sections. Meanwhile, the inline visualization options mean that an assignment
 with graphical output can be self contained without trying to embed images
 within a word processing document or attaching a collection of images along with
 a script.
