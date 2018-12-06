@@ -4,6 +4,8 @@ html : _book/index.html
 
 pdf : _book/jupyter-edu-book.pdf
 
+epub : _book/jupyter-edu-book.epub
+
 view-html : _book/index.html
 	$(PYTHON) -c 'import webbrowser; webbrowser.open("$^")'
 
@@ -21,4 +23,7 @@ _book/index.html : $(SOURCES)
 _book/jupyter-edu-book.pdf : $(SOURCES) preamble.tex
 	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
 
-.PHONY: html pdf view-html view-pdf clean
+_book/jupyter-edu-book.epub : $(SOURCES)
+	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::epub_book')"
+
+.PHONY: html pdf epub view-html view-pdf clean
