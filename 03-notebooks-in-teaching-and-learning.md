@@ -522,11 +522,11 @@ after instruction, and notebooks may be a integrated components for students in
 all those contexts (see below).
 
 Within our instructional contexts, those times when we likely have the most
-influence on student learning, we also have lots of options for how we delivery
+influence on student learning, we also have lots of options for how we deliver
 learning experiences. As an instructor you can, for example, assign notebooks as
-pre-work for a flipped classroom approaches, and/or you can use the notebooks
-during an in-person or online class to demo or offer student practice, and/or
-notebooks can be used for homework, assessments, and resources that students can
+pre-work for a flipped classroom approaches; use notebooks
+during an in-person or online class to demo or offer student practice; and/or
+use notebooks for homework, assessments, and resources that students can
 use later long after your instruction. All of these create different contexts
 for your use of notebooks.
 
