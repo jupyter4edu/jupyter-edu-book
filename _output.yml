@@ -16,4 +16,6 @@ bookdown::pdf_book:
   citation_package: none
   pandoc_args: ["--csl", "apa.csl"]
   keep_tex: yes
-bookdown::epub_book: default
+bookdown::epub_book:
+  dev: svglite
+  stylesheet: style.css
