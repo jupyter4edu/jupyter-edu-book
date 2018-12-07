@@ -51,13 +51,8 @@ value of the number indicates the order of execution. For example,
 normally, after you execute the first cell after opening a notebook,
 its prompt will read `In [1]:`.
 
-<table>
-  <tr>
-   <td><strong>Pro Tip</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
+```{block2, type='rmdnote'}
+<strong>Pro Tip</strong>
 
 When teaching with notebooks, you often will want to refer to a cell
 my name. You could refer to a cell by its input prompt
@@ -67,10 +62,7 @@ if they, too, are executing their own copy of the notebook. A better
 way of referring to a cell may be to refer to the text right above the
 cell as that won't change while you execute cells. For referring to
 lines of code, see the following section on Tips and Tricks.
-
-   </td>
-  </tr>
-</table>
+```
 
 Before executing a cell, the input prompt number area will be
 blank. Therefore, you can tell at a glance that that cell has not been
@@ -259,13 +251,8 @@ and rendered appropriately. You can also use magics to call other
 languages while running the IPython kernel.  For example, you can run
 R code from within an IPython notebook by using the `%%R` magic.
 
-<table>
-  <tr>
-   <td><strong>Pro Tip</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
+```{block2, type='rmdnote'}
+<strong>Pro Tip</strong>
 
 In the IPython kernel you can also use the `%shell` magic. This is
 often abbreviated as `!` and can run and return results from the
@@ -273,11 +260,7 @@ shell/terminal. In IPython, you can also mix magics with regular
 Python code. For example, `files = ! ls` will use the `ls` (list
 files) command in the terminal, return the list, and set the
 Python variable `files` to that list.
-
-   </td>
-  </tr>
-</table>
-
+```
 
 ### Notebooks under version control {#notebooks-under-version-control}
 
@@ -308,21 +291,16 @@ are plain-text files and the file format is represented as
 [JSON](https://www.json.org/)). 
 The community is actively developing tools to make it easier to use version control with Jupyter notebooks; one such tool is `nbdime` (see box).
 
-<table>
-  <tr>
-  <td> <strong>nbdime</strong> <a href="https://nbdime.readthedocs.io/">nbdime.readthedocs.io/</a>
-  </td>
-  <tr>
-  <td>
-  nbdime includes a set of tools for reviewing the changes ("diffs") 
-  and merging changes in Jupyter notebooks. You can compare versions 
-  of a notebook using the terminal, view the changes richly rendered 
-  on a browser, and merge in various ways. Because nbdime understands 
-  the structure of notebook documents, it can make smart "diffing and 
-  merging" decisions.
-  </td>
-  </tr>
-</table>
+```{block2, type='rmdnote'}
+<strong>nbdime</strong> <a href="https://nbdime.readthedocs.io/">nbdime.readthedocs.io/</a>
+
+nbdime includes a set of tools for reviewing the changes ("diffs") and
+merging changes in Jupyter notebooks. You can compare versions of a
+notebook using the terminal, view the changes richly rendered on a
+browser, and merge in various ways. Because nbdime understands the
+structure of notebook documents, it can make smart "diffing and
+merging" decisions.
+```
 
 Another option to improve your version-control experience is to export
 a Jupyter notebook to a markdown document, for example using the [jupytext](https://github.com/mwouts/jupytext) tool.
@@ -523,21 +501,14 @@ exploring various possible solutions. For example, trying searching
 the internet for "jupyter dependency graph" or "jupyter dataflow
 notebook."
 
-<table>
-  <tr>
-   <td><strong>Pro Tip</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   You can easily split a cell into two parts at the cursor using the
-   keystroke `CONTROL` + `SHIFT` + `-`. You can also merge multiple cells
-   with `SHIFT` + `m`. Both of these are also available from the menu under
-   `Edit`.
-   </td>
-  </tr>
-</table>
+```{block2, type='rmdnote'}
+<strong>Pro Tip</strong>
 
+You can easily split a cell into two parts at the cursor using the
+keystroke `CONTROL` + `SHIFT` + `-`. You can also merge multiple cells
+with `SHIFT` + `m`. Both of these are also available from the menu
+under `Edit`.
+```
 
 On the other hand, it is often a useful idea to separate lines of code
 where you want to provide the student a place to interactively add
