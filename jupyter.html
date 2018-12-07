@@ -289,18 +289,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>When using Jupyter notebooks on the data projector or large screen monitor in the classroom, we recommend giving the students specific instructions on the meaning of the user interface of the notebook. It is not exactly intuitive.</p>
 <p>The first and most salient component of the notebook is the <em>cell</em>. Indeed, the entire contents of a notebook is composed of only cells. These cells can take one of two forms: text or code. We will descibe the authoring of a notebook in the following section; however, here we identify some of the subtle, yet important components of a code cell.</p>
 <p>Code cells are composed of three areas: the <strong>input</strong> area, the <strong>display</strong> area, and the <strong>output</strong> area. The input area is identified by the <code>In []:</code> prompt to the left of the cell. Between the brackets of the <code>In</code> prompt can be one of three items: a number, an asterisk, or a blank. A number indicates that this cell has been executed and the value of the number indicates the order of execution. For example, normally, after you execute the first cell after opening a notebook, its prompt will read <code>In [1]:</code>.</p>
-<table>
-<tr>
-<td>
-<strong>Pro Tip</strong>
-</td>
-</tr>
-<tr>
-<td>
-<p>When teaching with notebooks, you often will want to refer to a cell my name. You could refer to a cell by its input prompt number. However, keep in mind that this number will change if you excecute the cell again, or that students may have different numbers if they, too, are executing their own copy of the notebook. A better way of referring to a cell may be to refer to the text right above the cell as that won’t change while you execute cells. For referring to lines of code, see the following section on Tips and Tricks.</p>
-</td>
-</tr>
-</table>
+
+<div class="rmdnote">
+<p><strong>Pro Tip</strong></p>
+When teaching with notebooks, you often will want to refer to a cell my name. You could refer to a cell by its input prompt number. However, keep in mind that this number will change if you excecute the cell again, or that students may have different numbers if they, too, are executing their own copy of the notebook. A better way of referring to a cell may be to refer to the text right above the cell as that won’t change while you execute cells. For referring to lines of code, see the following section on Tips and Tricks.
+</div>
+
 <p>Before executing a cell, the input prompt number area will be blank. Therefore, you can tell at a glance that that cell has not been executed yet. It may also be the case that if an input prompt does have a number in it, then the cell has been run in the past. However, the cell may not have been run during this session, and thus the output may be showing old results. We recommend running from the menu: <code>Cell</code>, <code>All outputs</code>, <code>Clear</code> at the beginning of a presentation. That initializes all cell inputs to the blank state.</p>
 <p>During the execution of a cell, the input prompt will contain an asterisk. If it seems that too much time has passed and you still see <code>In [*]:</code> your code may be in an infinite loop, or you have lost communication with the kernel. You may have to interrupt or restart the kernel. This is discuss below.</p>
 <p>Finally, it is important to keep separate the display and output areas below the input cell. The difference between these two areas is subtle and confusing, but is very important in some instances. The display area is reserved for any item that code has produced for viewing. That includes simple text (i.e., <code>print(&quot;hello, world&quot;)</code>) or figures from a plot. The output area is reserved for items that the cell “returns.” This is why in many notebooks you may see a variable assignment followed immediately by the variable, like this:</p>
@@ -359,35 +353,24 @@ Map(center=[34.6252978589571, -77.34580993652344], zoom=10)</code></pre>
 <li><p>The <code>%debug</code> magic is used after code has stopped due to an exception (i.e., “the program has crashed”). Enter the <code>%debug</code> magic immediately after the crash, and you will be placed into the environment that caused the problem. From there you can explore variables and find the cause of the problem.</p></li>
 </ul>
 <p>A good example of a magic operating on the entire contents of cell is the <code>%%HTML</code> magic, forcing the cell to be interpreted as HTML and rendered appropriately. You can also use magics to call other languages while running the IPython kernel. For example, you can run R code from within an IPython notebook by using the <code>%%R</code> magic.</p>
-<table>
-<tr>
-<td>
-<strong>Pro Tip</strong>
-</td>
-</tr>
-<tr>
-<td>
-<p>In the IPython kernel you can also use the <code>%shell</code> magic. This is often abbreviated as <code>!</code> and can run and return results from the shell/terminal. In IPython, you can also mix magics with regular Python code. For example, <code>files = ! ls</code> will use the <code>ls</code> (list files) command in the terminal, return the list, and set the Python variable <code>files</code> to that list.</p>
-</td>
-</tr>
-</table>
+
+<div class="rmdnote">
+<p><strong>Pro Tip</strong></p>
+In the IPython kernel you can also use the <code>%shell</code> magic. This is often abbreviated as <code>!</code> and can run and return results from the shell/terminal. In IPython, you can also mix magics with regular Python code. For example, <code>files = ! ls</code> will use the <code>ls</code> (list files) command in the terminal, return the list, and set the Python variable <code>files</code> to that list.
+</div>
+
 </div>
 </div>
 <div id="notebooks-under-version-control" class="section level3">
 <h3><span class="header-section-number">5.3.4</span> Notebooks under version control</h3>
 <p>Keeping notebooks under version control is a great way to not only keep track of changes to your content, but also for sharing it. In a course where multiple people are contributing to the development of notebooks for the course, using version control in conjunction with a platform like GitHub, allows authorship to be tracked and provides communication tools for reviewing new contributions or outlining requested development for a new assignment, activity, etc. Another advantage of using version control is that some services will provide rendered views of notebooks that you have made public. GitHub shows a rendered version of the notebook, rather than the ASCII text that a notebook is comprised of. Some pitfalls with LaTeX rendering may occur, as platforms do not always render the notebooks the same as they would appear in an active Jupyter interface.</p>
 <p>We should mention a few caveats to keeping notebooks under version control. The code output, including images, is stored in the repository, unless you clear the output before committing changes. This can make reviewing changes difficult, as changes in output will be detected even when nothing has actually changed content-wise. The tracked notebooks also can become large if output is tracked. Even when clearing the output, reviewing changes can be awkward due to the format of the notebook (notebooks are plain-text files and the file format is represented as <a href="https://www.json.org/">JSON</a>). The community is actively developing tools to make it easier to use version control with Jupyter notebooks; one such tool is <code>nbdime</code> (see box).</p>
-<table>
-<tr>
-<td>
-<strong>nbdime</strong> <a href="https://nbdime.readthedocs.io/">nbdime.readthedocs.io/</a>
-</td>
-<tr>
-<td>
+
+<div class="rmdnote">
+<p><strong>nbdime</strong> <a href="https://nbdime.readthedocs.io/">nbdime.readthedocs.io/</a></p>
 nbdime includes a set of tools for reviewing the changes (“diffs”) and merging changes in Jupyter notebooks. You can compare versions of a notebook using the terminal, view the changes richly rendered on a browser, and merge in various ways. Because nbdime understands the structure of notebook documents, it can make smart “diffing and merging” decisions.
-</td>
-</tr>
-</table>
+</div>
+
 <p>Another option to improve your version-control experience is to export a Jupyter notebook to a markdown document, for example using the <a href="https://github.com/mwouts/jupytext">jupytext</a> tool. Then you can review diffs in the usual way for plain-text files.</p>
 </div>
 <div id="testing-notebooks" class="section level3">
@@ -452,18 +435,12 @@ nbdime includes a set of tools for reviewing the changes (“diffs”) and mergi
 <h3><span class="header-section-number">5.4.4</span> How to structure code cells</h3>
 <p>How much code should you put in a cell? You will develop your own style of writing noteooks with experience. Typically, you will want to keep the number of lines low so that it is easy to follow, and you can have useful comments above the cell. However, we recommend putting code that “goes together as a meaningful unit” into a single cell. For example, if you have lines of code that are highly dependent on each other, then you might want to put them together. As an example, consider two lines of code: one that opens a file, and the second that reads the data from the file. It is probably a good idea to put those into the same cell so that they are always executed together. Otherwise, the student may encounter errors if they execute cells independently a second time (e.g., there are no more data).</p>
 <p>Specifically, messing up the dependencies between cells is where most of the confusion using notebooks comes from with new users. For example, if you change a variable’s name (without restarting the notebook), then the following code cells may continue to use the old variable’s name (and value). Later, when running the notebook again, the notebook may fail in unexpected ways because the old variable no longer exists. This is sometimes referred to as “the hidden state problem.” This is an open research problem, and researchers are exploring various possible solutions. For example, trying searching the internet for “jupyter dependency graph” or “jupyter dataflow notebook.”</p>
-<table>
-<tr>
-<td>
-<strong>Pro Tip</strong>
-</td>
-</tr>
-<tr>
-<td>
+
+<div class="rmdnote">
+<p><strong>Pro Tip</strong></p>
 You can easily split a cell into two parts at the cursor using the keystroke <code>CONTROL</code> + <code>SHIFT</code> + <code>-</code>. You can also merge multiple cells with <code>SHIFT</code> + <code>m</code>. Both of these are also available from the menu under <code>Edit</code>.
-</td>
-</tr>
-</table>
+</div>
+
 <p>On the other hand, it is often a useful idea to separate lines of code where you want to provide the student a place to interactively add cells, and examine the state at that particular point in the process. Asking probing questions in a Socratic method is a very useful technique for engaging the reader and encouraging them to become more than a reader. Students do not naturally know to insert cells and explore items in a notebook. You will need to explicitly teach this skill. In fact, teaching students how to effectively weave code into their <em>own</em> notebook stories is an important component of teaching with notebooks.</p>
 </div>
 <div id="custom-styling" class="section level3">

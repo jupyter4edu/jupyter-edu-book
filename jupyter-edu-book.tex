@@ -2762,6 +2762,7 @@ cell has been executed and the value of the number indicates the order
 of execution. For example, normally, after you execute the first cell
 after opening a notebook, its prompt will read \texttt{In\ {[}1{]}:}.
 
+\BeginKnitrBlock{rmdnote}
 Pro Tip
 
 When teaching with notebooks, you often will want to refer to a cell my
@@ -2772,6 +2773,7 @@ executing their own copy of the notebook. A better way of referring to a
 cell may be to refer to the text right above the cell as that won't
 change while you execute cells. For referring to lines of code, see the
 following section on Tips and Tricks.
+\EndKnitrBlock{rmdnote}
 
 Before executing a cell, the input prompt number area will be blank.
 Therefore, you can tell at a glance that that cell has not been executed
@@ -2965,6 +2967,7 @@ and rendered appropriately. You can also use magics to call other
 languages while running the IPython kernel. For example, you can run R
 code from within an IPython notebook by using the \texttt{\%\%R} magic.
 
+\BeginKnitrBlock{rmdnote}
 Pro Tip
 
 In the IPython kernel you can also use the \texttt{\%shell} magic. This
@@ -2973,6 +2976,7 @@ the shell/terminal. In IPython, you can also mix magics with regular
 Python code. For example, \texttt{files\ =\ !\ ls} will use the
 \texttt{ls} (list files) command in the terminal, return the list, and
 set the Python variable \texttt{files} to that list.
+\EndKnitrBlock{rmdnote}
 
 \subsection{Notebooks under version
 control}\label{notebooks-under-version-control}
@@ -3003,6 +3007,7 @@ represented as \href{https://www.json.org/}{JSON}). The community is
 actively developing tools to make it easier to use version control with
 Jupyter notebooks; one such tool is \texttt{nbdime} (see box).
 
+\BeginKnitrBlock{rmdnote}
 nbdime nbdime.readthedocs.io/
 
 nbdime includes a set of tools for reviewing the changes (``diffs'') and
@@ -3011,6 +3016,7 @@ notebook using the terminal, view the changes richly rendered on a
 browser, and merge in various ways. Because nbdime understands the
 structure of notebook documents, it can make smart ``diffing and
 merging'' decisions.
+\EndKnitrBlock{rmdnote}
 
 Another option to improve your version-control experience is to export a
 Jupyter notebook to a markdown document, for example using the
@@ -3231,12 +3237,14 @@ research problem, and researchers are exploring various possible
 solutions. For example, trying searching the internet for ``jupyter
 dependency graph'' or ``jupyter dataflow notebook.''
 
+\BeginKnitrBlock{rmdnote}
 Pro Tip
 
 You can easily split a cell into two parts at the cursor using the
 keystroke \texttt{CONTROL} + \texttt{SHIFT} + \texttt{-}. You can also
 merge multiple cells with \texttt{SHIFT} + \texttt{m}. Both of these are
 also available from the menu under \texttt{Edit}.
+\EndKnitrBlock{rmdnote}
 
 On the other hand, it is often a useful idea to separate lines of code
 where you want to provide the student a place to interactively add
@@ -3382,6 +3390,7 @@ opening them through the Spyder IDE. These attributes make it attractive
 for both personal use and for installation on institution controlled
 computers.
 
+\BeginKnitrBlock{rmdnote}
 What is Anaconda?
 
 You will see the Anaconda distribution recommended by many educators and
@@ -3394,6 +3403,7 @@ of the Python and R ecosystems, and to manage computational
 environments. According to the company's webpage, Anaconda has more than
 6 million users; see: What is Anaconda?. The Software Carpentry project
 provides installation instructions for Anaconda, with videos.
+\EndKnitrBlock{rmdnote}
 
 Two other easily installable software packages that can run Jupyter
 notebooks are \href{https://nteract.io/}{nteract} and
@@ -3577,6 +3587,7 @@ However, there are some limitations to these services:
   be as reliable as you need for a class or workshop.
 \end{itemize}
 
+\BeginKnitrBlock{rmdnote}
 Binder mybinder.org
 
 Binder is an open-source service provided by Project Jupyter. It allows
@@ -3587,6 +3598,7 @@ pre-loaded with the notebooks in the repository. The session is
 temporary (any changes the user makes will be deleted when closing the
 tab or window), but it's fully interactive. Binder is currently one of
 the favorite services for running one-off workshops or tutorials.
+\EndKnitrBlock{rmdnote}
 
 \subsection{Running on servers you
 control}\label{running-on-servers-you-control}
@@ -3801,11 +3813,15 @@ download the files by clicking on a link. Most web-hosting software is
 not notebook-aware, but you can use \texttt{nbviewer} to share public
 notebooks, rendered as a static web page.
 
+\BeginKnitrBlock{rmdnote}
 nbviewer nbviewer.jupyter.org
 
-\begin{verbatim}
-nbviewer is a web service provided by Project Jupyter. You can enter the URL of any publicly hosted notebook, and get a web page with the content of the notebook fully rendered. Some browser extensions and add-ons let you open a notebook in nbviewer with a button click. See: <a href="https://jiffyclub.github.io/open-in-nbviewer/">Open in nbviewer</a>.
-\end{verbatim}
+nbviewer is a web service provided by Project Jupyter. You can enter the
+URL of any publicly hosted notebook, and get a web page with the content
+of the notebook fully rendered. Some browser extensions and add-ons let
+you open a notebook in nbviewer with a button click. See: Open in
+nbviewer.
+\EndKnitrBlock{rmdnote}
 
 \subsection{GitHub}\label{github}
 
@@ -3856,6 +3872,7 @@ then publish their notebooks back to you for downloading, viewing, or
 assessing with the \texttt{nbgrader} tools (see the next section for
 details on this tool).
 
+\BeginKnitrBlock{rmdnote}
 nbgrader
 
 nbgrader is a tool for creating, handling, and automatically grading
@@ -3868,6 +3885,7 @@ is running Jupyter on their own computers, or in a centralized manner,
 for example, if the students each have an account on a JupyterHub
 installation. (More details in the Assessment section.)
 \url{https://nbgrader.readthedocs.io}
+\EndKnitrBlock{rmdnote}
 
 \subsection{\texorpdfstring{Using an LMS and \texttt{nbgrader}
 together:}{Using an LMS and nbgrader together:}}\label{using-an-lms-and-nbgrader-together}
@@ -3912,12 +3930,14 @@ shared folder. At that point, the instructor can mark and grade them in
 a traditional manner, for example by writing comments on a printout or
 adding annotations to a PDF.
 
+\BeginKnitrBlock{rmdnote}
 Pro Tip
 
 Printing out a notebook can sometimes result in wasted space on pages,
 especially for notebooks with many images or figures. Converting to PDF
 requires large/complex LaTeX installations. Exporting to HTML and then
 printing often gives a better result.
+\EndKnitrBlock{rmdnote}
 
 \texttt{nbgrader} allows code cells in a notebook to be marked to be
 auto-graded or manually graded. An instructor can then create an
@@ -3938,12 +3958,14 @@ specific software-design patterns. To address this, you can create
 manually graded cells for a portion of an assignment and provide written
 feedback to the student.
 
+\BeginKnitrBlock{rmdnote}
 Caution
 
 At the time of this writing, nbgrader has some limitations that require
 careful use. For example, using it in a multi-class setting (say, on
 JupyterHub) requires that instructors coordinate the naming of
 assignments so that they do not collide.
+\EndKnitrBlock{rmdnote}
 
 \texttt{nbgrader} is a sophisticated tool that can be set up to allow
 multiple graders, teaching assistants, and more. For more information on
