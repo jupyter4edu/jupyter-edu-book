@@ -23,13 +23,9 @@ be opened by launching Jupyter or by opening them through the Spyder IDE. These
 attributes make it attractive for both personal use and for installation on
 institution controlled computers.
 
-<table>
-  <tr>
-   <td><strong>What is Anaconda?</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
+```{block2, type='rmdnote'}
+<strong>What is Anaconda?</strong>
+
 You will see the Anaconda distribution
 recommended by many educators and course authors. Anaconda is a
 package manager, an environment manager, a Python distribution, a
@@ -44,11 +40,7 @@ Anaconda has more than 6 million
 users; see: <a href="https://www.anaconda.com/what-is-anaconda/">What is Anaconda?</a>.
 The Software Carpentry project provides <a href="https://swcarpentry.github.io/python-novice-gapminder/setup/">installation
 instructions for Anaconda</a>, with videos.
-  
-
-   </td>
-  </tr>
-</table>
+```
 
 Two other easily installable software packages that can run Jupyter notebooks
 are [nteract](https://nteract.io/) and [Hydrogen](https://nteract.io/atom).
@@ -216,13 +208,9 @@ However, there are some limitations to these services:
 * Some of these services do not guarantee a level of service and may
     not be as reliable as you need for a class or workshop.
 
-<table>
-  <tr>
-   <td><strong>Binder</strong> <a href="https://mybinder.org">mybinder.org</a>
-   </td>
-  </tr>
-  <tr>
-   <td>
+```{block2, type='rmdnote'}
+<strong>Binder</strong> <a href="https://mybinder.org">mybinder.org</a>
+
 Binder is an
 open-source service provided by Project Jupyter. It allows the
 owner of a set of notebooks residing in a public repository to
@@ -233,12 +221,7 @@ temporary (any changes the user makes will be deleted when
 closing the tab or window), but it's fully interactive. Binder
 is currently one of the favorite services for running one-off
 workshops or tutorials.
-
-   </td>
-  </tr>
-</table>
-
-
+```
 
 ### Running on servers you control
 
@@ -446,20 +429,11 @@ Notebooks can be publicly hosted on any website, so students can
 download the files by clicking on a link. Most web-hosting software is
 not notebook-aware, but you can use `nbviewer` to share public notebooks, rendered as a static web page.
 
-<table>
-  <tr>
-   <td><strong>nbviewer</strong> <a href="https://nbviewer.jupyter.org/">nbviewer.jupyter.org</a>
-   </td>
-  </tr>
-  <tr>
-   <td>
-	nbviewer is a web service provided by Project Jupyter. You can enter the URL of any publicly hosted notebook, and get a web page with the content of the notebook fully rendered. Some browser extensions and add-ons let you open a notebook in nbviewer with a button click. See: <a href="https://jiffyclub.github.io/open-in-nbviewer/">Open in nbviewer</a>.
-   </td>
-  </tr>
-</table>
+```{block2, type='rmdnote'}
+<strong>nbviewer</strong> <a href="https://nbviewer.jupyter.org/">nbviewer.jupyter.org</a>
 
-
-
+nbviewer is a web service provided by Project Jupyter. You can enter the URL of any publicly hosted notebook, and get a web page with the content of the notebook fully rendered. Some browser extensions and add-ons let you open a notebook in nbviewer with a button click. See: <a href="https://jiffyclub.github.io/open-in-nbviewer/">Open in nbviewer</a>.
+```
 
 ### GitHub
 
@@ -510,14 +484,10 @@ then publish their notebooks back to you for downloading, viewing, or
 assessing with the `nbgrader` tools (see the next section for details on
 this tool).
 
-<table>
-  <tr>
-   <td><strong>nbgrader</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   nbgrader is a tool for creating, handling,
+```{block2, type='rmdnote'}
+<strong>nbgrader</strong>
+
+nbgrader is a tool for creating, handling,
 and automatically grading assignments based on Jupyter
 notebooks. It works as a Jupyter extension that the course
 creator installs on their computer. nbgrader is a flexible
@@ -528,11 +498,7 @@ each student is running Jupyter on their own computers, or in a
 centralized manner, for example, if the students each have an
 account on a JupyterHub installation. (More details in the
 Assessment section.) <https://nbgrader.readthedocs.io>
-   </td>
-  </tr>
-</table>
-
-
+```
 
 ### Using an LMS and `nbgrader` together:
 
@@ -570,20 +536,14 @@ or drop them into a shared folder. At that point, the instructor can
 mark and grade them in a traditional manner, for example by
 writing comments on a printout or adding annotations to a PDF.
 
-<table>
-  <tr>
-   <td><strong>Pro Tip</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Printing out a notebook can sometimes result in wasted
-      space on pages, especially for notebooks with many images or
-      figures. Converting to PDF requires large/complex LaTeX
-      installations. Exporting to HTML and then printing often gives a
-      better result.   </td>
-  </tr>
-</table>
+```{block2, type='rmdnote'}
+<strong>Pro Tip</strong>
 
+Printing out a notebook can sometimes result in wasted space on pages,
+especially for notebooks with many images or figures. Converting to
+PDF requires large/complex LaTeX installations. Exporting to HTML and
+then printing often gives a better result.
+```
 
 `nbgrader` allows code cells in a notebook to be marked to be
 auto-graded or manually graded. An instructor can then create an
@@ -604,23 +564,14 @@ use specific software-design patterns. To address this, you can create
 manually graded cells for a portion of an assignment and provide
 written feedback to the student.
 
-<table>
-  <tr>
-   <td><strong>Caution</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
+```{block2, type='rmdnote'}
+<strong>Caution</strong>
+
 At the time of this writing, nbgrader has some limitations
 that require careful use. For example, using it in a multi-class
 setting (say, on JupyterHub) requires that instructors coordinate the
 naming of assignments so that they do not collide.
-
-   </td>
-  </tr>
-</table>
-
-
+```
 
 `nbgrader` is a sophisticated tool that can be set up to allow multiple
 graders, teaching assistants, and more. For more information on using
