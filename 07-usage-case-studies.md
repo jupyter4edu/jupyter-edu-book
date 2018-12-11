@@ -363,3 +363,7 @@ The project naturally evolved into having different Jupyter notebooks, each aime
 As one would expect, several new problems arose regarding how to make a book that is somewhat compatible across all the different platforms in which we wanted to present the book, particularly since the notebooks make heavy use of interactive widgets and animations. With the help of our publisher (SIAM) and several developers working on Jupyter-based tools for publishing interactive books, we are close to finalizing the project. We are happy to say that this project promoted the development of some of these tools and that is encouraging our publisher to delve more into interactive book publication.
 
  -- David I. Ketcheson, Randall J. LeVeque, and Mauricio J. del Razo
+
+![Visualization from the acoustics equations chapter of the book at
+  [https://github.com/clawpack/riemann_book](https://github.com/clawpack/riemann_book)
+  It shows an interactive visualization of the solution to the Riemann problem for acoustics equations, where the initial condition emulates a shock tube.](images/shocktube.png)
