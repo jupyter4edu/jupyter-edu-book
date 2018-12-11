@@ -324,6 +324,15 @@ which provide free trials or a "freemium" pricing model. They include:
     like a way to create a course, invite students, and deploy
     auto-graded assignments.
 
+* HubHero ([https://hubhero.net](https://hubhero.net)) provides dependable
+  JupyterHub servers for teaching professionals. For courses of up to about 30
+  students we offer [the community install](https://hubhero.net/community/) which
+  gets you your own JupyterHub on your own hardware or a cloud provider of your
+  choice. For larger courses or fully managed deployments
+  [hosted solutions](https://hubhero.net/hosted/) are available as well. Hub
+  Hero is owned by [Tim Head](https://github.com/betatim/) a project lead for
+  https://mybinder.org and contributor to JupyterHub.
+
 * codio
     ([https://codio.com/features/ide](https://codio.com/features/ide))
 
