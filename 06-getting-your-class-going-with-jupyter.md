@@ -340,11 +340,9 @@ which provide free trials or a "freemium" pricing model. They include:
   [Kaggle Datasets](https://www.kaggle.com/datasets). Instructors can use one of
   the thousands datasets available on 
   [Kaggle Datasets](https://www.kaggle.com/datasets) (perfect for implementing 
-  the 
-  [The world is your dataset](#the-world-is-your-dataset) 
-  pedagogical pattern) or upload their own data (up to 10GB per dataset). Kaggle 
-  can also help implementing the
-  [There can be only one](#there-can-be-only-one) 
+  the [The world is your dataset](#the-world-is-your-dataset) pedagogical 
+  pattern) or upload their own data (up to 10GB per dataset). Kaggle 
+  can also help implementing the [There can be only one](#there-can-be-only-one) 
   pattern with 
   [In-class competitions](https://www.kaggle.com/about/inclass/overview)
   a feature that allows instructors to easily set up competitions with automatic 
