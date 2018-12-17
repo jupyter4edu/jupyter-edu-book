@@ -324,8 +324,8 @@ which provide free trials or a "freemium" pricing model. They include:
     like a way to create a course, invite students, and deploy
     auto-graded assignments.
 
-* HubHero ([https://hubhero.net](https://hubhero.net)) provides dependable
-  JupyterHub servers for teachers. For courses of up to about 30
+* HubHero ([https://hubhero.net](https://hubhero.net)) provides professionally
+  configured JupyterHub servers for teachers. For courses of up to about 30
   students they offer [the community install](https://hubhero.net/community/) which
   gets you your own JupyterHub on your own hardware or a cloud provider of your
   choice. For larger courses or fully managed deployments
