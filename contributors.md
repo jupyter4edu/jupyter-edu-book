@@ -15,3 +15,4 @@ Example: `Family name, First name (GitHub username)`
 ## Contributors
 
 - `Drake, Peter (PeterDrake)`
+- `Gorgolewski, Chris (chrisfilo)`

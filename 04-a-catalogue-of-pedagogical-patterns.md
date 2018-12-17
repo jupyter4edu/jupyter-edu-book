@@ -759,7 +759,7 @@ This pattern requires additional time and student effort on a topic that might
 not deserve the additional resources.
 
 
-## The world is your dataset
+## The world is your dataset {#the-world-is-your-dataset}
 
 
 **Description:**<br/>
@@ -919,7 +919,7 @@ for copies of the notebook to get shared without the data. Students may also be
 shy or fearful of showing their work publicly, so explaining the benefits may
 be needed to curtail their worries.
 
-## There can be only one
+## There can be only one {#there-can-be-only-one}
 
 
 **Description:**<br/>

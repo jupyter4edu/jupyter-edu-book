@@ -333,6 +333,27 @@ which provide free trials or a "freemium" pricing model. They include:
   Hero is owned by [Tim Head](https://github.com/betatim/) a project lead for
   https://mybinder.org and contributor to JupyterHub.
 
+* Kaggle Kernels ([https://kaggle.com/kernels](https://kaggle.com/kernels)) are 
+  free hosted Python and R notebooks with access to substantial computational 
+  resources (quad-core, 16GB RAM, GPU, Internet connected, up to 6h runtime per 
+  session). All notebooks have also seemless access to datasets hosted on 
+  [Kaggle Datasets](https://www.kaggle.com/datasets). Instructors can use one of
+  the thousands datasets available on 
+  [Kaggle Datasets](https://www.kaggle.com/datasets) (perfect for implementing 
+  the 
+  [The world is your dataset](#the-world-is-your-dataset) 
+  pedagogical pattern) or upload their own data (up to 10GB per dataset). Kaggle 
+  can also help implementing the
+  [There can be only one](#there-can-be-only-one) 
+  pattern with 
+  [In-class competitions](https://www.kaggle.com/about/inclass/overview)
+  a feature that allows instructors to easily set up competitions with automatic 
+  leaderboards. All of the work students do on Kaggle is saved and available
+  to them beyond the duration of the course/workshop. Additional software
+  dependencies can be installed within notebooks via `!pip` or included in the
+  common environment by sending a Pull Request to 
+  [Kaggle Dockerfile](https://github.com/Kaggle/docker-python).
+
 * codio
     ([https://codio.com/features/ide](https://codio.com/features/ide))
 
