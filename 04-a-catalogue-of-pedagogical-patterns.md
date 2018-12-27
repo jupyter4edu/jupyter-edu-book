@@ -338,7 +338,7 @@ notebooks breaking down the details of each component of the workflow.
 **Example:**<br/>
 To solve a numerical simulation using a finite volume approach, a mesh
 must be designed, differential operators formed, boundary conditions
-set, a right hand-side generated and then the system
+set, a right-hand side generated and then the system
 solved. Naturally, there are important considerations for each
 step. For even a moderately sized problem, sparse matrices are
 necessary in order to keep memory usage contained, the mesh must be
