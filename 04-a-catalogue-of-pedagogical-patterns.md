@@ -833,16 +833,16 @@ broken cells.
 
 **Example:**<br/>
 An instructor designs a lesson in exploratory data analysis to scrape the
-critics reviews for a specific movie from a particular movie review website and
+critics' reviews for a specific movie from a particular movie review website and
 then provide some simple visualizations. The students have a few options:
 
 1. Green Circle - replace the movie name and pick any movie they want and then
    step through the new notebook and see the new results.
-1. Blue Square - adjust the notebook to scrape user reviews rather than critics
+1. Blue Square - adjust the notebook to scrape users' reviews rather than critics'
    reviews and then fix any data parsing problems.
 1. Black Diamond - add different visualizations tailored to explore the user
    reviews (as opposed to the initial visualizations that are tailored for the
-   critic reviews).
+   critics' reviews).
 
 There are various ways to test the properties of numerical methods. For
 example, students can use the method of manufactured solutions to test the
