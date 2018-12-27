@@ -24,7 +24,7 @@
 
 
 
-<meta name="date" content="2018-12-17">
+<meta name="date" content="2018-12-27">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -358,7 +358,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="win-day-one" class="section level2">
 <h2><span class="header-section-number">4.7</span> Win-day-one</h2>
 <p><strong>Description:</strong><br/> A win-day-one exercise brings learners to the answer quickly and concisely, almost like a magic trick, and then breaks down and methodically works through each of the steps, revealing the magician’s tricks. It generally involves multiple notebooks: the first notebook being the “win” which shows the workflow end-to-end, and subsequent notebooks breaking down the details of each component of the workflow.</p>
-<p><strong>Example:</strong><br/> To solve a numerical simulation using a finite volume approach, a mesh must be designed, differential operators formed, boundary conditions set, a right hand-side generated and then the system solved. Naturally, there are important considerations for each step. For even a moderately sized problem, sparse matrices are necessary in order to keep memory usage contained, the mesh must be appropriately designed in order to satisfy boundary conditions, and the solver needs to be compatible with the structure of the system matrix. These details are critical for assembling a numerical computation, but if introduced upfront, they can overwhelm the conversation.</p>
+<p><strong>Example:</strong><br/> To solve a numerical simulation using a finite volume approach, a mesh must be designed, differential operators formed, boundary conditions set, a right-hand side generated and then the system solved. Naturally, there are important considerations for each step. For even a moderately sized problem, sparse matrices are necessary in order to keep memory usage contained, the mesh must be appropriately designed in order to satisfy boundary conditions, and the solver needs to be compatible with the structure of the system matrix. These details are critical for assembling a numerical computation, but if introduced upfront, they can overwhelm the conversation.</p>
 <p>In a win-day-one approach, learners are first shown a concise example, in which many of the details are abstracted away in functions or objects. For example, methods such as <code>get_mesh</code>, <code>get_pde</code>, and <code>solve</code> abstract away the details of mesh design, creating differential operators and solving the set of equations. In subsequent notebooks, the workflow is tackled methodically, and the inner workings of each component discussed.</p>
 <p><strong>Related patterns:</strong><br/> <a href="catalogue.html#top-down-sequence">Top-down sequence</a>, <a href="catalogue.html#proof-by-example-disproof-by-counterexample">Proof by example, disproof by counterexample</a></p>
 <p><strong>Learning goals:</strong><br/> This can be an effective approach for introducing complex processes, providing context for how each of the components fits together, and focusing attention.</p>
