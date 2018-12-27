@@ -107,13 +107,13 @@ significant experience.
 **Format (lecture / lab / …):**<br/>
 Assignments and labs can adopt this approach (nbgrader can be used to
 help with marking). It can also be used in a lecture or tutorial
-setting where the instructor demo's how to fill in the blank.
+setting where the instructor demos how to fill in the blank.
 
 
 **Pitfalls:**<br/>
 Some students don't find this approach engaging. In particular, if the
 exercise is too simple for the level of programming competency of the
-students, it can be perceived a "make-work" task.
+students, it can be perceived as a "make-work" task.
 
 ## Target Practice
 
