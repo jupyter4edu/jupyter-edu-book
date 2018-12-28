@@ -368,7 +368,7 @@ student activities).
 
 Other drawbacks include:
 
-* It may be difficult or impossible to install packages you, or
+* It may be difficult or impossible to install packages you need, or
     particular versions of packages.
 
 * Some of these services impose limits on what students can do; for
