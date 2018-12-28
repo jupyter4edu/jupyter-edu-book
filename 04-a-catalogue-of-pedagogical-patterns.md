@@ -1056,7 +1056,7 @@ reference to nbgrader] supports automated testing of the code students write in
 notebooks; in that environment, the tests are not visible to students, which
 may or may not be a bug.
 
-This pattern required the overhead of teaching students about the unit testing
+This pattern requires the overhead of teaching students about the unit testing
 framework. Students working to make tests pass can lose their view of the big
 picture, and feel like they have been robbed of autonomy. This type of exercise
 is best used sparingly.
