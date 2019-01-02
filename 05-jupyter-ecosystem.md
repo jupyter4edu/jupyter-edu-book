@@ -456,7 +456,7 @@ nice way to let everyone in the class see one another's solutions.  A
 positive aspect of having multiple student solutions projected is that
 it can show the variety of ways to solve a problem. This gives an
 opportunity to talk about the readability of solutions and their
-efficiency. A downside is that in a large class, the shear volume of
+efficiency. A downside is that in a large class, the sheer volume of
 posts can make it overwhelming. Instead polling can be used to
 aggregate student answers and provide some form of feedback to the
 instructor. Nbgrader or travis-CI can also be options here, requiring
