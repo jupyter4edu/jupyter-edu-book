@@ -710,6 +710,18 @@ teaching with Jupyter opens new possibilities for educators to engage
 in _open development_ and collaborate with others in producing
 lessons, tutorials, courses, and even books.
 
+```{block2, type='rmdnote'}
+<strong>Pro Tip</strong>
+
+A way to share educational notebooks, gain feedback on them and receive
+credit for your work is to publish with the
+[Journal of Open Source Education](http://jose.theoj.org). This is a
+peer-reviewed journal aimed at educators developing OERs that use code to
+teach. In addition to receiving a publication advertising your work, the
+peer-review process will result in higher quality software, code, and
+educational material. 
+```
+
 
 [^1]: The bazaar style is a method of collectively creating software
      that isn't top down directed like a traditional company
