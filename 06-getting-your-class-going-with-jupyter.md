@@ -713,11 +713,11 @@ lessons, tutorials, courses, and even books.
 ```{block2, type='rmdnote'}
 <strong>Pro Tip</strong>
 
-A way to share educational notebooks, gain feedback on them and recieve
-credit for you work is to publish with the
+A way to share educational notebooks, gain feedback on them and receive
+credit for your work is to publish with the
 [Journal of Open Source Education](http://jose.theoj.org). This is a
 peer-reviewed journal aimed at educators developing OERs that use code to
-teach. In addition, to receiving a publication advertising your work, the
+teach. In addition to receiving a publication advertising your work, the
 peer-review process will result in higher quality software, code, and
 educational material. 
 ```
