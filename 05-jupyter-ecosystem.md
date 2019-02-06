@@ -371,7 +371,7 @@ with the `%matplotlib notebook` or `%matplotlib inline` cell
 magics. 
 * Pandas
 ([https://pandas.pydata.org/](https://pandas.pydata.org/)) provides
-resources for data analysis and a flexible data structures for labeled two-dimenstional data. 
+resources for data analysis and a flexible data structures for labeled tabular data. 
 
 
 ### Advanced topic: extensions {#advanced-topic-extensions}
