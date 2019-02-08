@@ -169,7 +169,7 @@ be adjusted by giving tips in response to formative assessments. Working in
 small groups can help mitigate the risks of students having trouble getting 
 started or pursuing tangents.
 
-## Twiddle, tweak, and frob
+## Tweak, twiddle, and frob
 
 
 **Description:**<br/>
@@ -210,7 +210,7 @@ This pattern helps students acquire domain knowledge by seeing the relationship
 between parameters and the effect they have on the results. It can also help students
 learn new notebook use patterns
 
-This pattern is similar to "The notebook is an app"; a difference is that in this
+This pattern is similar to "notebook as an app"; a difference is that in this
 pattern the code is more visible to the students, which can help orient them if
 they will make bigger changes in the future.
 
