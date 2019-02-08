@@ -350,7 +350,7 @@ scientific computing with Python.
 Among the vast number of packages in the Python ecosystem, NumPy,
 Scipy, Matplotlib and Pandas are among the most commonly used. 
 A good resource for getting familiar with these libraries
-is the **Scipy Lecture Notes** [https://www.scipy-lectures.org](https://www.scipy-lectures.org).
+is the **Scipy Lecture Notes** [http://scipy-lectures.org/](http://scipy-lectures.org/).
 
 * Numpy
 ([http://www.numpy.org/](http://www.numpy.org/)) is a fundamental
