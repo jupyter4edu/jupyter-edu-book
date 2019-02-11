@@ -107,13 +107,13 @@ significant experience.
 **Format (lecture / lab / …):**<br/>
 Assignments and labs can adopt this approach (nbgrader can be used to
 help with marking). It can also be used in a lecture or tutorial
-setting where the instructor demo's how to fill in the blank.
+setting where the instructor demos how to fill in the blank.
 
 
 **Pitfalls:**<br/>
 Some students don't find this approach engaging. In particular, if the
 exercise is too simple for the level of programming competency of the
-students, it can be perceived a "make-work" task.
+students, it can be perceived as a "make-work" task.
 
 ## Target Practice
 
@@ -169,7 +169,7 @@ be adjusted by giving tips in response to formative assessments. Working in
 small groups can help mitigate the risks of students having trouble getting 
 started or pursuing tangents.
 
-## Twiddle, tweak, and frob
+## Tweak, twiddle, and frob
 
 
 **Description:**<br/>
@@ -210,7 +210,7 @@ This pattern helps students acquire domain knowledge by seeing the relationship
 between parameters and the effect they have on the results. It can also help students
 learn new notebook use patterns
 
-This pattern is similar to "The notebook is an app"; a difference is that in this
+This pattern is similar to "notebook as an app"; a difference is that in this
 pattern the code is more visible to the students, which can help orient them if
 they will make bigger changes in the future.
 
@@ -338,7 +338,7 @@ notebooks breaking down the details of each component of the workflow.
 **Example:**<br/>
 To solve a numerical simulation using a finite volume approach, a mesh
 must be designed, differential operators formed, boundary conditions
-set, a right hand-side generated and then the system
+set, a right-hand side generated and then the system
 solved. Naturally, there are important considerations for each
 step. For even a moderately sized problem, sparse matrices are
 necessary in order to keep memory usage contained, the mesh must be
@@ -833,16 +833,16 @@ broken cells.
 
 **Example:**<br/>
 An instructor designs a lesson in exploratory data analysis to scrape the
-critics reviews for a specific movie from a particular movie review website and
+critics' reviews for a specific movie from a particular movie review website and
 then provide some simple visualizations. The students have a few options:
 
 1. Green Circle - replace the movie name and pick any movie they want and then
    step through the new notebook and see the new results.
-1. Blue Square - adjust the notebook to scrape user reviews rather than critics
+1. Blue Square - adjust the notebook to scrape users' reviews rather than critics'
    reviews and then fix any data parsing problems.
 1. Black Diamond - add different visualizations tailored to explore the user
    reviews (as opposed to the initial visualizations that are tailored for the
-   critic reviews).
+   critics' reviews).
 
 There are various ways to test the properties of numerical methods. For
 example, students can use the method of manufactured solutions to test the
@@ -1056,7 +1056,7 @@ reference to nbgrader] supports automated testing of the code students write in
 notebooks; in that environment, the tests are not visible to students, which
 may or may not be a bug.
 
-This pattern required the overhead of teaching students about the unit testing
+This pattern requires the overhead of teaching students about the unit testing
 framework. Students working to make tests pass can lose their view of the big
 picture, and feel like they have been robbed of autonomy. This type of exercise
 is best used sparingly.
