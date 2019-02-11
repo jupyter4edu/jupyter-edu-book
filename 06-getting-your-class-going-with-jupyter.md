@@ -336,9 +336,9 @@ which provide free trials or a "freemium" pricing model. They include:
 * Kaggle Kernels ([https://kaggle.com/kernels](https://kaggle.com/kernels)) are 
   free hosted Python and R notebooks with access to substantial computational 
   resources (quad-core, 16GB RAM, GPU, Internet connected, up to 6h runtime per 
-  session). All notebooks have also seemless access to datasets hosted on 
+  session). All notebooks have also seamless access to datasets hosted on 
   [Kaggle Datasets](https://www.kaggle.com/datasets). Instructors can use one of
-  the thousands datasets available on 
+  the thousands of datasets available on 
   [Kaggle Datasets](https://www.kaggle.com/datasets) (perfect for implementing 
   the [The world is your dataset](#the-world-is-your-dataset) pedagogical 
   pattern) or upload their own data (up to 10GB per dataset). Kaggle 
