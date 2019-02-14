@@ -354,13 +354,13 @@ available at https://github.com/applied-math/demos.
 
 ## Riemann Problems and Jupyter Solutions
 
-This book should be completed in the next few months, and the current state can be viewed at http://www.clawpack.org/riemann_book/index.html.
-
 We first envisioned this project as a teaching aid to interactively illustrate difficult concepts for a graduate course in numerical methods for conservation laws. These are physical laws in the form of first-order hyperbolic partial differential equations that arise in wave propagation applications such as fluid dynamics, traffic flow, water waves (like tsunamis), and electromagnetic waves among others. The Riemann problem corresponds to a conservation law with a piecewise constant initial condition such that the problem is relatively simple to solve, while still capturing the characteristic dynamics of the conservation law. Due to its discrete nature, its simplicity and its capability to encode the dynamics, the Riemann problem is the key ingredient in modern numerical methods for conservation laws.
 
-The project naturally evolved into having different Jupyter notebooks, each aimed to solve the corresponding Riemann problem for each of the relevant applications such as acoustics, shallow-water equations, and Euler equations, for example, with the idea of compiling these notebooks into an interactive book where each chapter corresponds to a Riemann problem for a specific application. However, we also wanted to use our book to encourage the reading and publication of interactive notebooks. Therefore, we decided that our book should also have a printed and an HTML version in addition to notebooks available for downloading, in order to attract more readers and to encourage more authors and publishers to explore this interactive platform. 
+The project naturally evolved into Jupyter notebooks with the idea of compiling an interactive notebook. Each chapter aims to solve the Riemann problem for a specific application such as acoustics, shallow-water equations, and Euler equations. We further wanted to use our book to encourage the reading and publication of interactive notebooks. Therefore, we decided that our book should also have a printed and an HTML version in addition to notebooks available for downloading, to attract more readers and to encourage more authors and publishers to explore this interactive platform. 
 
 As one would expect, several new problems arose regarding how to make a book that is somewhat compatible across all the different platforms in which we wanted to present the book, particularly since the notebooks make heavy use of interactive widgets and animations. With the help of our publisher (SIAM) and several developers working on Jupyter-based tools for publishing interactive books, we are close to finalizing the project. We are happy to say that this project promoted the development of some of these tools and that is encouraging our publisher to delve more into interactive book publication.
+
+This book should be completed in the next few months, and the current state can be viewed at http://www.clawpack.org/riemann_book/index.html.
 
  -- David I. Ketcheson, Randall J. LeVeque, and Mauricio J. del Razo
 

@@ -17,3 +17,4 @@ Example: `Family name, First name (GitHub username)`
 - `Drake, Peter (PeterDrake)`
 - `Gorgolewski, Chris (chrisfilo)`
 - `McCluskey, Andrew (arm61)`
+- `del Razo, Mauricio (maojrs)`
