@@ -77,7 +77,7 @@ During the execution of a cell, the input prompt will contain an
 asterisk. If it seems that too much time has passed and you still see
 `In [*]:` your code may be in an infinite loop, or you have lost
 communication with the kernel. You may have to interrupt or restart
-the kernel. This is discuss below.
+the kernel. This is discussed below.
 
 Finally, it is important to keep separate the display and output areas
 below the input cell. The difference between these two areas is subtle
@@ -350,7 +350,7 @@ scientific computing with Python.
 Among the vast number of packages in the Python ecosystem, NumPy,
 Scipy, Matplotlib and Pandas are among the most commonly used. 
 A good resource for getting familiar with these libraries
-is the **Scipy Lecture Notes** [https://www.scipy-lectures.org](https://www.scipy-lectures.org).
+is the **Scipy Lecture Notes** [https://scipy-lectures.org/](https://scipy-lectures.org/).
 
 * Numpy
 ([http://www.numpy.org/](http://www.numpy.org/)) is a fundamental
@@ -371,7 +371,7 @@ with the `%matplotlib notebook` or `%matplotlib inline` cell
 magics. 
 * Pandas
 ([https://pandas.pydata.org/](https://pandas.pydata.org/)) provides
-resources for data analysis and a flexible data structures for labeled two-dimenstional data. 
+resources for data analysis and a flexible data structures for labeled tabular data. 
 
 
 ### Advanced topic: extensions {#advanced-topic-extensions}
@@ -456,7 +456,7 @@ nice way to let everyone in the class see one another's solutions.  A
 positive aspect of having multiple student solutions projected is that
 it can show the variety of ways to solve a problem. This gives an
 opportunity to talk about the readability of solutions and their
-efficiency. A downside is that in a large class, the shear volume of
+efficiency. A downside is that in a large class, the sheer volume of
 posts can make it overwhelming. Instead polling can be used to
 aggregate student answers and provide some form of feedback to the
 instructor. Nbgrader or travis-CI can also be options here, requiring

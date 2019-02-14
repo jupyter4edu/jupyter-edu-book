@@ -318,19 +318,19 @@ two layer earth
 
 ## Investigating hurricanes
 
-**Who **
+**Who**
 
 Middle school and high school students visiting Columbia's School of
 Engineering and Applied Sciences on a field trip
 
-**Why **
+**Why**
 
 Students often come through looking to tour labs and experience some
 of the research that is being done at the school.  Unfortunately
 certain fields, in this case computational mathematics and hurricane
 research, do not lend themselves to these types of events.
 
-**What **
+**What**
 
 Instead of a lab or lecture a computer lab was reserved for an hour
 and a Jupyter notebook used to walk students through some basic

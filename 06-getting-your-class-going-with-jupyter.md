@@ -324,6 +324,34 @@ which provide free trials or a "freemium" pricing model. They include:
     like a way to create a course, invite students, and deploy
     auto-graded assignments.
 
+* HubHero ([https://hubhero.net](https://hubhero.net)) provides professionally
+  configured JupyterHub servers for teachers. For courses of up to about 30
+  students they offer [the community install](https://hubhero.net/community/) which
+  gets you your own JupyterHub on your own hardware or a cloud provider of your
+  choice. For larger courses or fully managed deployments
+  [hosted solutions](https://hubhero.net/hosted/) are available as well. Hub
+  Hero is owned by [Tim Head](https://github.com/betatim/) a project lead for
+  https://mybinder.org and contributor to JupyterHub.
+
+* Kaggle Kernels ([https://kaggle.com/kernels](https://kaggle.com/kernels)) are 
+  free hosted Python and R notebooks with access to substantial computational 
+  resources (quad-core, 16GB RAM, GPU, Internet connected, up to 6h runtime per 
+  session). All notebooks have also seamless access to datasets hosted on 
+  [Kaggle Datasets](https://www.kaggle.com/datasets). Instructors can use one of
+  the thousands of datasets available on 
+  [Kaggle Datasets](https://www.kaggle.com/datasets) (perfect for implementing 
+  the [The world is your dataset](#the-world-is-your-dataset) pedagogical 
+  pattern) or upload their own data (up to 10GB per dataset). Kaggle 
+  can also help implementing the [There can be only one](#there-can-be-only-one) 
+  pattern with 
+  [In-class competitions](https://www.kaggle.com/about/inclass/overview)
+  a feature that allows instructors to easily set up competitions with automatic 
+  leaderboards. All of the work students do on Kaggle is saved and available
+  to them beyond the duration of the course/workshop. Additional software
+  dependencies can be installed within notebooks via `!pip` or included in the
+  common environment by sending a Pull Request to 
+  [Kaggle Dockerfile](https://github.com/Kaggle/docker-python).
+
 * codio
     ([https://codio.com/features/ide](https://codio.com/features/ide))
 
@@ -359,7 +387,7 @@ student activities).
 
 Other drawbacks include:
 
-* It may be difficult or impossible to install packages you, or
+* It may be difficult or impossible to install packages you need, or
     particular versions of packages.
 
 * Some of these services impose limits on what students can do; for
@@ -700,6 +728,18 @@ also promotes a culture of collaboration. In this regard, engaging in
 teaching with Jupyter opens new possibilities for educators to engage
 in _open development_ and collaborate with others in producing
 lessons, tutorials, courses, and even books.
+
+```{block2, type='rmdnote'}
+<strong>Pro Tip</strong>
+
+A way to share educational notebooks, gain feedback on them and receive
+credit for your work is to publish with the
+[Journal of Open Source Education](http://jose.theoj.org). This is a
+peer-reviewed journal aimed at educators developing OERs that use code to
+teach. In addition to receiving a publication advertising your work, the
+peer-review process will result in higher quality software, code, and
+educational material. 
+```
 
 
 [^1]: The bazaar style is a method of collectively creating software
