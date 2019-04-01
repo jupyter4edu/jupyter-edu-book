@@ -1148,6 +1148,8 @@ they are not engaging; if they are too hard, they are likely to be frustrating.
 
 ## Adversarial programming
 
+
+**Description:**<br/>
 This pattern involves participants writing a solution to a problem and tests
 that attempt to make the written solution fail. This pattern can be done in
 many ways including having students complete the tasks and pair up and exchange
