@@ -106,7 +106,7 @@
 \usepackage{titling}
 
 % Create subtitle command for use in maketitle
-\newcommand{\subtitle}[1]{
+\providecommand{\subtitle}[1]{
   \posttitle{
     \begin{center}\large#1\end{center}
     }
@@ -125,7 +125,7 @@ West, Elizabeth Wickes, Carol Willing, and Michael Zingale}
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-02-16}
+    \date{2019-04-01}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -2674,11 +2674,12 @@ hard, they are likely to be frustrating.
 
 \section{Adversarial programming}\label{adversarial-programming}
 
-This pattern involves participants writing a solution to a problem and
-tests that attempt to make the written solution fail. This pattern can
-be done in many ways including having students complete the tasks and
-pair up and exchange solutions/tests or having the instructor writing
-the solution and the students then write the tests.
+\textbf{Description:} This pattern involves participants writing a
+solution to a problem and tests that attempt to make the written
+solution fail. This pattern can be done in many ways including having
+students complete the tasks and pair up and exchange solutions/tests or
+having the instructor writing the solution and the students then write
+the tests.
 
 \textbf{Example:} Students are tasked to write a function that finds the
 roots of a polynomial specified via some appropriate input. They are
