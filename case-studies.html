@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2019-04-01" />
+<meta name="date" content="2019-05-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,41 +49,67 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -279,7 +305,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="case-studies" class="section level1">
 <h1><span class="header-section-number">Chapter 7</span> Usage case studies</h1>
-<p>Contributors to this chapter: you may increase adoption by new users if you integrate information about some of the following into your case:</p>
+<p>Contributors to this chapter: you may increase adoption by new users
+if you integrate information about some of the following into your
+case:</p>
 <ol style="list-style-type: decimal">
 <li>Demonstrate that you can increase students’ ability to:
 <ol style="list-style-type: decimal">
@@ -293,35 +321,138 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>how it fits with how their students learn</li>
 <li>how it connects to how they teach</li>
 <li>the needed resources (support, hardware, etc.)</li>
-<li>the necessary logistics (e.g., how much time will it take? Be honest: time is a consideration, and an important reason that people do not adopt new practices, but is not a reason that they stopped using one)</li>
-<li>what Jupyter does in terms of promoting learning, instructor affordances</li>
+<li>the necessary logistics (e.g., how much time will it take? Be honest:
+time is a consideration, and an important reason that people do not
+adopt new practices, but is not a reason that they stopped using one)</li>
+<li>what Jupyter does in terms of promoting learning, instructor
+affordances</li>
 </ol></li>
 </ol>
 <div id="jupyter-notebooks-in-support-of-scaling-for-large-enrollments" class="section level2">
 <h2><span class="header-section-number">7.1</span> Jupyter notebooks in support of scaling for large enrollments</h2>
 <div id="supporting-large-enrollment-courses-at-uc-berkeley" class="section level3">
 <h3><span class="header-section-number">7.1.1</span> Supporting large enrollment courses at UC Berkeley</h3>
-<p>The University of California at Berkeley started a pilot course titled “Foundations in Data Science” (also known as Data-8) for about 100 incoming undergraduate students in Fall 2015. Data-8, the fastest growing course in Berkeley’s history, is entirely Jupyter-based, allowing the program to scale the course to 1,400 students in 2018. This scale is made possible by Jupyter’s shared computational environment. In particular, Jupyter allowed “browser-based computation, avoiding the need for students to install software, transfer files, or update libraries” (see The Course of the Future and the Technology Behind It [<a href="https://data.berkeley.edu/news/coursefuture" class="uri">https://data.berkeley.edu/news/coursefuture</a>]). Data-8 is powered by JupyterHub and all the course materials are published openly (<a href="http://data8.org" class="uri">http://data8.org</a>).</p>
+<p>The University of California at Berkeley started a pilot course titled
+“Foundations in Data Science” (also known as Data-8) for about 100
+incoming undergraduate students in Fall 2015. Data-8, the fastest
+growing course in Berkeley’s history, is entirely Jupyter-based,
+allowing the program to scale the course to 1,400 students in 2018.
+This scale is made possible by Jupyter’s shared computational
+environment. In particular, Jupyter allowed “browser-based
+computation, avoiding the need for students to install software,
+transfer files, or update libraries” (see The Course of the Future and
+the Technology Behind It
+[<a href="https://data.berkeley.edu/news/coursefuture">https://data.berkeley.edu/news/coursefuture</a>]). Data-8
+is powered by JupyterHub and all the course materials are published
+openly (<a href="http://data8.org">http://data8.org</a>).</p>
 </div>
 <div id="large-scale-adoption-jupyter-across-canada" class="section level3">
 <h3><span class="header-section-number">7.1.2</span> Large-scale adoption: Jupyter across Canada</h3>
-<p>Recognizing the importance of data science, computational research, and educational resources, the <a href="https://www.pims.math.ca/">Pacific Institute for the Mathematical Sciences (PIMS)</a>, in partnership with <a href="https://www.computecanada.ca/">Compute Canada</a> and <a href="https://www.cybera.ca/">Cybera</a>, have launched JupyterHub platforms (under the project name Syzygy) to support researchers and educators across Canada. Syzygy (<a href="http://syzygy.ca" class="uri">http://syzygy.ca</a>) provides access to cloud-hosted Jupyter resources using existing institutional credentials and encourages the development of computational and data science skills. It is currently accessible at 16 institutions across the country (McMaster, Queen’s, SFU, UAlberta, UBC, UCalgary, ULethbridge, UNewBrunswick, UOttawa, URegina, USask, UToronto, UVic, UWashington (US), UWaterloo, Yorku) and has been used by over 11,000 people at those institutions.</p>
-<p>Syzygy is extensively used for teaching, but is also being used for research activities. One notable example is a scientific software seminar at the University of British Columbia, where graduate students and post-doctoral researchers meet to share and learn data science techniques with their peers. Initiatives are also underway, as part of syzygy, to deepen its relevance into research by providing seamless access to larger and more varied types of resources (GPUs, parallel machines, different language kernels etc.).</p>
-<p>Callysto (<a href="https://callysto.ca/" class="uri">https://callysto.ca/</a>) is a related project, also launched by PIMS and Cybera, to bring Jupyter to students in Canadian middle and high schools (grades 5-12). Callysto focuses on creating and curating open content (<a href="https://github.com/callysto" class="uri">https://github.com/callysto</a>). This content forms the basis of project workshops, where teachers can work through the materials interactively, before taking them back to their classrooms. The content links to a supporting JupyterHub installation (integrated with the authentication systems for the networks of school districts) allowing easy access to the materials and a Jupyter environment to learn and create in.</p>
+<p>Recognizing the importance of data science, computational research,
+and educational resources, the <a href="https://www.pims.math.ca/">Pacific Institute for the Mathematical
+Sciences (PIMS)</a>, in partnership with
+<a href="https://www.computecanada.ca/">Compute Canada</a> and
+<a href="https://www.cybera.ca/">Cybera</a>, have launched JupyterHub platforms
+(under the project name Syzygy) to support researchers and educators
+across Canada. Syzygy (<a href="http://syzygy.ca">http://syzygy.ca</a>) provides
+access to cloud-hosted Jupyter resources using existing institutional
+credentials and encourages the development of computational and data
+science skills. It is currently accessible at 16 institutions across
+the country (McMaster, Queen’s, SFU, UAlberta, UBC, UCalgary,
+ULethbridge, UNewBrunswick, UOttawa, URegina, USask, UToronto, UVic,
+UWashington (US), UWaterloo, Yorku) and has been used by over 11,000
+people at those institutions.</p>
+<p>Syzygy is extensively used for teaching, but is also being used for
+research activities. One notable example is a scientific software
+seminar at the University of British Columbia, where graduate students
+and post-doctoral researchers meet to share and learn data science
+techniques with their peers. Initiatives are also underway, as part of
+syzygy, to deepen its relevance into research by providing seamless
+access to larger and more varied types of resources (GPUs, parallel
+machines, different language kernels etc.).</p>
+<p>Callysto (<a href="https://callysto.ca/">https://callysto.ca/</a>) is a related
+project, also launched by PIMS and Cybera, to bring Jupyter to
+students in Canadian middle and high schools (grades 5-12). Callysto
+focuses on creating and curating open content
+(<a href="https://github.com/callysto">https://github.com/callysto</a>). This
+content forms the basis of project workshops, where teachers can work
+through the materials interactively, before taking them back to their
+classrooms. The content links to a supporting JupyterHub installation
+(integrated with the authentication systems for the networks of school
+districts) allowing easy access to the materials and a Jupyter
+environment to learn and create in.</p>
 <p>– Ian Allison</p>
 </div>
 <div id="quick-switch-moving-an-existing-course-to-python-and-jupyter-at-the-last-minute" class="section level3">
 <h3><span class="header-section-number">7.1.3</span> Quick switch: moving an existing course to Python and Jupyter (at the last minute)</h3>
-<p>For many years, our chemical engineering kinetics course had used software for differential equation and nonlinear simultaneous equation solving to simulate reactors and solve design problems. The software, recommended and described by the textbook, was installed in the college’s computer labs, but licenses for student-owned computers were expensive and it was only available for Windows. In Spring 2015, I was informed my class now had 52 students, but the largest computer lab had room for only 40. As the semester progressed and we neared the chapters that required numerical simulation, I rewrote the examples using Python and SciPy and created Jupyter notebooks, walking students through the steps involved in setting up and solving the problems. I found Lorena Barba’s open-source MOOC materials online, and adapted these for my “getting started” notebooks. I had students install Anaconda on their own computers, and got everyone up and running without any central infrastructure or support from the college’s IT staff. I found the Jupyter Notebook format of including “lecture note” style commentary along with short, unintimidating, snippets of code, to be extremely effective. A couple of years later I passed on the course to a new instructor, who took my course materials, taught himself some Python, and continued to use Jupyter notebooks for content delivery and assignments.</p>
-<p>The first year was a bit rough around the edges as I introduced it quite late in the semester. Still, it is clear that the approach resonated with students. An alumnus from my 2016 course wrote, “I thought that your course was very successful, especially the use of Jupyter Notebook as a classroom and assignment tool. I still remember specific problems that we went over in class (e.g., the microfluidic reactor array with heterogeneous catalysis), and I feel that the use of Python to solve problems throughout the course greatly benefited my understanding of fundamental concepts. I went on to use Python [in the pharmaceutical industry], where I built tools for bioinformatics data analysis, mutation network profiling for protein engineering experiments, and RNA structure prediction from experimental data and molecular thermodynamics.”</p>
+<p>For many years, our chemical engineering kinetics course had used
+software for differential equation and nonlinear simultaneous equation
+solving to simulate reactors and solve design problems. The software,
+recommended and described by the textbook, was installed in the
+college’s computer labs, but licenses for student-owned computers were
+expensive and it was only available for Windows. In Spring 2015, I
+was informed my class now had 52 students, but the largest computer
+lab had room for only 40. As the semester progressed and we neared the
+chapters that required numerical simulation, I rewrote the examples
+using Python and SciPy and created Jupyter notebooks, walking students
+through the steps involved in setting up and solving the problems. I
+found Lorena Barba’s open-source MOOC materials online, and adapted
+these for my “getting started” notebooks. I had students install
+Anaconda on their own computers, and got everyone up and running
+without any central infrastructure or support from the college’s IT
+staff. I found the Jupyter Notebook format of including “lecture note”
+style commentary along with short, unintimidating, snippets of code,
+to be extremely effective. A couple of years later I passed on the
+course to a new instructor, who took my course materials, taught
+himself some Python, and continued to use Jupyter notebooks for
+content delivery and assignments.</p>
+<p>The first year was a bit rough around the edges as I introduced it
+quite late in the semester. Still, it is clear that the approach
+resonated with students. An alumnus from my 2016 course wrote, “I
+thought that your course was very successful, especially the use of
+Jupyter Notebook as a classroom and assignment tool. I still remember
+specific problems that we went over in class (e.g., the microfluidic
+reactor array with heterogeneous catalysis), and I feel that the use
+of Python to solve problems throughout the course greatly benefited my
+understanding of fundamental concepts. I went on to use Python [in
+the pharmaceutical industry], where I built tools for bioinformatics
+data analysis, mutation network profiling for protein engineering
+experiments, and RNA structure prediction from experimental data and
+molecular thermodynamics.”</p>
 <p>– Richard West</p>
 </div>
 </div>
 <div id="the-cfd-python-story-guiding-learners-at-their-own-pace" class="section level2">
 <h2><span class="header-section-number">7.2</span> The “CFD Python” story: guiding learners at their own pace</h2>
-<p>“CFD Python” is a collection of Jupyter notebooks based on a practical module that I began using in class in my Computational Fluid Dynamics (CFD) course at Boston University in 2009. The 5-week module develops worked examples that build on each other to incrementally guide the learner to create a program to solve the Navier-Stokes equations of fluid mechanics, in 12 steps. In 2013, I was invited to teach a mini-course in the Latin-American School in High-Performance Computing, in Argentina. The Jupyter notebooks platform allowed me to create a guided narrative to support learners with different background experience and knowledge. For that event, we wrote notebooks based on the CFD course module, to use as instructional scaffolding in the 2-full-days of minicourse. Twenty students worked through the notebooks as self-paced lessons, while I went from desk to desk asking and answering questions. About four of the students completed all the lessons in the 2 days, a bulk of them achieved up to about Step 8, and a few of them lagged behind in Steps 4 or 5 by the end of the course. For those who completed the full module, they had achieved in 2 days what my regular students in the classroom normally took 5 weeks to do. Seeing that was an eye-opening moment: both the power of worked examples in code, and the ability to allow learners to follow their own pace made a remarkable difference in these learners.</p>
-<p><em>REF — Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier–Stokes equations. Journal of Open Source Education, 1(9), 21, <a href="https://doi.org/10.21105/jose.00021" class="uri">https://doi.org/10.21105/jose.00021</a> </em></p>
-<p>Based on the experience developing the “CFD Python” learning module, we adopted this basic design pattern for creating lessons using computable content:</p>
+<p>“CFD Python” is a collection of Jupyter notebooks based on a practical
+module that I began using in class in my Computational Fluid Dynamics
+(CFD) course at Boston University in 2009. The 5-week module develops
+worked examples that build on each other to incrementally guide the
+learner to create a program to solve the Navier-Stokes equations of
+fluid mechanics, in 12 steps. In 2013, I was invited to teach a
+mini-course in the Latin-American School in High-Performance
+Computing, in Argentina. The Jupyter notebooks platform allowed me to
+create a guided narrative to support learners with different
+background experience and knowledge. For that event, we wrote
+notebooks based on the CFD course module, to use as instructional
+scaffolding in the 2-full-days of minicourse. Twenty students worked
+through the notebooks as self-paced lessons, while I went from desk to
+desk asking and answering questions. About four of the students
+completed all the lessons in the 2 days, a bulk of them achieved up to
+about Step 8, and a few of them lagged behind in Steps 4 or 5 by the
+end of the course. For those who completed the full module, they had
+achieved in 2 days what my regular students in the classroom normally
+took 5 weeks to do. Seeing that was an eye-opening moment: both the
+power of worked examples in code, and the ability to allow learners to
+follow their own pace made a remarkable difference in these learners.</p>
+<p><em>REF — Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python:
+the 12 steps to Navier–Stokes equations. Journal of Open Source
+Education, 1(9), 21,
+<a href="https://doi.org/10.21105/jose.00021">https://doi.org/10.21105/jose.00021</a>
+</em></p>
+<p>Based on the experience developing the “CFD Python” learning module,
+we adopted this basic design pattern for creating lessons using
+computable content:</p>
 <ol style="list-style-type: decimal">
 <li>Break it down into small steps</li>
 <li>Chunk small steps into bigger steps</li>
@@ -335,8 +466,26 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="analyzing-music-with-music21" class="section level2">
 <h2><span class="header-section-number">7.3</span> Analyzing music with music21</h2>
-<p>I became interested in learning more about Python in 2013 after reading a tutorial by Luciano Ramalho as he was writing Fluent Python. Since I tend to seek out projects that match my outside interests (music, art, and nature) I was looking for Python projects with music and came across Myke Cuthbert’s music21 project. Music21, an open source music theory and analysis library maintained by Professor Michael Cuthbert at MIT, provides a set of tools to answer questions about music quickly and simply. Users can create, analyze, and share music with just a few lines of code. Myke’s use of the notebook hooked me. Unlike many things that I had worked on before, the notebooks made it easy to get started and to write small code snippets that did real work! The more I used the notebooks and showed them to people that I taught at Fab Lab San Diego, the more that I saw the power of the notebook to engage a user and empower them to explore and learn.</p>
-<p>Music, a universal language, appeals to learners of all origins, ages, education levels, and interests. As a subject that casts a wide appeal, music offers the opportunity to engage and delight learners. It’s an accessible subject that has a low barrier to entry for learners from disciplines beyond computer science and engineering.</p>
+<p>I became interested in learning more about Python in 2013 after
+reading a tutorial by Luciano Ramalho as he was writing Fluent
+Python. Since I tend to seek out projects that match my outside
+interests (music, art, and nature) I was looking for Python projects
+with music and came across Myke Cuthbert’s music21 project. Music21,
+an open source music theory and analysis library maintained by
+Professor Michael Cuthbert at MIT, provides a set of tools to answer
+questions about music quickly and simply. Users can create, analyze,
+and share music with just a few lines of code. Myke’s use of the
+notebook hooked me. Unlike many things that I had worked on before,
+the notebooks made it easy to get started and to write small code
+snippets that did real work! The more I used the notebooks and showed
+them to people that I taught at Fab Lab San Diego, the more that I saw
+the power of the notebook to engage a user and empower them to explore
+and learn.</p>
+<p>Music, a universal language, appeals to learners of all origins, ages,
+education levels, and interests. As a subject that casts a wide
+appeal, music offers the opportunity to engage and delight
+learners. It’s an accessible subject that has a low barrier to entry
+for learners from disciplines beyond computer science and engineering.</p>
 <p>– Carol Willing</p>
 <p><strong>Education benefits</strong></p>
 <ul>
@@ -353,34 +502,55 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>accessibility through audio and braille</li>
 </ul>
 <p><strong>Misc quotes (perhaps pick a couple?):</strong></p>
-<p><em>“I think of music21 as being composed of two parts. The first is infrastructure, routines for reading, writing, and manipulating musical scores, while the second consists of a higher-level analytical toolkit—generating a Roman numeral from a chord and key, putting chords into normal form, checking for parallel fifths, identifying scales containing a given pitch or chord, and so on.” —Bruce Tymoczko, Professor of Music, Princeton</em></p>
+<p><em>“I think of music21 as being composed of two parts. The first is
+infrastructure, routines for reading, writing, and manipulating
+musical scores, while the second consists of a higher-level analytical
+toolkit—generating a Roman numeral from a chord and key, putting
+chords into normal form, checking for parallel fifths, identifying
+scales containing a given pitch or chord, and so on.” —Bruce
+Tymoczko, Professor of Music, Princeton</em></p>
 <p>Inclusive</p>
 <p><em>“It’s not exclusive, but inclusive, which is the whole spirit of jazz.” — Herbie Hancock</em></p>
 <p>Education</p>
-<p><em>“So, you can’t stay in one place, no matter how comfortable that place is. It’s all about growing.”—Mavis Staples</em></p>
+<p><em>“So, you can’t stay in one place, no matter how comfortable that
+place is. It’s all about growing.”—Mavis Staples</em></p>
 <p>Universal</p>
 <p><em>“Music in the soul can be heard by the universe.”—Lao Tzu</em></p>
 <p>Communication</p>
-<p>_Music is the greatest communication in the world. Even if people don’t understand the language that you’re singing in, they still know good music when they hear it.“—Lou Rawls_</p>
-<p><em>“In the beginner’s mind there are many possibilities. In the expert’s mind there are few.” –Shunryu Suzuki</em></p>
+<p><em>Music is the greatest communication in the world. Even if people
+don’t understand the language that you’re singing in, they still know
+good music when they hear it."—Lou Rawls</em></p>
+<p><em>“In the beginner’s mind there are many possibilities. In the
+expert’s mind there are few.” –Shunryu Suzuki</em></p>
 </div>
 <div id="interactivity-in-computer-science-high-school-and-middle-school" class="section level2">
 <h2><span class="header-section-number">7.4</span> Interactivity in computer science (high school and middle school)</h2>
 <p><strong>Who</strong></p>
-<p>High school and middle school students at Cal Poly SLO’s EPIC program completed a two hour workshop on Interactivity in Computer Science. The workshop participants included dual language learners (English as a Second Language) and students who have had limited access to computers prior to the workshop.</p>
+<p>High school and middle school students at Cal Poly SLO’s EPIC program
+completed a two hour workshop on Interactivity in Computer
+Science. The workshop participants included dual language learners
+(English as a Second Language) and students who have had limited
+access to computers prior to the workshop.</p>
 <p><strong>Why</strong></p>
-<p>Providing early access to at-risk groups who may not see themselves as capable of learning to code or use computation</p>
-<p>Illustrate that there are many skills beyond math and science that are needed to create software applications</p>
+<p>Providing early access to at-risk groups who may not see themselves as
+capable of learning to code or use computation</p>
+<p>Illustrate that there are many skills beyond math and science that are
+needed to create software applications</p>
 <p><strong>What</strong></p>
-<p>Two hour workshop that maximizes “hands on” exploration with the goal of building an ongoing interest in computer science</p>
+<p>Two hour workshop that maximizes “hands on” exploration with the goal
+of building an ongoing interest in computer science</p>
 <ul>
-<li>short lectures</li>
+<li>short lectures
+<ul>
 <li>interactive discussion - LISTEN</li>
 <li>hands on - DO/APPLY This section is self-paced to engage different learning styles and prior knowledge</li>
 <li>recap - DISCUSS</li>
+</ul></li>
 <li>8 or so projects with achievements outlined</li>
-<li>modern curriculum including p5.js, jupyter, binder, deep learning and machine learning with TensorFlow and Magenta (art and music)</li>
-<li>Goal is to empower students to understand that they CAN use CS to solve real world problems</li>
+<li>modern curriculum including p5.js, jupyter, binder, deep learning
+and machine learning with TensorFlow and Magenta (art and music)</li>
+<li>Goal is to empower students to understand that they CAN use CS to
+solve real world problems</li>
 </ul>
 <p>Instructor Approach</p>
 <ul>
@@ -391,26 +561,67 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="interactive-geophysics-with-jupyter" class="section level2">
 <h2><span class="header-section-number">7.5</span> Interactive geophysics with Jupyter</h2>
-<p>The GeoSci.xyz project (<a href="https://geosci.xyz" class="uri">https://geosci.xyz</a>) is an effort to develop a community of scientists and educators around learning resources and software for the geosciences. The project includes multiple open-source textbooks, each which have associated Jupyter notebook “apps” that serve as interactive simulation engines for exploring concepts in geophysics. We have used these resources in an undergraduate course on applied geophysics at the University of British Columbia; this course is primarily taken by by geologists and engineers (non-geophysics majors). In 2017, we delivered a 2 day short course for professionals, graduate students, and researchers in 26 different countries around the world (<a href="https://disc2017.geosci.xyz" class="uri">https://disc2017.geosci.xyz</a>). In both of these courses, the goal is to provide learners with an overview of the various geophysical methods (e.g. magnetics, gravity, seismic, electromagnetics) and concepts governing the physics; we do not dive into details of the math nor do we expect students to program or write any lines of code. The role of Jupyter notebooks in these courses is to serve as a tool for visualizing and exploring the physics.</p>
-<p>During a lecture, the notebooks as a presentation medium lend to a dynamic presentation style, where we as instructors can select model parameters based on student input. Concepts are reinforced as students then use these same notebooks in labs and assignments. We have found that the notebook apps are most effective when students are first asked to critically think about what they expect to see and then visualize the result. If the resultant image matches their expectation, then they understand the concept, and if not, it is an opportunity to learn and further explore.</p>
+<p>The GeoSci.xyz project (<a href="https://geosci.xyz">https://geosci.xyz</a>) is
+an effort to develop a community of scientists and educators around
+learning resources and software for the geosciences. The project
+includes multiple open-source textbooks, each which have associated
+Jupyter notebook “apps” that serve as interactive simulation engines
+for exploring concepts in geophysics. We have used these resources in
+an undergraduate course on applied geophysics at the University of
+British Columbia; this course is primarily taken by by geologists and
+engineers (non-geophysics majors). In 2017, we delivered a 2 day short
+course for professionals, graduate students, and researchers in 26
+different countries around the world
+(<a href="https://disc2017.geosci.xyz">https://disc2017.geosci.xyz</a>). In both
+of these courses, the goal is to provide learners with an overview of
+the various geophysical methods (e.g. magnetics, gravity, seismic,
+electromagnetics) and concepts governing the physics; we do not dive
+into details of the math nor do we expect students to program or write
+any lines of code. The role of Jupyter notebooks in these courses is
+to serve as a tool for visualizing and exploring the physics.</p>
+<p>During a lecture, the notebooks as a presentation medium lend to a
+dynamic presentation style, where we as instructors can select model
+parameters based on student input. Concepts are reinforced as students
+then use these same notebooks in labs and assignments. We have found
+that the notebook apps are most effective when students are first
+asked to critically think about what they expect to see and then
+visualize the result. If the resultant image matches their
+expectation, then they understand the concept, and if not, it is an
+opportunity to learn and further explore.</p>
 <p>– Lindsey Heagy</p>
 <div class="figure">
-<img src="images/DC-layered-earth-app.png" title="DC resistivity" alt="Notebook app for exploring the direct current resistivity experiment over a two layer earth (https://em.geosci.xyz/apps.html)." />
-<p class="caption">Notebook “app” for exploring the direct current resistivity experiment over a two layer earth (<a href="https://em.geosci.xyz/apps.html" class="uri">https://em.geosci.xyz/apps.html</a>).</p>
+<img src="images/DC-layered-earth-app.png" title="DC resistivity" alt="Notebook “app” for exploring the direct current resistivity experiment over a two layer earth (https://em.geosci.xyz/apps.html)." />
+<p class="caption">Notebook “app” for exploring the direct current resistivity experiment over a
+two layer earth
+(<a href="https://em.geosci.xyz/apps.html">https://em.geosci.xyz/apps.html</a>).</p>
 </div>
 </div>
 <div id="investigating-hurricanes" class="section level2">
 <h2><span class="header-section-number">7.6</span> Investigating hurricanes</h2>
 <p><strong>Who</strong></p>
-<p>Middle school and high school students visiting Columbia’s School of Engineering and Applied Sciences on a field trip</p>
+<p>Middle school and high school students visiting Columbia’s School of
+Engineering and Applied Sciences on a field trip</p>
 <p><strong>Why</strong></p>
-<p>Students often come through looking to tour labs and experience some of the research that is being done at the school. Unfortunately certain fields, in this case computational mathematics and hurricane research, do not lend themselves to these types of events.</p>
+<p>Students often come through looking to tour labs and experience some
+of the research that is being done at the school. Unfortunately
+certain fields, in this case computational mathematics and hurricane
+research, do not lend themselves to these types of events.</p>
 <p><strong>What</strong></p>
-<p>Instead of a lab or lecture a computer lab was reserved for an hour and a Jupyter notebook used to walk students through some basic visualizations and data analysis encouraging students to change the code displayed to answer questions such as “Where did Hurricane Sandy go?” and “What storms occurred during 1981?”. This includes a number of visualizations of hurricane tracks, coloring by strength of storms, and an analysis of average number of storms per year. Notebook is available at <a href="https://github.com/applied-math/demos" class="uri">https://github.com/applied-math/demos</a>.</p>
+<p>Instead of a lab or lecture a computer lab was reserved for an hour
+and a Jupyter notebook used to walk students through some basic
+visualizations and data analysis encouraging students to change the
+code displayed to answer questions such as “Where did Hurricane Sandy
+go?” and “What storms occurred during 1981?”. This includes a number
+of visualizations of hurricane tracks, coloring by strength of storms,
+and an analysis of average number of storms per year. Notebook is
+available at <a href="https://github.com/applied-math/demos" class="uri">https://github.com/applied-math/demos</a>.</p>
 <p>– Kyle T. Mandli</p>
 <div class="figure">
 <img src="images/hurricanes.png" title="Image frome https://github.com/applied-math/demos" alt="Visualization from the notebook at https://github.com/applied-math/demos demonstrating the paths of Atlantic hurricane tracks from 1950-2012 with coloring demonstrating category of storm." />
-<p class="caption">Visualization from the notebook at <a href="https://github.com/applied-math/demos" class="uri">https://github.com/applied-math/demos</a> demonstrating the paths of Atlantic hurricane tracks from 1950-2012 with coloring demonstrating category of storm.</p>
+<p class="caption">Visualization from the notebook at
+<a href="https://github.com/applied-math/demos">https://github.com/applied-math/demos</a>
+demonstrating the paths of Atlantic hurricane tracks from 1950-2012
+with coloring demonstrating category of storm.</p>
 </div>
 </div>
 <div id="riemann-problems-and-jupyter-solutions" class="section level2">
@@ -422,7 +633,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>– David I. Ketcheson, Randall J. LeVeque, and Mauricio J. del Razo</p>
 <div class="figure">
 <img src="images/shocktube.png" alt="Visualization from the acoustics equations chapter of the book at https://github.com/clawpack/riemann_book It shows an interactive visualization of the solution to the Riemann problem for acoustics equations, where the initial condition emulates a shock tube." />
-<p class="caption">Visualization from the acoustics equations chapter of the book at <a href="https://github.com/clawpack/riemann_book" class="uri">https://github.com/clawpack/riemann_book</a> It shows an interactive visualization of the solution to the Riemann problem for acoustics equations, where the initial condition emulates a shock tube.</p>
+<p class="caption">Visualization from the acoustics equations chapter of the book at
+<a href="https://github.com/clawpack/riemann_book">https://github.com/clawpack/riemann_book</a>
+It shows an interactive visualization of the solution to the Riemann problem for acoustics equations, where the initial condition emulates a shock tube.</p>
 </div>
 
 </div>
@@ -483,7 +696,7 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
+    var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');

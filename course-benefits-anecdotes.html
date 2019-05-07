@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Teaching and Learning with Jupyter</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Teaching and Learning with Jupyter" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="jupyter4edu/jupyter-edu-book" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Teaching and Learning with Jupyter" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Lorena A. Barba et al.">
+
+
+<meta name="date" content="2018-11-30">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="but-first-what-is-a-jupyter-notebook.html">
+<link rel="next" href="student-benefits.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Teaching and Learning with Jupyter</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="chapter-2-why-we-use-jupyter-notebooks.html"><a href="chapter-2-why-we-use-jupyter-notebooks.html"><i class="fa fa-check"></i><b>3</b> Chapter 2: Why we use Jupyter Notebooks</a></li>
+<li class="chapter" data-level="4" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>4</b> Introduction</a></li>
+<li class="chapter" data-level="5" data-path="why-do-we-as-educators-use-jupyter.html"><a href="why-do-we-as-educators-use-jupyter.html"><i class="fa fa-check"></i><b>5</b> Why do we as educators use Jupyter?</a></li>
+<li class="chapter" data-level="6" data-path="but-first-what-is-a-jupyter-notebook.html"><a href="but-first-what-is-a-jupyter-notebook.html"><i class="fa fa-check"></i><b>6</b> But first, what is a Jupyter Notebook?</a></li>
+<li class="chapter" data-level="7" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html"><i class="fa fa-check"></i><b>7</b> Course Benefits &amp; Anecdotes</a><ul>
+<li class="chapter" data-level="7.1" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#engagement"><i class="fa fa-check"></i><b>7.1</b> 1) Engagement</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#conversations-with-data"><i class="fa fa-check"></i><b>7.1.1</b> Conversations with Data</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#participation"><i class="fa fa-check"></i><b>7.2</b> 2) Participation</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#real-world-experience-bringing-concepts-to-life"><i class="fa fa-check"></i><b>7.2.1</b> Real World Experience – bringing concepts to life</a></li>
+<li class="chapter" data-level="7.2.2" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#real-world-experience-ticket-to-leave"><i class="fa fa-check"></i><b>7.2.2</b> Real World Experience – Ticket to leave</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#increasing-understanding"><i class="fa fa-check"></i><b>7.3</b> 3) Increasing Understanding</a><ul>
+<li class="chapter" data-level="7.3.1" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#real-world-experience-guiding-learners-at-their-own-pace"><i class="fa fa-check"></i><b>7.3.1</b> Real World Experience – Guiding Learners at their Own Pace</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#increasing-students-performance"><i class="fa fa-check"></i><b>7.4</b> 4) Increasing Student’s Performance</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#real-world-experience-the-worked-example-effect"><i class="fa fa-check"></i><b>7.4.1</b> Real World Experience – The Worked-example effect</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#increasing-students-preparation-for-their-career"><i class="fa fa-check"></i><b>7.5</b> 5) Increasing Students’ Preparation for Their Career</a><ul>
+<li class="chapter" data-level="7.5.1" data-path="course-benefits-anecdotes.html"><a href="course-benefits-anecdotes.html#real-world-experience-publishing-a-data-narrative-as-a-demonstration-of-industry-ability"><i class="fa fa-check"></i><b>7.5.1</b> Real World Experience – Publishing a data narrative as a demonstration of industry ability</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="student-benefits.html"><a href="student-benefits.html"><i class="fa fa-check"></i><b>8</b> Student benefits</a><ul>
+<li class="chapter" data-level="8.0.1" data-path="student-benefits.html"><a href="student-benefits.html#computational-thinking"><i class="fa fa-check"></i><b>8.0.1</b> Computational Thinking</a></li>
+<li class="chapter" data-level="8.0.2" data-path="student-benefits.html"><a href="student-benefits.html#open-source"><i class="fa fa-check"></i><b>8.0.2</b> Open-source</a></li>
+<li class="chapter" data-level="8.0.3" data-path="student-benefits.html"><a href="student-benefits.html#active-learning"><i class="fa fa-check"></i><b>8.0.3</b> Active learning</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="instructor-benefits.html"><a href="instructor-benefits.html"><i class="fa fa-check"></i><b>9</b> Instructor benefits</a></li>
+<li class="chapter" data-level="10" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>10</b> Conclusions</a></li>
+<li class="chapter" data-level="11" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i><b>11</b> About the Authors</a><ul>
+<li class="chapter" data-level="11.1" data-path="about-the-authors.html"><a href="about-the-authors.html#project-lead"><i class="fa fa-check"></i><b>11.1</b> Project Lead</a><ul>
+<li class="chapter" data-level="11.1.1" data-path="about-the-authors.html"><a href="about-the-authors.html#lorena-a.-barba"><i class="fa fa-check"></i><b>11.1.1</b> Lorena A. Barba</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="about-the-authors.html"><a href="about-the-authors.html#authors-at-the-sprint"><i class="fa fa-check"></i><b>11.2</b> Authors at the sprint</a><ul>
+<li class="chapter" data-level="11.2.1" data-path="about-the-authors.html"><a href="about-the-authors.html#lecia-j.-barker"><i class="fa fa-check"></i><b>11.2.1</b> Lecia J. Barker</a></li>
+<li class="chapter" data-level="11.2.2" data-path="about-the-authors.html"><a href="about-the-authors.html#douglas-blank"><i class="fa fa-check"></i><b>11.2.2</b> Douglas Blank</a></li>
+<li class="chapter" data-level="11.2.3" data-path="about-the-authors.html"><a href="about-the-authors.html#jed-brown"><i class="fa fa-check"></i><b>11.2.3</b> Jed Brown</a></li>
+<li class="chapter" data-level="11.2.4" data-path="about-the-authors.html"><a href="about-the-authors.html#allen-downey"><i class="fa fa-check"></i><b>11.2.4</b> Allen Downey</a></li>
+<li class="chapter" data-level="11.2.5" data-path="about-the-authors.html"><a href="about-the-authors.html#tim-george"><i class="fa fa-check"></i><b>11.2.5</b> Tim George</a></li>
+<li class="chapter" data-level="11.2.6" data-path="about-the-authors.html"><a href="about-the-authors.html#lindsey-heagy"><i class="fa fa-check"></i><b>11.2.6</b> Lindsey Heagy</a></li>
+<li class="chapter" data-level="11.2.7" data-path="about-the-authors.html"><a href="about-the-authors.html#kyle-mandli"><i class="fa fa-check"></i><b>11.2.7</b> Kyle Mandli</a></li>
+<li class="chapter" data-level="11.2.8" data-path="about-the-authors.html"><a href="about-the-authors.html#jason-moore"><i class="fa fa-check"></i><b>11.2.8</b> Jason Moore</a></li>
+<li class="chapter" data-level="11.2.9" data-path="about-the-authors.html"><a href="about-the-authors.html#david-lippert"><i class="fa fa-check"></i><b>11.2.9</b> David Lippert</a></li>
+<li class="chapter" data-level="11.2.10" data-path="about-the-authors.html"><a href="about-the-authors.html#kyle-niemeyer"><i class="fa fa-check"></i><b>11.2.10</b> Kyle Niemeyer</a></li>
+<li class="chapter" data-level="11.2.11" data-path="about-the-authors.html"><a href="about-the-authors.html#ryan-watkins"><i class="fa fa-check"></i><b>11.2.11</b> Ryan Watkins</a></li>
+<li class="chapter" data-level="11.2.12" data-path="about-the-authors.html"><a href="about-the-authors.html#richard-west"><i class="fa fa-check"></i><b>11.2.12</b> Richard West</a></li>
+<li class="chapter" data-level="11.2.13" data-path="about-the-authors.html"><a href="about-the-authors.html#elizabeth-wickes"><i class="fa fa-check"></i><b>11.2.13</b> Elizabeth Wickes</a></li>
+<li class="chapter" data-level="11.2.14" data-path="about-the-authors.html"><a href="about-the-authors.html#carol-willing"><i class="fa fa-check"></i><b>11.2.14</b> Carol Willing</a></li>
+<li class="chapter" data-level="11.2.15" data-path="about-the-authors.html"><a href="about-the-authors.html#michael-zingale"><i class="fa fa-check"></i><b>11.2.15</b> Michael Zingale</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Teaching and Learning with Jupyter</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="course-benefits-anecdotes" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> Course Benefits &amp; Anecdotes</h1>
+<div id="engagement" class="section level2">
+<h2><span class="header-section-number">7.1</span> 1) Engagement</h2>
+<p>As teachers we routinely struggle to engage our students, especially when we are constrained by the format of the course (e.g., online, 50-minute lecture), available technologies, students distractions, and/or other factors. Nevertheless, it is substantially our responsibility to create environments and experiences within these limits that engage students in our courses. This is where notebooks can give you another tool to break out of the mundane, and get students engaged in their learning.</p>
+<div id="conversations-with-data" class="section level3">
+<h3><span class="header-section-number">7.1.1</span> Conversations with Data</h3>
+<p>The creators of Jupyter describe it as a set of open-source tools for interactive and exploratory computing, and a platform for creating computational narratives. Jupyter allows us, as educators, to narrate a “conversation between the student and data”. Consider this example, using the data of life expectancy of many countries over the years:</p>
+<pre><code>_I use a short bit of code to make a graph showing the time evolution, in what is called a &quot;spaghetti plot&quot; (see figure). Looking at this messy graphic, I point out how most of the lines show growth over time: life expectancy is improving all over the world. But a couple of lines show a marked dip in a given year. I can ask students: which country had that dip? What happened there? Why? With a bit more coding, we identify that Cambodia had a shocking life expectancy of about 30 years in 1977, and Rwanda had even worse life expectancy in 1992. We then have the opportunity to discuss why these countries experienced a mortality crisis. The data brings to life a meaningful discussion, with many possible paths involving history, politics, economics, and health. -- Lorena Barba_</code></pre>
+<p id="gdcalert1">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="course-benefits-anecdotes.html#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/Ch2-Why-we-use-Jupyter-notebooks0.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p>From: <a href="http://go.gwu.edu/engcomp2lesson4">http://go.gwu.edu/engcomp2lesson4</a></p>
+<p>Jupyter notebooks are essential tools of connection – tools that engage learners in transitions in their thinking. The opportunity of intermingling computation into a narrative, creating a conversation with data is a powerful and effective form of communication. With Jupyter, you now have a new form of content to create and share with learners: <em>computable content</em>. In a world where every subject matter can have a data-supported treatment, where computational devices are omnipresent and pervasive, the union of natural language and computation creates compelling communication and learning opportunities.</p>
+</div>
+</div>
+<div id="participation" class="section level2">
+<h2><span class="header-section-number">7.2</span> 2) Participation</h2>
+<p>Engaging students in your courses requires their participation and interaction with you, their peers, and/or the content [Michael Moore, 1989]. How, when, and why you use student participation in yours will, of course, depend on your goals, the specific objectives for teaching the content within your course, your students, and other factors. Using notebooks, however, encourages participation and gives you more tools for promoting participation. Notebooks can connect students to authentic external audiences as well. Students can, for example, consume notebooks from other classes, and publish notebooks where others can read them.</p>
+<div id="real-world-experience-bringing-concepts-to-life" class="section level3">
+<h3><span class="header-section-number">7.2.1</span> Real World Experience – bringing concepts to life</h3>
+<p>Notebooks are living documents, meaning they can be edited to respond to questions or input from students and used a conversation piece during a lecture or presentation.</p>
+<pre><code>_Our group uses Jupyter notebooks as &quot;apps&quot; to demonstrate concepts in geophysics. These notebook-apps connect numerical simulations to widgets and relevant plots. In the classroom, we ask students to help define input parameters based on an application or case study that they are interested in. Prior to displaying the results, we ask students to build a mental image of their expectations. If the resultant image matches their expectations, then we have reinforced a concept, and if not, it is an opportunity to learn. We as instructors can interactively engage with students&#39; questions by updating the inputs to the simulation in order to explore concepts with them. Students have access to the same notebooks through free web-platforms like Binder, so simply by following a link, they can take the steering wheel and engage with the concepts on their own. Notebooks bring the concepts to life and serve as a conversation piece for the interaction between learners and educators. -- Lindsey Heagy_</code></pre>
+<p id="gdcalert2">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks1.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="course-benefits-anecdotes.html#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/Ch2-Why-we-use-Jupyter-notebooks1.jpg" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p><strong><em>Caption: Dr. Douglas Oldenburg (left) engaging with a student during a short course on geophysical electromagnetics (<a href="https://geosci.xyz" class="uri">https://geosci.xyz</a>). Photo credit: Seogi Kang.</em></strong></p>
+</div>
+<div id="real-world-experience-ticket-to-leave" class="section level3">
+<h3><span class="header-section-number">7.2.2</span> Real World Experience – Ticket to leave</h3>
+<p>Another example of generating participation in the classroom with Jupyter notebooks is the Activity magic, available as an extension. It creates what has been called a “ticket to leave” (or “exit ticket”) via the notebook. The idea of a “ticket to leave” is an excellent way to end a class or lab. Briefly, it is just a survey that you give the students (see figure). Often, these surveys are given via a Personal Response System (also known as “clickers” or PRS) or cell phones. There are a few uses of such surveys:</p>
+<ol style="list-style-type: decimal">
+<li>Give the instructor some feedback on the students’ understanding, as a whole</li>
+<li>Provide time and opportunity for students to review and synthesize today’s materials</li>
+<li>Allow the students to apply their recent knowledge to a novel problem</li>
+<li>An additional instance to learn the materials</li>
+</ol>
+<p id="gdcalert3">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="course-benefits-anecdotes.html#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/Ch2-Why-we-use-Jupyter-notebooks2.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p>Figure: Example of the Activity magic seen from the students view. A question, with multiple choice answers is shown, with buttons for their input.</p>
+<p>These questions do not typically require much time to answer, but are meant to capture the essence of the conversation of the class. After a minute or so to contemplate the question, the students select their answer (by clicking one of the buttons), and instructor shows the gestalt results (see figure).</p>
+<p id="gdcalert4">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/Ch2-Why-we-use-Jupyter-notebooks3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/Ch2-Why-we-use-Jupyter-notebooks3.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p>Figure: The Activity magic, from the the instructor’s perspective. The barchart is shown on the project once all of the students have had a chance to respond.</p>
+<p>Good “exit ticket” questions can be domain specific questions, but can also be metacognitive questions (about one’s learning style, for example), or high-level organizational questions (e.g., “what was the goal of today’s discussion?”). We recommend leaving enough time at the end of class (perhaps 10 minutes) to have a full and complete wrap-up discussion. After the discussion, you may wish to adjust the following class meeting if you feel that not enough students had the insight you were aiming for. For more information on “tickets to leave” see <a href="https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample">https://www.brown.edu/sheridan/teaching-learning-resources/teaching-resources/course-design/classroom-assessment/entrance-and-exit/sample</a></p>
+</div>
+</div>
+<div id="increasing-understanding" class="section level2">
+<h2><span class="header-section-number">7.3</span> 3) Increasing Understanding</h2>
+<p>Within any course you will typically try to achieve a diverse set of objectives. Benjamin Bloom (<a href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy" class="uri">https://en.wikipedia.org/wiki/Bloom%27s_taxonomy</a>) provided a framework for the detailed objectives we want to achieve, ranging from basic knowledge (such as, terminology, specific facts, trends and sequences, classifications and categories, etc.) all the way to ability to evaluate and create (such as, abstract relationships, judgments but based criteria, original works). Achieving the former (i.e., basic knowledge and comprehension) is far easier to achieve that understanding (i.e., evaluation and creation); yet, most often we, as educators, are striving for increasing the complex understanding of our students on the topics we are teaching. The good news is that notebooks offer a valuable tool for teaching toward understanding – moving students, for example, from passively viewing course content to exploring, analyzing, synthesizing, and evaluating the content in active ways.</p>
+<div id="real-world-experience-guiding-learners-at-their-own-pace" class="section level3">
+<h3><span class="header-section-number">7.3.1</span> Real World Experience – Guiding Learners at their Own Pace</h3>
+<p>The fundamental theory behind Computational Fluid Dynamics (CFD) used in Aerospace Engineering is based on understanding the Navier-Stokes equations. “CFD Python” is a collection of Jupyter Notebooks based on a practical module that I began using in class in my Computational Fluid Dynamics (CFD) course at Boston University in 2009. The 5-week module develops worked examples that build on each other to incrementally guide the learner to create a program to solve the Navier-Stokes equations of fluid mechanics, in 12 steps.</p>
+<pre><code>_In 2013, I was invited to teach a 2 day mini-course in the Latin-American School in High-Performance Computing, in Argentina. The Jupyter Notebooks platform allowed me to create a guided narrative to support learners with different background experience and knowledge. For that event, we wrote Notebooks based on the CFD course module, to use as instructional scaffolding in the minicourse. Twenty students worked through the notebooks as self-paced lessons, while I went from desk to desk asking and answering questions. About four of the students completed all 12 steps in the 2 days, a bulk of them achieved up to about Step 8, and a few of them lagged behind in Steps 4 or 5 by the end of the course. For those who completed the full module, they had achieved in 2 days what my regular students in the classroom normally took 5 weeks to do. Seeing that was an eye-opening moment: both the power of worked examples in code, and the ability to allow learners to follow their own pace made a remarkable difference in these learners. -- Lorena Barba_</code></pre>
+<p>Based on the experience developing the “CFD Python” learning module [<em>Barba et. Al 2018 </em><a href="https://doi.org/10.21105/jose.0002">https://doi.org/10.21105/jose.0002</a>], this basic design pattern was adopted for creating lessons using computable content:</p>
+<ol style="list-style-type: decimal">
+<li>Break it down into small steps</li>
+<li>Chunk small steps into bigger steps</li>
+<li>Add narrative and connect</li>
+<li>Link out to documentation</li>
+<li>Interleave easy exercises</li>
+<li>Spice with challenge questions/tasks</li>
+<li>Publish openly online</li>
+</ol>
+<p>This was particularly helpful for student understanding.</p>
+</div>
+</div>
+<div id="increasing-students-performance" class="section level2">
+<h2><span class="header-section-number">7.4</span> 4) Increasing Student’s Performance</h2>
+<p>The goal of learning is often actualized through the performance of students. This is routinely most visible by what we attempt to assess during and at the end of instruction. Using notebooks we can create a variety of a performance opportunities for students, thereby giving them more opportunities for practice and feedback, as well as more opportunities for us, as instructors, to assessment their ability to perform.</p>
+<div id="real-world-experience-the-worked-example-effect" class="section level3">
+<h3><span class="header-section-number">7.4.1</span> Real World Experience – The Worked-example effect</h3>
+<p>The worked-example effect is the best known and most widely studied of the cognitive load effects [Sweller, J. (2006)]. It refers to providing full guidance on how to solve a problem, resulting in better student performance than problem-solving conditions with no guidance. For complex tasks, inexperienced or beginner learners benefit the most from the worked-examples procedure. One study (Chen et al., 2015) concludes that: “worked example effect occurs for complex, high-element interactivity materials that impose a heavy working memory load” and “when dealing with complex material that learners may have difficulty understanding, high levels of guidance are likely to result in enhanced performance over lower levels of guidance.” This research-based guidance seems especially relevant for teaching novice programmers to use computation in the context of their subject matter (science, engineering, or other).</p>
+</div>
+</div>
+<div id="increasing-students-preparation-for-their-career" class="section level2">
+<h2><span class="header-section-number">7.5</span> 5) Increasing Students’ Preparation for Their Career</h2>
+<p>In preparing students to apply what they have learned, striving to align what happens in the course with what they will experience in their career is important. From using parallel software to mirroring workflows, we want our students to experience and be prepared for the workplace. Recognizing, of course, that workplaces are not static and the skills required for a career are always emerging, using notebooks provides a flexible platform to build skills and build portfolios of what students can do.</p>
+<div id="real-world-experience-publishing-a-data-narrative-as-a-demonstration-of-industry-ability" class="section level3">
+<h3><span class="header-section-number">7.5.1</span> Real World Experience – Publishing a data narrative as a demonstration of industry ability</h3>
+<p>For Data Science careers, a publicly shared narrative about a data analytics project goes a long way at demonstrating the student’s potential at an interview. Elizabeth Wicks has her students develop a Jupyter notebook that tells the story of a data munging and analysis project done in the class. The students then publish this notebook to their Github profile pages. Being that Jupyter is one of the most popular ways in industry to communicate data science results, the students have a very valuable key to a potential career.</p>
+<p>TODO: Add quote from Elizabeth</p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="but-first-what-is-a-jupyter-notebook.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="student-benefits.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/jupyter4edu/jupyter-edu-book/edit/master/02-.md",
+"text": "Edit"
+},
+"download": ["jupyter-edu-book.pdf", "jupyter-edu-book.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
