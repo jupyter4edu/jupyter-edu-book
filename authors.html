@@ -49,41 +49,67 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -288,7 +314,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:labarba@email.gwu.edu">labarba@email.gwu.edu</a></li>
 <li><a href="https://twitter.com/LorenaABarba">@LorenaABarba</a></li>
 </ul>
-<p>Lorena A. Barba is Associate Professor of Mechanical and Aerospace Engineering at the George Washington University. She adopted Jupyter in 2013 and since then used it in every course she teaches. Her open course materials are well known and used by thousands of learners: <a href="http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/">CFD Python</a> and <a href="https://github.com/numerical-mooc/numerical-mooc">Numerical MOOC</a> are the best examples.</p>
+<p>Lorena A. Barba is Associate Professor of Mechanical and Aerospace Engineering at the
+George Washington University. She adopted Jupyter in 2013 and since then used it in
+every course she teaches. Her open course materials are well known and used by
+thousands of learners:
+<a href="http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/">CFD Python</a> and
+<a href="https://github.com/numerical-mooc/numerical-mooc">Numerical MOOC</a> are the best examples.</p>
 </div>
 </div>
 <div id="authors-at-the-sprint" class="section level2">
@@ -300,7 +331,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:lecia.barker@colorado.edu">lecia.barker@colorado.edu</a></li>
 <li><a href="https://twitter.com/leciab">@leciab</a></li>
 </ul>
-<p><a href="https://www.colorado.edu/cmci/people/information-science/lecia-barker">Lecia Barker</a> is an Associate Professor and Associate Chair of Undergraduate Studies in the <a href="https://www.colorado.edu/cmci/infoscience">Department of Information Science</a> at the University of Colorado Boulder. She is also a Senior Research Scientist for the <a href="https://www.ncwit.org/">National Center for Women &amp; IT</a>. Her research group is studying the <a href="https://csteachingpractices.wordpress.com/">diffusion and adoption of teaching practices</a> in undergraduate computer science. Lecia holds a Ph.D. in Communication from CU Boulder and an MBA in Marketing from San Diego State University.</p>
+<p><a href="https://www.colorado.edu/cmci/people/information-science/lecia-barker">Lecia Barker</a>
+is an Associate Professor and Associate Chair of Undergraduate Studies
+in the <a href="https://www.colorado.edu/cmci/infoscience">Department of Information Science</a>
+at the University of Colorado Boulder. She is also a Senior Research Scientist for
+the <a href="https://www.ncwit.org/">National Center for Women &amp; IT</a>.
+Her research group is studying the
+<a href="https://csteachingpractices.wordpress.com/">diffusion and adoption of teaching practices</a>
+in undergraduate computer science. Lecia holds a Ph.D. in Communication from CU Boulder
+and an MBA in Marketing from San Diego State University.</p>
 </div>
 <div id="douglas-blank" class="section level3 unnumbered">
 <h3>Douglas Blank</h3>
@@ -309,7 +348,17 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:dblank@brynmawr.edu">dblank@brynmawr.edu</a></li>
 <li><a href="https://twitter.com/dougblank">@dougblank</a></li>
 </ul>
-<p><a href="https://cs.brynmawr.edu/~dblank/">Douglas Blank</a> is Associate Professor in the <a href="https://cs.brynmawr.edu/">Department of Computer Science</a> at <a href="http://brynmawr.edu/">Bryn Mawr College</a>, a small, all-women’s college outside of Philadelphia, PA, USA. He has a joint Ph.D. in Cognitive Science and Computer Science from Indiana University, Bloomington. For over 20 years, Douglas has taught all levels of Computer Science. For the last 4 years, he has used Jupyter notebooks exclusively in the classroom. Douglas has published in the areas of Computer Science Education, Robotics, Artificial Intelligence, and Deep Learning. He is on the advisory board of <a href="https://www.engage-csedu.org">Engage-CSEdu.org</a>, a joint project between Google and the National Center for Women and Information Technology (NCWIT). Douglas also writes text and code at his website <a href="http://douglasblank.com">douglasblank.com</a>.</p>
+<p><a href="https://cs.brynmawr.edu/~dblank/">Douglas Blank</a> is Associate Professor in the
+<a href="https://cs.brynmawr.edu/">Department of Computer Science</a> at
+<a href="http://brynmawr.edu/">Bryn Mawr College</a>, a small, all-women’s college outside
+of Philadelphia, PA, USA. He has a joint Ph.D. in Cognitive Science and Computer
+Science from Indiana University, Bloomington. For over 20 years, Douglas has taught
+all levels of Computer Science. For the last 4 years, he has used Jupyter notebooks
+exclusively in the classroom. Douglas has published in the areas of Computer Science
+Education, Robotics, Artificial Intelligence, and Deep Learning. He is on the advisory
+board of <a href="https://www.engage-csedu.org">Engage-CSEdu.org</a>, a joint project between
+Google and the National Center for Women and Information Technology (NCWIT).
+Douglas also writes text and code at his website <a href="http://douglasblank.com">douglasblank.com</a>.</p>
 </div>
 <div id="jed-brown" class="section level3 unnumbered">
 <h3>Jed Brown</h3>
@@ -318,7 +367,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:jed@jedbrown.org">jed@jedbrown.org</a></li>
 <li><a href="https://twitter.com/five9a2">@five9a2</a></li>
 </ul>
-<p><a href="https://jedbrown.org/">Jed Brown</a> is an Assistant Professor of Computer Science at the University of Colorado Boulder. He has been teaching numerical and scientific computing courses using Jupyter Notebook and <code>nbgrader</code> for three years, and leads a research group that develops computational methods and community software for computational science.</p>
+<p><a href="https://jedbrown.org/">Jed Brown</a> is an Assistant Professor of Computer Science
+at the University of Colorado Boulder. He has been teaching numerical and scientific
+computing courses using Jupyter Notebook and <code>nbgrader</code> for three years, and leads a
+research group that develops computational methods and community software for
+computational science.</p>
 </div>
 <div id="allen-downey" class="section level3 unnumbered">
 <h3>Allen Downey</h3>
@@ -327,7 +380,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:downey@allendowney.com">downey@allendowney.com</a></li>
 <li><a href="https://twitter.com/AllenDowney">@AllenDowney</a></li>
 </ul>
-<p><a href="http://www.allendowney.com/wp/">Allen Downey</a> is a professor of Computer Science at Olin College and the author of a series of open-source textbooks related to software and data science, including <em>Think Python</em>, <em>Think Bayes</em>, and <em>Think Complexity</em>, published by O’Reilly Media. These books, and the classes based on them, use Jupyter notebooks extensively. Prof Downey holds a Ph.D. in computer science from U.C. Berkeley, and M.S. and B.S. degrees from MIT.</p>
+<p><a href="http://www.allendowney.com/wp/">Allen Downey</a> is a professor of Computer Science
+at Olin College and the author of a series of open-source textbooks related to software
+and data science, including <em>Think Python</em>, <em>Think Bayes</em>, and <em>Think Complexity</em>,
+published by O’Reilly Media. These books, and the classes based on them, use
+Jupyter notebooks extensively. Prof Downey holds a Ph.D. in computer science
+from U.C. Berkeley, and M.S. and B.S. degrees from MIT.</p>
 </div>
 <div id="tim-george" class="section level3 unnumbered">
 <h3>Tim George</h3>
@@ -335,7 +393,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Project Jupyter</li>
 <li><a href="mailto:tgeorgeux@gmail.com">tgeorgeux@gmail.com</a></li>
 </ul>
-<p><a href="https://www.tgeorgeux.com/">Timothy George</a> is the Lead UI/UX Designer for <a href="https://jupyter.org/">Project Jupyter</a>, focusing primarily on JupyterLab. In addition to his formal duties, Tim is also in working with Jupyter on design strategy, future products, governance, diversity and inclusion. He studied HCI at UC Irvine’s Donald Bren School of Informatics and Computer Science where he received a Master’s Degree.</p>
+<p><a href="https://www.tgeorgeux.com/">Timothy George</a> is the Lead UI/UX Designer for
+<a href="https://jupyter.org/">Project Jupyter</a>, focusing primarily on JupyterLab.
+In addition to his formal duties, Tim is also in working with Jupyter on
+design strategy, future products, governance, diversity and inclusion.
+He studied HCI at UC Irvine’s Donald Bren School of Informatics and Computer Science
+where he received a Master’s Degree.</p>
 </div>
 <div id="lindsey-heagy" class="section level3 unnumbered">
 <h3>Lindsey Heagy</h3>
@@ -344,7 +407,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:lindseyheagy@gmail.com">lindseyheagy@gmail.com</a></li>
 <li><a href="https://twitter.com/lindsey_jh">@lindsey_jh</a></li>
 </ul>
-<p><a href="https://www.lindseyjh.ca/">Lindsey Heagy</a> is a Postdoctoral Researcher at the University of California Berkeley working on Project Jupyter and Jupyter in the geosciences. She recently completed her PhD at the University of British Columbia in geophysics. She is a project leader of <a href="http://geosci.xyz">GeoSci.xyz</a>, an effort to build collaborative, interactive, web-based textbooks in the geosciences, and a core contributor to <a href="https://www.simpeg.xyz/">SimPEG</a>, an open source framework for geophysical simulation and inversions. The GeoSci.xyz project relies heavily on Jupyter for making the content come to life.</p>
+<p><a href="https://www.lindseyjh.ca/">Lindsey Heagy</a> is a Postdoctoral Researcher at the
+University of California Berkeley working on Project Jupyter and Jupyter in the
+geosciences. She recently completed her PhD at the University of British Columbia
+in geophysics. She is a project leader of <a href="http://geosci.xyz">GeoSci.xyz</a>,
+an effort to build collaborative, interactive, web-based textbooks in the geosciences,
+and a core contributor to <a href="https://www.simpeg.xyz/">SimPEG</a>, an open source framework
+for geophysical simulation and inversions. The GeoSci.xyz project relies heavily on
+Jupyter for making the content come to life.</p>
 </div>
 <div id="kyle-mandli" class="section level3 unnumbered">
 <h3>Kyle Mandli</h3>
@@ -353,7 +423,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:kyle.mandli@columbia.edu">kyle.mandli@columbia.edu</a></li>
 <li><a href="https://twitter.com/KyleMandli">@KyleMandli</a></li>
 </ul>
-<p><a href="http://www.columbia.edu/~ktm2132/">Kyle Mandli</a> is an Assistant Professor in the Department of Applied Physics and Applied Mathematics at Columbia University. He has developed a set of openly available course notes centered around Jupyter notebooks and uses Jupyter for homework in conjunction with nbgrader. His other research interests include development of computational methods for coastal hazards such as storm surge and tsunamis.</p>
+<p><a href="http://www.columbia.edu/~ktm2132/">Kyle Mandli</a> is an Assistant Professor in the
+Department of Applied Physics and Applied Mathematics at Columbia University.
+He has developed a set of openly available course notes centered around Jupyter
+notebooks and uses Jupyter for homework in conjunction with nbgrader. His other
+research interests include development of computational methods for coastal hazards
+such as storm surge and tsunamis.</p>
 </div>
 <div id="jason-k.-moore" class="section level3 unnumbered">
 <h3>Jason K. Moore</h3>
@@ -362,14 +437,31 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:jkm@ucdavis.edu">jkm@ucdavis.edu</a></li>
 <li><a href="https://twitter.com/moorepants">@moorepants</a></li>
 </ul>
-<p><a href="http://moorepants.info/">Jason K. Moore</a> is an Assistant Teaching Professor of Mechanical and Aerospace Engineering at the University of California, Davis. He currently teaches dynamics and mechanical design related courses. He utilizes Jupyter notebooks to teach modeling and simulation and is working on a <a href="https://moorepants.github.io/resonance">textbook about Mechanical Vibrations</a>. He is responsible for the Jupyter related features in the <a href="http://libretexts.org">LibreTexts project</a> and is also a core developer of the <a href="http://sympy.org/">SymPy</a> and <a href="http://pydy.org/">PyDy</a> projects which utilizes Jupyter for training workshops, e.g. <a href="https://www.sympy.org/scipy-2017-codegen-tutorial/">PyDy Tutorial</a> and <a href="https://github.com/pydy/pydy-tutorial-human-standing">SymPy Code Generation Tutorial</a>. Jason has PhD, MSc, and BSc degrees in mechanical engineering from UC Davis and Old Dominion University.</p>
+<p><a href="http://moorepants.info/">Jason K. Moore</a> is an Assistant Teaching Professor of
+Mechanical and Aerospace Engineering at the University of California, Davis. He
+currently teaches dynamics and mechanical design related courses. He utilizes
+Jupyter notebooks to teach modeling and simulation and is working on a
+<a href="https://moorepants.github.io/resonance">textbook about Mechanical Vibrations</a>.
+He is responsible for the Jupyter related features in the <a href="http://libretexts.org">LibreTexts
+project</a> and is also a core developer of the
+<a href="http://sympy.org/">SymPy</a> and <a href="http://pydy.org/">PyDy</a> projects which utilizes
+Jupyter for training workshops, e.g. <a href="https://www.sympy.org/scipy-2017-codegen-tutorial/">PyDy
+Tutorial</a> and <a href="https://github.com/pydy/pydy-tutorial-human-standing">SymPy Code
+Generation Tutorial</a>.
+Jason has PhD, MSc, and BSc degrees in mechanical engineering from UC Davis and
+Old Dominion University.</p>
 </div>
 <div id="david-lippert" class="section level3 unnumbered">
 <h3>David Lippert</h3>
 <ul>
 <li>Leidos</li>
 </ul>
-<p>David Lippert is a software engineer at <a href="https://www.leidos.com">Leidos</a> in Arlington, Virginia. He utilizes Jupyter notebooks primarily for exploratory data analysis and for training and evaluating machine learning algorithms. He has written Jupyter notebooks to create new Dr. Seuss sonnets and to evaluate if the <a href="https://www.rottentomatoes.com/about">Rotten Tomatoes Tomatometer</a> can be trusted. He has a BA in computer science from Middlebury College.</p>
+<p>David Lippert is a software engineer at <a href="https://www.leidos.com">Leidos</a> in Arlington,
+Virginia. He utilizes Jupyter notebooks primarily for exploratory data analysis and
+for training and evaluating machine learning algorithms. He has written Jupyter
+notebooks to create new Dr. Seuss sonnets and to evaluate if the
+<a href="https://www.rottentomatoes.com/about">Rotten Tomatoes Tomatometer</a> can be trusted.
+He has a BA in computer science from Middlebury College.</p>
 </div>
 <div id="kyle-e.-niemeyer" class="section level3 unnumbered">
 <h3>Kyle E. Niemeyer</h3>
@@ -378,7 +470,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:kyle.niemeyer@oregonstate.edu">kyle.niemeyer@oregonstate.edu</a></li>
 <li><a href="https://twitter.com/kyleniemeyer">@kyleniemeyer</a></li>
 </ul>
-<p><a href="https://niemeyer-research-group.github.io/">Kyle Niemeyer</a> is an Assistant Professor of Mechanical Engineering in the School of Mechanical, Industrial, and Manufacturing Engineering at Oregon State University. He teaches courses in numerical and analytical methods for solving differential equations as well as gas dynamics, and recently developed a <a href="https://softwaredevengresearch.github.io/syllabus/">graduate course on software development for engineering research</a>. His research group develops and applies methods for modeling combustion and chemically reacting fluid flows. He is also on the steering committee of the <a href="https://cantera.org/">Cantera</a> open-source project for chemical kinetics, thermodynamics, and transport processes.</p>
+<p><a href="https://niemeyer-research-group.github.io/">Kyle Niemeyer</a> is an Assistant Professor
+of Mechanical Engineering in the School of Mechanical, Industrial, and Manufacturing
+Engineering at Oregon State University. He teaches courses in numerical and analytical
+methods for solving differential equations as well as gas dynamics, and recently developed a
+<a href="https://softwaredevengresearch.github.io/syllabus/">graduate course on software development for engineering research</a>.
+His research group develops and applies methods for modeling combustion and chemically
+reacting fluid flows. He is also on the steering committee of the
+<a href="https://cantera.org/">Cantera</a> open-source project for chemical kinetics, thermodynamics,
+and transport processes.</p>
 </div>
 <div id="ryan-watkins" class="section level3 unnumbered">
 <h3>Ryan Watkins</h3>
@@ -387,7 +487,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:rwatkins@gwu.edu">rwatkins@gwu.edu</a></li>
 <li><a href="https://twitter.com/parsingscience">@parsingscience</a></li>
 </ul>
-<p><a href="https://gsehd.gwu.edu/directory/ryan-watkins">Ryan Watkins</a> is a Professor of Educational Technology at George Washington University in Washington DC. He leads the <a href="https://go.gwu.edu/phd">Human-Technology Collaboration (HTC)</a> PhD program area, and he teaches courses in needs assessment, instructional design, and research methods. Ryan’s research focuses on how people and organizations define and assess needs. He is co-host of <a href="https://parsingscience.org/">Parsing Science</a>, a podcast where researchers share the stories behind their science. He also developed the <a href="https://wesharescience.org/">We Share Science</a> platform for sharing video abstracts of research.</p>
+<p><a href="https://gsehd.gwu.edu/directory/ryan-watkins">Ryan Watkins</a> is a Professor of Educational
+Technology at George Washington University in Washington DC. He leads the
+<a href="https://go.gwu.edu/phd">Human-Technology Collaboration (HTC)</a> PhD program area,
+and he teaches courses in needs assessment, instructional design, and research methods.
+Ryan’s research focuses on how people and organizations define and assess needs.
+He is co-host of <a href="https://parsingscience.org/">Parsing Science</a>, a podcast where researchers
+share the stories behind their science. He also developed the
+<a href="https://wesharescience.org/">We Share Science</a> platform for sharing video abstracts
+of research.</p>
 </div>
 <div id="richard-h.-west" class="section level3 unnumbered">
 <h3>Richard H. West</h3>
@@ -396,7 +504,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:R.West@northeastern.edu">R.West@northeastern.edu</a></li>
 <li><a href="https://twitter.com/richardhwest">@richardhwest</a></li>
 </ul>
-<p><a href="https://web.northeastern.edu/comocheng/">Richard West</a> is Associate Professor of Chemical Engineering at Northeastern University in Boston. He leads a research group in computational modeling for complex reacting systems like combustion or catalysis. He is a core member of the <a href="https://cantera.org/">Cantera</a> open-source project. As well as in an elective on “computational modeling in chemical engineering”, he has integrated Python and Jupyter into core classes on chemical kinetics and reactor design, at both the undergraduate and graduate levels. As part of his NSF CAREER award, he is developing modules to teach students to use Python and SciPy to solve chemical engineering problems.</p>
+<p><a href="https://web.northeastern.edu/comocheng/">Richard West</a> is Associate Professor of
+Chemical Engineering at Northeastern University in Boston. He leads a research group
+in computational modeling for complex reacting systems like combustion or catalysis.
+He is a core member of the <a href="https://cantera.org/">Cantera</a> open-source project.
+As well as in an elective on “computational modeling in chemical engineering”,
+he has integrated Python and Jupyter into core classes on chemical kinetics and reactor design,
+at both the undergraduate and graduate levels. As part of his NSF CAREER award,
+he is developing modules to teach students to use Python and SciPy to solve
+chemical engineering problems.</p>
 </div>
 <div id="elizabeth-wickes" class="section level3 unnumbered">
 <h3>Elizabeth Wickes</h3>
@@ -405,7 +521,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:wickes1@illinois.edu">wickes1@illinois.edu</a></li>
 <li><a href="https://twitter.com/elliewix">@elliewix</a></li>
 </ul>
-<p><a href="https://ischool.illinois.edu/people/elizabeth-wickes">Elizabeth Wickes</a> is a Lecturer at the School of Information Sciences at the University of Illinois at Urbana-Champaign. She teaches foundational programming from an information and data sciences perspective, as well as other coursework on open data and reproducibility. Her programming course lectures are written in Jupyter notebooks and the class is taught via live coding.</p>
+<p><a href="https://ischool.illinois.edu/people/elizabeth-wickes">Elizabeth Wickes</a> is a Lecturer
+at the School of Information Sciences at the University of Illinois at Urbana-Champaign.
+She teaches foundational programming from an information and data sciences perspective,
+as well as other coursework on open data and reproducibility. Her programming course
+lectures are written in Jupyter notebooks and the class is taught via live coding.</p>
 </div>
 <div id="carol-willing" class="section level3 unnumbered">
 <h3>Carol Willing</h3>
@@ -414,7 +534,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:willingc@gmail.com">willingc@gmail.com</a></li>
 <li><a href="https://twitter.com/WillingCarol">@WillingCarol</a></li>
 </ul>
-<p><a href="https://www.willingconsulting.com/about/">Carol Willing</a> is a Research Software Engineer at Cal Poly San Luis Obispo working full-time on <a href="https://jupyter.org/">Project Jupyter</a>. She is a Python Software Foundation Fellow and former Director; a Project Jupyter Steering Council member; and a core developer on CPython and Jupyter. Carol has an M.S. in Management from MIT and a B.S.E. in Electrical Engineering from Duke.</p>
+<p><a href="https://www.willingconsulting.com/about/">Carol Willing</a> is a Research Software Engineer
+at Cal Poly San Luis Obispo working full-time on <a href="https://jupyter.org/">Project Jupyter</a>.
+She is a Python Software Foundation Fellow and former Director; a Project Jupyter
+Steering Council member; and a core developer on CPython and Jupyter. Carol has an
+M.S. in Management from MIT and a B.S.E. in Electrical Engineering from Duke.</p>
 </div>
 <div id="michael-zingale" class="section level3 unnumbered">
 <h3>Michael Zingale</h3>
@@ -423,7 +547,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><a href="mailto:Michael.Zingale@stonybrook.edu">Michael.Zingale@stonybrook.edu</a></li>
 <li><a href="https://twitter.com/Michael_Zingale">@Michael_Zingale</a></li>
 </ul>
-<p><a href="http://www.astro.sunysb.edu/mzingale/">Michael Zingale</a> is an Associate Professor and computational astrophysicist at Stony Brook University. He has a PhD from University of Chicago (2000). He frequently teaches <a href="http://bender.astro.sunysb.edu/classes/numerical_methods/">numerical methods</a> and <a href="http://bender.astro.sunysb.edu/classes/python-science/">Python for scientific computing</a> graduate courses, relying on Jupyter notebooks and python for much of the presentation. He is an advocate for open educational resources, as a founder of the <a href="https://github.com/Open-Astrophysics-Bookshelf/">Open Astrophysics Bookshelf project</a> where he hosts his <a href="http://bender.astro.sunysb.edu/hydro_by_example/CompHydroTutorial.pdf"><em>Introduction to Computational Astrophysical Hydrodynamics</em></a> text.</p>
+<p><a href="http://www.astro.sunysb.edu/mzingale/">Michael Zingale</a> is an Associate Professor
+and computational astrophysicist at Stony Brook University.
+He has a PhD from University of Chicago (2000). He frequently teaches
+<a href="http://bender.astro.sunysb.edu/classes/numerical_methods/">numerical methods</a> and
+<a href="http://bender.astro.sunysb.edu/classes/python-science/">Python for scientific computing</a>
+graduate courses, relying on Jupyter notebooks and python for much of the presentation.
+He is an advocate for open educational resources, as a founder of the
+<a href="https://github.com/Open-Astrophysics-Bookshelf/">Open Astrophysics Bookshelf project</a>
+where he hosts his <a href="http://bender.astro.sunysb.edu/hydro_by_example/CompHydroTutorial.pdf"><em>Introduction to Computational Astrophysical Hydrodynamics</em></a>
+text.</p>
 
 </div>
 </div>
@@ -484,7 +617,7 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
+    var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
