@@ -11,6 +11,8 @@ cache:
 before_script:
   - chmod +x ./_build.sh
   - chmod +x ./_deploy.sh
+  - Rscript -e "install.packages('devtools', repos='https://cran.rstudio.com')"
+  - Rscript -e "devtools::install_github('rstudio/bookdown')"
 
 script:
   - ./_build.sh
