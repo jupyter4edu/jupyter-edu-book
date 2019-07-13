@@ -652,3 +652,16 @@ to increase student engagement, participation, understanding, and performance---
 that is not to say that every course and every lesson should use notebooks.
 Let the goals of your course define when and how to best use notebooks to
 achieve those goals.
+
+## Conclusions
+
+We hope that this chapter has illustrated the flexibility of Jupyter notebooks for
+integrating into your classroom flow. We have shown notebooks to be an adaptive tool 
+that can work as textbooks, lab journals, and live environments, depending on your 
+course. We look at several considerations in order to successfully integrate any form
+of Jupyter into your course, and the goals we have for Jupyter integration to be 
+successful. Hopefully these, when combined with the chapters that follow, will
+guide you in 1) integrating Jupyter to fit your course, 2) giving you a framework to
+consider your class needs in combination with Jupyter, 3) help you understand the 
+goals and purpose of integration, and 4) help give you clear expectations of what 
+can be accomplished with Jupyter notebooks.
