@@ -315,7 +315,7 @@ which provide free trials or a "freemium" pricing model. They include:
     limits access to the internet to prevent abuse, effectively blocking use of
     standard package managers. While an instructor could work around this limitation
     by uploading files to the service or requesting the company to install
-    software, this is likley onerous for many users. Paid versions lift this
+    software, this is likely onerous for many users. Paid versions lift this
     limitation and allow use of [standard package managers (e.g. pip, conda, R,
     Julia,
     etc)](https://github.com/sagemathinc/cocalc/wiki/How-to-Install-Python-Packages-into-CoCalc).
