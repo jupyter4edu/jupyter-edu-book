@@ -333,6 +333,13 @@ which provide free trials or a "freemium" pricing model. They include:
   Hero is owned by [Tim Head](https://github.com/betatim/) a project lead for
   https://mybinder.org and contributor to JupyterHub.
 
+* IllumiDesk ([https://illumidesk.com](https://illumidesk.com)) offers both an
+  [open-source distribution](https://github.com/IllumiDesk/illumidesk) and hosted
+  environemnt based on JupyterHub, nbgrader, LTI 1.1/1.3, and docker containers.
+  IllumiDesk support R, Julia, and Python3 kernels, auto-grading, shared grader
+  notebooks (which allows multiple graders to grade the same assignments) among
+  other features.
+
 * Kaggle Kernels ([https://kaggle.com/kernels](https://kaggle.com/kernels)) are 
   free hosted Python and R notebooks with access to substantial computational 
   resources (quad-core, 16GB RAM, GPU, Internet connected, up to 6h runtime per 
