@@ -15,6 +15,8 @@ Example: `Family name, First name (GitHub username)`
 ## Contributors
 
 - `Drake, Peter (PeterDrake)`
+- `Gabirondo-López, Jon (jongablop)`
 - `Gorgolewski, Chris (chrisfilo)`
+- `Igartua, Josu M. (jmigartua)`
 - `McCluskey, Andrew (arm61)`
 - `del Razo, Mauricio (maojrs)`
