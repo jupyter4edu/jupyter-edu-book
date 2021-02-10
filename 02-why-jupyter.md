@@ -77,13 +77,13 @@ this book have used Jupyter notebooks to teach:
     *   Physics and astronomy
     *   Geoscience
     *   Biology
-    *   Cognitive Science
+    *   Cognitive science
     *   Computer science
     *   Data science
     *   Statistics
     *   Social sciences
 *   Writing
-    *   Writing Seminar
+    *   Writing seminar
     *   Writing and technical communication
 *   Digital Humanities
     *   Music
