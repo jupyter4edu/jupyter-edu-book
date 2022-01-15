@@ -356,7 +356,7 @@ available at https://github.com/applied-math/demos.
 
 We first envisioned this project as a teaching aid to interactively illustrate difficult concepts for a graduate course in numerical methods for conservation laws. These are physical laws in the form of first-order hyperbolic partial differential equations that arise in wave propagation applications such as fluid dynamics, traffic flow, water waves (like tsunamis), and electromagnetic waves among others. The Riemann problem corresponds to a conservation law with a piecewise constant initial condition such that the problem is relatively simple to solve, while still capturing the characteristic dynamics of the conservation law. Due to its discrete nature, its simplicity and its capability to encode the dynamics, the Riemann problem is the key ingredient in modern numerical methods for conservation laws.
 
-The project naturally evolved into Jupyter notebooks with the idea of compiling an interactive book. Each chapter aims to solve the Riemann problem for a specific application such as acoustics, shallow-water equations, and Euler equations. We further wanted to use our book to encourage the reading and publication of interactive notebooks. Therefore, we decided that our book should also have a printed and an HTML version in addition to notebooks available for downloading, to attract more readers and to encourage more authors and publishers to explore this interactive platform. 
+The project naturally evolved into Jupyter notebooks with the idea of compiling an interactive book. Each chapter aims to solve the Riemann problem for a specific application such as acoustics, shallow-water equations, and Euler equations. We further wanted to use our book to encourage the reading and publication of interactive notebooks. Therefore, we decided that our book should also have a printed and an HTML version in addition to notebooks available for downloading, to attract more readers and to encourage more authors and publishers to explore this interactive platform.
 
 As one would expect, several new problems arose regarding how to make a book that is somewhat compatible across all the different platforms in which we wanted to present the book, particularly since the notebooks make heavy use of interactive widgets and animations. With the help of our publisher (SIAM) and several developers working on Jupyter-based tools for publishing interactive books, we are close to finalizing the project. We are happy to say that this project promoted the development of some of these tools and that is encouraging our publisher to delve more into interactive book publication.
 
@@ -367,3 +367,20 @@ This book should be completed in the next few months, and the current state can 
 ![Visualization from the acoustics equations chapter of the book at
   [https://github.com/clawpack/riemann_book](https://github.com/clawpack/riemann_book)
   It shows an interactive visualization of the solution to the Riemann problem for acoustics equations, where the initial condition emulates a shock tube.](images/shocktube.png)
+
+
+## MinervaLab: Interactive thermodynamics with Jupyter
+
+The [MinervaLab](https://minervalab.readthedocs.io/en/latest/) project aims to create interactive applications to both teach and study thermodynamics. As a first approach, 13 applications related with van der Waals equation of state have been created, which could be used to explore different properties of phase transitions. All the applications have been documented and theoretical explanations about phase transitions and van der Waals equation of state have been developed based on Jupyter and published in [Read the Docs](https://minervalab.readthedocs.io/en/latest/Azalpen_teorikoak.html) (currently only in Basque). The whole project has been presented by [Jon Gabirondo López](https://github.com/jongablop) as his Final Year Project in Physics' Degree.
+
+![Main interface of the application [#111-000](https://minervalab.readthedocs.io/en/latest/apps/van_der_waals/p_v_2D.html) used to work with van der Waals reduced isotherms.](images/minervalab-2.png)
+
+The applications were tested with a group of students registered in *Termodinamika eta Fisika Estatistikoa* (Thermodynamics and Statistical Physics) in the University of the Basque Country (UPV/EHU), which received 6 lessons about phase transitions and van der Waals isotherms. During the 7th lesson the group, guided by professor [Josu M. Igartua](https://github.com/jmigartua), revised the main concepts of those topics using the applications to reinforce the explanations.
+
+When the lesson finished, the students filled a survey about the lesson they received and the project itself. Most of the group was in favour of the proposed teaching method and claimed that the applications helped them to better understand the concepts.
+
+![Image produced with the program [#111-000](https://minervalab.readthedocs.io/en/latest/apps/van_der_waals/p_v_2D.html) showing van der Waals isotherms and the different coexistence zones.](images/minervalab-1.png)
+
+In the future this project will be used as the base material to teach Thermodynamics in the subject previously mentioned.
+
+-- Jon Gabirondo-López and Josu M. Igartua
