@@ -55,7 +55,7 @@ its prompt will read `In [1]:`.
 <strong>Pro Tip</strong>
 
 When teaching with notebooks, you often will want to refer to a cell
-my name. You could refer to a cell by its input prompt
+by name. You could refer to a cell by its input prompt
 number. However, keep in mind that this number will change if you
 excecute the cell again, or that students may have different numbers
 if they, too, are executing their own copy of the notebook. A better
